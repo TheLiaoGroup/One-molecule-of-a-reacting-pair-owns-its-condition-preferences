@@ -1,0 +1,93 @@
+{
+ "reserve_rows": 38301,
+ "reserve_pairs": 442,
+ "arrays": 7,
+ "e1": [
+  {
+   "screen": "Acylation|1",
+   "reserve_product_forming": 217,
+   "eligible": true,
+   "paper_owner_role": 1.0,
+   "share_role1": 0.3228305878,
+   "share_role2": 0.1203090049,
+   "share_neither": -0.0154647617,
+   "reserve_owner_role": 1.0,
+   "owner_margin": 0.2025215829,
+   "draws_favouring_paper_owner": 0.941,
+   "margin_ci": [
+    -0.0580406348,
+    0.4729974263
+   ]
+  }
+ ],
+ "e2": {
+  "targets": 309,
+  "arrays": 6,
+  "D": 0.1523447765265704,
+  "r2_electrophile": 0.22690979447537973,
+  "r2_partner": 0.07456501794880932,
+  "ci_whole_array": [
+   0.04555965493266851,
+   0.16545785505088628
+  ],
+  "ci_electrophile_cluster": [
+   0.09573839886567663,
+   0.2106784207540483
+  ],
+  "undefined_draws": {
+   "whole_array": 0,
+   "electrophile_cluster": 0
+  },
+  "arrays_positive": 4,
+  "per_array": {
+   "Acylation|1": 0.16367653765246834,
+   "C-O competitive reactions|1": -0.019524678777443207,
+   "Heck|1": 0.0392977344014515,
+   "Hiyama|1": -0.0656395833080887,
+   "Reductive-amination|1": 0.2652967938125113,
+   "Ullmann|1": 0.12717489093774303
+  }
+ },
+ "e3": {
+  "all_pairs": {
+   "n_targets": 396,
+   "n_arrays": 7,
+   "mean_pp": 1.8019260532477293,
+   "equal_array_mean_pp": -1.2144379394678582,
+   "positive": 113,
+   "negative": 83,
+   "tied": 200,
+   "ci_low": -1.1851956944734026,
+   "ci_high": 2.833325944516344,
+   "leave_one_array_out": {
+    "Acylation|1": 0.16688757176508126,
+    "C-O competitive reactions|1": 1.8273804872033874,
+    "Esterification|1": 1.8825299926043166,
+    "Heck|1": 2.195111889508759,
+    "Hiyama|1": 1.8804877759083805,
+    "Reductive-amination|1": 2.1737549972697945,
+    "Ullmann|1": 1.6033531764481663
+   }
+  },
+  "product_forming": {
+   "n_targets": 291,
+   "n_arrays": 7,
+   "mean_pp": 2.4601592683371156,
+   "equal_array_mean_pp": -0.4515993810148751,
+   "positive": 113,
+   "negative": 81,
+   "tied": 97,
+   "ci_low": -2.0718627097231312,
+   "ci_high": 3.7177215045753114,
+   "leave_one_array_out": {
+    "Acylation|1": 0.33093421490264874,
+    "C-O competitive reactions|1": 2.4703780248635114,
+    "Esterification|1": 2.574603623135296,
+    "Heck|1": 2.9862576202532596,
+    "Hiyama|1": 2.4331345352660865,
+    "Reductive-amination|1": 2.8638260785036103,
+    "Ullmann|1": 2.1525869437902445
+   }
+  }
+ }
+}

@@ -1,0 +1,22 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The data and documents of this package are licensed under the Creative Commons
+Attribution 4.0 International License: everything in the package except the
+source code, which README.md lists under "Licences" and which is released under
+the MIT License (LICENSE_CODE_MIT.txt). This covers the measurements, tables,
+metadata, provenance records, frozen analysis plans and their correction, derived
+tables, results, Source Data, figures, structures and documentation.
+
+Under this licence the material may be shared and adapted for any purpose,
+provided that appropriate credit is given, a link to the licence is provided
+and any changes are indicated.
+
+Licence deed:  https://creativecommons.org/licenses/by/4.0/
+Legal code:    https://creativecommons.org/licenses/by/4.0/legalcode
+
+Not covered: the amide-coupling collection of Zhang et al., which is not
+redistributed in this package. The provenance files record which released
+measurements match that collection.
+
+Please cite the article "Cross-coupling conditions follow the halide, not the amine" and
+this dataset.

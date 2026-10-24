@@ -1,0 +1,31 @@
+array,population,owner_role,partner_role,targets,owner_mean_other_partners,partner_mean_other_partners,owner_median_other_partners,partner_median_other_partners,targets_owner_deeper,targets_partner_deeper,targets_equal,owner_side
+Acylation|1,all pairs,N–H partner,carboxylic acid,575,11.809,12.254,8.0,11.0,246,306,23,shallower
+Acylation|1,product-forming pairs,N–H partner,carboxylic acid,487,11.951,10.604,8.0,10.0,224,242,21,deeper
+Buchwald-Hartwig|1,all pairs,aryl (pseudo)halide,N–H partner,214,5.71,3.159,4.5,3.0,130,70,14,deeper
+Buchwald-Hartwig|1,product-forming pairs,aryl (pseudo)halide,N–H partner,185,5.092,3.416,4.0,3.0,102,70,13,deeper
+Buchwald-Hartwig|2,all pairs,aryl halide,N–H partner,55,2.473,1.273,2.0,1.0,36,12,7,deeper
+Buchwald-Hartwig|2,product-forming pairs,aryl halide,N–H partner,52,2.423,1.231,2.0,1.0,34,12,6,deeper
+C-O competitive reactions|1,all pairs,aryl halide,phenol or alcohol,50,3.92,1.88,4.0,1.0,36,8,6,deeper
+C-O competitive reactions|1,product-forming pairs,aryl halide,phenol or alcohol,24,3.083,0.75,2.0,1.0,16,4,4,deeper
+Chan-Lam|1,all pairs,boronic acid,N–H partner,102,3.333,2.333,3.0,2.0,62,28,12,deeper
+Chan-Lam|1,product-forming pairs,boronic acid,N–H partner,41,1.756,0.976,2.0,1.0,24,6,11,deeper
+Esterification|1,all pairs,carboxylic acid,alcohol,50,3.84,1.56,4.0,1.0,34,9,7,deeper
+Esterification|1,product-forming pairs,carboxylic acid,alcohol,41,3.756,1.073,4.0,0.0,29,4,8,deeper
+Grignard|1,all pairs,carbonyl compound,Grignard reagent,62,1.839,4.355,2.0,3.0,16,40,6,shallower
+Grignard|1,product-forming pairs,carbonyl compound,Grignard reagent,49,1.633,4.49,1.0,3.0,11,31,7,shallower
+Heck|1,all pairs,aryl halide,alkene,121,2.347,7.802,3.0,7.0,14,96,11,shallower
+Heck|1,product-forming pairs,aryl halide,alkene,89,1.91,5.506,2.0,5.0,10,70,9,shallower
+Hiyama|1,all pairs,aryl halide,organosilane,74,2.432,2.73,2.0,3.0,23,37,14,shallower
+Hiyama|1,product-forming pairs,aryl halide,organosilane,20,0.6,2.6,0.0,2.0,2,16,2,shallower
+Kumada|1,all pairs,aryl or acyl halide,Grignard reagent,126,2.714,9.397,3.0,11.0,10,105,11,shallower
+Kumada|1,product-forming pairs,aryl or acyl halide,Grignard reagent,97,2.577,8.99,3.0,10.0,9,85,3,shallower
+Reductive-amination|1,all pairs,amine,carbonyl compound,113,3.717,2.69,3.0,3.0,54,52,7,deeper
+Reductive-amination|1,product-forming pairs,amine,carbonyl compound,60,2.3,2.2,2.0,2.0,27,28,5,deeper
+SNAr|1,all pairs,aryl halide,N–H nucleophile,228,5.825,12.079,5.0,14.0,15,202,11,shallower
+SNAr|1,product-forming pairs,aryl halide,N–H nucleophile,38,1.474,2.684,1.0,2.0,12,18,8,shallower
+Sonogashira|1,all pairs,aryl halide,alkyne,86,1.791,5.0,1.0,4.0,27,55,4,shallower
+Sonogashira|1,product-forming pairs,aryl halide,alkyne,69,1.768,3.71,1.0,4.0,24,41,4,shallower
+Suzuki|1,all pairs,aryl halide,boronic acid,242,4.554,11.124,4.0,11.0,20,211,11,shallower
+Suzuki|1,product-forming pairs,aryl halide,boronic acid,226,4.354,11.159,4.0,11.0,19,198,9,shallower
+Ullmann|1,all pairs,aryl halide,phenol,109,2.073,3.688,2.0,3.0,38,54,17,shallower
+Ullmann|1,product-forming pairs,aryl halide,phenol,61,2.098,1.77,2.0,2.0,34,20,7,deeper

@@ -1,0 +1,38 @@
+[
+  {
+    "reference": "05_DATA/Analysis/figure_display/v5_reference_tables/overview.xlsx",
+    "sha256": "fa2e174c8303b7edc57fdcc6be9ff1fd2157a99f49f4409a031b6d838ad71e8d",
+    "role": "retained computed reference tables, not raw measurements or new generated outputs",
+    "archived_original": "99_ARCHIVE/formal_v5_20261022/04_SOURCE_DATA/Figure1/Figure1_SourceData.xlsx"
+  },
+  {
+    "reference": "05_DATA/Analysis/figure_display/v5_reference_tables/preference.xlsx",
+    "sha256": "b0e602d46001b3a0fc7cff805bb21ae6123ae7e743a49c28d43eda0cb89e8fe0",
+    "role": "retained computed reference tables, not raw measurements or new generated outputs",
+    "archived_original": "99_ARCHIVE/formal_v5_20261022/04_SOURCE_DATA/Figure2/Figure2_SourceData.xlsx"
+  },
+  {
+    "reference": "05_DATA/Analysis/figure_display/v5_reference_tables/screen_shares.xlsx",
+    "sha256": "845ccfab160c0c68a8089108fc70a2bb817db99edceb9b1fe80f3b611c5e7d3a",
+    "role": "retained computed reference tables, not raw measurements or new generated outputs",
+    "archived_original": "99_ARCHIVE/formal_v5_20261022/04_SOURCE_DATA/Figure3/Figure3_SourceData.xlsx"
+  },
+  {
+    "reference": "05_DATA/Analysis/figure_display/v5_reference_tables/molecule_context.xlsx",
+    "sha256": "81087e63d31e83b4363121a86b33b19b9ea683ef32ec38b6b4dfdc72663c0da2",
+    "role": "retained computed reference tables, not raw measurements or new generated outputs",
+    "archived_original": "99_ARCHIVE/formal_v5_20261022/04_SOURCE_DATA/Figure4/Figure4_SourceData.xlsx"
+  },
+  {
+    "reference": "05_DATA/Analysis/figure_display/v5_reference_tables/transfer.xlsx",
+    "sha256": "088057a1309dac76fc1f4c8ab79b7ba96c83a9617abd748918f771d676485821",
+    "role": "retained computed reference tables, not raw measurements or new generated outputs",
+    "archived_original": "99_ARCHIVE/formal_v5_20261022/04_SOURCE_DATA/Figure5/Figure5_SourceData.xlsx"
+  },
+  {
+    "reference": "05_DATA/Analysis/figure_display/v5_reference_tables/preference_payload.json",
+    "sha256": "cd94d1ef8767212ef86845dd44e2f6aa27bddba155565669fedfe0e5959753ae",
+    "role": "retained comparison payload; Figure1 extracts its plotted values from measurements",
+    "archived_original": "99_ARCHIVE/formal_v5_20261022/04_SOURCE_DATA/Figure2/figure2_payload.json"
+  }
+]

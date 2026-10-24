@@ -1,0 +1,29 @@
+{
+ "note": "The Arial files the released figures were drawn with. rebuild_all.py puts installed files with these hashes first in the font list of every rebuild process; with other Arial files the PDF files embed other font programs and differ in their bytes, while what is drawn does not change.",
+ "used_by_the_released_figures": [
+  {
+   "style": "normal",
+   "weight": 400,
+   "file": "arial.ttf",
+   "postscript_name": "Arial-",
+   "version": "Version 6.90 June 24, 2017",
+   "sha256": "dd985b5dad37d0d1ef5929e176335152841f85f7dd0fcd259889508ff8be981f"
+  },
+  {
+   "style": "normal",
+   "weight": 700,
+   "file": "arialbd.ttf",
+   "postscript_name": "Arial-BoldMT",
+   "version": "Version 7.00",
+   "sha256": "766f06ac8761f82f25d032a220e89438f6064591af9915061f20b949efdedf69"
+  },
+  {
+   "style": "italic",
+   "weight": 400,
+   "file": "ariali.ttf",
+   "postscript_name": "Arial-ItalicMT",
+   "version": "Version 7.00",
+   "sha256": "79a5742b865cf06891d4ae43e42cac0e5169c7b7b06b5b3c24ef8e0966d27b62"
+  }
+ ]
+}

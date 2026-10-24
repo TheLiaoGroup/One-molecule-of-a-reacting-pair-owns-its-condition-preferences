@@ -1,0 +1,16 @@
+screen,role_1,n_1,role_2,n_2
+Acylation|1,N–H partner,81,carboxylic acid,71
+Buchwald-Hartwig|1,N–H partner,82,aryl (pseudo)halide,52
+Buchwald-Hartwig|2,N–H partner,28,aryl halide,22
+C-O competitive reactions|1,phenol or alcohol,25,aryl halide,15
+Chan-Lam|1,N–H partner,42,boronic acid,28
+Esterification|1,alcohol,31,carboxylic acid,17
+Grignard|1,Grignard reagent,18,carbonyl compound,31
+Heck|1,alkene,26,aryl halide,47
+Hiyama|1,organosilane,24,aryl halide,28
+Kumada|1,aryl or acyl halide,53,Grignard reagent,17
+Reductive-amination|1,carbonyl compound,50,amine,47
+SNAr|1,N–H nucleophile,29,aryl halide,55
+Sonogashira|1,alkyne,29,aryl halide,53
+Suzuki|1,aryl halide,80,boronic acid,26
+Ullmann|1,phenol,40,aryl halide,57

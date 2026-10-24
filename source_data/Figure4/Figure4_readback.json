@@ -1,0 +1,1850 @@
+{
+  "figure": 4,
+  "width_mm": 180.0,
+  "height_mm": 198.0,
+  "width_px": 1133.8582677165355,
+  "height_px": 1247.2440944881891,
+  "dpi": 160,
+  "panel_titles": {
+    "A": "New pairs",
+    "B": "Equal history depth",
+    "C": "History growth"
+  },
+  "texts": [
+    {
+      "text": "A",
+      "fontsize": 9.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        6.299212598425197,
+        1218.8464566929135,
+        14.5,
+        19.0
+      ],
+      "gid": "panel_A",
+      "axes_gid": null
+    },
+    {
+      "text": "New pairs",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        37.795275590551185,
+        1219.3464566929135,
+        78.75,
+        18.0
+      ],
+      "gid": "tag_A",
+      "axes_gid": null
+    },
+    {
+      "text": "B",
+      "fontsize": 9.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        692.9133858267717,
+        1218.8464566929135,
+        14.5,
+        19.0
+      ],
+      "gid": "panel_B",
+      "axes_gid": null
+    },
+    {
+      "text": "Equal history depth",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        724.4094488188977,
+        1219.3464566929135,
+        151.625,
+        18.0
+      ],
+      "gid": "tag_B",
+      "axes_gid": null
+    },
+    {
+      "text": "C",
+      "fontsize": 9.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        6.299212598425197,
+        525.9330708661417,
+        14.5,
+        19.0
+      ],
+      "gid": "panel_C",
+      "axes_gid": null
+    },
+    {
+      "text": "History growth",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        37.795275590551185,
+        526.4330708661417,
+        113.12499999999999,
+        18.0
+      ],
+      "gid": "tag_C",
+      "axes_gid": null
+    },
+    {
+      "text": "Set A",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        692.9133858267717,
+        1020.9212598425197,
+        42.25,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "Set B",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        692.9133858267717,
+        888.6377952755906,
+        43.25,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "Within-screen",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        692.9133858267717,
+        756.3543307086616,
+        108.0,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "Explained preference (%)",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        863.6545275590552,
+        583.1259842519686,
+        200.25,
+        18.0
+      ],
+      "gid": "B|axis_label",
+      "axes_gid": null
+    },
+    {
+      "text": "dashed: partner",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        965.7637795275591,
+        512.5354330708661,
+        124.0,
+        18.0
+      ],
+      "gid": "C|dashed_legend",
+      "axes_gid": null
+    },
+    {
+      "text": "Set A\n22.7 / 7.5",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        413.04610378615826,
+        1027.4676525283314,
+        103.66621405882506,
+        83.98792730018135
+      ],
+      "gid": "A|summary|Set A",
+      "axes_gid": null
+    },
+    {
+      "text": "Set B\n12.7 / 3.8",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        373.91104740517994,
+        901.9566274239523,
+        87.6170546258756,
+        49.22854699812126
+      ],
+      "gid": "A|summary|Set B",
+      "axes_gid": null
+    },
+    {
+      "text": "Partner: explained preference (%)",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        244.89025590551182,
+        587.6307961504814,
+        266.125,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "−20",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        98.38582677165357,
+        612.297462817148,
+        30.0,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "0",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        324.4213301462317,
+        612.297462817148,
+        9.875,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "20",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        535.5193335208098,
+        612.297462817148,
+        19.625,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "Owner: explained preference (%)",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        56.74693788276465,
+        761.2135826771655,
+        18.000000000000007,
+        260.25
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "0",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        91.28860454943133,
+        731.0472440944883,
+        9.875,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "10",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        81.41360454943133,
+        855.456692913386,
+        19.75,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "20",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        81.53860454943133,
+        979.8661417322836,
+        19.625,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "30",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        81.41360454943133,
+        1104.2755905511813,
+        19.75,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "Partner",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        847.1294664883774,
+        1043.6990376202975,
+        58.125,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "Owner",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        1025.5452732497292,
+        1043.6990376202975,
+        52.25,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "0",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        870.6530511811025,
+        668.9903762029747,
+        9.875,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "8",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        984.038877952756,
+        668.9903762029747,
+        9.875,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "16",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        1092.4872047244096,
+        668.9903762029747,
+        19.75,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "Amide coupling",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        853.2280910141707,
+        410.76627815112823,
+        121.375,
+        18.0
+      ],
+      "gid": "C|label|Acylation|1|owner",
+      "axes_gid": null
+    },
+    {
+      "text": "Suzuki",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        853.2280910141707,
+        334.8627191767089,
+        53.125,
+        18.0
+      ],
+      "gid": "C|label|Suzuki|1|owner",
+      "axes_gid": null
+    },
+    {
+      "text": "Owner 25.0%",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        853.2280910141707,
+        377.2166543272209,
+        107.25,
+        18.0
+      ],
+      "gid": "C|summary|owner",
+      "axes_gid": null
+    },
+    {
+      "text": "Partner 4.4%",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        853.2280910141707,
+        193.78785071636906,
+        103.375,
+        18.0
+      ],
+      "gid": "C|summary|partner",
+      "axes_gid": null
+    },
+    {
+      "text": "Historical partners",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        517.7888779527559,
+        45.898512685914234,
+        142.375,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "1",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        136.22003778952813,
+        70.5651793525809,
+        9.875,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "2",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        275.1410928789011,
+        70.5651793525809,
+        9.75,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "3",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        413.937147968274,
+        70.5651793525809,
+        9.875,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "4",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        552.795703057647,
+        70.5651793525809,
+        9.875,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "6",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        830.5128132363928,
+        70.5651793525809,
+        9.875,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "Profile explained (%)",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        56.746937882764655,
+        201.58956692913387,
+        18.0,
+        163.75
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "0",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        91.28860454943133,
+        152.16497023237946,
+        9.875,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "10",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        81.41360454943133,
+        241.27578260034568,
+        19.75,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "20",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        81.53860454943133,
+        330.3865949683119,
+        19.625,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "30",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        81.41360454943133,
+        419.49740733627806,
+        19.75,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    }
+  ],
+  "axes": [
+    {
+      "gid": null,
+      "xlim": [
+        0.0,
+        180.0
+      ],
+      "ylim": [
+        198.0,
+        0.0
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        1133.8582677165355,
+        1247.2440944881891
+      ],
+      "lines": [],
+      "meshes": [],
+      "collections": [],
+      "patches": [],
+      "images": []
+    },
+    {
+      "gid": null,
+      "xlim": [
+        -20.0,
+        29.0
+      ],
+      "ylim": [
+        -8.0,
+        32.0
+      ],
+      "bbox": [
+        113.38582677165356,
+        642.5196850393702,
+        529.1338582677165,
+        497.63779527559063
+      ],
+      "lines": [
+        {
+          "gid": null,
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            0,
+            1
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "--"
+        },
+        {
+          "gid": null,
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            0,
+            0
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": null,
+          "x": [
+            0,
+            0
+          ],
+          "y": [
+            0,
+            1
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "A|Set A|Acylation|1",
+          "x": [
+            8.575462085745878
+          ],
+          "y": [
+            24.94311585099272
+          ],
+          "marker": "o",
+          "color": "#D55E00",
+          "markersize": 4.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "A|Set A|C-O competitive reactions|1",
+          "x": [
+            -1.926089226433114
+          ],
+          "y": [
+            -3.878557104177349
+          ],
+          "marker": "o",
+          "color": "#0072B2",
+          "markersize": 4.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "A|Set A|Heck|1",
+          "x": [
+            2.299944534468223
+          ],
+          "y": [
+            6.229717974613369
+          ],
+          "marker": "o",
+          "color": "#0072B2",
+          "markersize": 4.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "A|Set A|Hiyama|1",
+          "x": [
+            3.270139484191903
+          ],
+          "y": [
+            -3.293818846616925
+          ],
+          "marker": "o",
+          "color": "#0072B2",
+          "markersize": 4.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "A|Set A|Reductive-amination|1",
+          "x": [
+            -16.98579298653449
+          ],
+          "y": [
+            9.54388639471665
+          ],
+          "marker": "o",
+          "color": "#D55E00",
+          "markersize": 4.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "A|Set A|Ullmann|1",
+          "x": [
+            -2.775738572292097
+          ],
+          "y": [
+            9.941750521482218
+          ],
+          "marker": "o",
+          "color": "#0072B2",
+          "markersize": 4.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "A|Set B|Acylation|1",
+          "x": [
+            7.873245541463058
+          ],
+          "y": [
+            17.74021804514364
+          ],
+          "marker": "s",
+          "color": "#D55E00",
+          "markersize": 4.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "A|Set B|Buchwald-Hartwig|1",
+          "x": [
+            3.832607934420229
+          ],
+          "y": [
+            15.88361110513731
+          ],
+          "marker": "s",
+          "color": "#0072B2",
+          "markersize": 4.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "A|Set B|Chan-Lam|1",
+          "x": [
+            5.202126521811989
+          ],
+          "y": [
+            4.621428570831288
+          ],
+          "marker": "s",
+          "color": "#4D4D4D",
+          "markersize": 4.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "A|Set B|Esterification|1",
+          "x": [
+            -9.385358840498693
+          ],
+          "y": [
+            12.27291603804867
+          ],
+          "marker": "s",
+          "color": "#4D4D4D",
+          "markersize": 4.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "A|Set B|Grignard|1",
+          "x": [
+            -2.038547450787087
+          ],
+          "y": [
+            3.080652433142494
+          ],
+          "marker": "s",
+          "color": "#4D4D4D",
+          "markersize": 4.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "A|Set B|Heck|1",
+          "x": [
+            -1.295891345714217
+          ],
+          "y": [
+            10.32677756360719
+          ],
+          "marker": "s",
+          "color": "#0072B2",
+          "markersize": 4.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "A|Set B|Hiyama|1",
+          "x": [
+            -4.7470687526735
+          ],
+          "y": [
+            1.440380617910275
+          ],
+          "marker": "s",
+          "color": "#0072B2",
+          "markersize": 4.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "A|Set B|Kumada|1",
+          "x": [
+            3.272778014698363
+          ],
+          "y": [
+            9.240187953326028
+          ],
+          "marker": "s",
+          "color": "#0072B2",
+          "markersize": 4.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "A|Set B|Reductive-amination|1",
+          "x": [
+            -7.315580555028056
+          ],
+          "y": [
+            16.58930985264367
+          ],
+          "marker": "s",
+          "color": "#D55E00",
+          "markersize": 4.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "A|Set B|SNAr|1",
+          "x": [
+            -1.589479391613091
+          ],
+          "y": [
+            -3.797657286458533
+          ],
+          "marker": "s",
+          "color": "#0072B2",
+          "markersize": 4.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "A|Set B|Sonogashira|1",
+          "x": [
+            -3.320973450799136
+          ],
+          "y": [
+            15.59511496710291
+          ],
+          "marker": "s",
+          "color": "#0072B2",
+          "markersize": 4.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "A|Set B|Suzuki|1",
+          "x": [
+            1.977652582755585
+          ],
+          "y": [
+            7.424655208755937
+          ],
+          "marker": "s",
+          "color": "#0072B2",
+          "markersize": 4.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "A|Set B|Ullmann|1",
+          "x": [
+            2.253486971078256
+          ],
+          "y": [
+            6.386585356806973
+          ],
+          "marker": "s",
+          "color": "#0072B2",
+          "markersize": 4.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "A|pooled|Set A",
+          "x": [
+            7.456501794880932
+          ],
+          "y": [
+            22.69097944753797
+          ],
+          "marker": "o",
+          "color": "#4D4D4D",
+          "markersize": 6.5,
+          "linestyle": "-"
+        },
+        {
+          "gid": "A|pooled|Set B",
+          "x": [
+            3.775147214704577
+          ],
+          "y": [
+            12.66643138990366
+          ],
+          "marker": "s",
+          "color": "#4D4D4D",
+          "markersize": 6.5,
+          "linestyle": "-"
+        }
+      ],
+      "meshes": [],
+      "collections": [],
+      "patches": [],
+      "images": []
+    },
+    {
+      "gid": null,
+      "xlim": [
+        0.0,
+        16.0
+      ],
+      "ylim": [
+        3.5,
+        0.5
+      ],
+      "bbox": [
+        875.5905511811025,
+        699.2125984251969,
+        226.77165354330714,
+        396.8503937007873
+      ],
+      "lines": [
+        {
+          "gid": "B|connector|Set A",
+          "x": [
+            2.406534271371308,
+            12.42340261261978
+          ],
+          "y": [
+            1,
+            1
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "B|partner|Set A",
+          "x": [
+            2.406534271371308
+          ],
+          "y": [
+            1
+          ],
+          "marker": "o",
+          "color": "#1f77b4",
+          "markersize": 4.0,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|owner|Set A",
+          "x": [
+            12.42340261261978
+          ],
+          "y": [
+            1
+          ],
+          "marker": "o",
+          "color": "#ff7f0e",
+          "markersize": 4.0,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|connector|Set B",
+          "x": [
+            0.4788621010186844,
+            7.836264770129864
+          ],
+          "y": [
+            2,
+            2
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "B|partner|Set B",
+          "x": [
+            0.4788621010186844
+          ],
+          "y": [
+            2
+          ],
+          "marker": "o",
+          "color": "#2ca02c",
+          "markersize": 4.0,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|owner|Set B",
+          "x": [
+            7.836264770129864
+          ],
+          "y": [
+            2
+          ],
+          "marker": "o",
+          "color": "#d62728",
+          "markersize": 4.0,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|connector|Analysis arrays",
+          "x": [
+            0.4863824782501025,
+            12.11656425546183
+          ],
+          "y": [
+            3,
+            3
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "B|partner|Analysis arrays",
+          "x": [
+            0.4863824782501025
+          ],
+          "y": [
+            3
+          ],
+          "marker": "o",
+          "color": "#9467bd",
+          "markersize": 4.0,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|owner|Analysis arrays",
+          "x": [
+            12.11656425546183
+          ],
+          "y": [
+            3
+          ],
+          "marker": "o",
+          "color": "#8c564b",
+          "markersize": 4.0,
+          "linestyle": "None"
+        }
+      ],
+      "meshes": [],
+      "collections": [],
+      "patches": [],
+      "images": []
+    },
+    {
+      "gid": null,
+      "xlim": [
+        0.8,
+        7.65
+      ],
+      "ylim": [
+        -7.0,
+        34.0
+      ],
+      "bbox": [
+        113.38582677165356,
+        100.78740157480313,
+        951.1811023622048,
+        365.35433070866145
+      ],
+      "lines": [
+        {
+          "gid": null,
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            0,
+            0
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "C|thin|Acylation|1|owner",
+          "x": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "y": [
+            9.684687951660042,
+            16.58893471553902,
+            20.55218201577132,
+            22.75668552620116,
+            26.30198058667702
+          ],
+          "marker": "None",
+          "color": "#D55E00",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "C|thin|Acylation|1|partner",
+          "x": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "y": [
+            1.982783267082822,
+            2.728071635512441,
+            4.478952246164736,
+            5.379493460397223,
+            6.943965289962229
+          ],
+          "marker": "None",
+          "color": "#D55E00",
+          "markersize": 6.0,
+          "linestyle": "--"
+        },
+        {
+          "gid": "C|thin|Suzuki|1|owner",
+          "x": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "y": [
+            6.766246564732425,
+            11.83675844819476,
+            14.89422825354954,
+            17.15698034804501,
+            20.27787023174835
+          ],
+          "marker": "None",
+          "color": "#0072B2",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "C|thin|Suzuki|1|partner",
+          "x": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "y": [
+            -3.423865824577255,
+            -4.401179175988612,
+            -4.698363475006384,
+            -4.540146326680716,
+            -4.879819608548908
+          ],
+          "marker": "None",
+          "color": "#0072B2",
+          "markersize": 6.0,
+          "linestyle": "--"
+        },
+        {
+          "gid": "C|pooled|owner",
+          "x": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "y": [
+            9.007885422312189,
+            15.53055119672504,
+            19.31447295744128,
+            21.55538279481579,
+            25.03082153193619
+          ],
+          "marker": "o",
+          "color": "#4D4D4D",
+          "markersize": 3.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "C|pooled|partner",
+          "x": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "y": [
+            0.8015218933068446,
+            1.191518132012614,
+            2.563195890461145,
+            3.271749166440918,
+            4.446472816382196
+          ],
+          "marker": "o",
+          "color": "#B3B3B3",
+          "markersize": 3.0,
+          "linestyle": "--"
+        }
+      ],
+      "meshes": [],
+      "collections": [],
+      "patches": [],
+      "images": []
+    }
+  ],
+  "panel_tags": {
+    "A": "New pairs",
+    "B": "Equal history depth",
+    "C": "History growth"
+  },
+  "pooled_summaries": [
+    {
+      "set": "Set A",
+      "owner": 22.69097944753797,
+      "partner": 7.456501794880932
+    },
+    {
+      "set": "Set B",
+      "owner": 12.66643138990366,
+      "partner": 3.775147214704577
+    }
+  ],
+  "pooled_endpoints": [
+    {
+      "side": "owner",
+      "partners": 6,
+      "explained_pct": 25.03082153193619
+    },
+    {
+      "side": "partner",
+      "partners": 6,
+      "explained_pct": 4.446472816382196
+    }
+  ],
+  "selected_arrays": [
+    "Acylation|1",
+    "Suzuki|1"
+  ],
+  "common_targets": 310,
+  "d21": {
+    "status": "PASS",
+    "figure": 4,
+    "measurement_version": 3,
+    "criterion_pt": 2.0,
+    "measurement_dpi": 160,
+    "method": "Rendered text bboxes versus transformed visible marker edges, line strokes, patch paths, and all other visible text bboxes; Euclidean minimum clearance in print points.",
+    "scope": "All ordinary non-tick text except panel letters and panel tags; tick labels, axis titles and native chemical labels remain text obstacles.",
+    "annotations": 15,
+    "geometry_primitives": 57,
+    "minimum_graphic_gap_pt": 2.9552150541387903,
+    "minimum_text_gap_pt": 2.9999999999999827,
+    "annotation_text_bbox_corrections": [
+      {
+        "text": "Set A\n22.7 / 7.5",
+        "gid": "A|summary|Set A",
+        "text_bbox": [
+          443.2123178449834,
+          1075.4555798285128,
+          73.49999999999994,
+          36.0
+        ],
+        "artist_bbox": [
+          413.04610378615826,
+          1027.4676525283314,
+          103.66621405882506,
+          83.98792730018135
+        ]
+      },
+      {
+        "text": "Set B\n12.7 / 3.8",
+        "gid": "A|summary|Set B",
+        "text_bbox": [
+          387.90310203105554,
+          915.1851744220736,
+          73.625,
+          36.0
+        ],
+        "artist_bbox": [
+          373.91104740517994,
+          901.9566274239523,
+          87.6170546258756,
+          49.22854699812126
+        ]
+      }
+    ],
+    "connected_leader_exceptions": [
+      {
+        "text": "Set A\n22.7 / 7.5",
+        "gid": "A|summary|Set A",
+        "reason": "This annotation's own leader attaches to its label; its data endpoint is still measured."
+      },
+      {
+        "text": "Set B\n12.7 / 3.8",
+        "gid": "A|summary|Set B",
+        "reason": "This annotation's own leader attaches to its label; its data endpoint is still measured."
+      }
+    ],
+    "rows": [
+      {
+        "text": "Set A",
+        "gid": null,
+        "graphic_gap_pt": 35.728557246392796,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "line"
+        },
+        "text_gap_pt": 50.43058746228366,
+        "nearest_text": "Partner",
+        "nearest_text_gid": null
+      },
+      {
+        "text": "Set B",
+        "gid": null,
+        "graphic_gap_pt": 63.54638426633969,
+        "nearest_graphic": {
+          "gid": "B|partner|Set B",
+          "kind": "marker"
+        },
+        "text_gap_pt": 51.42755905511808,
+        "nearest_text": "Set A",
+        "nearest_text_gid": null
+      },
+      {
+        "text": "Within-screen",
+        "gid": null,
+        "graphic_gap_pt": 23.32337705555172,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "line"
+        },
+        "text_gap_pt": 44.2626622499281,
+        "nearest_text": "0",
+        "nearest_text_gid": null
+      },
+      {
+        "text": "Explained preference (%)",
+        "gid": "B|axis_label",
+        "graphic_gap_pt": 43.888976377952744,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "axis spine"
+        },
+        "text_gap_pt": 23.665748031496104,
+        "nearest_text": "dashed: partner",
+        "nearest_text_gid": "C|dashed_legend"
+      },
+      {
+        "text": "dashed: partner",
+        "gid": "C|dashed_legend",
+        "graphic_gap_pt": 75.65472440944886,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "axis spine"
+        },
+        "text_gap_pt": 23.665748031496104,
+        "nearest_text": "Explained preference (%)",
+        "nearest_text_gid": "B|axis_label"
+      },
+      {
+        "text": "Set A\n22.7 / 7.5",
+        "gid": "A|summary|Set A",
+        "graphic_gap_pt": 11.873871614446946,
+        "nearest_graphic": {
+          "gid": "A|Set A|Acylation|1",
+          "kind": "marker"
+        },
+        "text_gap_pt": 55.921682432897626,
+        "nearest_text": "Set B\n12.7 / 3.8",
+        "nearest_text_gid": "A|summary|Set B"
+      },
+      {
+        "text": "Set B\n12.7 / 3.8",
+        "gid": "A|summary|Set B",
+        "graphic_gap_pt": 2.9552150541387903,
+        "nearest_graphic": {
+          "gid": "A|Set B|Acylation|1",
+          "kind": "marker"
+        },
+        "text_gap_pt": 55.921682432897626,
+        "nearest_text": "Set A\n22.7 / 7.5",
+        "nearest_text_gid": "A|summary|Set A"
+      },
+      {
+        "text": "Partner: explained preference (%)",
+        "gid": null,
+        "graphic_gap_pt": 16.34999999999996,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "line"
+        },
+        "text_gap_pt": 2.9999999999999827,
+        "nearest_text": "0",
+        "nearest_text_gid": null
+      },
+      {
+        "text": "Owner: explained preference (%)",
+        "gid": null,
+        "graphic_gap_pt": 17.137500000000003,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "axis spine"
+        },
+        "text_gap_pt": 3.0000000000000018,
+        "nearest_text": "10",
+        "nearest_text_gid": null
+      },
+      {
+        "text": "Partner",
+        "gid": null,
+        "graphic_gap_pt": 4.223581504533205,
+        "nearest_graphic": {
+          "gid": "B|partner|Set A",
+          "kind": "marker"
+        },
+        "text_gap_pt": 50.43058746228366,
+        "nearest_text": "Set A",
+        "nearest_text_gid": null
+      },
+      {
+        "text": "Owner",
+        "gid": null,
+        "graphic_gap_pt": 3.950000000000068,
+        "nearest_graphic": {
+          "gid": "B|owner|Set A",
+          "kind": "marker"
+        },
+        "text_gap_pt": 54.13086304260833,
+        "nearest_text": "Partner",
+        "nearest_text_gid": null
+      },
+      {
+        "text": "Owner 25.0%",
+        "gid": "C|summary|owner",
+        "graphic_gap_pt": 6.250000000000005,
+        "nearest_graphic": {
+          "gid": "C|pooled|owner",
+          "kind": "marker"
+        },
+        "text_gap_pt": 6.9973307207582955,
+        "nearest_text": "Amide coupling",
+        "nearest_text_gid": "C|label|Acylation|1|owner"
+      },
+      {
+        "text": "Partner 4.4%",
+        "gid": "C|summary|partner",
+        "graphic_gap_pt": 6.250000000000005,
+        "nearest_graphic": {
+          "gid": "C|pooled|partner",
+          "kind": "marker"
+        },
+        "text_gap_pt": 47.70145038386472,
+        "nearest_text": "6",
+        "nearest_text_gid": null
+      },
+      {
+        "text": "Historical partners",
+        "gid": null,
+        "graphic_gap_pt": 16.35,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "axis spine"
+        },
+        "text_gap_pt": 2.9999999999999987,
+        "nearest_text": "4",
+        "nearest_text_gid": null
+      },
+      {
+        "text": "Profile explained (%)",
+        "gid": null,
+        "graphic_gap_pt": 17.137500000000003,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "axis spine"
+        },
+        "text_gap_pt": 3.0000000000000018,
+        "nearest_text": "10",
+        "nearest_text_gid": null
+      }
+    ],
+    "failures": []
+  },
+  "text_styles": [
+    {
+      "text": "A",
+      "gid": "panel_A",
+      "weight": "bold",
+      "color": "black"
+    },
+    {
+      "text": "New pairs",
+      "gid": "tag_A",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "B",
+      "gid": "panel_B",
+      "weight": "bold",
+      "color": "black"
+    },
+    {
+      "text": "Equal history depth",
+      "gid": "tag_B",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "C",
+      "gid": "panel_C",
+      "weight": "bold",
+      "color": "black"
+    },
+    {
+      "text": "History growth",
+      "gid": "tag_C",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "Set A",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "Set B",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "Within-screen",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "Explained preference (%)",
+      "gid": "B|axis_label",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "dashed: partner",
+      "gid": "C|dashed_legend",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "Set A\n22.7 / 7.5",
+      "gid": "A|summary|Set A",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "Set B\n12.7 / 3.8",
+      "gid": "A|summary|Set B",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "Partner: explained preference (%)",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "−20",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "0",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "20",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "Owner: explained preference (%)",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "0",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "10",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "20",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "30",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "Partner",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "Owner",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "0",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "8",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "16",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "Amide coupling",
+      "gid": "C|label|Acylation|1|owner",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "Suzuki",
+      "gid": "C|label|Suzuki|1|owner",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "Owner 25.0%",
+      "gid": "C|summary|owner",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "Partner 4.4%",
+      "gid": "C|summary|partner",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "Historical partners",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "1",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "2",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "3",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "4",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "6",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "Profile explained (%)",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "0",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "10",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "20",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "30",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    }
+  ]
+}

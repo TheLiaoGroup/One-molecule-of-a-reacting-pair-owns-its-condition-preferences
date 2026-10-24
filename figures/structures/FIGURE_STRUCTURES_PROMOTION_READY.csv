@@ -1,0 +1,15 @@
+figure,panel,label,role,smiles,rule,heavy_atoms
+1,a,halide (kept in B),aryl halide,N#Cc1ccnc(Cl)c1,C-N ligand library aryl halide whose agreement across its partners lies closest to the median of the 23 with at least four product-forming partners,9
+1,a,amine (kept in C),N-H partner,Cc1cc(C)nc(N)c1,C-N ligand library amine whose agreement across its partners lies closest to the median of the 19 with at least four product-forming partners,9
+3,B,M1,"N-H partner (amide, BH|1, BH|2)",Cc1ccc(N)cc1,"all eight triple-context amines, numbered by heavy atoms, then SMILES",8
+3,B,M2,"N-H partner (amide, BH|1, BH|2)",Cc1ccc(N)nc1,"all eight triple-context amines, numbered by heavy atoms, then SMILES",8
+3,B,M3,"N-H partner (amide, BH|1, BH|2)",Cc1ccccc1N,"all eight triple-context amines, numbered by heavy atoms, then SMILES",8
+3,B,M4,"N-H partner (amide, BH|1, BH|2)",COc1ccc(N)cc1,"all eight triple-context amines, numbered by heavy atoms, then SMILES",9
+3,B,M5,"N-H partner (amide, BH|1, BH|2)",CSc1ccc(N)cc1,"all eight triple-context amines, numbered by heavy atoms, then SMILES",9
+3,B,M6,"N-H partner (amide, BH|1, BH|2)",CSc1cccc(N)c1,"all eight triple-context amines, numbered by heavy atoms, then SMILES",9
+3,B,M7,"N-H partner (amide, BH|1, BH|2)",Cc1ccc(N)c(C)c1,"all eight triple-context amines, numbered by heavy atoms, then SMILES",9
+3,B,M8,"N-H partner (amide, BH|1, BH|2)",Nc1ccc2nccnc2c1,"all eight triple-context amines, numbered by heavy atoms, then SMILES",11
+1,A,product,product,N#Cc1ccnc(Nc2cc(C)cc(C)n2)c1,approved storyboard,
+2,B,halide,halide,Cc1cc(F)ccc1C#N,measured SNAr pair in raw data,
+2,B,nucleophile,nucleophile,c1cc2[nH]ccc2cn1,measured SNAr pair in raw data,
+2,B,product,product,Cc1cc(-n2ccc3cnccc32)ccc1C#N,measured SNAr pair in raw data,

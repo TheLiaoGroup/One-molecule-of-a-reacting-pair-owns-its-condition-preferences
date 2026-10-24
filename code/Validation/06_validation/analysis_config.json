@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "recorded_utc": "2026-09-28T12:08:41.374552+00:00",
+  "roles": [
+    "p1",
+    "p2"
+  ],
+  "repeats": 3,
+  "folds": 5,
+  "fold_stream": "transfer",
+  "panel_size": 3,
+  "profile_shrinkage": 4.0,
+  "target_complete_conditions": true,
+  "history_count_difference": 0,
+  "support_jaccard_min": 0.95,
+  "covered_condition_count_difference_max": 1,
+  "per_condition_count_difference_max": 1,
+  "normalized_count_l1_max": 0.05,
+  "activity_mean_yield_caliper": 0.05,
+  "structure_tanimoto_min": 0.5,
+  "fingerprint_radius": 2,
+  "fingerprint_bits": 2048,
+  "donor_aggregation": "exhaustive uniform over eligible identities; nearest ties only for structure",
+  "target_min_valid_repeats": 1,
+  "bootstrap_arrays": 10000,
+  "bootstrap_molecules": 5000,
+  "bootstrap_seed": 20260928,
+  "controls": [
+    "unmatched",
+    "primary",
+    "strict",
+    "activity",
+    "structure",
+    "history2"
+  ]
+}

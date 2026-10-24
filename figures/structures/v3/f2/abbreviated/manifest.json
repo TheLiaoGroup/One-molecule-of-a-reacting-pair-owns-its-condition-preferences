@@ -1,0 +1,168 @@
+[
+  {
+    "id": "h1",
+    "smiles": "C[Si](C)(C)c1ccccc1OS(=O)(=O)C(F)(F)F",
+    "expanded_smiles": "C[Si](C)(C)c1ccccc1OS(=O)(=O)C(F)(F)F",
+    "labels": [
+      "OTf",
+      "TMS"
+    ],
+    "rotation_quarter_turns": 3,
+    "width_height_mm": [
+      16.933324866670898,
+      14.604992697503649
+    ],
+    "cdxml_sha256": "f2cf7593a646ecceed0882314bee6f4f25adddc09ecff43bf16b2f5c2c88a21e",
+    "svg_sha256": "e89077474e362ee4ea5fcb14ed3fe5dd4c3cf2a17af9319e9797cd8449b6f2af"
+  },
+  {
+    "id": "h2",
+    "smiles": "N#Cc1ccnc(Cl)c1",
+    "expanded_smiles": "N#Cc1ccnc(Cl)c1",
+    "labels": [
+      "N",
+      "N",
+      "Cl"
+    ],
+    "rotation_quarter_turns": 1,
+    "width_height_mm": [
+      17.35665798833767,
+      17.991657670837828
+    ],
+    "cdxml_sha256": "de3babcc3e2975007dae682c13064d18f38d2931b74f01f52c08d829c3779e22",
+    "svg_sha256": "7a8805432e964c31fbc5e1b6fea65db184e3c3add1361b1358a5a78c649d5033"
+  },
+  {
+    "id": "h3",
+    "smiles": "FC(F)(F)c1cnc(Cl)nc1",
+    "expanded_smiles": "FC(F)(F)c1cnc(Cl)nc1",
+    "labels": [
+      "F",
+      "F",
+      "F",
+      "N",
+      "Cl",
+      "N"
+    ],
+    "rotation_quarter_turns": 0,
+    "width_height_mm": [
+      23.706654813339256,
+      11.21832772416947
+    ],
+    "cdxml_sha256": "598fa3a38f83cc3545697ac131fbbf69a8a0a54daadbb719ca3533a8f588036b",
+    "svg_sha256": "d57b938e073b58c1d11dcd56d4b78113ab3ef7119f12bb725e3d62a005b1e364"
+  },
+  {
+    "id": "h4",
+    "smiles": "COc1cnc(Cl)nc1",
+    "expanded_smiles": "COc1cnc(Cl)nc1",
+    "labels": [
+      "O",
+      "N",
+      "Cl",
+      "N"
+    ],
+    "rotation_quarter_turns": 1,
+    "width_height_mm": [
+      10.583328041669311,
+      20.954989522505237
+    ],
+    "cdxml_sha256": "80e0d9b9e68be6748e8aa93e547f9bd4f24ce4830947d777b8a8a84ab7cf9340",
+    "svg_sha256": "998cba6029800437e42578f49a7382fb9b1fc6c59d584e4b3299a2f82f5a1295"
+  },
+  {
+    "id": "h5",
+    "smiles": "COc1ccccc1OS(=O)(=O)C(F)(F)F",
+    "expanded_smiles": "COc1ccccc1OS(=O)(=O)C(F)(F)F",
+    "labels": [
+      "TfO",
+      "O"
+    ],
+    "rotation_quarter_turns": 2,
+    "width_height_mm": [
+      15.663325501670581,
+      14.604992697503649
+    ],
+    "cdxml_sha256": "db095eaab117143e25f548e7df20dcfc1d2abd44c9b9bcb53a232056ce59f487",
+    "svg_sha256": "d5ad0b1d7ff926ffdd98e523d109ebbaf983c4f2956a4223d15769f0788ff731"
+  },
+  {
+    "id": "h6",
+    "smiles": "Cc1ccccc1OS(=O)(=O)C(F)(F)F",
+    "expanded_smiles": "Cc1ccccc1OS(=O)(=O)C(F)(F)F",
+    "labels": [
+      "TfO"
+    ],
+    "rotation_quarter_turns": 2,
+    "width_height_mm": [
+      13.546659893336718,
+      12.91166021083656
+    ],
+    "cdxml_sha256": "716a09ed33ead9578b7220567762f258d2671f8049962f8e63189e3e89a56794",
+    "svg_sha256": "5a6f8b991cc530c11596dc5280b7257a59eeaa937f0a14ea22d489ce0b60c9e5"
+  },
+  {
+    "id": "h7",
+    "smiles": "CC(=O)c1ccc(Cl)c(C)c1",
+    "expanded_smiles": "CC(=O)c1ccc(Cl)c(C)c1",
+    "labels": [
+      "O",
+      "Cl"
+    ],
+    "rotation_quarter_turns": 0,
+    "width_height_mm": [
+      22.43665544833894,
+      12.064993967503014
+    ],
+    "cdxml_sha256": "185ed9c0d272e2381f271a5569c18ffe6a7c7ba9b127120816c7ece59add5c23",
+    "svg_sha256": "126325e7e14bff3d7ed32746edc198fa2ee099f1c643467916314abfcd88f82b"
+  },
+  {
+    "id": "h8",
+    "smiles": "Cc1ccc(OS(=O)(=O)C(F)(F)F)cc1",
+    "expanded_smiles": "Cc1ccc(OS(=O)(=O)C(F)(F)F)cc1",
+    "labels": [
+      "OTf"
+    ],
+    "rotation_quarter_turns": 0,
+    "width_height_mm": [
+      13.123326771669946,
+      16.72165830583751
+    ],
+    "cdxml_sha256": "a4d93505f0e88adbab233accecfc3893fc5d199fc258328e4cb38e87c1d1fbfe",
+    "svg_sha256": "02ba6f1fd9d3589bb946144e42f38117e12a7c6d760c459ab9f7f649d23c2629"
+  },
+  {
+    "id": "h9",
+    "smiles": "Cc1ccnc(OS(=O)(=O)C(F)(F)F)c1",
+    "expanded_smiles": "Cc1ccnc(OS(=O)(=O)C(F)(F)F)c1",
+    "labels": [
+      "OTf",
+      "N"
+    ],
+    "rotation_quarter_turns": 0,
+    "width_height_mm": [
+      13.123326771669946,
+      16.72165830583751
+    ],
+    "cdxml_sha256": "c5c602df6b067a9fd2d9cbb9e63409c66f38eadb9c66a03f8cc35bdc92546c6a",
+    "svg_sha256": "8b7f5ef7d59cb579ae74aed82409254400393edf22d6ca1ed2ada5c832717c32"
+  },
+  {
+    "id": "h10",
+    "smiles": "N#Cc1cc(Br)ccc1F",
+    "expanded_smiles": "N#Cc1cc(Br)ccc1F",
+    "labels": [
+      "N",
+      "Br",
+      "F"
+    ],
+    "rotation_quarter_turns": 1,
+    "width_height_mm": [
+      16.509991745004125,
+      20.108323279171692
+    ],
+    "cdxml_sha256": "2e1838978aae89ac6e2ecc3c1ac354a9e03bbce4e57bf303863d0fc210812276",
+    "svg_sha256": "7531480af18644ad21ba0eda09803b2759319c28cbbcbab187bef1162b9433b8"
+  }
+]

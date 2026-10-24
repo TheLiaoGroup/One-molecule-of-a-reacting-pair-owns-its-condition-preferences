@@ -1,0 +1,1045 @@
+[
+  {
+    "id": "a1",
+    "role": "amine",
+    "name": "2,4-dimethylaniline",
+    "smiles": "Cc1ccc(N)c(C)c1",
+    "source_cdxml": "02_FIGURES/ChemDraw/Fig2_b_M7.cdxml",
+    "original_width_mm": 12.064993967503014,
+    "original_height_mm": 18.838323914171372,
+    "degrees": 0,
+    "width_mm": 12.064993967503014,
+    "height_mm": 18.838323914171372,
+    "target_12_5_mm": false,
+    "bond_length_setting": 14.4,
+    "atom_font_print_pt": 8,
+    "bond_length_min_cdxml": 14.399336790283055,
+    "bond_length_max_cdxml": 14.400000000000034,
+    "cdxml": "02_FIGURES/ChemDraw/v5/f1/a1.cdxml",
+    "svg": "02_FIGURES/ChemDraw/v5/f1/a1.svg",
+    "cdxml_sha256": "9c0dfd5c396d67836c9a477dcf8f2b45ee7e939cddeca8e0cedaa13b3e7a3a5b",
+    "svg_sha256": "7fd5e156b1543679f9c37c638b3781458c76e3e46aa4fce0941c96d813713e1b",
+    "rotation_engine": "ChemDrawControl22 Objects.Rotate; no layout redraw or scale",
+    "trials": [
+      {
+        "degrees": 0,
+        "width_mm": 12.064993967503014,
+        "height_mm": 18.838323914171372
+      }
+    ]
+  },
+  {
+    "id": "a2",
+    "role": "amine",
+    "name": "2-amino-4,6-dimethylpyridine",
+    "smiles": "Cc1cc(C)nc(N)c1",
+    "source_cdxml": "02_FIGURES/ChemDraw/Fig1_a_amine.cdxml",
+    "original_width_mm": 17.779991110004442,
+    "original_height_mm": 15.451658940837195,
+    "degrees": 0,
+    "width_mm": 17.779991110004442,
+    "height_mm": 15.451658940837195,
+    "target_12_5_mm": false,
+    "bond_length_setting": 14.4,
+    "atom_font_print_pt": 8,
+    "bond_length_min_cdxml": 14.390000000000043,
+    "bond_length_max_cdxml": 14.407997779011499,
+    "cdxml": "02_FIGURES/ChemDraw/v5/f1/a2.cdxml",
+    "svg": "02_FIGURES/ChemDraw/v5/f1/a2.svg",
+    "cdxml_sha256": "ad5df8b71a39a44dfdf21797a96214dd658bb707573b59cd6cdac9986b6b2062",
+    "svg_sha256": "13d27b4394ca5dd5acaf6af300b6605cd3273b90b333ae1b74713703d96a13a2",
+    "rotation_engine": "ChemDrawControl22 Objects.Rotate; no layout redraw or scale",
+    "trials": [
+      {
+        "degrees": 0,
+        "width_mm": 17.779991110004442,
+        "height_mm": 15.451658940837195
+      }
+    ]
+  },
+  {
+    "id": "a3",
+    "role": "amine",
+    "name": "3,4-dimethoxyaniline",
+    "smiles": "COc1ccc(N)cc1OC",
+    "source_cdxml": "02_FIGURES/ChemDraw/v3/f2/a3.cdxml",
+    "original_width_mm": 24.129987935006028,
+    "original_height_mm": 13.334993332503332,
+    "degrees": 0,
+    "width_mm": 24.129987935006028,
+    "height_mm": 13.334993332503332,
+    "target_12_5_mm": false,
+    "bond_length_setting": 14.4,
+    "atom_font_print_pt": 8,
+    "bond_length_min_cdxml": 14.399336790283055,
+    "bond_length_max_cdxml": 14.407997779011499,
+    "cdxml": "02_FIGURES/ChemDraw/v5/f1/a3.cdxml",
+    "svg": "02_FIGURES/ChemDraw/v5/f1/a3.svg",
+    "cdxml_sha256": "422e858afb2e7036093cfc28fa1f1959f7f37673dd2a2d4418d9e9c77113ae3b",
+    "svg_sha256": "38697bdce6bfb254fd6d84dd69ec906c6cd840dd903a60c3b1d4907ebe9e0622",
+    "rotation_engine": "ChemDrawControl22 Objects.Rotate; no layout redraw or scale",
+    "trials": [
+      {
+        "degrees": 0,
+        "width_mm": 24.129987935006028,
+        "height_mm": 13.334993332503332
+      }
+    ]
+  },
+  {
+    "id": "a4",
+    "role": "amine",
+    "name": "4-(2-methylimidazol-1-yl)aniline",
+    "smiles": "Cc1nccn1-c1ccc(N)cc1",
+    "source_cdxml": "02_FIGURES/ChemDraw/v3/f2/a4.cdxml",
+    "original_width_mm": 29.209985395007298,
+    "original_height_mm": 12.064993967503014,
+    "degrees": 0,
+    "width_mm": 29.209985395007298,
+    "height_mm": 12.064993967503014,
+    "target_12_5_mm": true,
+    "bond_length_setting": 14.4,
+    "atom_font_print_pt": 8,
+    "bond_length_min_cdxml": 14.395089440500183,
+    "bond_length_max_cdxml": 14.407997779011465,
+    "cdxml": "02_FIGURES/ChemDraw/v5/f1/a4.cdxml",
+    "svg": "02_FIGURES/ChemDraw/v5/f1/a4.svg",
+    "cdxml_sha256": "88795b66a9832412ab786d9e2386c3bf97960bf24a0b4146809db88d85a0bb1c",
+    "svg_sha256": "2de55e6e842fff24fce8e3f7270efa25aeef64307bb9a762d6fc8afe89a545ea",
+    "rotation_engine": "ChemDrawControl22 Objects.Rotate; no layout redraw or scale",
+    "trials": [
+      {
+        "degrees": 0,
+        "width_mm": 29.209985395007298,
+        "height_mm": 12.064993967503014
+      }
+    ]
+  },
+  {
+    "id": "a5",
+    "role": "amine",
+    "name": "4-methoxyaniline",
+    "smiles": "COc1ccc(N)cc1",
+    "source_cdxml": "02_FIGURES/ChemDraw/Fig2_b_M4.cdxml",
+    "original_width_mm": 9.101662115835607,
+    "original_height_mm": 20.954989522505237,
+    "degrees": 0,
+    "width_mm": 9.101662115835607,
+    "height_mm": 20.954989522505237,
+    "target_12_5_mm": false,
+    "bond_length_setting": 14.4,
+    "atom_font_print_pt": 8,
+    "bond_length_min_cdxml": 14.389999999999986,
+    "bond_length_max_cdxml": 14.404339623877208,
+    "cdxml": "02_FIGURES/ChemDraw/v5/f1/a5.cdxml",
+    "svg": "02_FIGURES/ChemDraw/v5/f1/a5.svg",
+    "cdxml_sha256": "c018e27ba1430addafe6b0c33a33b5bccdf5b1d24a4a01bbe9326586d69cc879",
+    "svg_sha256": "1afa0f4770515a755cb941509970346d8d7b546da62934f3cc0a07b530dbe56a",
+    "rotation_engine": "ChemDrawControl22 Objects.Rotate; no layout redraw or scale",
+    "trials": [
+      {
+        "degrees": 0,
+        "width_mm": 9.101662115835607,
+        "height_mm": 20.954989522505237
+      }
+    ]
+  },
+  {
+    "id": "a6",
+    "role": "amine",
+    "name": "5-amino-2-methoxypyridine",
+    "smiles": "COc1ccc(N)cn1",
+    "source_cdxml": "02_FIGURES/ChemDraw/v3/f2/a6.cdxml",
+    "original_width_mm": 24.129987935006028,
+    "original_height_mm": 9.524995237502381,
+    "degrees": 0,
+    "width_mm": 24.129987935006028,
+    "height_mm": 9.524995237502381,
+    "target_12_5_mm": true,
+    "bond_length_setting": 14.4,
+    "atom_font_print_pt": 8,
+    "bond_length_min_cdxml": 14.399336790283055,
+    "bond_length_max_cdxml": 14.40000347222181,
+    "cdxml": "02_FIGURES/ChemDraw/v5/f1/a6.cdxml",
+    "svg": "02_FIGURES/ChemDraw/v5/f1/a6.svg",
+    "cdxml_sha256": "8ff42a2c465eb9f91fccea09372c73efd8fe25d80e5b48ee6646e24b151718d2",
+    "svg_sha256": "a157e3046ee342de028d9351fc06cbd4bfc8ed6bbdbe31440cb5afab3217a95a",
+    "rotation_engine": "ChemDrawControl22 Objects.Rotate; no layout redraw or scale",
+    "trials": [
+      {
+        "degrees": 0,
+        "width_mm": 24.129987935006028,
+        "height_mm": 9.524995237502381
+      }
+    ]
+  },
+  {
+    "id": "a7",
+    "role": "amine",
+    "name": "N,3-dimethylaniline",
+    "smiles": "CNc1cccc(C)c1",
+    "source_cdxml": "02_FIGURES/ChemDraw/v3/f2/a7.cdxml",
+    "original_width_mm": 16.509991745004125,
+    "original_height_mm": 12.064993967503014,
+    "degrees": 0,
+    "width_mm": 16.509991745004125,
+    "height_mm": 12.064993967503014,
+    "target_12_5_mm": true,
+    "bond_length_setting": 14.4,
+    "atom_font_print_pt": 8,
+    "bond_length_min_cdxml": 14.399336790283055,
+    "bond_length_max_cdxml": 14.400003472221838,
+    "cdxml": "02_FIGURES/ChemDraw/v5/f1/a7.cdxml",
+    "svg": "02_FIGURES/ChemDraw/v5/f1/a7.svg",
+    "cdxml_sha256": "3a6fe7c59d21f002382e98619ad4711ebf4e1e930b128021836a1879b1075e07",
+    "svg_sha256": "ce30ccb3487ec851d5e2ae217abe7dc259cd50f99b15863d7fb9e643eba63f3d",
+    "rotation_engine": "ChemDrawControl22 Objects.Rotate; no layout redraw or scale",
+    "trials": [
+      {
+        "degrees": 0,
+        "width_mm": 16.509991745004125,
+        "height_mm": 12.064993967503014
+      }
+    ]
+  },
+  {
+    "id": "h1",
+    "role": "halide",
+    "name": "2-(trimethylsilyl)phenyl triflate",
+    "smiles": "C[Si](C)(C)c1ccccc1OS(=O)(=O)C(F)(F)F",
+    "source_cdxml": "02_FIGURES/ChemDraw/v3/f2/abbreviated/h1.cdxml",
+    "original_width_mm": 16.933324866670898,
+    "original_height_mm": 14.604992697503649,
+    "degrees": 60,
+    "width_mm": 17.144991427504284,
+    "height_mm": 11.853327406669628,
+    "target_12_5_mm": true,
+    "bond_length_setting": 14.4,
+    "atom_font_print_pt": 8,
+    "bond_length_min_cdxml": 14.394339165102343,
+    "bond_length_max_cdxml": 14.407997779011515,
+    "cdxml": "02_FIGURES/ChemDraw/v5/f1/h1.cdxml",
+    "svg": "02_FIGURES/ChemDraw/v5/f1/h1.svg",
+    "cdxml_sha256": "65494c4d74220b4e0ccdcf88e28b68a360bc23c534bcb03cd46eac3c8bb952ad",
+    "svg_sha256": "5756e83f10e0250da9e83d38fb8526b32ab9bb288622600760f4997d66b89c37",
+    "rotation_engine": "ChemDrawControl22 Objects.Rotate; no layout redraw or scale",
+    "trials": [
+      {
+        "degrees": 0,
+        "width_mm": 16.933324866670898,
+        "height_mm": 14.604992697503649
+      },
+      {
+        "degrees": 15,
+        "width_mm": 18.4149907925046,
+        "height_mm": 14.393326136670263
+      },
+      {
+        "degrees": 30,
+        "width_mm": 18.626657353337986,
+        "height_mm": 13.123326771669946
+      },
+      {
+        "degrees": 45,
+        "width_mm": 18.203324231671214,
+        "height_mm": 12.276660528336402
+      },
+      {
+        "degrees": 60,
+        "width_mm": 17.144991427504284,
+        "height_mm": 11.853327406669628
+      },
+      {
+        "degrees": 75,
+        "width_mm": 16.933324866670898,
+        "height_mm": 12.488327089169788
+      },
+      {
+        "degrees": 90,
+        "width_mm": 17.35665798833767,
+        "height_mm": 13.334993332503332
+      },
+      {
+        "degrees": 105,
+        "width_mm": 16.933324866670898,
+        "height_mm": 14.393326136670263
+      },
+      {
+        "degrees": 120,
+        "width_mm": 17.144991427504284,
+        "height_mm": 15.028325819170423
+      },
+      {
+        "degrees": 135,
+        "width_mm": 17.991657670837828,
+        "height_mm": 14.393326136670263
+      },
+      {
+        "degrees": 150,
+        "width_mm": 18.203324231671214,
+        "height_mm": 13.334993332503332
+      },
+      {
+        "degrees": 165,
+        "width_mm": 17.779991110004442,
+        "height_mm": 14.393326136670263
+      }
+    ]
+  },
+  {
+    "id": "h2",
+    "role": "halide",
+    "name": "2-chloro-4-cyanopyridine",
+    "smiles": "N#Cc1ccnc(Cl)c1",
+    "source_cdxml": "02_FIGURES/ChemDraw/v3/f2/abbreviated/h2.cdxml",
+    "original_width_mm": 17.35665798833767,
+    "original_height_mm": 17.991657670837828,
+    "degrees": 135,
+    "width_mm": 21.589989205005395,
+    "height_mm": 12.276660528336402,
+    "target_12_5_mm": true,
+    "bond_length_setting": 14.4,
+    "atom_font_print_pt": 8,
+    "bond_length_min_cdxml": 14.39176500641948,
+    "bond_length_max_cdxml": 14.408497492799194,
+    "cdxml": "02_FIGURES/ChemDraw/v5/f1/h2.cdxml",
+    "svg": "02_FIGURES/ChemDraw/v5/f1/h2.svg",
+    "cdxml_sha256": "cea8f29346c30b8bd94f2b7abe3ed39c81ed27ee2da8c7de50d6c365785732bd",
+    "svg_sha256": "7e636ccd91ab662c9ea2a5f422cbd3e3850dd378031c7ea651e686c0e3138a68",
+    "rotation_engine": "ChemDrawControl22 Objects.Rotate; no layout redraw or scale",
+    "trials": [
+      {
+        "degrees": 0,
+        "width_mm": 17.35665798833767,
+        "height_mm": 17.991657670837828
+      },
+      {
+        "degrees": 15,
+        "width_mm": 15.028325819170423,
+        "height_mm": 20.108323279171692
+      },
+      {
+        "degrees": 30,
+        "width_mm": 12.699993650003174,
+        "height_mm": 21.37832264417201
+      },
+      {
+        "degrees": 45,
+        "width_mm": 12.91166021083656,
+        "height_mm": 21.166656083338623
+      },
+      {
+        "degrees": 60,
+        "width_mm": 13.546659893336718,
+        "height_mm": 20.108323279171692
+      },
+      {
+        "degrees": 75,
+        "width_mm": 15.028325819170423,
+        "height_mm": 19.473323596671534
+      },
+      {
+        "degrees": 90,
+        "width_mm": 18.203324231671214,
+        "height_mm": 17.779991110004442
+      },
+      {
+        "degrees": 105,
+        "width_mm": 20.31998984000508,
+        "height_mm": 15.239992380003809
+      },
+      {
+        "degrees": 120,
+        "width_mm": 21.589989205005395,
+        "height_mm": 12.699993650003174
+      },
+      {
+        "degrees": 135,
+        "width_mm": 21.589989205005395,
+        "height_mm": 12.276660528336402
+      },
+      {
+        "degrees": 150,
+        "width_mm": 20.31998984000508,
+        "height_mm": 13.123326771669946
+      },
+      {
+        "degrees": 165,
+        "width_mm": 19.049990475004762,
+        "height_mm": 14.816659258337035
+      }
+    ]
+  },
+  {
+    "id": "h3",
+    "role": "halide",
+    "name": "2-chloro-5-(trifluoromethyl)pyrimidine",
+    "smiles": "FC(F)(F)c1cnc(Cl)nc1",
+    "source_cdxml": "02_FIGURES/ChemDraw/v3/f2/abbreviated/h3.cdxml",
+    "original_width_mm": 23.706654813339256,
+    "original_height_mm": 11.21832772416947,
+    "degrees": 0,
+    "width_mm": 23.706654813339256,
+    "height_mm": 11.21832772416947,
+    "target_12_5_mm": true,
+    "bond_length_setting": 14.4,
+    "atom_font_print_pt": 8,
+    "bond_length_min_cdxml": 14.390000000000043,
+    "bond_length_max_cdxml": 14.404339623877208,
+    "cdxml": "02_FIGURES/ChemDraw/v5/f1/h3.cdxml",
+    "svg": "02_FIGURES/ChemDraw/v5/f1/h3.svg",
+    "cdxml_sha256": "de334243f2acfd9759b372812a90f8c1e17b22b37c438f7cfcc658b3346ed2dd",
+    "svg_sha256": "d57b938e073b58c1d11dcd56d4b78113ab3ef7119f12bb725e3d62a005b1e364",
+    "rotation_engine": "ChemDrawControl22 Objects.Rotate; no layout redraw or scale",
+    "trials": [
+      {
+        "degrees": 0,
+        "width_mm": 23.706654813339256,
+        "height_mm": 11.21832772416947
+      },
+      {
+        "degrees": 15,
+        "width_mm": 23.49498825250587,
+        "height_mm": 13.546659893336718
+      },
+      {
+        "degrees": 30,
+        "width_mm": 22.013322326672167,
+        "height_mm": 16.086658623337353
+      },
+      {
+        "degrees": 45,
+        "width_mm": 19.261657035838148,
+        "height_mm": 19.049990475004762
+      },
+      {
+        "degrees": 60,
+        "width_mm": 15.451658940837195,
+        "height_mm": 21.166656083338623
+      },
+      {
+        "degrees": 75,
+        "width_mm": 13.123326771669946,
+        "height_mm": 22.224988887505553
+      },
+      {
+        "degrees": 90,
+        "width_mm": 11.006661163336084,
+        "height_mm": 23.49498825250587
+      },
+      {
+        "degrees": 105,
+        "width_mm": 13.123326771669946,
+        "height_mm": 23.49498825250587
+      },
+      {
+        "degrees": 120,
+        "width_mm": 16.72165830583751,
+        "height_mm": 21.80165576583878
+      },
+      {
+        "degrees": 135,
+        "width_mm": 19.896656718338306,
+        "height_mm": 19.049990475004762
+      },
+      {
+        "degrees": 150,
+        "width_mm": 22.224988887505553,
+        "height_mm": 15.239992380003809
+      },
+      {
+        "degrees": 165,
+        "width_mm": 23.071655130839098,
+        "height_mm": 13.758326454170104
+      }
+    ]
+  },
+  {
+    "id": "h4",
+    "role": "halide",
+    "name": "2-chloro-5-methoxypyrimidine",
+    "smiles": "COc1cnc(Cl)nc1",
+    "source_cdxml": "02_FIGURES/ChemDraw/v3/f2/abbreviated/h4.cdxml",
+    "original_width_mm": 10.583328041669311,
+    "original_height_mm": 20.954989522505237,
+    "degrees": 90,
+    "width_mm": 21.37832264417201,
+    "height_mm": 10.583328041669311,
+    "target_12_5_mm": true,
+    "bond_length_setting": 14.4,
+    "atom_font_print_pt": 8,
+    "bond_length_min_cdxml": 14.399336790283055,
+    "bond_length_max_cdxml": 14.400000000000006,
+    "cdxml": "02_FIGURES/ChemDraw/v5/f1/h4.cdxml",
+    "svg": "02_FIGURES/ChemDraw/v5/f1/h4.svg",
+    "cdxml_sha256": "e5fe5a763aaee7bb8bee12c2a9ff88f255febee029d5e4328f3f611ded35cb31",
+    "svg_sha256": "4e1f90c820e9e4be31a91461f9b88fae05288d67864186db02c4cd530cd805ac",
+    "rotation_engine": "ChemDrawControl22 Objects.Rotate; no layout redraw or scale",
+    "trials": [
+      {
+        "degrees": 0,
+        "width_mm": 10.583328041669311,
+        "height_mm": 20.954989522505237
+      },
+      {
+        "degrees": 15,
+        "width_mm": 10.371661480835925,
+        "height_mm": 21.37832264417201
+      },
+      {
+        "degrees": 30,
+        "width_mm": 12.276660528336402,
+        "height_mm": 20.31998984000508
+      },
+      {
+        "degrees": 45,
+        "width_mm": 15.451658940837195,
+        "height_mm": 17.991657670837828
+      },
+      {
+        "degrees": 60,
+        "width_mm": 18.203324231671214,
+        "height_mm": 14.816659258337035
+      },
+      {
+        "degrees": 75,
+        "width_mm": 19.896656718338306,
+        "height_mm": 12.699993650003174
+      },
+      {
+        "degrees": 90,
+        "width_mm": 21.37832264417201,
+        "height_mm": 10.583328041669311
+      },
+      {
+        "degrees": 105,
+        "width_mm": 21.589989205005395,
+        "height_mm": 10.583328041669311
+      },
+      {
+        "degrees": 120,
+        "width_mm": 20.74332296167185,
+        "height_mm": 11.853327406669628
+      },
+      {
+        "degrees": 135,
+        "width_mm": 18.4149907925046,
+        "height_mm": 15.451658940837195
+      },
+      {
+        "degrees": 150,
+        "width_mm": 15.239992380003809,
+        "height_mm": 17.779991110004442
+      },
+      {
+        "degrees": 165,
+        "width_mm": 12.276660528336402,
+        "height_mm": 19.473323596671534
+      }
+    ]
+  },
+  {
+    "id": "h5",
+    "role": "halide",
+    "name": "2-methoxyphenyl triflate",
+    "smiles": "COc1ccccc1OS(=O)(=O)C(F)(F)F",
+    "source_cdxml": "02_FIGURES/ChemDraw/v3/f2/abbreviated/h5.cdxml",
+    "original_width_mm": 15.663325501670581,
+    "original_height_mm": 14.604992697503649,
+    "degrees": 90,
+    "width_mm": 17.144991427504284,
+    "height_mm": 13.123326771669946,
+    "target_12_5_mm": false,
+    "bond_length_setting": 14.4,
+    "atom_font_print_pt": 8,
+    "bond_length_min_cdxml": 14.390000000000015,
+    "bond_length_max_cdxml": 14.404339623877272,
+    "cdxml": "02_FIGURES/ChemDraw/v5/f1/h5.cdxml",
+    "svg": "02_FIGURES/ChemDraw/v5/f1/h5.svg",
+    "cdxml_sha256": "7a567e7112e844d55d69c657e525146e66646e28260618617a10ded0ca00c6c6",
+    "svg_sha256": "a5d234947f3f116658017eac97a1c0ddf071470059aad267c000f5c3551b80d0",
+    "rotation_engine": "ChemDrawControl22 Objects.Rotate; no layout redraw or scale",
+    "trials": [
+      {
+        "degrees": 0,
+        "width_mm": 15.663325501670581,
+        "height_mm": 14.604992697503649
+      },
+      {
+        "degrees": 15,
+        "width_mm": 16.72165830583751,
+        "height_mm": 15.028325819170423
+      },
+      {
+        "degrees": 30,
+        "width_mm": 17.35665798833767,
+        "height_mm": 15.451658940837195
+      },
+      {
+        "degrees": 45,
+        "width_mm": 16.72165830583751,
+        "height_mm": 16.086658623337353
+      },
+      {
+        "degrees": 60,
+        "width_mm": 15.663325501670581,
+        "height_mm": 15.663325501670581
+      },
+      {
+        "degrees": 75,
+        "width_mm": 16.72165830583751,
+        "height_mm": 14.604992697503649
+      },
+      {
+        "degrees": 90,
+        "width_mm": 17.144991427504284,
+        "height_mm": 13.123326771669946
+      },
+      {
+        "degrees": 105,
+        "width_mm": 16.72165830583751,
+        "height_mm": 14.604992697503649
+      },
+      {
+        "degrees": 120,
+        "width_mm": 15.663325501670581,
+        "height_mm": 14.816659258337035
+      },
+      {
+        "degrees": 135,
+        "width_mm": 16.086658623337353,
+        "height_mm": 14.604992697503649
+      },
+      {
+        "degrees": 150,
+        "width_mm": 15.874992062503967,
+        "height_mm": 13.334993332503332
+      },
+      {
+        "degrees": 165,
+        "width_mm": 14.604992697503649,
+        "height_mm": 14.393326136670263
+      }
+    ]
+  },
+  {
+    "id": "h6",
+    "role": "halide",
+    "name": "2-methylphenyl triflate",
+    "smiles": "Cc1ccccc1OS(=O)(=O)C(F)(F)F",
+    "source_cdxml": "02_FIGURES/ChemDraw/v3/f2/abbreviated/h6.cdxml",
+    "original_width_mm": 13.546659893336718,
+    "original_height_mm": 12.91166021083656,
+    "degrees": 30,
+    "width_mm": 15.663325501670581,
+    "height_mm": 10.794994602502697,
+    "target_12_5_mm": true,
+    "bond_length_setting": 14.4,
+    "atom_font_print_pt": 8,
+    "bond_length_min_cdxml": 14.389999999999986,
+    "bond_length_max_cdxml": 14.404339623877236,
+    "cdxml": "02_FIGURES/ChemDraw/v5/f1/h6.cdxml",
+    "svg": "02_FIGURES/ChemDraw/v5/f1/h6.svg",
+    "cdxml_sha256": "a811221c8ca46c9da9328033fdaad8515f1e83d1a6a69d4f0173c02c97cbe02c",
+    "svg_sha256": "d26e37704b0f6b8c986928cde8f5c92816e42875d6b7023b1dc94232f57c5495",
+    "rotation_engine": "ChemDrawControl22 Objects.Rotate; no layout redraw or scale",
+    "trials": [
+      {
+        "degrees": 0,
+        "width_mm": 13.546659893336718,
+        "height_mm": 12.91166021083656
+      },
+      {
+        "degrees": 15,
+        "width_mm": 14.816659258337035,
+        "height_mm": 12.276660528336402
+      },
+      {
+        "degrees": 30,
+        "width_mm": 15.663325501670581,
+        "height_mm": 10.794994602502697
+      },
+      {
+        "degrees": 45,
+        "width_mm": 16.72165830583751,
+        "height_mm": 11.21832772416947
+      },
+      {
+        "degrees": 60,
+        "width_mm": 17.35665798833767,
+        "height_mm": 11.853327406669628
+      },
+      {
+        "degrees": 75,
+        "width_mm": 16.72165830583751,
+        "height_mm": 13.334993332503332
+      },
+      {
+        "degrees": 90,
+        "width_mm": 15.663325501670581,
+        "height_mm": 13.758326454170104
+      },
+      {
+        "degrees": 105,
+        "width_mm": 14.604992697503649,
+        "height_mm": 13.334993332503332
+      },
+      {
+        "degrees": 120,
+        "width_mm": 13.123326771669946,
+        "height_mm": 13.334993332503332
+      },
+      {
+        "degrees": 135,
+        "width_mm": 12.91166021083656,
+        "height_mm": 14.604992697503649
+      },
+      {
+        "degrees": 150,
+        "width_mm": 12.064993967503014,
+        "height_mm": 14.816659258337035
+      },
+      {
+        "degrees": 165,
+        "width_mm": 13.123326771669946,
+        "height_mm": 14.604992697503649
+      }
+    ]
+  },
+  {
+    "id": "h7",
+    "role": "halide",
+    "name": "4-chloro-3-methylacetophenone",
+    "smiles": "CC(=O)c1ccc(Cl)c(C)c1",
+    "source_cdxml": "02_FIGURES/ChemDraw/v3/f2/abbreviated/h7.cdxml",
+    "original_width_mm": 22.43665544833894,
+    "original_height_mm": 12.064993967503014,
+    "degrees": 0,
+    "width_mm": 22.43665544833894,
+    "height_mm": 12.064993967503014,
+    "target_12_5_mm": true,
+    "bond_length_setting": 14.4,
+    "atom_font_print_pt": 8,
+    "bond_length_min_cdxml": 14.399336790283055,
+    "bond_length_max_cdxml": 14.400000000000034,
+    "cdxml": "02_FIGURES/ChemDraw/v5/f1/h7.cdxml",
+    "svg": "02_FIGURES/ChemDraw/v5/f1/h7.svg",
+    "cdxml_sha256": "5cda2ebed2c032c83af1666eaefcd09b8f2f572f2c88759e7b353c6449cdce46",
+    "svg_sha256": "126325e7e14bff3d7ed32746edc198fa2ee099f1c643467916314abfcd88f82b",
+    "rotation_engine": "ChemDrawControl22 Objects.Rotate; no layout redraw or scale",
+    "trials": [
+      {
+        "degrees": 0,
+        "width_mm": 22.43665544833894,
+        "height_mm": 12.064993967503014
+      },
+      {
+        "degrees": 15,
+        "width_mm": 21.589989205005395,
+        "height_mm": 12.699993650003174
+      },
+      {
+        "degrees": 30,
+        "width_mm": 20.531656400838465,
+        "height_mm": 15.874992062503967
+      },
+      {
+        "degrees": 45,
+        "width_mm": 18.838323914171372,
+        "height_mm": 19.049990475004762
+      },
+      {
+        "degrees": 60,
+        "width_mm": 17.568324549171056,
+        "height_mm": 21.166656083338623
+      },
+      {
+        "degrees": 75,
+        "width_mm": 15.239992380003809,
+        "height_mm": 22.43665544833894
+      },
+      {
+        "degrees": 90,
+        "width_mm": 11.853327406669628,
+        "height_mm": 22.013322326672167
+      },
+      {
+        "degrees": 105,
+        "width_mm": 12.91166021083656,
+        "height_mm": 20.954989522505237
+      },
+      {
+        "degrees": 120,
+        "width_mm": 16.933324866670898,
+        "height_mm": 20.108323279171692
+      },
+      {
+        "degrees": 135,
+        "width_mm": 20.31998984000508,
+        "height_mm": 19.049990475004762
+      },
+      {
+        "degrees": 150,
+        "width_mm": 22.43665544833894,
+        "height_mm": 17.568324549171056
+      },
+      {
+        "degrees": 165,
+        "width_mm": 23.49498825250587,
+        "height_mm": 15.239992380003809
+      }
+    ]
+  },
+  {
+    "id": "h8",
+    "role": "halide",
+    "name": "4-methylphenyl triflate",
+    "smiles": "Cc1ccc(OS(=O)(=O)C(F)(F)F)cc1",
+    "source_cdxml": "02_FIGURES/ChemDraw/v3/f2/abbreviated/h8.cdxml",
+    "original_width_mm": 13.123326771669946,
+    "original_height_mm": 16.72165830583751,
+    "degrees": 120,
+    "width_mm": 21.166656083338623,
+    "height_mm": 8.678328994168835,
+    "target_12_5_mm": true,
+    "bond_length_setting": 14.4,
+    "atom_font_print_pt": 8,
+    "bond_length_min_cdxml": 14.394339165102393,
+    "bond_length_max_cdxml": 14.407997779011474,
+    "cdxml": "02_FIGURES/ChemDraw/v5/f1/h8.cdxml",
+    "svg": "02_FIGURES/ChemDraw/v5/f1/h8.svg",
+    "cdxml_sha256": "81e0b9a17d1b9152e08c85224dabe23974bb5a274536ccea6e8b4b7a7d67210f",
+    "svg_sha256": "fdc10333915ec64376564b2b3ce24ef420549f2a5536970d6302e2987245bdf4",
+    "rotation_engine": "ChemDrawControl22 Objects.Rotate; no layout redraw or scale",
+    "trials": [
+      {
+        "degrees": 0,
+        "width_mm": 13.123326771669946,
+        "height_mm": 16.72165830583751
+      },
+      {
+        "degrees": 15,
+        "width_mm": 11.21832772416947,
+        "height_mm": 17.991657670837828
+      },
+      {
+        "degrees": 30,
+        "width_mm": 8.466662433335449,
+        "height_mm": 18.626657353337986
+      },
+      {
+        "degrees": 45,
+        "width_mm": 11.006661163336084,
+        "height_mm": 18.203324231671214
+      },
+      {
+        "degrees": 60,
+        "width_mm": 13.123326771669946,
+        "height_mm": 16.72165830583751
+      },
+      {
+        "degrees": 75,
+        "width_mm": 16.509991745004125,
+        "height_mm": 13.96999301500349
+      },
+      {
+        "degrees": 90,
+        "width_mm": 19.049990475004762,
+        "height_mm": 10.794994602502697
+      },
+      {
+        "degrees": 105,
+        "width_mm": 20.74332296167185,
+        "height_mm": 9.313328676668993
+      },
+      {
+        "degrees": 120,
+        "width_mm": 21.166656083338623,
+        "height_mm": 8.678328994168835
+      },
+      {
+        "degrees": 135,
+        "width_mm": 20.74332296167185,
+        "height_mm": 9.524995237502381
+      },
+      {
+        "degrees": 150,
+        "width_mm": 19.049990475004762,
+        "height_mm": 10.794994602502697
+      },
+      {
+        "degrees": 165,
+        "width_mm": 16.509991745004125,
+        "height_mm": 14.181659575836877
+      }
+    ]
+  },
+  {
+    "id": "h9",
+    "role": "halide",
+    "name": "4-methylpyridin-2-yl triflate",
+    "smiles": "Cc1ccnc(OS(=O)(=O)C(F)(F)F)c1",
+    "source_cdxml": "02_FIGURES/ChemDraw/v3/f2/abbreviated/h9.cdxml",
+    "original_width_mm": 13.123326771669946,
+    "original_height_mm": 16.72165830583751,
+    "degrees": 90,
+    "width_mm": 19.261657035838148,
+    "height_mm": 10.794994602502697,
+    "target_12_5_mm": true,
+    "bond_length_setting": 14.4,
+    "atom_font_print_pt": 8,
+    "bond_length_min_cdxml": 14.399336790283055,
+    "bond_length_max_cdxml": 14.409999999999968,
+    "cdxml": "02_FIGURES/ChemDraw/v5/f1/h9.cdxml",
+    "svg": "02_FIGURES/ChemDraw/v5/f1/h9.svg",
+    "cdxml_sha256": "d60fe1cad128626d5778745293bbed6cb577af636b60f9bf9180526aadb2673d",
+    "svg_sha256": "506666c4d01a671fb16fa4b56239740fff261d9472e6bf57f19ba61d2ac02bde",
+    "rotation_engine": "ChemDrawControl22 Objects.Rotate; no layout redraw or scale",
+    "trials": [
+      {
+        "degrees": 0,
+        "width_mm": 13.123326771669946,
+        "height_mm": 16.72165830583751
+      },
+      {
+        "degrees": 15,
+        "width_mm": 14.816659258337035,
+        "height_mm": 16.29832518417074
+      },
+      {
+        "degrees": 30,
+        "width_mm": 15.663325501670581,
+        "height_mm": 14.816659258337035
+      },
+      {
+        "degrees": 45,
+        "width_mm": 16.72165830583751,
+        "height_mm": 14.393326136670263
+      },
+      {
+        "degrees": 60,
+        "width_mm": 17.35665798833767,
+        "height_mm": 13.123326771669946
+      },
+      {
+        "degrees": 75,
+        "width_mm": 18.626657353337986,
+        "height_mm": 11.21832772416947
+      },
+      {
+        "degrees": 90,
+        "width_mm": 19.261657035838148,
+        "height_mm": 10.794994602502697
+      },
+      {
+        "degrees": 105,
+        "width_mm": 18.626657353337986,
+        "height_mm": 12.064993967503014
+      },
+      {
+        "degrees": 120,
+        "width_mm": 17.144991427504284,
+        "height_mm": 13.123326771669946
+      },
+      {
+        "degrees": 135,
+        "width_mm": 15.028325819170423,
+        "height_mm": 14.393326136670263
+      },
+      {
+        "degrees": 150,
+        "width_mm": 12.91166021083656,
+        "height_mm": 14.816659258337035
+      },
+      {
+        "degrees": 165,
+        "width_mm": 11.006661163336084,
+        "height_mm": 16.086658623337353
+      }
+    ]
+  },
+  {
+    "id": "h10",
+    "role": "halide",
+    "name": "5-bromo-2-fluorobenzonitrile",
+    "smiles": "N#Cc1cc(Br)ccc1F",
+    "source_cdxml": "02_FIGURES/ChemDraw/v3/f2/abbreviated/h10.cdxml",
+    "original_width_mm": 16.509991745004125,
+    "original_height_mm": 20.108323279171692,
+    "degrees": 120,
+    "width_mm": 21.80165576583878,
+    "height_mm": 13.758326454170104,
+    "target_12_5_mm": false,
+    "bond_length_setting": 14.4,
+    "atom_font_print_pt": 8,
+    "bond_length_min_cdxml": 14.390677537906294,
+    "bond_length_max_cdxml": 14.40799777901148,
+    "cdxml": "02_FIGURES/ChemDraw/v5/f1/h10.cdxml",
+    "svg": "02_FIGURES/ChemDraw/v5/f1/h10.svg",
+    "cdxml_sha256": "f9870a88e06a2528577561e48089e51fe27d5866b8c785339b310cf373bbbc3d",
+    "svg_sha256": "a0a0e45f70483780bc939370527ee4f77546863bb53997e46fba0d377a806de5",
+    "rotation_engine": "ChemDrawControl22 Objects.Rotate; no layout redraw or scale",
+    "trials": [
+      {
+        "degrees": 0,
+        "width_mm": 16.509991745004125,
+        "height_mm": 20.108323279171692
+      },
+      {
+        "degrees": 15,
+        "width_mm": 14.816659258337035,
+        "height_mm": 20.108323279171692
+      },
+      {
+        "degrees": 30,
+        "width_mm": 13.334993332503332,
+        "height_mm": 21.37832264417201
+      },
+      {
+        "degrees": 45,
+        "width_mm": 15.663325501670581,
+        "height_mm": 21.166656083338623
+      },
+      {
+        "degrees": 60,
+        "width_mm": 18.203324231671214,
+        "height_mm": 19.896656718338306
+      },
+      {
+        "degrees": 75,
+        "width_mm": 19.896656718338306,
+        "height_mm": 18.203324231671214
+      },
+      {
+        "degrees": 90,
+        "width_mm": 20.31998984000508,
+        "height_mm": 16.72165830583751
+      },
+      {
+        "degrees": 105,
+        "width_mm": 20.74332296167185,
+        "height_mm": 15.028325819170423
+      },
+      {
+        "degrees": 120,
+        "width_mm": 21.80165576583878,
+        "height_mm": 13.758326454170104
+      },
+      {
+        "degrees": 135,
+        "width_mm": 21.80165576583878,
+        "height_mm": 15.028325819170423
+      },
+      {
+        "degrees": 150,
+        "width_mm": 20.31998984000508,
+        "height_mm": 17.779991110004442
+      },
+      {
+        "degrees": 165,
+        "width_mm": 18.203324231671214,
+        "height_mm": 19.473323596671534
+      }
+    ]
+  }
+]

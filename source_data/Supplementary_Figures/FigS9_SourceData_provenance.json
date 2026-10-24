@@ -1,0 +1,58 @@
+{
+ "figure": "Fig. S9 | Response amplitude and condition preference can belong to different molecules",
+ "generated_by": "06_CODE/Figures/ed09.py",
+ "inputs": {
+  "A1": {
+   "file": "05_DATA/Release/00_RAW_IMMUTABLE/DATASET_analysis.csv.gz",
+   "sha256": "98e6da9f16a4adebba15ed84f49635741c38e80a15cf0fffb40d94e63f6bbbff",
+   "rows": 177039
+  },
+  "frozen": {
+   "phase3_amplitude.csv": {
+    "file": "05_DATA/Results/directional/phase3_amplitude.csv",
+    "sha256": "7aa70d0b92e2333843fb7fc0bf023df7109c0240ee37b7fdfcf0487644cc67e3"
+   },
+   "Anatomy_arrays.csv": {
+    "file": "05_DATA/Results/display_inputs/Anatomy_arrays.csv",
+    "sha256": "cfe3de1982d721c37241e3da95f670f3f9faa98bc73e709c9a7590878466ee1e"
+   }
+  }
+ },
+ "randomness": "none",
+ "transformation": {
+  "a": "Share of the condition pattern carried by each role (estimator of Fig. 2A), product-forming pairs.",
+  "b": "Each product-forming pair's slope on the array's condition means (least squares over its measured conditions), centred over the pairs; share of a role = mean product of the centred slopes of two pairs sharing only that role's molecule / mean squared centred slope."
+ },
+ "agree": 9,
+ "discordant": [
+  "Buchwald-Hartwig|1",
+  "Buchwald-Hartwig|2",
+  "Esterification|1",
+  "Grignard|1",
+  "Heck|1",
+  "Sonogashira|1"
+ ],
+ "agreement_with_frozen": 8.326672684688674e-17,
+ "outputs": {
+  "pdf": {
+   "file": "02_FIGURES/Supplementary_Figures/FigS9.pdf",
+   "sha256": "e15ce757bbadfa5f911d01f664703bcf2b869e48681aedda9ecd82769c8518c6"
+  },
+  "svg": {
+   "file": "02_FIGURES/Supplementary_Figures/FigS9.svg",
+   "sha256": "87ce8675049471a21edd8f7c22031396098038f6d2fbe0c4ab1677e0c5158d29"
+  },
+  "png": {
+   "file": "02_FIGURES/Supplementary_Figures/FigS9.png",
+   "sha256": "97e9f80d468c6985e4d5332ab8cd6068e5cb1ff5c76ad264a9a7232fa0571a17"
+  },
+  "xlsx": {
+   "file": "04_SOURCE_DATA/Supplementary_Figures/FigS9_SourceData.xlsx",
+   "sha256": "16b21b96e7a25430cd8071829e63398009307cc98524cbb42307d51bea1323fc"
+  },
+  "readback": {
+   "file": "08_REVIEW_AND_QC/extended_data/ed9_plot_readback.json",
+   "sha256": "c18ca54a7e92e8058c10e9ab7a64040af65d365e60e75434ea445b3c4d689439"
+  }
+ }
+}

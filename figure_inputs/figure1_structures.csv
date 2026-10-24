@@ -1,0 +1,4 @@
+role,smiles,source_screen,source_pair
+halide,N#Cc1ccnc(Cl)c1,Buchwald-Hartwig|1,Cc1cc(C)nc(N)c1 >> N#Cc1ccnc(Cl)c1
+N-H partner,Cc1cc(C)nc(N)c1,Buchwald-Hartwig|1,Cc1cc(C)nc(N)c1 >> N#Cc1ccnc(Cl)c1
+product,Cc1cc(C)nc(Nc2cc(C#N)ccn2)c1,Buchwald-Hartwig|1,Cc1cc(C)nc(N)c1 >> N#Cc1ccnc(Cl)c1

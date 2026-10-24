@@ -1,0 +1,113 @@
+{
+ "figure": "Figure 4",
+ "generated_by": "06_CODE/Figures/figure4.py",
+ "inputs": {
+  "released": {
+   "05_DATA/Analysis/figure_display/Fig4a_folds.csv": {
+    "file": "05_DATA/Analysis/figure_display/Fig4a_folds.csv",
+    "sha256": "dbcc9fe28abbd31329faebe6f9b0c76b23e5627ef1d38405396212a169245991"
+   }
+  },
+  "files": {
+   "05_DATA/Analysis/figure_display/v5_reference_tables/MANIFEST.json": {
+    "file": "05_DATA/Analysis/figure_display/v5_reference_tables/MANIFEST.json",
+    "sha256": "e5d3baa73d123bbb89d85b287026ffa9c482f826174ff31bba42ca6780470717"
+   },
+   "05_DATA/Analysis/figure_display/v5_reference_tables/transfer.xlsx": {
+    "file": "05_DATA/Analysis/figure_display/v5_reference_tables/transfer.xlsx",
+    "sha256": "088057a1309dac76fc1f4c8ab79b7ba96c83a9617abd748918f771d676485821"
+   },
+   "05_DATA/Release/00_RAW_IMMUTABLE/DATASET_analysis.csv.gz": {
+    "file": "05_DATA/Release/00_RAW_IMMUTABLE/DATASET_analysis.csv.gz",
+    "sha256": "98e6da9f16a4adebba15ed84f49635741c38e80a15cf0fffb40d94e63f6bbbff"
+   },
+   "05_DATA/Results/cross_library/cross_library.json": {
+    "file": "05_DATA/Results/cross_library/cross_library.json",
+    "sha256": "b02caa606a8dd11f069a1473b046614218e661d63d256e86eab315ca105402e0"
+   },
+   "05_DATA/Results/cross_library/target_losses.csv": {
+    "file": "05_DATA/Results/cross_library/target_losses.csv",
+    "sha256": "150c00c83a8000ab56f670d20ead14381719c52b33ba749a5f7be786a58362e1"
+   },
+   "05_DATA/Results/directional/phase2_setAB_k2.csv": {
+    "file": "05_DATA/Results/directional/phase2_setAB_k2.csv",
+    "sha256": "06c691b8a9b5cac98da60c45d558afe099e7aabddc121f13512b21994173c6b1"
+   },
+   "05_DATA/Results/directional/phase2_summary.json": {
+    "file": "05_DATA/Results/directional/phase2_summary.json",
+    "sha256": "16b577e7d6042f681f6b5fc7a4c44b2d8390e2dfee4d79f936092edfc9c82aaa"
+   },
+   "05_DATA/Results/directional/phase3_summary.json": {
+    "file": "05_DATA/Results/directional/phase3_summary.json",
+    "sha256": "d9d37449d3513f0f55d7b280719442fc63bf9fb339797d3b6703360e2303e492"
+   },
+   "05_DATA/Results/directional/phase3_transport.csv": {
+    "file": "05_DATA/Results/directional/phase3_transport.csv",
+    "sha256": "b4afec29c29669d3f490ad2354c494c37f176a8c0b8240c7e74c7dd5685df874"
+   },
+   "05_DATA/Results/display_inputs/Anatomy_arrays.csv": {
+    "file": "05_DATA/Results/display_inputs/Anatomy_arrays.csv",
+    "sha256": "cfe3de1982d721c37241e3da95f670f3f9faa98bc73e709c9a7590878466ee1e"
+   },
+   "05_DATA/Results/primary/anatomy_depth.csv": {
+    "file": "05_DATA/Results/primary/anatomy_depth.csv",
+    "sha256": "f25942cd794e8adeb6788bdd17597de598ce38a596c967341b6412238b636354"
+   },
+   "05_DATA/Results/reserve_validation/record_transfer_losses.csv": {
+    "file": "05_DATA/Results/reserve_validation/record_transfer_losses.csv",
+    "sha256": "6feaced7740bf28296625b62c61ec799de0f3204c64276d41a73214fc214d64d"
+   },
+   "05_DATA/Results/reserve_validation/reserve_validation.json": {
+    "file": "05_DATA/Results/reserve_validation/reserve_validation.json",
+    "sha256": "16a3521c1aa494006c0762983e4750745676a8aae6ab11ce175c4627fee62962"
+   },
+   "05_DATA/Validation_Set_A/never_analysed_reserve.csv.gz": {
+    "file": "05_DATA/Validation_Set_A/never_analysed_reserve.csv.gz",
+    "sha256": "180ab88e532e7e7675f67cb2caf4baffa87292b3c0ce62489420bb40c03a3218"
+   },
+   "05_DATA/Validation_Set_B/never_opened_cross_library.csv.gz": {
+    "file": "05_DATA/Validation_Set_B/never_opened_cross_library.csv.gz",
+    "sha256": "b69eeb05fc829124004803891e0dc01146e71ffe2632d6e9c2ba24ec4ab87cc8"
+   },
+   "07_METHODS_AND_PROVENANCE/frozen_analysis_plans/figure_selection_v3/RULE.md": {
+    "file": "07_METHODS_AND_PROVENANCE/frozen_analysis_plans/figure_selection_v3/RULE.md",
+    "sha256": "1eef02cbdb55db159135883820e4a83e353e7da0f057a2fd258f96082143c02d"
+   }
+  }
+ },
+ "outputs": {
+  "svg": {
+   "file": "02_FIGURES/Main/Figure4.svg",
+   "sha256": "262239ddecca5ecaa8f283b795a01680954d7b7951da019e55fbc8ae56c27aaa"
+  },
+  "pdf": {
+   "file": "02_FIGURES/Main/Figure4.pdf",
+   "sha256": "bd71b7f3fed1362259f42e2d77d174876c4696b3032bacae0eb4109045fac8bc"
+  },
+  "png": {
+   "file": "02_FIGURES/Main/Figure4.png",
+   "sha256": "ddcb8a352a487bcabc3ea768f6ada6d8d77f19f6c8c8e6c1293923b61bc859a5"
+  },
+  "xlsx": {
+   "file": "04_SOURCE_DATA/Figure4/Figure4_SourceData.xlsx",
+   "sha256": "7ec0ab02211c47dabe8890320c42a6cd395ceaff669c6f1d88b2b3198dbc81f2"
+  },
+  "readback": {
+   "file": "04_SOURCE_DATA/Figure4/Figure4_readback.json",
+   "sha256": "cbfc321241439114ed1c2689b1908b1c4eb1de86f6e2e7b14102b5cfdc0e229c"
+  },
+  "selection": {
+   "file": "04_SOURCE_DATA/Figure4/figure4_selection.json",
+   "sha256": "57e09986ff693c31040a33f786ce7f81959303a0d37a6971e232e5ca6977d624"
+  },
+  "SetA_whole_array_bootstrap_draws.csv": {
+   "file": "04_SOURCE_DATA/Figure4/SetA_whole_array_bootstrap_draws.csv",
+   "sha256": "9e7520f98b24bf5890587825e5fea8fc5d08d7f19f24f39a97e67c4b4a572a24"
+  },
+  "SetA_owner_block_bootstrap_draws.csv": {
+   "file": "04_SOURCE_DATA/Figure4/SetA_owner_block_bootstrap_draws.csv",
+   "sha256": "a3adff0757a94f036695173c302c42925f941ab6a630529316d9c0db7010536f"
+  }
+ },
+ "panels": {}
+}

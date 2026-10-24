@@ -1,0 +1,93 @@
+{
+ "figure": "Fig. S7 | A record grows with its partners",
+ "generated_by": "06_CODE/Figures/ed07.py",
+ "inputs": {
+  "A1": {
+   "file": "05_DATA/Release/00_RAW_IMMUTABLE/DATASET_analysis.csv.gz",
+   "sha256": "98e6da9f16a4adebba15ed84f49635741c38e80a15cf0fffb40d94e63f6bbbff",
+   "rows": 177039
+  },
+  "released": {
+   "folds": {
+    "file": "05_DATA/Analysis/figure_display/Fig4a_folds.csv",
+    "sha256": "dbcc9fe28abbd31329faebe6f9b0c76b23e5627ef1d38405396212a169245991"
+   },
+   "draws": {
+    "file": "05_DATA/Analysis/figure_display/Fig4a_history_draws.csv",
+    "sha256": "72483e785cb643c84120f088694ad27e7c52d8a2ad1d3abe5366006dd91fcf58"
+   }
+  },
+  "fold_registry": {
+   "file": "05_DATA/Analysis/06_METADATA/frozen_folds.json",
+   "sha256": "455685fc1686f7f07bd14e362403e493cb10bc99519dcab9c8b61d4861b97af5",
+   "entries_used": "history|<array>|cv|0"
+  },
+  "owner_roles": {
+   "file": "05_DATA/Results/display_inputs/Anatomy_arrays.csv",
+   "sha256": "cfe3de1982d721c37241e3da95f670f3f9faa98bc73e709c9a7590878466ee1e"
+  },
+  "frozen": {
+   "depth": {
+    "file": "05_DATA/Results/primary/anatomy_depth.csv",
+    "sha256": "f25942cd794e8adeb6788bdd17597de598ce38a596c967341b6412238b636354"
+   },
+   "anatomy": {
+    "file": "05_DATA/Results/primary/anatomy.json",
+    "sha256": "90b6406b3850b85145fcc297718d6099cc029d16cebeb74ede2505190b906c0b"
+   },
+   "curve": {
+    "file": "05_DATA/Results/display_inputs/Figure4a_history_depth.csv",
+    "sha256": "42e0cc27ce7d584706be54eab5f54b6229c4cbd2c58e9a2d28f7c4907f5a8f39"
+   }
+  }
+ },
+ "randomness": {
+  "a": "default_rng(20261003): depth subsets, then 2,000 share resamples with 1167 redraws, then the 2,000 depth-interval resamples (released)"
+ },
+ "transformation": {
+  "a": "The full set of 1,247 target-role records (both roles; common-target curves in Fig. 4C): additive residual of the held-out pair against the profile of k randomly drawn training pairings of its molecule, five draws averaged (Fig4a_folds.csv, Fig4a_history_draws.csv). Explained = 1 - sum SSE_k / sum SST. Interval of R2(6) - R2(1): 2,000 resamples of the 150 array-role-molecule groups within arrays (exact resamples in FigS7_depth_interval_draws.csv); value of a resample = sum over its groups of (SSE_1 - SSE_6) / sum of SST; 2.5th and 97.5th percentiles (linear interpolation)."
+ },
+ "curve_pct": {
+  "1": 3.913001973361141,
+  "2": 6.856700196689491,
+  "3": 8.76849251919597,
+  "4": 10.337651146333293,
+  "6": 12.239684239075554
+ },
+ "difference": {
+  "value": 0.08326682265714418,
+  "ci": [
+   0.0644449010899635,
+   0.10373935436112779
+  ]
+ },
+ "agreement_with_frozen": {
+  "depth_records": 1.7763568394002505e-15
+ },
+ "outputs": {
+  "pdf": {
+   "file": "02_FIGURES/Supplementary_Figures/FigS7.pdf",
+   "sha256": "7ae76d3a1bdac103f6c8fcb46e9bd67720372cd2695fee9dfed1e68b51c69c24"
+  },
+  "svg": {
+   "file": "02_FIGURES/Supplementary_Figures/FigS7.svg",
+   "sha256": "36eb981a73c752eaa7f474bccb7e969393c7da5b8ab5fd8209a736790721063b"
+  },
+  "png": {
+   "file": "02_FIGURES/Supplementary_Figures/FigS7.png",
+   "sha256": "b400422c43baf6cf6d15be0436f9a87f0ebdac4566c04e136532bf3606ef5196"
+  },
+  "xlsx": {
+   "file": "04_SOURCE_DATA/Supplementary_Figures/FigS7_SourceData.xlsx",
+   "sha256": "72be945021b07cbbdb470b8bcfeccc9998295b1265e87ffa16500b9038ab8396"
+  },
+  "draws": {
+   "file": "04_SOURCE_DATA/Supplementary_Figures/FigS7_depth_interval_draws.csv",
+   "sha256": "c93768aabdf5b2cbd4b260b8fd2735cb4904637de3971b082eab213ae318be69"
+  },
+  "readback": {
+   "file": "08_REVIEW_AND_QC/extended_data/ed7_plot_readback.json",
+   "sha256": "4bc9068aa8137027e89cea02920c75829c2ac80534bdc42fe6d5e33f53ed09da"
+  }
+ }
+}

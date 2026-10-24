@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="510.23622pt" height="209.76378pt" viewBox="0 0 510.23622 209.76378" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 209.76378 
+L 510.23622 209.76378 
+L 510.23622 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="canvas">
+   <g id="key|owner">
+    <defs>
+     <path id="m7efd07a5f7" d="M 0 1.3 
+C 0.344764 1.3 0.675454 1.163024 0.919239 0.919239 
+C 1.163024 0.675454 1.3 0.344764 1.3 0 
+C 1.3 -0.344764 1.163024 -0.675454 0.919239 -0.919239 
+C 0.675454 -1.163024 0.344764 -1.3 0 -1.3 
+C -0.344764 -1.3 -0.675454 -1.163024 -0.919239 -0.919239 
+C -1.163024 -0.675454 -1.3 -0.344764 -1.3 0 
+C -1.3 0.344764 -1.163024 0.675454 -0.919239 0.919239 
+C -0.675454 1.163024 -0.344764 1.3 0 1.3 
+z
+"/>
+    </defs>
+    <g clip-path="url(#p5767589a16)">
+     <use xlink:href="#m7efd07a5f7" x="342.141732" y="8.220472" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="key|partner">
+    <defs>
+     <path id="mce304191a1" d="M 0 1.3 
+C 0.344764 1.3 0.675454 1.163024 0.919239 0.919239 
+C 1.163024 0.675454 1.3 0.344764 1.3 0 
+C 1.3 -0.344764 1.163024 -0.675454 0.919239 -0.919239 
+C 0.675454 -1.163024 0.344764 -1.3 0 -1.3 
+C -0.344764 -1.3 -0.675454 -1.163024 -0.919239 -0.919239 
+C -1.163024 -0.675454 -1.3 -0.344764 -1.3 0 
+C -1.3 0.344764 -1.163024 0.675454 -0.919239 0.919239 
+C -0.675454 1.163024 -0.344764 1.3 0 1.3 
+z
+"/>
+    </defs>
+    <g clip-path="url(#p5767589a16)">
+     <use xlink:href="#mce304191a1" x="404.503937" y="8.220472" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+   <g id="key_label|owner">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="345.826772" y="9.513051" transform="rotate(-0 345.826772 9.513051)">owner molecule</text>
+   </g>
+   <g id="key_label|partner">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="408.188976" y="9.513051" transform="rotate(-0 408.188976 9.513051)">partner molecule</text>
+   </g>
+   <g id="a|name|Buchwald-Hartwig|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="93.543307" y="56.569341" transform="rotate(-0 93.543307 56.569341)">C–N (Pd ligand)</text>
+   </g>
+   <g id="a|name|Buchwald-Hartwig|2">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="93.543307" y="65.073278" transform="rotate(-0 93.543307 65.073278)">C–N (Pd/Cu/Ni)</text>
+   </g>
+   <g id="a|name|C-O competitive reactions|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="93.543307" y="73.578777" transform="rotate(-0 93.543307 73.578777)">C–O (Pd/Cu)</text>
+   </g>
+   <g id="a|name|Heck|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="93.543307" y="82.081152" transform="rotate(-0 93.543307 82.081152)">Heck (solvent/base)</text>
+   </g>
+   <g id="a|name|Hiyama|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="93.543307" y="90.585089" transform="rotate(-0 93.543307 90.585089)">Hiyama (Pd)</text>
+   </g>
+   <g id="a|name|Kumada|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="93.543307" y="99.089026" transform="rotate(-0 93.543307 99.089026)">Kumada (Pd/Ni/Fe)</text>
+   </g>
+   <g id="a|name|SNAr|1">
+    <!-- S$_{\mathrm{N}}$Ar (base/solvent) -->
+    <g style="fill: #1a1a1a" transform="translate(49.543307 107.374213)">
+     <text>
+      <tspan x="0" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">S</tspan>
+      <tspan x="6.198572" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">A</tspan>
+      <tspan x="9.533533" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">r</tspan>
+      <tspan x="11.198572" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a"> </tspan>
+      <tspan x="12.587732" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">(</tspan>
+      <tspan x="14.252771" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">b</tspan>
+      <tspan x="17.033533" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">a</tspan>
+      <tspan x="19.814295" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">s</tspan>
+      <tspan x="22.314295" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">e</tspan>
+      <tspan x="25.095057" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">/</tspan>
+      <tspan x="26.484217" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">s</tspan>
+      <tspan x="28.984217" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">o</tspan>
+      <tspan x="31.764979" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">l</tspan>
+      <tspan x="32.875818" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">v</tspan>
+      <tspan x="35.375818" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">e</tspan>
+      <tspan x="38.15658" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">n</tspan>
+      <tspan x="40.937342" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">t</tspan>
+      <tspan x="42.326502" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">)</tspan>
+      <tspan x="3.422078" y="1.134062" style="font-size: 3.5px; font-family: 'Arial'; fill: #1a1a1a">N</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="a|name|Sonogashira|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="93.543307" y="116.0969" transform="rotate(-0 93.543307 116.0969)">Sonogashira (solvent/base)</text>
+   </g>
+   <g id="a|name|Suzuki|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="93.543307" y="124.600837" transform="rotate(-0 93.543307 124.600837)">Suzuki (Pd)</text>
+   </g>
+   <g id="a|name|Ullmann|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="93.543307" y="133.106336" transform="rotate(-0 93.543307 133.106336)">Ullmann C–O (Cu)</text>
+   </g>
+   <g id="a|name|Acylation|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="93.543307" y="145.546746" transform="rotate(-0 93.543307 145.546746)">Amide coupling</text>
+   </g>
+   <g id="a|name|Chan-Lam|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="93.543307" y="154.081152" transform="rotate(-0 93.543307 154.081152)">Chan–Lam (Cu)</text>
+   </g>
+   <g id="a|name|Esterification|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="93.543307" y="162.583917" transform="rotate(-0 93.543307 162.583917)">Esterification</text>
+   </g>
+   <g id="a|name|Grignard|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="93.543307" y="171.089026" transform="rotate(-0 93.543307 171.089026)">Grignard addition</text>
+   </g>
+   <g id="a|name|Reductive-amination|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="93.543307" y="179.591791" transform="rotate(-0 93.543307 179.591791)">Reductive amination</text>
+   </g>
+   <g id="a|count">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #6b7380" x="245.19685" y="45.513051" transform="rotate(-0 245.19685 45.513051)">owner shallower in 9 of 15</text>
+   </g>
+   <g id="b|name|Buchwald-Hartwig|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="354.330709" y="56.569341" transform="rotate(-0 354.330709 56.569341)">C–N (Pd ligand)</text>
+   </g>
+   <g id="b|name|Buchwald-Hartwig|2">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="354.330709" y="65.073278" transform="rotate(-0 354.330709 65.073278)">C–N (Pd/Cu/Ni)</text>
+   </g>
+   <g id="b|name|C-O competitive reactions|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="354.330709" y="73.578777" transform="rotate(-0 354.330709 73.578777)">C–O (Pd/Cu)</text>
+   </g>
+   <g id="b|name|Heck|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="354.330709" y="82.081152" transform="rotate(-0 354.330709 82.081152)">Heck (solvent/base)</text>
+   </g>
+   <g id="b|name|Hiyama|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="354.330709" y="90.585089" transform="rotate(-0 354.330709 90.585089)">Hiyama (Pd)</text>
+   </g>
+   <g id="b|name|Kumada|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="354.330709" y="99.089026" transform="rotate(-0 354.330709 99.089026)">Kumada (Pd/Ni/Fe)</text>
+   </g>
+   <g id="b|name|SNAr|1">
+    <!-- S$_{\mathrm{N}}$Ar (base/solvent) -->
+    <g style="fill: #1a1a1a" transform="translate(310.330709 107.374213)">
+     <text>
+      <tspan x="0" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">S</tspan>
+      <tspan x="6.198572" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">A</tspan>
+      <tspan x="9.533533" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">r</tspan>
+      <tspan x="11.198572" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a"> </tspan>
+      <tspan x="12.587732" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">(</tspan>
+      <tspan x="14.252771" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">b</tspan>
+      <tspan x="17.033533" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">a</tspan>
+      <tspan x="19.814295" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">s</tspan>
+      <tspan x="22.314295" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">e</tspan>
+      <tspan x="25.095057" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">/</tspan>
+      <tspan x="26.484217" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">s</tspan>
+      <tspan x="28.984217" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">o</tspan>
+      <tspan x="31.764979" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">l</tspan>
+      <tspan x="32.875818" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">v</tspan>
+      <tspan x="35.375818" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">e</tspan>
+      <tspan x="38.15658" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">n</tspan>
+      <tspan x="40.937342" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">t</tspan>
+      <tspan x="42.326502" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">)</tspan>
+      <tspan x="3.422078" y="1.134062" style="font-size: 3.5px; font-family: 'Arial'; fill: #1a1a1a">N</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="b|name|Sonogashira|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="354.330709" y="116.0969" transform="rotate(-0 354.330709 116.0969)">Sonogashira (solvent/base)</text>
+   </g>
+   <g id="b|name|Suzuki|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="354.330709" y="124.600837" transform="rotate(-0 354.330709 124.600837)">Suzuki (Pd)</text>
+   </g>
+   <g id="b|name|Ullmann|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="354.330709" y="133.106336" transform="rotate(-0 354.330709 133.106336)">Ullmann C–O (Cu)</text>
+   </g>
+   <g id="b|name|Acylation|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="354.330709" y="145.546746" transform="rotate(-0 354.330709 145.546746)">Amide coupling</text>
+   </g>
+   <g id="b|name|Chan-Lam|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="354.330709" y="154.081152" transform="rotate(-0 354.330709 154.081152)">Chan–Lam (Cu)</text>
+   </g>
+   <g id="b|name|Esterification|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="354.330709" y="162.583917" transform="rotate(-0 354.330709 162.583917)">Esterification</text>
+   </g>
+   <g id="b|name|Grignard|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="354.330709" y="171.089026" transform="rotate(-0 354.330709 171.089026)">Grignard addition</text>
+   </g>
+   <g id="b|name|Reductive-amination|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="354.330709" y="179.591791" transform="rotate(-0 354.330709 179.591791)">Reductive amination</text>
+   </g>
+   <g id="b|count">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #6b7380" x="505.984252" y="45.513051" transform="rotate(-0 505.984252 45.513051)">owner shallower in 7 of 15</text>
+   </g>
+  </g>
+  <g id="axes|a">
+   <g id="a|link|Buchwald-Hartwig|1">
+    <path d="M 157.917013 55.275591 
+L 131.054109 55.275591 
+" clip-path="url(#p371af8d595)" style="fill: none; stroke: #b9bec5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="a|link|Buchwald-Hartwig|2">
+    <path d="M 123.829839 63.779528 
+L 111.195419 63.779528 
+" clip-path="url(#p371af8d595)" style="fill: none; stroke: #b9bec5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="a|link|C-O competitive reactions|1">
+    <path d="M 139.067717 72.283465 
+L 117.589201 72.283465 
+" clip-path="url(#p371af8d595)" style="fill: none; stroke: #b9bec5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="a|link|Heck|1">
+    <path d="M 122.507228 80.787402 
+L 179.936413 80.787402 
+" clip-path="url(#p371af8d595)" style="fill: none; stroke: #b9bec5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="a|link|Hiyama|1">
+    <path d="M 123.405588 89.291339 
+L 126.535737 89.291339 
+" clip-path="url(#p371af8d595)" style="fill: none; stroke: #b9bec5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="a|link|Kumada|1">
+    <path d="M 126.373132 97.795276 
+L 196.73148 97.795276 
+" clip-path="url(#p371af8d595)" style="fill: none; stroke: #b9bec5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="a|link|SNAr|1">
+    <path d="M 159.120242 106.299213 
+L 224.970694 106.299213 
+" clip-path="url(#p371af8d595)" style="fill: none; stroke: #b9bec5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="a|link|Sonogashira|1">
+    <path d="M 116.648965 114.80315 
+L 150.438695 114.80315 
+" clip-path="url(#p371af8d595)" style="fill: none; stroke: #b9bec5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="a|link|Suzuki|1">
+    <path d="M 145.739944 123.307087 
+L 214.916007 123.307087 
+" clip-path="url(#p371af8d595)" style="fill: none; stroke: #b9bec5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="a|link|Ullmann|1">
+    <path d="M 119.625391 131.811024 
+L 136.625835 131.811024 
+" clip-path="url(#p371af8d595)" style="fill: none; stroke: #b9bec5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="a|link|Acylation|1">
+    <path d="M 222.1253 144.283465 
+L 226.812853 144.283465 
+" clip-path="url(#p371af8d595)" style="fill: none; stroke: #b9bec5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="a|link|Chan-Lam|1">
+    <path d="M 132.890889 152.787402 
+L 122.362205 152.787402 
+" clip-path="url(#p371af8d595)" style="fill: none; stroke: #b9bec5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="a|link|Esterification|1">
+    <path d="M 138.225422 161.291339 
+L 114.220022 161.291339 
+" clip-path="url(#p371af8d595)" style="fill: none; stroke: #b9bec5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="a|link|Grignard|1">
+    <path d="M 117.154469 169.795276 
+L 143.645996 169.795276 
+" clip-path="url(#p371af8d595)" style="fill: none; stroke: #b9bec5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="a|link|Reductive-amination|1">
+    <path d="M 136.928437 178.299213 
+L 126.120231 178.299213 
+" clip-path="url(#p371af8d595)" style="fill: none; stroke: #b9bec5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="me3886f0f52" d="M 0 0 
+L 0 2 
+" style="stroke: #1a1a1a; stroke-width: 0.5"/>
+      </defs>
+      <g>
+       <use xlink:href="#me3886f0f52" x="97.795276" y="187.937008" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 5.5px; font-family: 'Arial', sans-serif; text-anchor: middle; fill: #1a1a1a" x="97.795276" y="197.373805" transform="rotate(-0 97.795276 197.373805)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#me3886f0f52" x="150.438695" y="187.937008" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 5.5px; font-family: 'Arial', sans-serif; text-anchor: middle; fill: #1a1a1a" x="150.438695" y="197.373805" transform="rotate(-0 150.438695 197.373805)">5</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#me3886f0f52" x="203.082115" y="187.937008" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 5.5px; font-family: 'Arial', sans-serif; text-anchor: middle; fill: #1a1a1a" x="203.082115" y="197.373805" transform="rotate(-0 203.082115 197.373805)">10</text>
+     </g>
+    </g>
+    <g id="text_4">
+     <text style="font-size: 6px; font-family: 'Arial', sans-serif; text-anchor: middle; fill: #1a1a1a" x="171.496063" y="204.334742" transform="rotate(-0 171.496063 204.334742)">Mean number of other partners</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2"/>
+   <g id="patch_2">
+    <path d="M 97.795276 187.937008 
+L 245.19685 187.937008 
+" style="fill: none; stroke: #1a1a1a; stroke-width: 0.5; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="a|owner|Buchwald-Hartwig|1">
+    <g clip-path="url(#p371af8d595)">
+     <use xlink:href="#m7efd07a5f7" x="157.917013" y="55.275591" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="a|partner|Buchwald-Hartwig|1">
+    <g clip-path="url(#p371af8d595)">
+     <use xlink:href="#mce304191a1" x="131.054109" y="55.275591" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+   <g id="a|owner|Buchwald-Hartwig|2">
+    <g clip-path="url(#p371af8d595)">
+     <use xlink:href="#m7efd07a5f7" x="123.829839" y="63.779528" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="a|partner|Buchwald-Hartwig|2">
+    <g clip-path="url(#p371af8d595)">
+     <use xlink:href="#mce304191a1" x="111.195419" y="63.779528" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+   <g id="a|owner|C-O competitive reactions|1">
+    <g clip-path="url(#p371af8d595)">
+     <use xlink:href="#m7efd07a5f7" x="139.067717" y="72.283465" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="a|partner|C-O competitive reactions|1">
+    <g clip-path="url(#p371af8d595)">
+     <use xlink:href="#mce304191a1" x="117.589201" y="72.283465" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+   <g id="a|owner|Heck|1">
+    <g clip-path="url(#p371af8d595)">
+     <use xlink:href="#m7efd07a5f7" x="122.507228" y="80.787402" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="a|partner|Heck|1">
+    <g clip-path="url(#p371af8d595)">
+     <use xlink:href="#mce304191a1" x="179.936413" y="80.787402" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+   <g id="a|owner|Hiyama|1">
+    <g clip-path="url(#p371af8d595)">
+     <use xlink:href="#m7efd07a5f7" x="123.405588" y="89.291339" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="a|partner|Hiyama|1">
+    <g clip-path="url(#p371af8d595)">
+     <use xlink:href="#mce304191a1" x="126.535737" y="89.291339" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+   <g id="a|owner|Kumada|1">
+    <g clip-path="url(#p371af8d595)">
+     <use xlink:href="#m7efd07a5f7" x="126.373132" y="97.795276" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="a|partner|Kumada|1">
+    <g clip-path="url(#p371af8d595)">
+     <use xlink:href="#mce304191a1" x="196.73148" y="97.795276" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+   <g id="a|owner|SNAr|1">
+    <g clip-path="url(#p371af8d595)">
+     <use xlink:href="#m7efd07a5f7" x="159.120242" y="106.299213" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="a|partner|SNAr|1">
+    <g clip-path="url(#p371af8d595)">
+     <use xlink:href="#mce304191a1" x="224.970694" y="106.299213" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+   <g id="a|owner|Sonogashira|1">
+    <g clip-path="url(#p371af8d595)">
+     <use xlink:href="#m7efd07a5f7" x="116.648965" y="114.80315" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="a|partner|Sonogashira|1">
+    <g clip-path="url(#p371af8d595)">
+     <use xlink:href="#mce304191a1" x="150.438695" y="114.80315" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+   <g id="a|owner|Suzuki|1">
+    <g clip-path="url(#p371af8d595)">
+     <use xlink:href="#m7efd07a5f7" x="145.739944" y="123.307087" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="a|partner|Suzuki|1">
+    <g clip-path="url(#p371af8d595)">
+     <use xlink:href="#mce304191a1" x="214.916007" y="123.307087" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+   <g id="a|owner|Ullmann|1">
+    <g clip-path="url(#p371af8d595)">
+     <use xlink:href="#m7efd07a5f7" x="119.625391" y="131.811024" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="a|partner|Ullmann|1">
+    <g clip-path="url(#p371af8d595)">
+     <use xlink:href="#mce304191a1" x="136.625835" y="131.811024" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+   <g id="a|owner|Acylation|1">
+    <g clip-path="url(#p371af8d595)">
+     <use xlink:href="#m7efd07a5f7" x="222.1253" y="144.283465" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="a|partner|Acylation|1">
+    <g clip-path="url(#p371af8d595)">
+     <use xlink:href="#mce304191a1" x="226.812853" y="144.283465" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+   <g id="a|owner|Chan-Lam|1">
+    <g clip-path="url(#p371af8d595)">
+     <use xlink:href="#m7efd07a5f7" x="132.890889" y="152.787402" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="a|partner|Chan-Lam|1">
+    <g clip-path="url(#p371af8d595)">
+     <use xlink:href="#mce304191a1" x="122.362205" y="152.787402" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+   <g id="a|owner|Esterification|1">
+    <g clip-path="url(#p371af8d595)">
+     <use xlink:href="#m7efd07a5f7" x="138.225422" y="161.291339" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="a|partner|Esterification|1">
+    <g clip-path="url(#p371af8d595)">
+     <use xlink:href="#mce304191a1" x="114.220022" y="161.291339" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+   <g id="a|owner|Grignard|1">
+    <g clip-path="url(#p371af8d595)">
+     <use xlink:href="#m7efd07a5f7" x="117.154469" y="169.795276" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="a|partner|Grignard|1">
+    <g clip-path="url(#p371af8d595)">
+     <use xlink:href="#mce304191a1" x="143.645996" y="169.795276" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+   <g id="a|owner|Reductive-amination|1">
+    <g clip-path="url(#p371af8d595)">
+     <use xlink:href="#m7efd07a5f7" x="136.928437" y="178.299213" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="a|partner|Reductive-amination|1">
+    <g clip-path="url(#p371af8d595)">
+     <use xlink:href="#mce304191a1" x="126.120231" y="178.299213" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+  </g>
+  <g id="axes|b">
+   <g id="b|link|Buchwald-Hartwig|1">
+    <path d="M 412.193597 55.275591 
+L 394.550938 55.275591 
+" clip-path="url(#p8099fb4969)" style="fill: none; stroke: #b9bec5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="b|link|Buchwald-Hartwig|2">
+    <path d="M 384.094488 63.779528 
+L 371.541057 63.779528 
+" clip-path="url(#p8099fb4969)" style="fill: none; stroke: #b9bec5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="b|link|C-O competitive reactions|1">
+    <path d="M 391.046119 72.283465 
+L 366.47919 72.283465 
+" clip-path="url(#p8099fb4969)" style="fill: none; stroke: #b9bec5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="b|link|Heck|1">
+    <path d="M 378.693646 80.787402 
+L 416.549589 80.787402 
+" clip-path="url(#p8099fb4969)" style="fill: none; stroke: #b9bec5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="b|link|Hiyama|1">
+    <path d="M 364.899888 89.291339 
+L 385.957255 89.291339 
+" clip-path="url(#p8099fb4969)" style="fill: none; stroke: #b9bec5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="b|link|Kumada|1">
+    <path d="M 385.71846 97.795276 
+L 453.232289 97.795276 
+" clip-path="url(#p8099fb4969)" style="fill: none; stroke: #b9bec5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="b|link|SNAr|1">
+    <path d="M 374.098632 106.299213 
+L 386.843881 106.299213 
+" clip-path="url(#p8099fb4969)" style="fill: none; stroke: #b9bec5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="b|link|Sonogashira|1">
+    <path d="M 377.198611 114.80315 
+L 397.64562 114.80315 
+" clip-path="url(#p8099fb4969)" style="fill: none; stroke: #b9bec5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="b|link|Suzuki|1">
+    <path d="M 404.424381 123.307087 
+L 476.075336 123.307087 
+" clip-path="url(#p8099fb4969)" style="fill: none; stroke: #b9bec5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="b|link|Ullmann|1">
+    <path d="M 380.675653 131.811024 
+L 377.223626 131.811024 
+" clip-path="url(#p8099fb4969)" style="fill: none; stroke: #b9bec5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="b|link|Acylation|1">
+    <path d="M 484.408017 144.283465 
+L 470.225642 144.283465 
+" clip-path="url(#p8099fb4969)" style="fill: none; stroke: #b9bec5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="b|link|Chan-Lam|1">
+    <path d="M 377.072073 152.787402 
+L 368.854564 152.787402 
+" clip-path="url(#p8099fb4969)" style="fill: none; stroke: #b9bec5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="b|link|Esterification|1">
+    <path d="M 398.129441 161.291339 
+L 369.881753 161.291339 
+" clip-path="url(#p8099fb4969)" style="fill: none; stroke: #b9bec5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="b|link|Grignard|1">
+    <path d="M 375.772365 169.795276 
+L 405.854319 169.795276 
+" clip-path="url(#p8099fb4969)" style="fill: none; stroke: #b9bec5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="b|link|Reductive-amination|1">
+    <path d="M 382.79865 178.299213 
+L 381.745782 178.299213 
+" clip-path="url(#p8099fb4969)" style="fill: none; stroke: #b9bec5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#me3886f0f52" x="358.582677" y="187.937008" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 5.5px; font-family: 'Arial', sans-serif; text-anchor: middle; fill: #1a1a1a" x="358.582677" y="197.373805" transform="rotate(-0 358.582677 197.373805)">0</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#me3886f0f52" x="411.226097" y="187.937008" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 5.5px; font-family: 'Arial', sans-serif; text-anchor: middle; fill: #1a1a1a" x="411.226097" y="197.373805" transform="rotate(-0 411.226097 197.373805)">5</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#me3886f0f52" x="463.869516" y="187.937008" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 5.5px; font-family: 'Arial', sans-serif; text-anchor: middle; fill: #1a1a1a" x="463.869516" y="197.373805" transform="rotate(-0 463.869516 197.373805)">10</text>
+     </g>
+    </g>
+    <g id="text_8">
+     <text style="font-size: 6px; font-family: 'Arial', sans-serif; text-anchor: middle; fill: #1a1a1a" x="432.283465" y="204.334742" transform="rotate(-0 432.283465 204.334742)">Mean number of other product-forming partners</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4"/>
+   <g id="patch_3">
+    <path d="M 358.582677 187.937008 
+L 505.984252 187.937008 
+" style="fill: none; stroke: #1a1a1a; stroke-width: 0.5; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="b|owner|Buchwald-Hartwig|1">
+    <g clip-path="url(#p8099fb4969)">
+     <use xlink:href="#m7efd07a5f7" x="412.193597" y="55.275591" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="b|partner|Buchwald-Hartwig|1">
+    <g clip-path="url(#p8099fb4969)">
+     <use xlink:href="#mce304191a1" x="394.550938" y="55.275591" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+   <g id="b|owner|Buchwald-Hartwig|2">
+    <g clip-path="url(#p8099fb4969)">
+     <use xlink:href="#m7efd07a5f7" x="384.094488" y="63.779528" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="b|partner|Buchwald-Hartwig|2">
+    <g clip-path="url(#p8099fb4969)">
+     <use xlink:href="#mce304191a1" x="371.541057" y="63.779528" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+   <g id="b|owner|C-O competitive reactions|1">
+    <g clip-path="url(#p8099fb4969)">
+     <use xlink:href="#m7efd07a5f7" x="391.046119" y="72.283465" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="b|partner|C-O competitive reactions|1">
+    <g clip-path="url(#p8099fb4969)">
+     <use xlink:href="#mce304191a1" x="366.47919" y="72.283465" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+   <g id="b|owner|Heck|1">
+    <g clip-path="url(#p8099fb4969)">
+     <use xlink:href="#m7efd07a5f7" x="378.693646" y="80.787402" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="b|partner|Heck|1">
+    <g clip-path="url(#p8099fb4969)">
+     <use xlink:href="#mce304191a1" x="416.549589" y="80.787402" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+   <g id="b|owner|Hiyama|1">
+    <g clip-path="url(#p8099fb4969)">
+     <use xlink:href="#m7efd07a5f7" x="364.899888" y="89.291339" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="b|partner|Hiyama|1">
+    <g clip-path="url(#p8099fb4969)">
+     <use xlink:href="#mce304191a1" x="385.957255" y="89.291339" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+   <g id="b|owner|Kumada|1">
+    <g clip-path="url(#p8099fb4969)">
+     <use xlink:href="#m7efd07a5f7" x="385.71846" y="97.795276" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="b|partner|Kumada|1">
+    <g clip-path="url(#p8099fb4969)">
+     <use xlink:href="#mce304191a1" x="453.232289" y="97.795276" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+   <g id="b|owner|SNAr|1">
+    <g clip-path="url(#p8099fb4969)">
+     <use xlink:href="#m7efd07a5f7" x="374.098632" y="106.299213" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="b|partner|SNAr|1">
+    <g clip-path="url(#p8099fb4969)">
+     <use xlink:href="#mce304191a1" x="386.843881" y="106.299213" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+   <g id="b|owner|Sonogashira|1">
+    <g clip-path="url(#p8099fb4969)">
+     <use xlink:href="#m7efd07a5f7" x="377.198611" y="114.80315" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="b|partner|Sonogashira|1">
+    <g clip-path="url(#p8099fb4969)">
+     <use xlink:href="#mce304191a1" x="397.64562" y="114.80315" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+   <g id="b|owner|Suzuki|1">
+    <g clip-path="url(#p8099fb4969)">
+     <use xlink:href="#m7efd07a5f7" x="404.424381" y="123.307087" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="b|partner|Suzuki|1">
+    <g clip-path="url(#p8099fb4969)">
+     <use xlink:href="#mce304191a1" x="476.075336" y="123.307087" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+   <g id="b|owner|Ullmann|1">
+    <g clip-path="url(#p8099fb4969)">
+     <use xlink:href="#m7efd07a5f7" x="380.675653" y="131.811024" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="b|partner|Ullmann|1">
+    <g clip-path="url(#p8099fb4969)">
+     <use xlink:href="#mce304191a1" x="377.223626" y="131.811024" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+   <g id="b|owner|Acylation|1">
+    <g clip-path="url(#p8099fb4969)">
+     <use xlink:href="#m7efd07a5f7" x="484.408017" y="144.283465" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="b|partner|Acylation|1">
+    <g clip-path="url(#p8099fb4969)">
+     <use xlink:href="#mce304191a1" x="470.225642" y="144.283465" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+   <g id="b|owner|Chan-Lam|1">
+    <g clip-path="url(#p8099fb4969)">
+     <use xlink:href="#m7efd07a5f7" x="377.072073" y="152.787402" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="b|partner|Chan-Lam|1">
+    <g clip-path="url(#p8099fb4969)">
+     <use xlink:href="#mce304191a1" x="368.854564" y="152.787402" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+   <g id="b|owner|Esterification|1">
+    <g clip-path="url(#p8099fb4969)">
+     <use xlink:href="#m7efd07a5f7" x="398.129441" y="161.291339" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="b|partner|Esterification|1">
+    <g clip-path="url(#p8099fb4969)">
+     <use xlink:href="#mce304191a1" x="369.881753" y="161.291339" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+   <g id="b|owner|Grignard|1">
+    <g clip-path="url(#p8099fb4969)">
+     <use xlink:href="#m7efd07a5f7" x="375.772365" y="169.795276" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="b|partner|Grignard|1">
+    <g clip-path="url(#p8099fb4969)">
+     <use xlink:href="#mce304191a1" x="405.854319" y="169.795276" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+   <g id="b|owner|Reductive-amination|1">
+    <g clip-path="url(#p8099fb4969)">
+     <use xlink:href="#m7efd07a5f7" x="382.79865" y="178.299213" style="fill: #1f3b5a"/>
+    </g>
+   </g>
+   <g id="b|partner|Reductive-amination|1">
+    <g clip-path="url(#p8099fb4969)">
+     <use xlink:href="#mce304191a1" x="381.745782" y="178.299213" style="fill: #a3b6ca"/>
+    </g>
+   </g>
+  </g>
+  <g id="title|main">
+   <text style="font-size: 6.5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="0.425197" y="6.432584" transform="rotate(-0 0.425197 6.432584)">Partner molecules often have the deeper history</text>
+  </g>
+  <g id="letter|a">
+   <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="1.417323" y="25.56877" transform="rotate(-0 1.417323 25.56877)">A</text>
+  </g>
+  <g id="title|a">
+   <text style="font-size: 6.5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="11.905512" y="25.487224" transform="rotate(-0 11.905512 25.487224)">All pairs</text>
+  </g>
+  <g id="letter|b">
+   <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="260.787402" y="25.56877" transform="rotate(-0 260.787402 25.56877)">B</text>
+  </g>
+  <g id="title|b">
+   <text style="font-size: 6.5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="272.692913" y="25.566443" transform="rotate(-0 272.692913 25.566443)">Product-forming pairs</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p5767589a16">
+   <rect x="0" y="0" width="510.23622" height="209.76378"/>
+  </clipPath>
+  <clipPath id="p371af8d595">
+   <rect x="97.795276" y="51.023622" width="147.401575" height="136.913386"/>
+  </clipPath>
+  <clipPath id="p8099fb4969">
+   <rect x="358.582677" y="51.023622" width="147.401575" height="136.913386"/>
+  </clipPath>
+ </defs>
+</svg>

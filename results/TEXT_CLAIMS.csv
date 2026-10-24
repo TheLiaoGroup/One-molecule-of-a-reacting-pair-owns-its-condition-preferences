@@ -1,0 +1,12 @@
+claim_id,section,statement
+T01,Methods,"The fifteen screens hold 177,039 numeric yield measurements of 2,207 substrate pairs built from 794 distinct molecular structures, 97.9% of the 180,879 cells of their pair-by-condition grids."
+T02,Methods,"A further 378 designed cells have no yield (product detected but not quantifiable, 90; no screen record, 288), and 74 measurements are the second copy of one duplicated Hiyama condition"
+T03,Methods,These records include 90 that carry an inherited quality-check flag
+T04,Methods,"Over 74 substrate pairs the two copies correlate at r = 0.95 on raw yield; on the slope-adjusted condition pattern their agreement, the mean product of the two copies divided by their mean square, is 0.67 (Pearson r = 0.72)"
+T05,Methods,"The release contains 244,179 numeric yield measurements: 177,039 from the fifteen screens, 74 from the second copy of the duplicated Hiyama condition (Supplementary Note 2), 36,499 from the 420 Set A pairs that enter the record-transfer test, the three-condition decision or the ownership estimate, and 30,567 from the 535 Set B pairs (Supplementary Note 10)."
+T06,Methods,Every well of these units is listed with its measurement status: quantified (a numeric yield); zero by rule (the screen found no product and the well was not chromatographed; yield 0); product detected but not quantified (the product peak overlapped another peak or the internal standard integrated abnormally; no yield); or no screen record (no yield).
+T07,Methods,"The 1,192 conditions named by these records are given with their full recorded compositions, and the 401 reagent entries referenced in their reagent slots with their identities; solvent identities are provided directly in the condition table."
+T08,Methods,"It also lists all 442 pairs, without yields, with the eligibility of each."
+T09,Data availability,"Of the released measurements, 42,671 also occur in the amide-coupling collection of Zhang *et al.* (33), and parts also appear in other public releases of the same corpus by our group."
+T12,Methods,| Excluding documented prior pair-level scoring | 411 | 0.098 | 0.061 to 0.134 | 0.079 to 0.110 | 11/13 |
+T13,Methods,"In Set B, 124 of the 535 pairs (4,917 measurements) had prior pair-level scoring, 84 with single-role losses; table S3 compares the full set with these two parts."

@@ -1,0 +1,25 @@
+{
+ "rule_sha256": "ac6798ca823c7b00f359c611f77619157330eae4884ddb87adba4402f83ab2ae",
+ "arrays": 15,
+ "median_gap_pp": 17.437253441176473,
+ "median_gap_pp_1dp": 17.4,
+ "min_gap_pp": 2.8469968493150684,
+ "max_gap_pp": 34.28542711718733,
+ "per_array_gap_pp": {
+  "Acylation|1": 14.35488028324443,
+  "Buchwald-Hartwig|1": 23.44953105836212,
+  "Buchwald-Hartwig|2": 34.28542711718733,
+  "C-O competitive reactions|1": 9.953922478457526,
+  "Chan-Lam|1": 7.2488875603960405,
+  "Esterification|1": 25.052286099773234,
+  "Grignard|1": 18.988951384074515,
+  "Heck|1": 17.437253441176473,
+  "Hiyama|1": 2.8469968493150684,
+  "Kumada|1": 26.64137079183673,
+  "Reductive-amination|1": 10.99289043893634,
+  "SNAr|1": 2.9215825777777775,
+  "Sonogashira|1": 23.344649227282453,
+  "Suzuki|1": 25.317135314074086,
+  "Ullmann|1": 15.283653775188256
+ }
+}

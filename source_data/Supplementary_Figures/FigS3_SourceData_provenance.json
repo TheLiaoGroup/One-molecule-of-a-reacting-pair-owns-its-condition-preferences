@@ -1,0 +1,78 @@
+{
+ "figure": "Fig. S3 | No single molecule decides an owner",
+ "generated_by": "06_CODE/Figures/ed03.py",
+ "inputs": {
+  "A1": {
+   "file": "05_DATA/Release/00_RAW_IMMUTABLE/DATASET_analysis.csv.gz",
+   "sha256": "98e6da9f16a4adebba15ed84f49635741c38e80a15cf0fffb40d94e63f6bbbff",
+   "rows": 177039
+  },
+  "DC1": {
+   "file": "05_DATA/Analysis/directional_cohorts/DESIGN_COUNTS.csv",
+   "sha256": "707ec422fd493e7a95653d08b57536f9b76e036ea3938509996e11e98b647187"
+  },
+  "owner_roles": {
+   "file": "05_DATA/Results/display_inputs/Anatomy_arrays.csv",
+   "sha256": "cfe3de1982d721c37241e3da95f670f3f9faa98bc73e709c9a7590878466ee1e"
+  },
+  "frozen": {
+   "phase1_T.csv": {
+    "file": "05_DATA/Results/directional/phase1_T.csv",
+    "sha256": "fb2842fc145d4efc307408e7db1d393d875aa591c9956c7c04dbc0735c2bde88"
+   },
+   "phase1_lomo.csv": {
+    "file": "05_DATA/Results/directional/phase1_lomo.csv",
+    "sha256": "132ff35598b4dd6079e8bfd3a9cb643fc838bee5f57bd843ab7c8dffec8cc77c"
+   },
+   "phase1_check.csv": {
+    "file": "05_DATA/Results/directional/phase1_check.csv",
+    "sha256": "dc9c4866c8d02b4a58ff3b09e95f0025923b21cfc471f4916e1e29cc2094e0c6"
+   },
+   "phase1_summary.json": {
+    "file": "05_DATA/Results/directional/phase1_summary.json",
+    "sha256": "8cc43fd0d76195369779e2fd8c6c043fa8cd5a5962b2695ff537e593c44c194e"
+   }
+  }
+ },
+ "randomness": "b only: default_rng(20261004) after the four earlier Phase 1 intervals (23 x 10,000, 19 x 10,000, 19 x 10,000 and 4 x 10,000, 8 x 10,000 integers); its 29 x 10,000 draws are released",
+ "transformation": {
+  "T": "T of a molecule in one role of one array: mean product of the condition patterns (residual after an intercept and slope on the condition means, product-forming pairs) over its ordered pairs of pairs sharing a condition, divided by the array's mean pattern variance.",
+  "a": "T over all owner contexts of the 38 molecules with at least two owner contexts and no non-owner context among arrays with a clear owner (DC1), and over all non-owner contexts of the 15 molecules with at least two non-owner contexts and no owner context.",
+  "b": "The 29 molecules of the G1 and G1_all_only sets of DC1, all arrays: D = mean T as owner - mean T as non-owner. Interval: 10,000 resamples of the 29 molecules with default_rng(20261004) after the four earlier Phase 1 intervals (the exact resamples are in FigS3_all_context_draws.csv); 2.5th and 97.5th percentiles of the mean.",
+  "c": "For each of the 23 molecules of Fig. 3B and each array of its contexts, every pair containing it is removed and both role shares refitted; margin = owner share - partner share after the refit (owner as in Fig. 2A).",
+  "d": "Recombined share of a role = sum over its molecules of n x T / sum of n, n = ordered pairs of pairs; published = Fig. 2A."
+ },
+ "all_context": {
+  "mean": 0.15989797377292567,
+  "ci": [
+   0.08212808260499461,
+   0.24262404531544426
+  ]
+ },
+ "outputs": {
+  "pdf": {
+   "file": "02_FIGURES/Supplementary_Figures/FigS3.pdf",
+   "sha256": "72cd5c8a45f5692ce01ac781d9afd2de2cf14beb2b7fee9828fe53514e1e7f16"
+  },
+  "svg": {
+   "file": "02_FIGURES/Supplementary_Figures/FigS3.svg",
+   "sha256": "588a6873ba300dba40e4fcda20df61e2e00279d5ea76896b57761bbfbcafeada"
+  },
+  "png": {
+   "file": "02_FIGURES/Supplementary_Figures/FigS3.png",
+   "sha256": "720d59d6f97a48643c48a21a1f25d95901a2033e3a94ae3ab8b4b652ece55018"
+  },
+  "xlsx": {
+   "file": "04_SOURCE_DATA/Supplementary_Figures/FigS3_SourceData.xlsx",
+   "sha256": "4a20e55f4e5c579bc72c8fbc56acab54e533acbe677649863c7998b1e8042368"
+  },
+  "draws": {
+   "file": "04_SOURCE_DATA/Supplementary_Figures/FigS3_all_context_draws.csv",
+   "sha256": "1d61c69b4d7132d74d95fc08943b09b1e8528b53b3dd7486ece6be8c56111dab"
+  },
+  "readback": {
+   "file": "08_REVIEW_AND_QC/extended_data/ed3_plot_readback.json",
+   "sha256": "86826a470cc1e3fbba9ee87bf4dff92e887cb607c2a7d1c5f8cc63c4ad947798"
+  }
+ }
+}

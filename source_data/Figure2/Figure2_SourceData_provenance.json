@@ -1,0 +1,140 @@
+{
+ "figure": "Figure 2",
+ "generated_by": "06_CODE/Figures/figure2.py",
+ "inputs": {
+  "files": {
+   "02_FIGURES/ChemDraw/Fig2_B_halide.svg": {
+    "file": "02_FIGURES/ChemDraw/Fig2_B_halide.svg",
+    "sha256": "12605163ec0c3834b059970e5854742fbdcb4f8692842110fb1aab262ab941e2"
+   },
+   "02_FIGURES/ChemDraw/Fig2_B_nucleophile.svg": {
+    "file": "02_FIGURES/ChemDraw/Fig2_B_nucleophile.svg",
+    "sha256": "6b00c70c4cd86576071408d9d7cc89d9fa78dbf6b53f65626d3a2170d25a894d"
+   },
+   "02_FIGURES/ChemDraw/Fig2_B_product.svg": {
+    "file": "02_FIGURES/ChemDraw/Fig2_B_product.svg",
+    "sha256": "bb6bd55c127994c689539426de8e5e259b1ec2543715d12fc2d9c84f64883de3"
+   },
+   "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner01.svg": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner01.svg",
+    "sha256": "56d91edc5ed0cc919308cf2b14d4d5bf4147f0699018ee9f428335d18d3f9883"
+   },
+   "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner02.svg": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner02.svg",
+    "sha256": "95c7dfd7f32e990c7773f623f0280cdefa189c92825e68b834ff8e02ad4ed741"
+   },
+   "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner03.svg": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner03.svg",
+    "sha256": "af94114bc906da36846f8527eb997c11a3327b56dcf8fa22b275aff6af65e408"
+   },
+   "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner04.svg": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner04.svg",
+    "sha256": "5011c879ba124d3815d8dda21f97fc1be75cb13f7a0bfc8931068753fff8f41b"
+   },
+   "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner05.svg": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner05.svg",
+    "sha256": "e49a122923460a8069fdd10c9244c7b2adc2270892f5e3f0f8340f64aa9f950a"
+   },
+   "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner06.svg": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner06.svg",
+    "sha256": "c9e0eac6363d3a207da61407d2d1c209d67ec6ed45f994c95c74922bf5d9a7c2"
+   },
+   "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner07.svg": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner07.svg",
+    "sha256": "6ab03e58af6fe489ab10f3bc0055eb60e3154008276b1152fe1f74eb99fab5f4"
+   },
+   "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner08.svg": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner08.svg",
+    "sha256": "3aa34ab00c6af70ff357ee71a00addcea61a2d28a6032722cd9fe41ccab878e1"
+   },
+   "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner09.svg": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner09.svg",
+    "sha256": "39d58c10a73c68a49ca674ad9b40e9e136974d720f8510b0c6a0756fb9573b73"
+   },
+   "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner10.svg": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner10.svg",
+    "sha256": "af94114bc906da36846f8527eb997c11a3327b56dcf8fa22b275aff6af65e408"
+   },
+   "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner11.svg": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner11.svg",
+    "sha256": "31ae26f4b921367e213e4877a409c21e8b83cb716cbde4693c79657dac1f5017"
+   },
+   "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner12.svg": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner12.svg",
+    "sha256": "0b091431239b79c7f7ce56257e31b77ccb0e2d4e19138dad356b216c529acdd9"
+   },
+   "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner13.svg": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner13.svg",
+    "sha256": "60ab4fe6995caeba2ef92a26dc0e4967c85d91c9cbfc7b90e7ad15160309e976"
+   },
+   "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner14.svg": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner14.svg",
+    "sha256": "7540980764541a4e831907af4459f1f1c8440aca145efecbf9ea05f62d6aa19a"
+   },
+   "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner15.svg": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner15.svg",
+    "sha256": "f9873c06e6bed65f047935719b8034a38c5524a7cbd6485473c1e603b50eb175"
+   },
+   "05_DATA/Analysis/figure_display/v5_reference_tables/MANIFEST.json": {
+    "file": "05_DATA/Analysis/figure_display/v5_reference_tables/MANIFEST.json",
+    "sha256": "e5d3baa73d123bbb89d85b287026ffa9c482f826174ff31bba42ca6780470717"
+   },
+   "05_DATA/Analysis/figure_display/v5_reference_tables/screen_shares.xlsx": {
+    "file": "05_DATA/Analysis/figure_display/v5_reference_tables/screen_shares.xlsx",
+    "sha256": "845ccfab160c0c68a8089108fc70a2bb817db99edceb9b1fe80f3b611c5e7d3a"
+   },
+   "05_DATA/Release/00_RAW_IMMUTABLE/DATASET_analysis.csv.gz": {
+    "file": "05_DATA/Release/00_RAW_IMMUTABLE/DATASET_analysis.csv.gz",
+    "sha256": "98e6da9f16a4adebba15ed84f49635741c38e80a15cf0fffb40d94e63f6bbbff"
+   },
+   "05_DATA/Results/display_inputs/Anatomy_arrays.csv": {
+    "file": "05_DATA/Results/display_inputs/Anatomy_arrays.csv",
+    "sha256": "cfe3de1982d721c37241e3da95f670f3f9faa98bc73e709c9a7590878466ee1e"
+   },
+   "05_DATA/Results/primary/history_roles.csv": {
+    "file": "05_DATA/Results/primary/history_roles.csv",
+    "sha256": "fd26f8d49867f1b1935cdac5a9de91dac6a37970068ec9e7869a76c61a10bac1"
+   },
+   "07_METHODS_AND_PROVENANCE/frozen_analysis_plans/figure_selection_v3/RULE.md": {
+    "file": "07_METHODS_AND_PROVENANCE/frozen_analysis_plans/figure_selection_v3/RULE.md",
+    "sha256": "1eef02cbdb55db159135883820e4a83e353e7da0f057a2fd258f96082143c02d"
+   }
+  }
+ },
+ "outputs": {
+  "svg": {
+   "file": "02_FIGURES/Main/Figure2.svg",
+   "sha256": "80201d902b3b454ce4fa5afb738b516372515eeb1832fc6db59104457524a977"
+  },
+  "pdf": {
+   "file": "02_FIGURES/Main/Figure2.pdf",
+   "sha256": "1039a6106b264c6142597c0f5d608c0001e177b241a20058f602617cd4c18c09"
+  },
+  "png": {
+   "file": "02_FIGURES/Main/Figure2.png",
+   "sha256": "b9b647970a7f6b38788e106277ec0e9ceabd5f14c83d1a9864157064eff07bdf"
+  },
+  "xlsx": {
+   "file": "04_SOURCE_DATA/Figure2/Figure2_SourceData.xlsx",
+   "sha256": "dd9a1b098b75595628836f5dc86bb103292be2274f526b8d233cc48badaae05a"
+  },
+  "readback": {
+   "file": "04_SOURCE_DATA/Figure2/Figure2_readback.json",
+   "sha256": "3994c43ef6bf82b2d9fc95201c34fa39d7f195d362fb360b9033965d5823653e"
+  },
+  "selection": {
+   "file": "04_SOURCE_DATA/Figure2/figure2_selection.json",
+   "sha256": "152c730b7995d30a4f53d898749ced790c9c2304a40fdde654b3d9e0744a50e4"
+  }
+ },
+ "panels": {
+  "A": {
+   "noise_calibration": {
+    "duplicate_agreement": 0.6690126433556589,
+    "model_scale": 1.0253019555341694,
+    "pairs": 74,
+    "duplicate_pattern_pearson": 0.7192644963706785
+   }
+  }
+ }
+}

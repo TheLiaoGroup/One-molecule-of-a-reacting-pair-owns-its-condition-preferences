@@ -1,0 +1,71 @@
+{
+ "figure": "Figure 3",
+ "generated_by": "06_CODE/Figures/figure3.py",
+ "inputs": {
+  "files": {
+   "02_FIGURES/ChemDraw/Fig2_b_M1.svg": {
+    "file": "02_FIGURES/ChemDraw/Fig2_b_M1.svg",
+    "sha256": "f9519ec2eb59e8fdd3bc3e11d756fa39ce09fcec4ec487d4c2805ac91a4e3553"
+   },
+   "02_FIGURES/ChemDraw/Fig2_b_M2.svg": {
+    "file": "02_FIGURES/ChemDraw/Fig2_b_M2.svg",
+    "sha256": "4debe36196da3b3e1a59b85f1b2d1b4e08c7b9dd39304f9b79cd747d18abf34d"
+   },
+   "02_FIGURES/ChemDraw/Fig2_b_M3.svg": {
+    "file": "02_FIGURES/ChemDraw/Fig2_b_M3.svg",
+    "sha256": "a6a98ec3fa354060276c98885aa5104783d4b101c8966b4a11a5587b35ccdb2d"
+   },
+   "02_FIGURES/ChemDraw/Fig2_b_M4.svg": {
+    "file": "02_FIGURES/ChemDraw/Fig2_b_M4.svg",
+    "sha256": "1afa0f4770515a755cb941509970346d8d7b546da62934f3cc0a07b530dbe56a"
+   },
+   "02_FIGURES/ChemDraw/Fig2_b_M5.svg": {
+    "file": "02_FIGURES/ChemDraw/Fig2_b_M5.svg",
+    "sha256": "965435749854bfc386d9f086d45cf8ad6f3149fa3e31533085e3d0926b3ebdc4"
+   },
+   "02_FIGURES/ChemDraw/Fig2_b_M6.svg": {
+    "file": "02_FIGURES/ChemDraw/Fig2_b_M6.svg",
+    "sha256": "bfc8ba6e00321eb6ac93f9a4b7f2fad7823786272b4290cab779f567d8b5b870"
+   },
+   "02_FIGURES/ChemDraw/Fig2_b_M7.svg": {
+    "file": "02_FIGURES/ChemDraw/Fig2_b_M7.svg",
+    "sha256": "7fd5e156b1543679f9c37c638b3781458c76e3e46aa4fce0941c96d813713e1b"
+   },
+   "02_FIGURES/ChemDraw/Fig2_b_M8.svg": {
+    "file": "02_FIGURES/ChemDraw/Fig2_b_M8.svg",
+    "sha256": "fc92bae94339fb41862ae9b2e8302e8b2f66d7c1d838d417d9eccfccb1496643"
+   },
+   "05_DATA/Analysis/figure_display/v5_reference_tables/MANIFEST.json": {
+    "file": "05_DATA/Analysis/figure_display/v5_reference_tables/MANIFEST.json",
+    "sha256": "e5d3baa73d123bbb89d85b287026ffa9c482f826174ff31bba42ca6780470717"
+   },
+   "05_DATA/Analysis/figure_display/v5_reference_tables/molecule_context.xlsx": {
+    "file": "05_DATA/Analysis/figure_display/v5_reference_tables/molecule_context.xlsx",
+    "sha256": "81087e63d31e83b4363121a86b33b19b9ea683ef32ec38b6b4dfdc72663c0da2"
+   }
+  }
+ },
+ "outputs": {
+  "svg": {
+   "file": "02_FIGURES/Main/Figure3.svg",
+   "sha256": "418aa57c34464936771245bd157fad4ab82364067c5c1d30dbe9f9fece9ee5c8"
+  },
+  "pdf": {
+   "file": "02_FIGURES/Main/Figure3.pdf",
+   "sha256": "6cbe0f835009db460f89fe089808ca04ddadd3fcebdf64ae05cbc267184077b4"
+  },
+  "png": {
+   "file": "02_FIGURES/Main/Figure3.png",
+   "sha256": "7d1117d70b77a25667686e38e69798b5c85fc5f80df3d8d37d6f6d41467412a8"
+  },
+  "xlsx": {
+   "file": "04_SOURCE_DATA/Figure3/Figure3_SourceData.xlsx",
+   "sha256": "30c8fef449e6b661149d6dbc2e4187897ef84dc694e51df9b6d2423c86378c75"
+  },
+  "readback": {
+   "file": "04_SOURCE_DATA/Figure3/Figure3_readback.json",
+   "sha256": "c494497b9534e96928a92a6d1b55aceb516e32be4322ab46423a8f1569d29425"
+  }
+ },
+ "panels": {}
+}

@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="510.23622pt" height="331.653543pt" viewBox="0 0 510.23622 331.653543" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 331.653543 
+L 510.23622 331.653543 
+L 510.23622 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="canvas">
+   <g id="b|key|0">
+    <defs>
+     <path id="m308e5cd098" d="M 0 1.3 
+C 0.344764 1.3 0.675454 1.163024 0.919239 0.919239 
+C 1.163024 0.675454 1.3 0.344764 1.3 0 
+C 1.3 -0.344764 1.163024 -0.675454 0.919239 -0.919239 
+C 0.675454 -1.163024 0.344764 -1.3 0 -1.3 
+C -0.344764 -1.3 -0.675454 -1.163024 -0.919239 -0.919239 
+C -1.163024 -0.675454 -1.3 -0.344764 -1.3 0 
+C -1.3 0.344764 -1.163024 0.675454 -0.919239 0.919239 
+C -0.675454 1.163024 -0.344764 1.3 0 1.3 
+z
+"/>
+    </defs>
+    <g clip-path="url(#pbe8bccc06a)">
+     <use xlink:href="#m308e5cd098" x="427.181102" y="144" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="b|key|1">
+    <defs>
+     <path id="m6600863a32" d="M 0 1.3 
+C 0.344764 1.3 0.675454 1.163024 0.919239 0.919239 
+C 1.163024 0.675454 1.3 0.344764 1.3 0 
+C 1.3 -0.344764 1.163024 -0.675454 0.919239 -0.919239 
+C 0.675454 -1.163024 0.344764 -1.3 0 -1.3 
+C -0.344764 -1.3 -0.675454 -1.163024 -0.919239 -0.919239 
+C -1.163024 -0.675454 -1.3 -0.344764 -1.3 0 
+C -1.3 0.344764 -1.163024 0.675454 -0.919239 0.919239 
+C -0.675454 1.163024 -0.344764 1.3 0 1.3 
+z
+"/>
+    </defs>
+    <g clip-path="url(#pbe8bccc06a)">
+     <use xlink:href="#m6600863a32" x="472.535433" y="144" style="fill: #b9bec5"/>
+    </g>
+   </g>
+   <g id="note|a">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #6b7380" x="11.905512" y="40.41186" transform="rotate(-0 11.905512 40.41186)">Analysis-screen held-out pairs; molecule-disjoint validation over five partitions; 10,000 whole-screen draws</text>
+   </g>
+   <g id="note|b">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #6b7380" x="11.905512" y="145.29375" transform="rotate(-0 11.905512 145.29375)">Fourteen qualifying analysis screens; cross-fitted preference profiles; 4,999 label permutations; Benjamini–Hochberg q</text>
+   </g>
+   <g id="a|row|warm/warm">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="11.905512" y="58.835885" transform="rotate(-0 11.905512 58.835885)">Both molecules measured in other pairs</text>
+   </g>
+   <g id="a|n|warm/warm">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #6b7380" x="181.417323" y="58.843307" transform="rotate(-0 181.417323 58.843307)">1,609 pairs</text>
+   </g>
+   <g id="a|value|warm/warm">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="394.015748" y="58.837057" transform="rotate(-0 394.015748 58.837057)">+1.88 (1.04–3.08)</text>
+   </g>
+   <g id="a|row|new/known">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="11.905512" y="69.04061" transform="rotate(-0 11.905512 69.04061)">Partner 1 new</text>
+   </g>
+   <g id="a|n|new/known">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #6b7380" x="181.417323" y="69.048031" transform="rotate(-0 181.417323 69.048031)">1,858 pairs</text>
+   </g>
+   <g id="a|value|new/known">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="394.015748" y="69.041781" transform="rotate(-0 394.015748 69.041781)">+1.24 (0.76–2.09)</text>
+   </g>
+   <g id="a|row|known/new">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="11.905512" y="79.245334" transform="rotate(-0 11.905512 79.245334)">Partner 2 new</text>
+   </g>
+   <g id="a|n|known/new">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #6b7380" x="181.417323" y="79.252756" transform="rotate(-0 181.417323 79.252756)">1,842 pairs</text>
+   </g>
+   <g id="a|value|known/new">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="394.015748" y="79.246506" transform="rotate(-0 394.015748 79.246506)">+0.87 (−0.02 to 1.99)</text>
+   </g>
+   <g id="a|row|new/new">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="11.905512" y="89.450058" transform="rotate(-0 11.905512 89.450058)">Both new</text>
+   </g>
+   <g id="a|n|new/new">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #6b7380" x="181.417323" y="89.45748" transform="rotate(-0 181.417323 89.45748)">2,085 pairs</text>
+   </g>
+   <g id="a|value|new/new">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="394.015748" y="89.45123" transform="rotate(-0 394.015748 89.45123)">+0.08 (−0.68 to 0.99)</text>
+   </g>
+   <g id="b|key_label|0">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="430.866142" y="145.3" transform="rotate(-0 430.866142 145.3)">q &lt; 0.05</text>
+   </g>
+   <g id="b|key_label|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="476.220472" y="145.3" transform="rotate(-0 476.220472 145.3)">q ≥ 0.05</text>
+   </g>
+   <g id="b|counts">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #6b7380" x="508.818898" y="162.330921" transform="rotate(-0 508.818898 162.330921)">14 of 14 &gt; 0; 13 with q &lt; 0.05</text>
+   </g>
+   <g id="b|median_label">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: middle; fill: #6b7380" x="272.139454" y="162.300452" transform="rotate(-0 272.139454 162.300452)">median 0.117</text>
+   </g>
+   <g id="b|name|Buchwald-Hartwig|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="181.417323" y="176.049656" transform="rotate(-0 181.417323 176.049656)">C–N (Pd ligand)</text>
+   </g>
+   <g id="b|value|Buchwald-Hartwig|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="394.015748" y="176.048484" transform="rotate(-0 394.015748 176.048484)">0.179</text>
+   </g>
+   <g id="b|name|Buchwald-Hartwig|2">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="181.417323" y="185.403986" transform="rotate(-0 181.417323 185.403986)">C–N (Pd/Cu/Ni)</text>
+   </g>
+   <g id="b|value|Buchwald-Hartwig|2">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="394.015748" y="185.402814" transform="rotate(-0 394.015748 185.402814)">0.110</text>
+   </g>
+   <g id="b|name|C-O competitive reactions|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="181.417323" y="194.759879" transform="rotate(-0 181.417323 194.759879)">C–O (Pd/Cu)</text>
+   </g>
+   <g id="b|value|C-O competitive reactions|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="394.015748" y="194.757145" transform="rotate(-0 394.015748 194.757145)">0.090</text>
+   </g>
+   <g id="b|name|Heck|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="181.417323" y="204.112648" transform="rotate(-0 181.417323 204.112648)">Heck (solvent/base)</text>
+   </g>
+   <g id="b|value|Heck|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="394.015748" y="204.111476" transform="rotate(-0 394.015748 204.111476)">0.121</text>
+   </g>
+   <g id="b|name|Kumada|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="181.417323" y="213.466978" transform="rotate(-0 181.417323 213.466978)">Kumada (Pd/Ni/Fe)</text>
+   </g>
+   <g id="b|value|Kumada|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="394.015748" y="213.465806" transform="rotate(-0 394.015748 213.465806)">0.120</text>
+   </g>
+   <g id="b|name|SNAr|1">
+    <!-- S$_{\mathrm{N}}$Ar (base/solvent) -->
+    <g style="fill: #1a1a1a" transform="translate(137.417323 222.602559)">
+     <text>
+      <tspan x="0" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">S</tspan>
+      <tspan x="6.198572" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">A</tspan>
+      <tspan x="9.533533" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">r</tspan>
+      <tspan x="11.198572" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a"> </tspan>
+      <tspan x="12.587732" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">(</tspan>
+      <tspan x="14.252771" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">b</tspan>
+      <tspan x="17.033533" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">a</tspan>
+      <tspan x="19.814295" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">s</tspan>
+      <tspan x="22.314295" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">e</tspan>
+      <tspan x="25.095057" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">/</tspan>
+      <tspan x="26.484217" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">s</tspan>
+      <tspan x="28.984217" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">o</tspan>
+      <tspan x="31.764979" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">l</tspan>
+      <tspan x="32.875818" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">v</tspan>
+      <tspan x="35.375818" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">e</tspan>
+      <tspan x="38.15658" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">n</tspan>
+      <tspan x="40.937342" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">t</tspan>
+      <tspan x="42.326502" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">)</tspan>
+      <tspan x="3.422078" y="1.134062" style="font-size: 3.5px; font-family: 'Arial'; fill: #1a1a1a">N</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="b|value|SNAr|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="394.015748" y="222.820137" transform="rotate(-0 394.015748 222.820137)">0.258</text>
+   </g>
+   <g id="b|name|Sonogashira|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="181.417323" y="232.17564" transform="rotate(-0 181.417323 232.17564)">Sonogashira (solvent/base)</text>
+   </g>
+   <g id="b|value|Sonogashira|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="394.015748" y="232.174468" transform="rotate(-0 394.015748 232.174468)">0.115</text>
+   </g>
+   <g id="b|name|Suzuki|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="181.417323" y="241.52997" transform="rotate(-0 181.417323 241.52997)">Suzuki (Pd)</text>
+   </g>
+   <g id="b|value|Suzuki|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="394.015748" y="241.528799" transform="rotate(-0 394.015748 241.528799)">0.102</text>
+   </g>
+   <g id="b|name|Ullmann|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="181.417323" y="250.885864" transform="rotate(-0 181.417323 250.885864)">Ullmann C–O (Cu)</text>
+   </g>
+   <g id="b|value|Ullmann|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="394.015748" y="250.883129" transform="rotate(-0 394.015748 250.883129)">0.070</text>
+   </g>
+   <g id="b|name|Acylation|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="181.417323" y="264.743596" transform="rotate(-0 181.417323 264.743596)">Amide coupling</text>
+   </g>
+   <g id="b|value|Acylation|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="394.015748" y="264.772893" transform="rotate(-0 394.015748 264.772893)">0.207</text>
+   </g>
+   <g id="b|name|Chan-Lam|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="181.417323" y="274.128396" transform="rotate(-0 181.417323 274.128396)">Chan–Lam (Cu)</text>
+   </g>
+   <g id="b|value|Chan-Lam|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="394.015748" y="274.127224" transform="rotate(-0 394.015748 274.127224)">0.081</text>
+   </g>
+   <g id="b|name|Esterification|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="181.417323" y="283.481555" transform="rotate(-0 181.417323 283.481555)">Esterification</text>
+   </g>
+   <g id="b|value|Esterification|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="394.015748" y="283.481555" transform="rotate(-0 394.015748 283.481555)">0.259</text>
+   </g>
+   <g id="b|name|Grignard|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="181.417323" y="292.837057" transform="rotate(-0 181.417323 292.837057)">Grignard addition</text>
+   </g>
+   <g id="b|value|Grignard|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="394.015748" y="292.835885" transform="rotate(-0 394.015748 292.835885)">0.056</text>
+   </g>
+   <g id="b|name|Reductive-amination|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="181.417323" y="302.190216" transform="rotate(-0 181.417323 302.190216)">Reductive amination</text>
+   </g>
+   <g id="b|value|Reductive-amination|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="394.015748" y="302.190216" transform="rotate(-0 394.015748 302.190216)">0.143</text>
+   </g>
+  </g>
+  <g id="a|axes">
+   <g id="a|zero">
+    <path d="M 273.897638 52.440945 
+L 273.897638 94.393701 
+" clip-path="url(#pdbdbca5823)" style="fill: none; stroke: #b9bec5; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="me5f6e50704" d="M 0 0 
+L 0 2 
+" style="stroke: #1a1a1a; stroke-width: 0.5"/>
+      </defs>
+      <g>
+       <use xlink:href="#me5f6e50704" x="199.488189" y="94.393701" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 5.5px; font-family: 'Arial', sans-serif; text-anchor: middle; fill: #1a1a1a" x="199.488189" y="103.830498" transform="rotate(-0 199.488189 103.830498)">−3</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#me5f6e50704" x="224.291339" y="94.393701" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 5.5px; font-family: 'Arial', sans-serif; text-anchor: middle; fill: #1a1a1a" x="224.291339" y="103.830498" transform="rotate(-0 224.291339 103.830498)">−2</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#me5f6e50704" x="249.094488" y="94.393701" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 5.5px; font-family: 'Arial', sans-serif; text-anchor: middle; fill: #1a1a1a" x="249.094488" y="103.830498" transform="rotate(-0 249.094488 103.830498)">−1</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#me5f6e50704" x="273.897638" y="94.393701" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 5.5px; font-family: 'Arial', sans-serif; text-anchor: middle; fill: #1a1a1a" x="273.897638" y="103.830498" transform="rotate(-0 273.897638 103.830498)">0</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#me5f6e50704" x="298.700787" y="94.393701" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 5.5px; font-family: 'Arial', sans-serif; text-anchor: middle; fill: #1a1a1a" x="298.700787" y="103.830498" transform="rotate(-0 298.700787 103.830498)">1</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#me5f6e50704" x="323.503937" y="94.393701" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 5.5px; font-family: 'Arial', sans-serif; text-anchor: middle; fill: #1a1a1a" x="323.503937" y="103.830498" transform="rotate(-0 323.503937 103.830498)">2</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#me5f6e50704" x="348.307087" y="94.393701" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 5.5px; font-family: 'Arial', sans-serif; text-anchor: middle; fill: #1a1a1a" x="348.307087" y="103.830498" transform="rotate(-0 348.307087 103.830498)">3</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#me5f6e50704" x="373.110236" y="94.393701" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 5.5px; font-family: 'Arial', sans-serif; text-anchor: middle; fill: #1a1a1a" x="373.110236" y="103.830498" transform="rotate(-0 373.110236 103.830498)">4</text>
+     </g>
+    </g>
+    <g id="text_9">
+     <text style="font-size: 6px; font-family: 'Arial', sans-serif; text-anchor: middle; fill: #1a1a1a" x="286.299213" y="110.791435" transform="rotate(-0 286.299213 110.791435)">Best measured yield: structure-ranked trio minus complementary trio (percentage points)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2"/>
+   <g id="a|ci|warm/warm">
+    <path d="M 299.630673 57.543307 
+L 350.246585 57.543307 
+" clip-path="url(#pdbdbca5823)" style="fill: none; stroke: #1a1a1a; stroke-width: 0.8"/>
+   </g>
+   <g id="a|ci|new/known">
+    <path d="M 292.635929 67.748031 
+L 325.67871 67.748031 
+" clip-path="url(#pdbdbca5823)" style="fill: none; stroke: #1a1a1a; stroke-width: 0.8"/>
+   </g>
+   <g id="a|ci|known/new">
+    <path d="M 273.453559 77.952756 
+L 323.15273 77.952756 
+" clip-path="url(#pdbdbca5823)" style="fill: none; stroke: #1a1a1a; stroke-width: 0.8"/>
+   </g>
+   <g id="a|ci|new/new">
+    <path d="M 256.912298 88.15748 
+L 298.576106 88.15748 
+" clip-path="url(#pdbdbca5823)" style="fill: none; stroke: #1a1a1a; stroke-width: 0.8"/>
+   </g>
+   <g id="patch_2">
+    <path d="M 187.086614 94.393701 
+L 385.511811 94.393701 
+" style="fill: none; stroke: #1a1a1a; stroke-width: 0.5; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="a|point|warm/warm">
+    <g clip-path="url(#pdbdbca5823)">
+     <use xlink:href="#m308e5cd098" x="320.517148" y="57.543307" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="a|point|new/known">
+    <g clip-path="url(#pdbdbca5823)">
+     <use xlink:href="#m308e5cd098" x="304.625693" y="67.748031" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="a|point|known/new">
+    <g clip-path="url(#pdbdbca5823)">
+     <use xlink:href="#m308e5cd098" x="295.399996" y="77.952756" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="a|point|new/new">
+    <g clip-path="url(#pdbdbca5823)">
+     <use xlink:href="#m308e5cd098" x="275.759066" y="88.15748" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+  </g>
+  <g id="b|axes">
+   <g id="b|zero">
+    <path d="M 199.488189 170.07874 
+L 199.488189 306.708661 
+" clip-path="url(#peee496fc81)" style="fill: none; stroke: #b9bec5; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="b|median">
+    <path d="M 272.139454 170.07874 
+L 272.139454 306.708661 
+" clip-path="url(#peee496fc81)" style="fill: none; stroke-dasharray: 1.2,0.84; stroke-dashoffset: 0; stroke: #6b7380; stroke-width: 0.6"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_9">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#me5f6e50704" x="199.488189" y="306.708661" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 5.5px; font-family: 'Arial', sans-serif; text-anchor: middle; fill: #1a1a1a" x="199.488189" y="316.145458" transform="rotate(-0 199.488189 316.145458)">0.0</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#me5f6e50704" x="261.496063" y="306.708661" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 5.5px; font-family: 'Arial', sans-serif; text-anchor: middle; fill: #1a1a1a" x="261.496063" y="316.145458" transform="rotate(-0 261.496063 316.145458)">0.1</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#me5f6e50704" x="323.503937" y="306.708661" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 5.5px; font-family: 'Arial', sans-serif; text-anchor: middle; fill: #1a1a1a" x="323.503937" y="316.145458" transform="rotate(-0 323.503937 316.145458)">0.2</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#me5f6e50704" x="385.511811" y="306.708661" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 5.5px; font-family: 'Arial', sans-serif; text-anchor: middle; fill: #1a1a1a" x="385.511811" y="316.145458" transform="rotate(-0 385.511811 316.145458)">0.3</text>
+     </g>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 6px; font-family: 'Arial', sans-serif; text-anchor: middle; fill: #1a1a1a" x="286.299213" y="323.106396" transform="rotate(-0 286.299213 323.106396)">Spearman ρ: partner similarity against agreement of preference profiles</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4"/>
+   <g id="patch_3">
+    <path d="M 187.086614 306.708661 
+L 385.511811 306.708661 
+" style="fill: none; stroke: #1a1a1a; stroke-width: 0.5; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="b|point|Buchwald-Hartwig|1">
+    <g clip-path="url(#peee496fc81)">
+     <use xlink:href="#m308e5cd098" x="310.625208" y="174.755906" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="b|point|Buchwald-Hartwig|2">
+    <g clip-path="url(#peee496fc81)">
+     <use xlink:href="#m308e5cd098" x="267.438592" y="184.110236" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="b|point|C-O competitive reactions|1">
+    <g clip-path="url(#peee496fc81)">
+     <use xlink:href="#m6600863a32" x="255.483309" y="193.464567" style="fill: #b9bec5"/>
+    </g>
+   </g>
+   <g id="b|point|Heck|1">
+    <g clip-path="url(#peee496fc81)">
+     <use xlink:href="#m308e5cd098" x="274.612715" y="202.818898" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="b|point|Kumada|1">
+    <g clip-path="url(#peee496fc81)">
+     <use xlink:href="#m308e5cd098" x="273.763098" y="212.173228" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="b|point|SNAr|1">
+    <g clip-path="url(#peee496fc81)">
+     <use xlink:href="#m308e5cd098" x="359.198843" y="221.527559" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="b|point|Sonogashira|1">
+    <g clip-path="url(#peee496fc81)">
+     <use xlink:href="#m308e5cd098" x="270.51581" y="230.88189" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="b|point|Suzuki|1">
+    <g clip-path="url(#peee496fc81)">
+     <use xlink:href="#m308e5cd098" x="262.637869" y="240.23622" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="b|point|Ullmann|1">
+    <g clip-path="url(#peee496fc81)">
+     <use xlink:href="#m308e5cd098" x="243.11724" y="249.590551" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="b|point|Acylation|1">
+    <g clip-path="url(#peee496fc81)">
+     <use xlink:href="#m308e5cd098" x="328.090094" y="263.480315" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="b|point|Chan-Lam|1">
+    <g clip-path="url(#peee496fc81)">
+     <use xlink:href="#m308e5cd098" x="249.996274" y="272.834646" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="b|point|Esterification|1">
+    <g clip-path="url(#peee496fc81)">
+     <use xlink:href="#m308e5cd098" x="359.963255" y="282.188976" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="b|point|Grignard|1">
+    <g clip-path="url(#peee496fc81)">
+     <use xlink:href="#m308e5cd098" x="234.28815" y="291.543307" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="b|point|Reductive-amination|1">
+    <g clip-path="url(#peee496fc81)">
+     <use xlink:href="#m308e5cd098" x="288.126405" y="300.897638" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+  </g>
+  <g id="title|main">
+   <text style="font-size: 6.5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="0.425197" y="6.353366" transform="rotate(-0 0.425197 6.353366)">A structure-based recommender gains most where molecules have been measured</text>
+  </g>
+  <g id="letter|a">
+   <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="1.417323" y="28.403415" transform="rotate(-0 1.417323 28.403415)">A</text>
+  </g>
+  <g id="title|a">
+   <text style="font-size: 6.5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="11.905512" y="28.321869" transform="rotate(-0 11.905512 28.321869)">A structure-based recommender, by which molecules are new</text>
+  </g>
+  <g id="letter|b">
+   <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="1.417323" y="133.285305" transform="rotate(-0 1.417323 133.285305)">B</text>
+  </g>
+  <g id="title|b">
+   <text style="font-size: 6.5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="11.905512" y="133.282978" transform="rotate(-0 11.905512 133.282978)">Within screens, structural similarity tracks condition preference</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pbe8bccc06a">
+   <rect x="0" y="0" width="510.23622" height="331.653543"/>
+  </clipPath>
+  <clipPath id="pdbdbca5823">
+   <rect x="187.086614" y="52.440945" width="198.425197" height="41.952756"/>
+  </clipPath>
+  <clipPath id="peee496fc81">
+   <rect x="187.086614" y="170.07874" width="198.425197" height="136.629921"/>
+  </clipPath>
+ </defs>
+</svg>

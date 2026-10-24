@@ -1,0 +1,18 @@
+{
+ "frozen_data_file": "never_analysed_reserve.csv.gz, the name of the frozen data file in the hash record: all 442 frozen pairs of Set A, the first out-of-array evaluation set (not released)",
+ "frozen_data_file_sha256": "b756d8fa324e884c56a5ec8a8c7085fd6c6f7309a38bb4610719c915008b3afb",
+ "frozen_manifest": "metadata/set_A_frozen_manifest.csv",
+ "frozen_manifest_sha256": "277dbae5bac99e18397cf26efebdea8d0286638b88218569ecc9759216432979",
+ "hash_record": "frozen_plans/reserve_validation/PREREGISTRATION.sha256",
+ "release_rule": "A pair of the frozen file is released, with all its measurements, when it is a record-transfer target of the frozen evaluation (the pairs of results/reserve_validation/record_transfer_losses.csv), a target of its three-condition decision (the pairs of results/reserve_validation/decision_targets.csv) or an amide-coupling pair (array Acylation|1) whose best measured yield is at least 0.10. The other pairs of the frozen file serve no reported result and are not released.",
+ "released_subset": {
+  "file": "data/measurements_SA1_set_A.csv.gz",
+  "sha256": "be84a86b0814996530d1101e0f8f99eacaeac5a8ac09c514b10b1edbf9084efe",
+  "pairs": 420,
+  "records": 36499,
+  "record_transfer_targets": 309,
+  "decision_targets": 396,
+  "product_forming_amide_pairs": 217,
+  "in_both_groups": 193
+ }
+}

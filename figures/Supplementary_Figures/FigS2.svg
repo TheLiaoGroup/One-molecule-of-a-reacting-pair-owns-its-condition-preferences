@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="510.23622pt" height="221.102362pt" viewBox="0 0 510.23622 221.102362" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 221.102362 
+L 510.23622 221.102362 
+L 510.23622 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="canvas">
+   <g id="key|share1">
+    <defs>
+     <path id="m76f4fc4239" d="M 0 1.3 
+C 0.344764 1.3 0.675454 1.163024 0.919239 0.919239 
+C 1.163024 0.675454 1.3 0.344764 1.3 0 
+C 1.3 -0.344764 1.163024 -0.675454 0.919239 -0.919239 
+C 0.675454 -1.163024 0.344764 -1.3 0 -1.3 
+C -0.344764 -1.3 -0.675454 -1.163024 -0.919239 -0.919239 
+C -1.163024 -0.675454 -1.3 -0.344764 -1.3 0 
+C -1.3 0.344764 -1.163024 0.675454 -0.919239 0.919239 
+C -0.675454 1.163024 -0.344764 1.3 0 1.3 
+z
+"/>
+    </defs>
+    <g clip-path="url(#p640db33b11)">
+     <use xlink:href="#m76f4fc4239" x="119.622047" y="27.779528" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="key|share2">
+    <defs>
+     <path id="m1f9916ad8c" d="M -1.3 1.3 
+L 1.3 1.3 
+L 1.3 -1.3 
+L -1.3 -1.3 
+z
+"/>
+    </defs>
+    <g clip-path="url(#p640db33b11)">
+     <use xlink:href="#m1f9916ad8c" x="213.165354" y="27.779528" style="fill: #8a9099"/>
+    </g>
+   </g>
+   <g id="key|neither">
+    <defs>
+     <path id="md642e691c8" d="M 0 1.3 
+C 0.344764 1.3 0.675454 1.163024 0.919239 0.919239 
+C 1.163024 0.675454 1.3 0.344764 1.3 0 
+C 1.3 -0.344764 1.163024 -0.675454 0.919239 -0.919239 
+C 0.675454 -1.163024 0.344764 -1.3 0 -1.3 
+C -0.344764 -1.3 -0.675454 -1.163024 -0.919239 -0.919239 
+C -1.163024 -0.675454 -1.3 -0.344764 -1.3 0 
+C -1.3 0.344764 -1.163024 0.675454 -0.919239 0.919239 
+C -0.675454 1.163024 -0.344764 1.3 0 1.3 
+z
+"/>
+    </defs>
+    <g clip-path="url(#p640db33b11)">
+     <use xlink:href="#md642e691c8" x="306.708661" y="27.779528" style="fill: #b9bec5"/>
+    </g>
+   </g>
+   <g id="note|main">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #6b7380" x="0.425197" y="19.435482" transform="rotate(-0 0.425197 19.435482)">Analysis screens, product-forming pairs; additive residual yield profiles</text>
+   </g>
+   <g id="key_label|share1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="123.307087" y="29.050231" transform="rotate(-0 123.307087 29.050231)">pairs sharing only the role-1 molecule</text>
+   </g>
+   <g id="key_label|share2">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="216.850394" y="29.050231" transform="rotate(-0 216.850394 29.050231)">pairs sharing only the role-2 molecule</text>
+   </g>
+   <g id="key_label|neither">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="310.393701" y="29.042809" transform="rotate(-0 310.393701 29.042809)">pairs sharing neither molecule</text>
+   </g>
+   <g id="name|Buchwald-Hartwig|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="113.385827" y="42.821309" transform="rotate(-0 113.385827 42.821309)">C–N (Pd ligand)</text>
+   </g>
+   <g id="roles|Buchwald-Hartwig|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #6b7380" x="388.346457" y="42.821309" transform="rotate(-0 388.346457 42.821309)">1: N–H partner  ·  2: aryl (pseudo)halide</text>
+   </g>
+   <g id="name|Buchwald-Hartwig|2">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="113.385827" y="52.17564" transform="rotate(-0 113.385827 52.17564)">C–N (Pd/Cu/Ni)</text>
+   </g>
+   <g id="roles|Buchwald-Hartwig|2">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #6b7380" x="388.346457" y="52.152593" transform="rotate(-0 388.346457 52.152593)">1: N–H partner  ·  2: aryl halide</text>
+   </g>
+   <g id="name|C-O competitive reactions|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="113.385827" y="61.531533" transform="rotate(-0 113.385827 61.531533)">C–O (Pd/Cu)</text>
+   </g>
+   <g id="roles|C-O competitive reactions|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #6b7380" x="388.346457" y="61.506924" transform="rotate(-0 388.346457 61.506924)">1: phenol or alcohol  ·  2: aryl halide</text>
+   </g>
+   <g id="name|Heck|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="113.385827" y="70.884301" transform="rotate(-0 113.385827 70.884301)">Heck (solvent/base)</text>
+   </g>
+   <g id="roles|Heck|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #6b7380" x="388.346457" y="70.861254" transform="rotate(-0 388.346457 70.861254)">1: alkene  ·  2: aryl halide</text>
+   </g>
+   <g id="name|Hiyama|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="113.385827" y="80.238632" transform="rotate(-0 113.385827 80.238632)">Hiyama (Pd)</text>
+   </g>
+   <g id="roles|Hiyama|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #6b7380" x="388.346457" y="80.215585" transform="rotate(-0 388.346457 80.215585)">1: organosilane  ·  2: aryl halide</text>
+   </g>
+   <g id="name|Kumada|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="113.385827" y="89.592963" transform="rotate(-0 113.385827 89.592963)">Kumada (Pd/Ni/Fe)</text>
+   </g>
+   <g id="roles|Kumada|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #6b7380" x="388.346457" y="89.592963" transform="rotate(-0 388.346457 89.592963)">1: aryl or acyl halide  ·  2: Grignard reagent</text>
+   </g>
+   <g id="name|SNAr|1">
+    <!-- S$_{\mathrm{N}}$Ar (base/solvent) -->
+    <g style="fill: #1a1a1a" transform="translate(69.385827 98.728543)">
+     <text>
+      <tspan x="0" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">S</tspan>
+      <tspan x="6.198572" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">A</tspan>
+      <tspan x="9.533533" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">r</tspan>
+      <tspan x="11.198572" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a"> </tspan>
+      <tspan x="12.587732" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">(</tspan>
+      <tspan x="14.252771" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">b</tspan>
+      <tspan x="17.033533" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">a</tspan>
+      <tspan x="19.814295" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">s</tspan>
+      <tspan x="22.314295" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">e</tspan>
+      <tspan x="25.095057" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">/</tspan>
+      <tspan x="26.484217" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">s</tspan>
+      <tspan x="28.984217" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">o</tspan>
+      <tspan x="31.764979" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">l</tspan>
+      <tspan x="32.875818" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">v</tspan>
+      <tspan x="35.375818" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">e</tspan>
+      <tspan x="38.15658" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">n</tspan>
+      <tspan x="40.937342" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">t</tspan>
+      <tspan x="42.326502" y="-0.359375" style="font-size: 5px; font-family: 'Arial'; fill: #1a1a1a">)</tspan>
+      <tspan x="3.422078" y="1.134062" style="font-size: 3.5px; font-family: 'Arial'; fill: #1a1a1a">N</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="roles|SNAr|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #6b7380" x="388.346457" y="98.924246" transform="rotate(-0 388.346457 98.924246)">1: N–H nucleophile  ·  2: aryl halide</text>
+   </g>
+   <g id="name|Sonogashira|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="113.385827" y="108.301624" transform="rotate(-0 113.385827 108.301624)">Sonogashira (solvent/base)</text>
+   </g>
+   <g id="roles|Sonogashira|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #6b7380" x="388.346457" y="108.278577" transform="rotate(-0 388.346457 108.278577)">1: alkyne  ·  2: aryl halide</text>
+   </g>
+   <g id="name|Suzuki|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="113.385827" y="117.655955" transform="rotate(-0 113.385827 117.655955)">Suzuki (Pd)</text>
+   </g>
+   <g id="roles|Suzuki|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #6b7380" x="388.346457" y="117.632908" transform="rotate(-0 388.346457 117.632908)">1: aryl halide  ·  2: boronic acid</text>
+   </g>
+   <g id="name|Ullmann|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="113.385827" y="127.011848" transform="rotate(-0 113.385827 127.011848)">Ullmann C–O (Cu)</text>
+   </g>
+   <g id="roles|Ullmann|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #6b7380" x="388.346457" y="126.987239" transform="rotate(-0 388.346457 126.987239)">1: phenol  ·  2: aryl halide</text>
+   </g>
+   <g id="name|Acylation|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="113.385827" y="140.86958" transform="rotate(-0 113.385827 140.86958)">Amide coupling</text>
+   </g>
+   <g id="roles|Acylation|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #6b7380" x="388.346457" y="140.877002" transform="rotate(-0 388.346457 140.877002)">1: N–H partner  ·  2: carboxylic acid</text>
+   </g>
+   <g id="name|Chan-Lam|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="113.385827" y="150.25438" transform="rotate(-0 113.385827 150.25438)">Chan–Lam (Cu)</text>
+   </g>
+   <g id="roles|Chan-Lam|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #6b7380" x="388.346457" y="150.26063" transform="rotate(-0 388.346457 150.26063)">1: N–H partner  ·  2: boronic acid</text>
+   </g>
+   <g id="name|Esterification|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="113.385827" y="159.607539" transform="rotate(-0 113.385827 159.607539)">Esterification</text>
+   </g>
+   <g id="roles|Esterification|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #6b7380" x="388.346457" y="159.585664" transform="rotate(-0 388.346457 159.585664)">1: alcohol  ·  2: carboxylic acid</text>
+   </g>
+   <g id="name|Grignard|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="113.385827" y="168.963041" transform="rotate(-0 113.385827 168.963041)">Grignard addition</text>
+   </g>
+   <g id="roles|Grignard|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #6b7380" x="388.346457" y="168.963041" transform="rotate(-0 388.346457 168.963041)">1: Grignard reagent  ·  2: carbonyl compound</text>
+   </g>
+   <g id="name|Reductive-amination|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="113.385827" y="178.3162" transform="rotate(-0 113.385827 178.3162)">Reductive amination</text>
+   </g>
+   <g id="roles|Reductive-amination|1">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #6b7380" x="388.346457" y="178.294325" transform="rotate(-0 388.346457 178.294325)">1: carbonyl compound  ·  2: amine</text>
+   </g>
+   <g id="name|median">
+    <text style="font-weight: 700; font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: end; fill: #1a1a1a" x="113.385827" y="192.20948" transform="rotate(-0 113.385827 192.20948)">Median over screens</text>
+   </g>
+   <g id="counts">
+    <text style="font-size: 5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #6b7380" x="388.346457" y="192.205964" transform="rotate(-0 388.346457 192.205964)">either above neither in 15 of 15; both in 13</text>
+   </g>
+  </g>
+  <g id="axes">
+   <g id="zero">
+    <path d="M 172.540406 36.850394 
+L 172.540406 196.724409 
+" clip-path="url(#pec26f032f3)" style="fill: none; stroke: #b9bec5; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="meea21e49c0" d="M 0 0 
+L 0 2 
+" style="stroke: #1a1a1a; stroke-width: 0.5"/>
+      </defs>
+      <g>
+       <use xlink:href="#meea21e49c0" x="117.637795" y="196.724409" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 5.5px; font-family: 'Arial', sans-serif; text-anchor: middle; fill: #1a1a1a" x="117.637795" y="206.161206" transform="rotate(-0 117.637795 206.161206)">−0.2</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#meea21e49c0" x="172.540406" y="196.724409" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 5.5px; font-family: 'Arial', sans-serif; text-anchor: middle; fill: #1a1a1a" x="172.540406" y="206.161206" transform="rotate(-0 172.540406 206.161206)">0.0</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#meea21e49c0" x="227.443017" y="196.724409" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 5.5px; font-family: 'Arial', sans-serif; text-anchor: middle; fill: #1a1a1a" x="227.443017" y="206.161206" transform="rotate(-0 227.443017 206.161206)">0.2</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#meea21e49c0" x="282.345628" y="196.724409" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 5.5px; font-family: 'Arial', sans-serif; text-anchor: middle; fill: #1a1a1a" x="282.345628" y="206.161206" transform="rotate(-0 282.345628 206.161206)">0.4</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#meea21e49c0" x="337.248239" y="196.724409" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 5.5px; font-family: 'Arial', sans-serif; text-anchor: middle; fill: #1a1a1a" x="337.248239" y="206.161206" transform="rotate(-0 337.248239 206.161206)">0.6</text>
+     </g>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 6px; font-family: 'Arial', sans-serif; text-anchor: middle; fill: #1a1a1a" x="248.031496" y="213.122144" transform="rotate(-0 248.031496 213.122144)">Mean correlation of yield profiles between product-forming pairs</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2"/>
+   <g id="patch_2">
+    <path d="M 117.637795 196.724409 
+L 378.425197 196.724409 
+" style="fill: none; stroke: #1a1a1a; stroke-width: 0.5; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="point|Buchwald-Hartwig|1|share1">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m76f4fc4239" x="201.025945" y="41.527559" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="point|Buchwald-Hartwig|1|share2">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m1f9916ad8c" x="237.036952" y="41.527559" style="fill: #8a9099"/>
+    </g>
+   </g>
+   <g id="point|Buchwald-Hartwig|1|neither">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#md642e691c8" x="171.804888" y="41.527559" style="fill: #b9bec5"/>
+    </g>
+   </g>
+   <g id="point|Buchwald-Hartwig|2|share1">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m76f4fc4239" x="224.90535" y="50.88189" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="point|Buchwald-Hartwig|2|share2">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m1f9916ad8c" x="258.268474" y="50.88189" style="fill: #8a9099"/>
+    </g>
+   </g>
+   <g id="point|Buchwald-Hartwig|2|neither">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#md642e691c8" x="167.246172" y="50.88189" style="fill: #b9bec5"/>
+    </g>
+   </g>
+   <g id="point|C-O competitive reactions|1|share1">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m76f4fc4239" x="141.831091" y="60.23622" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="point|C-O competitive reactions|1|share2">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m1f9916ad8c" x="211.427668" y="60.23622" style="fill: #8a9099"/>
+    </g>
+   </g>
+   <g id="point|C-O competitive reactions|1|neither">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#md642e691c8" x="165.181799" y="60.23622" style="fill: #b9bec5"/>
+    </g>
+   </g>
+   <g id="point|Heck|1|share1">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m76f4fc4239" x="213.414327" y="69.590551" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="point|Heck|1|share2">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m1f9916ad8c" x="245.253551" y="69.590551" style="fill: #8a9099"/>
+    </g>
+   </g>
+   <g id="point|Heck|1|neither">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#md642e691c8" x="177.34112" y="69.590551" style="fill: #b9bec5"/>
+    </g>
+   </g>
+   <g id="point|Hiyama|1|share1">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m76f4fc4239" x="201.026572" y="78.944882" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="point|Hiyama|1|share2">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m1f9916ad8c" x="306.389137" y="78.944882" style="fill: #8a9099"/>
+    </g>
+   </g>
+   <g id="point|Hiyama|1|neither">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#md642e691c8" x="153.660346" y="78.944882" style="fill: #b9bec5"/>
+    </g>
+   </g>
+   <g id="point|Kumada|1|share1">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m76f4fc4239" x="251.332476" y="88.299213" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="point|Kumada|1|share2">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m1f9916ad8c" x="194.800587" y="88.299213" style="fill: #8a9099"/>
+    </g>
+   </g>
+   <g id="point|Kumada|1|neither">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#md642e691c8" x="166.257958" y="88.299213" style="fill: #b9bec5"/>
+    </g>
+   </g>
+   <g id="point|SNAr|1|share1">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m76f4fc4239" x="225.319907" y="97.653543" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="point|SNAr|1|share2">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m1f9916ad8c" x="268.900471" y="97.653543" style="fill: #8a9099"/>
+    </g>
+   </g>
+   <g id="point|SNAr|1|neither">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#md642e691c8" x="165.202007" y="97.653543" style="fill: #b9bec5"/>
+    </g>
+   </g>
+   <g id="point|Sonogashira|1|share1">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m76f4fc4239" x="225.321628" y="107.007874" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="point|Sonogashira|1|share2">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m1f9916ad8c" x="235.494216" y="107.007874" style="fill: #8a9099"/>
+    </g>
+   </g>
+   <g id="point|Sonogashira|1|neither">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#md642e691c8" x="164.620112" y="107.007874" style="fill: #b9bec5"/>
+    </g>
+   </g>
+   <g id="point|Suzuki|1|share1">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m76f4fc4239" x="241.706842" y="116.362205" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="point|Suzuki|1|share2">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m1f9916ad8c" x="194.237975" y="116.362205" style="fill: #8a9099"/>
+    </g>
+   </g>
+   <g id="point|Suzuki|1|neither">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#md642e691c8" x="169.658098" y="116.362205" style="fill: #b9bec5"/>
+    </g>
+   </g>
+   <g id="point|Ullmann|1|share1">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m76f4fc4239" x="167.429553" y="125.716535" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="point|Ullmann|1|share2">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m1f9916ad8c" x="245.333685" y="125.716535" style="fill: #8a9099"/>
+    </g>
+   </g>
+   <g id="point|Ullmann|1|neither">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#md642e691c8" x="171.204524" y="125.716535" style="fill: #b9bec5"/>
+    </g>
+   </g>
+   <g id="point|Acylation|1|share1">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m76f4fc4239" x="268.080959" y="139.606299" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="point|Acylation|1|share2">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m1f9916ad8c" x="205.902001" y="139.606299" style="fill: #8a9099"/>
+    </g>
+   </g>
+   <g id="point|Acylation|1|neither">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#md642e691c8" x="169.393573" y="139.606299" style="fill: #b9bec5"/>
+    </g>
+   </g>
+   <g id="point|Chan-Lam|1|share1">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m76f4fc4239" x="222.972244" y="148.96063" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="point|Chan-Lam|1|share2">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m1f9916ad8c" x="238.54388" y="148.96063" style="fill: #8a9099"/>
+    </g>
+   </g>
+   <g id="point|Chan-Lam|1|neither">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#md642e691c8" x="171.854459" y="148.96063" style="fill: #b9bec5"/>
+    </g>
+   </g>
+   <g id="point|Esterification|1|share1">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m76f4fc4239" x="184.699054" y="158.314961" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="point|Esterification|1|share2">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m1f9916ad8c" x="281.958626" y="158.314961" style="fill: #8a9099"/>
+    </g>
+   </g>
+   <g id="point|Esterification|1|neither">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#md642e691c8" x="153.731417" y="158.314961" style="fill: #b9bec5"/>
+    </g>
+   </g>
+   <g id="point|Grignard|1|share1">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m76f4fc4239" x="177.133557" y="167.669291" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="point|Grignard|1|share2">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m1f9916ad8c" x="204.773787" y="167.669291" style="fill: #8a9099"/>
+    </g>
+   </g>
+   <g id="point|Grignard|1|neither">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#md642e691c8" x="165.449352" y="167.669291" style="fill: #b9bec5"/>
+    </g>
+   </g>
+   <g id="point|Reductive-amination|1|share1">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m76f4fc4239" x="201.367821" y="177.023622" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="point|Reductive-amination|1|share2">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m1f9916ad8c" x="226.094715" y="177.023622" style="fill: #8a9099"/>
+    </g>
+   </g>
+   <g id="point|Reductive-amination|1|neither">
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#md642e691c8" x="165.690502" y="177.023622" style="fill: #b9bec5"/>
+    </g>
+   </g>
+   <g id="median|share1">
+    <defs>
+     <path id="m768e3ce69d" d="M 0 1.7 
+C 0.450845 1.7 0.883286 1.520877 1.202082 1.202082 
+C 1.520877 0.883286 1.7 0.450845 1.7 0 
+C 1.7 -0.450845 1.520877 -0.883286 1.202082 -1.202082 
+C 0.883286 -1.520877 0.450845 -1.7 0 -1.7 
+C -0.450845 -1.7 -0.883286 -1.520877 -1.202082 -1.202082 
+C -1.520877 -0.883286 -1.7 -0.450845 -1.7 0 
+C -1.7 0.450845 -1.520877 0.883286 -1.202082 1.202082 
+C -0.883286 1.520877 -0.450845 1.7 0 1.7 
+z
+"/>
+    </defs>
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#m768e3ce69d" x="213.414327" y="190.913386" style="fill: #1a1a1a"/>
+    </g>
+   </g>
+   <g id="median|share2">
+    <defs>
+     <path id="me34a183486" d="M -1.7 1.7 
+L 1.7 1.7 
+L 1.7 -1.7 
+L -1.7 -1.7 
+z
+"/>
+    </defs>
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#me34a183486" x="237.036952" y="190.913386" style="fill: #8a9099"/>
+    </g>
+   </g>
+   <g id="median|neither">
+    <defs>
+     <path id="me52ab3d428" d="M 0 1.7 
+C 0.450845 1.7 0.883286 1.520877 1.202082 1.202082 
+C 1.520877 0.883286 1.7 0.450845 1.7 0 
+C 1.7 -0.450845 1.520877 -0.883286 1.202082 -1.202082 
+C 0.883286 -1.520877 0.450845 -1.7 0 -1.7 
+C -0.450845 -1.7 -0.883286 -1.520877 -1.202082 -1.202082 
+C -1.520877 -0.883286 -1.7 -0.450845 -1.7 0 
+C -1.7 0.450845 -1.520877 0.883286 -1.202082 1.202082 
+C -0.883286 1.520877 -0.450845 1.7 0 1.7 
+z
+"/>
+    </defs>
+    <g clip-path="url(#pec26f032f3)">
+     <use xlink:href="#me52ab3d428" x="166.257958" y="190.913386" style="fill: #b9bec5"/>
+    </g>
+   </g>
+  </g>
+  <g id="title|main">
+   <text style="font-size: 6.5px; font-family: 'Arial', sans-serif; text-anchor: start; fill: #1a1a1a" x="0.425197" y="7.42471" transform="rotate(-0 0.425197 7.42471)">Pairs that share a molecule have more similar yield profiles in every screen</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p640db33b11">
+   <rect x="0" y="0" width="510.23622" height="221.102362"/>
+  </clipPath>
+  <clipPath id="pec26f032f3">
+   <rect x="117.637795" y="36.850394" width="260.787402" height="159.874016"/>
+  </clipPath>
+ </defs>
+</svg>

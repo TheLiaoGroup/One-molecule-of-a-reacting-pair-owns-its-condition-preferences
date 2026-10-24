@@ -1,0 +1,16 @@
+figure,panel,label,role,smiles,screen,rule_sha256
+3,A,owner01 2-chloro-4-cyanopyridine,aryl halide,N#Cc1ccnc(Cl)c1,Buchwald-Hartwig|1,1eef02cbdb55db159135883820e4a83e353e7da0f057a2fd258f96082143c02d
+3,A,owner02 2-bromobenzophenone,aryl halide,O=C(c1ccccc1)c1ccccc1Br,Buchwald-Hartwig|2,1eef02cbdb55db159135883820e4a83e353e7da0f057a2fd258f96082143c02d
+3,A,owner03 4-bromo-2-methylpyridine,aryl halide,Cc1cc(Br)ccn1,C-O competitive reactions|1,1eef02cbdb55db159135883820e4a83e353e7da0f057a2fd258f96082143c02d
+3,A,owner04 bromotriazolopyridine (exact isomer specified by SMILES),aryl halide,Brc1ccc2ncnn2c1,Heck|1,1eef02cbdb55db159135883820e4a83e353e7da0f057a2fd258f96082143c02d
+3,A,owner05 2-bromo-3-methoxypyridine,aryl halide,COc1cccnc1Br,Hiyama|1,1eef02cbdb55db159135883820e4a83e353e7da0f057a2fd258f96082143c02d
+3,A,owner06 2-chloro-6-methoxypyridine,aryl halide,COc1cccc(Cl)n1,Kumada|1,1eef02cbdb55db159135883820e4a83e353e7da0f057a2fd258f96082143c02d
+3,A,owner07 1-fluoro-2-nitrobenzene,aryl halide,O=[N+]([O-])c1ccccc1F,SNAr|1,1eef02cbdb55db159135883820e4a83e353e7da0f057a2fd258f96082143c02d
+3,A,owner08 bromo-1H-indazole (exact isomer specified by SMILES),aryl halide,Brc1ccc2cn[nH]c2c1,Sonogashira|1,1eef02cbdb55db159135883820e4a83e353e7da0f057a2fd258f96082143c02d
+3,A,owner09 7-bromo-1H-indole,aryl halide,Brc1cccc2cc[nH]c12,Suzuki|1,1eef02cbdb55db159135883820e4a83e353e7da0f057a2fd258f96082143c02d
+3,A,owner10 4-bromo-2-methylpyridine,aryl halide,Cc1cc(Br)ccn1,Ullmann|1,1eef02cbdb55db159135883820e4a83e353e7da0f057a2fd258f96082143c02d
+3,A,owner11 2-methylbut-3-yn-2-amine,N-H partner,C#CC(C)(C)N,Acylation|1,1eef02cbdb55db159135883820e4a83e353e7da0f057a2fd258f96082143c02d
+3,A,"owner12 2,5-dimethoxyphenylboronic acid",boronic acid,COc1ccc(OC)c(B(O)O)c1,Chan-Lam|1,1eef02cbdb55db159135883820e4a83e353e7da0f057a2fd258f96082143c02d
+3,A,"owner13 3,4,5-trimethoxybenzoic acid",carboxylic acid,COc1cc(C(=O)O)cc(OC)c1OC,Esterification|1,1eef02cbdb55db159135883820e4a83e353e7da0f057a2fd258f96082143c02d
+3,A,owner14 quinoline-4-carbaldehyde,carbonyl compound,O=Cc1ccnc2ccccc12,Grignard|1,1eef02cbdb55db159135883820e4a83e353e7da0f057a2fd258f96082143c02d
+3,A,owner15 benzyl 4-aminopiperidine-1-carboxylate,amine,NC1CCN(C(=O)OCc2ccccc2)CC1,Reductive-amination|1,1eef02cbdb55db159135883820e4a83e353e7da0f057a2fd258f96082143c02d

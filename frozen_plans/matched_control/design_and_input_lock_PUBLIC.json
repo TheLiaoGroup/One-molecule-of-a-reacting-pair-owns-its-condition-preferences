@@ -1,0 +1,26 @@
+{
+ "describes": "The input lock of the matched-control plan (design_and_input_lock.json), frozen with the plan. Its keys are file paths on the computer used for the analysis, so the frozen file is not released; it is available to editors and reviewers on request. Each entry below is one of its entries, the path cut to the part below the frozen run's work folder; the hashes are copied unchanged.",
+ "frozen_lock_sha256": "017d22f5a9dedfb0363b948ed2e345e457421ff96cf937ee461ed9bbbe403cba",
+ "entries": [
+  {
+   "file": "matched_control_20260928/ANALYSIS_PLAN.md",
+   "sha256": "9fd4848c7dcc98cda798e27f0b5c2f925219870bdc73aa0491295ac8bfb23c3c"
+  },
+  {
+   "file": "matched_control_20260928/analysis_config.json",
+   "sha256": "44db94208d0b37247f357dee4763ff781245a3a9a63e5349c186d06c6e331170"
+  },
+  {
+   "file": "ctb/history.py",
+   "sha256": "034154e702e14fd8de196b98f42ef82d92f98530a2bd7bb2d0d204936d1e2bb1"
+  },
+  {
+   "file": "ctb/common.py",
+   "sha256": "c30e9b453986f74bdf059569925857215127d8b90fabead235f3d5934c21076e"
+  },
+  {
+   "file": "data/DATASET_analysis.csv.gz",
+   "sha256": "e19a6319e0d7976032034e58cb5bd3fcdb31ebbbd3924784f1fbb6305b01d8f2"
+  }
+ ]
+}

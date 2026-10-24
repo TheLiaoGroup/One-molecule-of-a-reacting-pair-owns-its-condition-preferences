@@ -1,0 +1,3429 @@
+{
+  "figure": 3,
+  "width_mm": 180.0,
+  "height_mm": 214.0,
+  "width_px": 1133.8582677165355,
+  "height_px": 1348.0314960629923,
+  "dpi": 160,
+  "panel_titles": {
+    "A": "Aromatic amines",
+    "B": "Molecular contexts"
+  },
+  "texts": [
+    {
+      "text": "A",
+      "fontsize": 9.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        6.299212598425197,
+        1319.6338582677165,
+        14.5,
+        19.0
+      ],
+      "gid": "panel_A",
+      "axes_gid": null
+    },
+    {
+      "text": "Aromatic amines",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        37.795275590551185,
+        1320.1338582677165,
+        131.75,
+        18.0
+      ],
+      "gid": "tag_A",
+      "axes_gid": null
+    },
+    {
+      "text": "B",
+      "fontsize": 9.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        585.8267716535433,
+        1319.6338582677165,
+        14.5,
+        19.0
+      ],
+      "gid": "panel_B",
+      "axes_gid": null
+    },
+    {
+      "text": "Molecular contexts",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        617.3228346456693,
+        1320.1338582677165,
+        147.875,
+        18.0
+      ],
+      "gid": "tag_B",
+      "axes_gid": null
+    },
+    {
+      "text": "O",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        161.18247793894477,
+        1127.943869198669,
+        13.75,
+        18.0
+      ],
+      "gid": "A|structure|M4|label0",
+      "axes_gid": null
+    },
+    {
+      "text": "NH",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        161.6772776915449,
+        1230.3438179986947,
+        25.625,
+        18.0
+      ],
+      "gid": "A|structure|M4|label1",
+      "axes_gid": null
+    },
+    {
+      "text": "2",
+      "fontsize": 6.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        187.35433151968465,
+        1227.4326199542936,
+        7.375,
+        12.0
+      ],
+      "gid": "A|structure|M4|label2",
+      "axes_gid": null
+    },
+    {
+      "text": "NH",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        452.8692916755903,
+        1230.4326179542948,
+        25.625,
+        18.0
+      ],
+      "gid": "A|structure|M8|label0",
+      "axes_gid": null
+    },
+    {
+      "text": "2",
+      "fontsize": 6.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        478.54634550373015,
+        1227.5215532431603,
+        7.375,
+        12.0
+      ],
+      "gid": "A|structure|M8|label1",
+      "axes_gid": null
+    },
+    {
+      "text": "N",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        452.8692916755903,
+        1128.0326691542691,
+        12.875,
+        18.0
+      ],
+      "gid": "A|structure|M8|label2",
+      "axes_gid": null
+    },
+    {
+      "text": "N",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        408.5315005111526,
+        1153.6505230120088,
+        12.875,
+        18.0
+      ],
+      "gid": "A|structure|M8|label3",
+      "axes_gid": null
+    },
+    {
+      "text": "NH",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        161.6772776915449,
+        927.6496291883088,
+        25.625,
+        18.0
+      ],
+      "gid": "A|structure|M1|label0",
+      "axes_gid": null
+    },
+    {
+      "text": "2",
+      "fontsize": 6.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        187.35433151968465,
+        924.7385644771744,
+        7.375,
+        12.0
+      ],
+      "gid": "A|structure|M1|label1",
+      "axes_gid": null
+    },
+    {
+      "text": "NH",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        437.8826325022534,
+        927.6496291883088,
+        25.625,
+        18.0
+      ],
+      "gid": "A|structure|M2|label0",
+      "axes_gid": null
+    },
+    {
+      "text": "2",
+      "fontsize": 6.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        463.5596863303931,
+        924.7385644771744,
+        7.375,
+        12.0
+      ],
+      "gid": "A|structure|M2|label1",
+      "axes_gid": null
+    },
+    {
+      "text": "N",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        460.05142141785893,
+        889.2496483882992,
+        12.875,
+        18.0
+      ],
+      "gid": "A|structure|M2|label2",
+      "axes_gid": null
+    },
+    {
+      "text": "NH",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        172.62833888268096,
+        619.1066433023213,
+        25.625,
+        18.0
+      ],
+      "gid": "A|structure|M3|label0",
+      "axes_gid": null
+    },
+    {
+      "text": "2",
+      "fontsize": 6.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        198.30539271082074,
+        616.195578591187,
+        7.375,
+        12.0
+      ],
+      "gid": "A|structure|M3|label1",
+      "axes_gid": null
+    },
+    {
+      "text": "S",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        439.33303177705375,
+        535.8178849467006,
+        11.75,
+        18.0
+      ],
+      "gid": "A|structure|M5|label0",
+      "axes_gid": null
+    },
+    {
+      "text": "NH",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        438.8426320222535,
+        638.2178337467261,
+        25.625,
+        18.0
+      ],
+      "gid": "A|structure|M5|label1",
+      "axes_gid": null
+    },
+    {
+      "text": "2",
+      "fontsize": 6.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        464.51968585039333,
+        635.3066357023251,
+        7.375,
+        12.0
+      ],
+      "gid": "A|structure|M5|label2",
+      "axes_gid": null
+    },
+    {
+      "text": "NH",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        152.71728217154265,
+        335.52364493634036,
+        25.625,
+        18.0
+      ],
+      "gid": "A|structure|M7|label0",
+      "axes_gid": null
+    },
+    {
+      "text": "2",
+      "fontsize": 6.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        178.39433599968243,
+        332.612580225206,
+        7.375,
+        12.0
+      ],
+      "gid": "A|structure|M7|label1",
+      "axes_gid": null
+    },
+    {
+      "text": "S",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        471.8840821681951,
+        258.7236833363211,
+        11.75,
+        18.0
+      ],
+      "gid": "A|structure|M6|label0",
+      "axes_gid": null
+    },
+    {
+      "text": "NH",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        427.0559712489173,
+        335.54151159407354,
+        25.625,
+        18.0
+      ],
+      "gid": "A|structure|M6|label1",
+      "axes_gid": null
+    },
+    {
+      "text": "2",
+      "fontsize": 6.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        452.733025077057,
+        332.63031354967256,
+        7.375,
+        12.0
+      ],
+      "gid": "A|structure|M6|label2",
+      "axes_gid": null
+    },
+    {
+      "text": "Preference across partners",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        3.5984251968503873,
+        579.8641732283464,
+        18.000000000000014,
+        213.5
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "Owner",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        793.7007874015749,
+        1219.3464566929133,
+        52.25,
+        18.0
+      ],
+      "gid": "B|legend_owner",
+      "axes_gid": null
+    },
+    {
+      "text": "Non-owner",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        957.4803149606299,
+        1219.3464566929133,
+        86.75000000000011,
+        18.0
+      ],
+      "gid": "B|legend_nonowner",
+      "axes_gid": null
+    },
+    {
+      "text": "3-(methylthio)aniline",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        592.1259842519686,
+        1157.9291338582677,
+        159.5,
+        18.0
+      ],
+      "gid": "B|name|1",
+      "axes_gid": null
+    },
+    {
+      "text": "3,4-dimethoxyaniline",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        592.1259842519686,
+        1110.6850393700788,
+        162.5,
+        18.0
+      ],
+      "gid": "B|name|2",
+      "axes_gid": null
+    },
+    {
+      "text": "2-ethoxypyridin-4-amine",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        592.1259842519686,
+        1063.4409448818897,
+        189.5,
+        18.0
+      ],
+      "gid": "B|name|3",
+      "axes_gid": null
+    },
+    {
+      "text": "3-(4-methylimidazol-1-yl)-\n5-(trifluoromethyl)aniline",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        592.1259842519686,
+        1007.1968503937007,
+        200.375,
+        36.0
+      ],
+      "gid": "B|name|4",
+      "axes_gid": null
+    },
+    {
+      "text": "2,4-dimethylaniline",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        592.1259842519686,
+        968.9527559055118,
+        147.625,
+        18.0
+      ],
+      "gid": "B|name|5",
+      "axes_gid": null
+    },
+    {
+      "text": "5-methylpyridin-2-amine",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        592.1259842519686,
+        921.7086614173228,
+        189.5,
+        18.0
+      ],
+      "gid": "B|name|6",
+      "axes_gid": null
+    },
+    {
+      "text": "4-methoxyaniline",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        592.1259842519686,
+        874.4645669291338,
+        133.875,
+        18.0
+      ],
+      "gid": "B|name|7",
+      "axes_gid": null
+    },
+    {
+      "text": "4-methoxy-$\\mathit{N}$-methylaniline",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        592.1259842519686,
+        825.2204724409448,
+        212.355224609375,
+        22.0
+      ],
+      "gid": "B|name|8",
+      "axes_gid": null
+    },
+    {
+      "text": "3-ethynylaniline",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        592.1259842519686,
+        779.9763779527559,
+        123.125,
+        18.0
+      ],
+      "gid": "B|name|9",
+      "axes_gid": null
+    },
+    {
+      "text": "4-(methylthio)aniline",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        592.1259842519686,
+        732.7322834645669,
+        159.5,
+        18.0
+      ],
+      "gid": "B|name|10",
+      "axes_gid": null
+    },
+    {
+      "text": "4-methylaniline",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        592.1259842519686,
+        685.488188976378,
+        119.125,
+        18.0
+      ],
+      "gid": "B|name|11",
+      "axes_gid": null
+    },
+    {
+      "text": "6-methoxypyridin-3-amine",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        592.1259842519686,
+        638.2440944881889,
+        204.375,
+        18.0
+      ],
+      "gid": "B|name|12",
+      "axes_gid": null
+    },
+    {
+      "text": "1-butylpiperazine",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        592.1259842519686,
+        591.0,
+        134.875,
+        18.0
+      ],
+      "gid": "B|name|13",
+      "axes_gid": null
+    },
+    {
+      "text": "ethyl 3-aminobenzoate",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        592.1259842519686,
+        543.755905511811,
+        179.25,
+        18.0
+      ],
+      "gid": "B|name|14",
+      "axes_gid": null
+    },
+    {
+      "text": "4-methoxy-3-methylaniline",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        592.1259842519686,
+        496.51181102362204,
+        207.5,
+        18.0
+      ],
+      "gid": "B|name|15",
+      "axes_gid": null
+    },
+    {
+      "text": "$\\mathit{N}$-ethylaniline",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        592.1259842519686,
+        447.267716535433,
+        108.7933349609375,
+        22.0
+      ],
+      "gid": "B|name|16",
+      "axes_gid": null
+    },
+    {
+      "text": "2-methylaniline",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        592.1259842519686,
+        402.0236220472441,
+        119.0,
+        18.0
+      ],
+      "gid": "B|name|17",
+      "axes_gid": null
+    },
+    {
+      "text": "quinoxalin-6-amine",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        592.1259842519686,
+        354.77952755905505,
+        149.5,
+        18.0
+      ],
+      "gid": "B|name|18",
+      "axes_gid": null
+    },
+    {
+      "text": "methyl\n4-amino-2-methoxybenzoate",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        592.1259842519686,
+        298.535433070866,
+        225.125,
+        36.0
+      ],
+      "gid": "B|name|19",
+      "axes_gid": null
+    },
+    {
+      "text": "3,4,5-trimethoxybenzoic acid",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        592.1259842519686,
+        260.2913385826771,
+        225.5,
+        18.0
+      ],
+      "gid": "B|name|20",
+      "axes_gid": null
+    },
+    {
+      "text": "5-(trifluoromethyl)picolinic\nacid",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        592.1259842519686,
+        204.04724409448818,
+        201.875,
+        36.0
+      ],
+      "gid": "B|name|21",
+      "axes_gid": null
+    },
+    {
+      "text": "5-bromo-2-methoxynicotinic\nacid",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        592.1259842519686,
+        156.80314960629903,
+        218.0,
+        36.0
+      ],
+      "gid": "B|name|22",
+      "axes_gid": null
+    },
+    {
+      "text": "5-fluoropicolinic acid",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        592.1259842519686,
+        118.55905511811011,
+        160.5,
+        18.0
+      ],
+      "gid": "B|name|23",
+      "axes_gid": null
+    },
+    {
+      "text": "Preference across partners",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        787.738188976378,
+        28.795275590551,
+        213.5,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "−0.4",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        40.223097112860884,
+        997.4078473241693,
+        35.0,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "0.0",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        50.598097112860884,
+        1031.573068196984,
+        24.625,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "0.4",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        50.598097112860884,
+        1065.7382890697986,
+        24.625,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "−0.4",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        40.223097112860884,
+        701.3448551981852,
+        35.0,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "0.0",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        50.598097112860884,
+        735.5100760709998,
+        24.625,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "0.4",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        50.598097112860884,
+        769.6752969438145,
+        24.625,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "−0.4",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        40.223097112860884,
+        405.28186307220074,
+        35.0,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "0.0",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        50.598097112860884,
+        439.4470839450154,
+        24.625,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "0.4",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        50.598097112860884,
+        473.61230481783,
+        24.625,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "Amide",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        65.0682712956335,
+        88.7191601049869,
+        50.25,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "Pd",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        162.35334645669292,
+        88.7191601049869,
+        21.75,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "Pd/Cu/Ni",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        220.76342161775233,
+        88.7191601049869,
+        71.0,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "−0.4",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        40.223097112860884,
+        109.2188709462165,
+        35.0,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "0.0",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        50.598097112860884,
+        143.38409181903114,
+        24.625,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "0.4",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        50.598097112860884,
+        177.54931269184578,
+        24.625,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "Amide",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        342.23362562634213,
+        88.7191601049869,
+        50.25,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "Pd",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        439.51870078740154,
+        88.7191601049869,
+        21.75,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "Pd/Cu/Ni",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        497.92877594846095,
+        88.7191601049869,
+        71.0,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "−0.4",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        890.6664791901013,
+        73.71478565179359,
+        35.0,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "0.0",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        962.4456552305962,
+        73.71478565179359,
+        24.625,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "0.4",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        1029.0373312710913,
+        73.71478565179359,
+        24.625,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "0.8",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        1095.629007311586,
+        73.71478565179359,
+        24.625,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    }
+  ],
+  "axes": [
+    {
+      "gid": null,
+      "xlim": [
+        0.0,
+        180.0
+      ],
+      "ylim": [
+        214.0,
+        0.0
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        1133.8582677165355,
+        1348.0314960629923
+      ],
+      "lines": [
+        {
+          "gid": null,
+          "x": [
+            123
+          ],
+          "y": [
+            19
+          ],
+          "marker": "o",
+          "color": "#4D4D4D",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": null,
+          "x": [
+            149
+          ],
+          "y": [
+            19
+          ],
+          "marker": "o",
+          "color": "#1f77b4",
+          "markersize": 3.5,
+          "linestyle": "None"
+        }
+      ],
+      "meshes": [],
+      "collections": [],
+      "patches": [],
+      "images": []
+    },
+    {
+      "gid": null,
+      "xlim": [
+        -0.1,
+        2.1
+      ],
+      "ylim": [
+        -0.48,
+        0.7
+      ],
+      "bbox": [
+        81.88976377952756,
+        1001.5748031496065,
+        182.6771653543307,
+        100.78740157480308
+      ],
+      "lines": [
+        {
+          "gid": null,
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            0,
+            0
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "A|path|M4",
+          "x": [
+            0,
+            1,
+            2
+          ],
+          "y": [
+            0.0013801683441627,
+            0.0199039052302714,
+            -0.4241204507559065
+          ],
+          "marker": "o",
+          "color": "#D55E00",
+          "markersize": 3.0,
+          "linestyle": "-"
+        }
+      ],
+      "meshes": [],
+      "collections": [],
+      "patches": [],
+      "images": []
+    },
+    {
+      "gid": null,
+      "xlim": [
+        -0.1,
+        2.1
+      ],
+      "ylim": [
+        -0.48,
+        0.7
+      ],
+      "bbox": [
+        359.0551181102362,
+        1001.5748031496065,
+        182.67716535433067,
+        100.78740157480308
+      ],
+      "lines": [
+        {
+          "gid": null,
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            0,
+            0
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "A|path|M8",
+          "x": [
+            0,
+            1,
+            2
+          ],
+          "y": [
+            0.1024233954135368,
+            -0.0362270011455398,
+            0.6119380835401191
+          ],
+          "marker": "o",
+          "color": "#B3B3B3",
+          "markersize": 3.0,
+          "linestyle": "-"
+        }
+      ],
+      "meshes": [],
+      "collections": [],
+      "patches": [],
+      "images": []
+    },
+    {
+      "gid": null,
+      "xlim": [
+        -0.1,
+        2.1
+      ],
+      "ylim": [
+        -0.48,
+        0.7
+      ],
+      "bbox": [
+        81.88976377952756,
+        705.5118110236223,
+        182.6771653543307,
+        100.7874015748032
+      ],
+      "lines": [
+        {
+          "gid": null,
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            0,
+            0
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "A|path|M1",
+          "x": [
+            0,
+            1,
+            2
+          ],
+          "y": [
+            0.167030045563013,
+            0.0899205186496756,
+            -0.0847602587537669
+          ],
+          "marker": "o",
+          "color": "#D55E00",
+          "markersize": 3.0,
+          "linestyle": "-"
+        }
+      ],
+      "meshes": [],
+      "collections": [],
+      "patches": [],
+      "images": []
+    },
+    {
+      "gid": null,
+      "xlim": [
+        -0.1,
+        2.1
+      ],
+      "ylim": [
+        -0.48,
+        0.7
+      ],
+      "bbox": [
+        359.0551181102362,
+        705.5118110236223,
+        182.67716535433067,
+        100.7874015748032
+      ],
+      "lines": [
+        {
+          "gid": null,
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            0,
+            0
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "A|path|M2",
+          "x": [
+            0,
+            1,
+            2
+          ],
+          "y": [
+            0.2031969730776413,
+            -0.1600328555898975,
+            -0.0092818195845426
+          ],
+          "marker": "o",
+          "color": "#D55E00",
+          "markersize": 3.0,
+          "linestyle": "-"
+        }
+      ],
+      "meshes": [],
+      "collections": [],
+      "patches": [],
+      "images": []
+    },
+    {
+      "gid": null,
+      "xlim": [
+        -0.1,
+        2.1
+      ],
+      "ylim": [
+        -0.48,
+        0.7
+      ],
+      "bbox": [
+        81.88976377952756,
+        409.4488188976378,
+        182.6771653543307,
+        100.7874015748032
+      ],
+      "lines": [
+        {
+          "gid": null,
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            0,
+            0
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "A|path|M3",
+          "x": [
+            0,
+            1,
+            2
+          ],
+          "y": [
+            0.2608168650220344,
+            0.3300844510789312,
+            0.3809346655236472
+          ],
+          "marker": "o",
+          "color": "#B3B3B3",
+          "markersize": 3.0,
+          "linestyle": "-"
+        }
+      ],
+      "meshes": [],
+      "collections": [],
+      "patches": [],
+      "images": []
+    },
+    {
+      "gid": null,
+      "xlim": [
+        -0.1,
+        2.1
+      ],
+      "ylim": [
+        -0.48,
+        0.7
+      ],
+      "bbox": [
+        359.0551181102362,
+        409.4488188976378,
+        182.67716535433067,
+        100.7874015748032
+      ],
+      "lines": [
+        {
+          "gid": null,
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            0,
+            0
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "A|path|M5",
+          "x": [
+            0,
+            1,
+            2
+          ],
+          "y": [
+            0.2661943801172103,
+            0.0644626671050054,
+            0.1243654212307799
+          ],
+          "marker": "o",
+          "color": "#D55E00",
+          "markersize": 3.0,
+          "linestyle": "-"
+        }
+      ],
+      "meshes": [],
+      "collections": [],
+      "patches": [],
+      "images": []
+    },
+    {
+      "gid": null,
+      "xlim": [
+        -0.1,
+        2.1
+      ],
+      "ylim": [
+        -0.48,
+        0.7
+      ],
+      "bbox": [
+        81.88976377952756,
+        113.38582677165357,
+        182.6771653543307,
+        100.78740157480317
+      ],
+      "lines": [
+        {
+          "gid": null,
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            0,
+            0
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "A|path|M7",
+          "x": [
+            0,
+            1,
+            2
+          ],
+          "y": [
+            0.3425676208264127,
+            0.1006713026221817,
+            0.0039082436604011
+          ],
+          "marker": "o",
+          "color": "#D55E00",
+          "markersize": 3.0,
+          "linestyle": "-"
+        }
+      ],
+      "meshes": [],
+      "collections": [],
+      "patches": [],
+      "images": []
+    },
+    {
+      "gid": null,
+      "xlim": [
+        -0.1,
+        2.1
+      ],
+      "ylim": [
+        -0.48,
+        0.7
+      ],
+      "bbox": [
+        359.0551181102362,
+        113.38582677165357,
+        182.67716535433067,
+        100.78740157480317
+      ],
+      "lines": [
+        {
+          "gid": null,
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            0,
+            0
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "A|path|M6",
+          "x": [
+            0,
+            1,
+            2
+          ],
+          "y": [
+            0.6437947975138275,
+            0.0860813205544275,
+            -0.3792889171847232
+          ],
+          "marker": "o",
+          "color": "#D55E00",
+          "markersize": 3.0,
+          "linestyle": "-"
+        }
+      ],
+      "meshes": [],
+      "collections": [],
+      "patches": [],
+      "images": []
+    },
+    {
+      "gid": null,
+      "xlim": [
+        -0.52,
+        0.88
+      ],
+      "ylim": [
+        23.5,
+        0.5
+      ],
+      "bbox": [
+        888.1889763779528,
+        103.93700787401582,
+        233.07086614173238,
+        1086.6141732283468
+      ],
+      "lines": [
+        {
+          "gid": null,
+          "x": [
+            0,
+            0
+          ],
+          "y": [
+            0,
+            1
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "B|connector|1",
+          "x": [
+            -0.1466037983151478,
+            0.6437947975138275
+          ],
+          "y": [
+            1,
+            1
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "B|nonowner|1",
+          "x": [
+            -0.1466037983151478
+          ],
+          "y": [
+            1
+          ],
+          "marker": "o",
+          "color": "#1f77b4",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|owner|1",
+          "x": [
+            0.6437947975138275
+          ],
+          "y": [
+            1
+          ],
+          "marker": "o",
+          "color": "#ff7f0e",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|connector|2",
+          "x": [
+            -0.4537452517762994,
+            0.1279355878695741
+          ],
+          "y": [
+            2,
+            2
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "B|nonowner|2",
+          "x": [
+            -0.4537452517762994
+          ],
+          "y": [
+            2
+          ],
+          "marker": "o",
+          "color": "#2ca02c",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|owner|2",
+          "x": [
+            0.1279355878695741
+          ],
+          "y": [
+            2
+          ],
+          "marker": "o",
+          "color": "#d62728",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|connector|3",
+          "x": [
+            0.0281820916204597,
+            0.4968223610399608
+          ],
+          "y": [
+            3,
+            3
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "B|nonowner|3",
+          "x": [
+            0.0281820916204597
+          ],
+          "y": [
+            3
+          ],
+          "marker": "o",
+          "color": "#9467bd",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|owner|3",
+          "x": [
+            0.4968223610399608
+          ],
+          "y": [
+            3
+          ],
+          "marker": "o",
+          "color": "#8c564b",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|connector|4",
+          "x": [
+            0.0272539163408376,
+            0.3336384407141529
+          ],
+          "y": [
+            4,
+            4
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "B|nonowner|4",
+          "x": [
+            0.0272539163408376
+          ],
+          "y": [
+            4
+          ],
+          "marker": "o",
+          "color": "#e377c2",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|owner|4",
+          "x": [
+            0.3336384407141529
+          ],
+          "y": [
+            4
+          ],
+          "marker": "o",
+          "color": "#7f7f7f",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|connector|5",
+          "x": [
+            0.0522897731412914,
+            0.3425676208264127
+          ],
+          "y": [
+            5,
+            5
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "B|nonowner|5",
+          "x": [
+            0.0522897731412914
+          ],
+          "y": [
+            5
+          ],
+          "marker": "o",
+          "color": "#bcbd22",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|owner|5",
+          "x": [
+            0.3425676208264127
+          ],
+          "y": [
+            5
+          ],
+          "marker": "o",
+          "color": "#17becf",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|connector|6",
+          "x": [
+            -0.08465733758722,
+            0.2031969730776413
+          ],
+          "y": [
+            6,
+            6
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "B|nonowner|6",
+          "x": [
+            -0.08465733758722
+          ],
+          "y": [
+            6
+          ],
+          "marker": "o",
+          "color": "#1f77b4",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|owner|6",
+          "x": [
+            0.2031969730776413
+          ],
+          "y": [
+            6
+          ],
+          "marker": "o",
+          "color": "#ff7f0e",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|connector|7",
+          "x": [
+            -0.2021082727628175,
+            0.0013801683441627
+          ],
+          "y": [
+            7,
+            7
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "B|nonowner|7",
+          "x": [
+            -0.2021082727628175
+          ],
+          "y": [
+            7
+          ],
+          "marker": "o",
+          "color": "#2ca02c",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|owner|7",
+          "x": [
+            0.0013801683441627
+          ],
+          "y": [
+            7
+          ],
+          "marker": "o",
+          "color": "#d62728",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|connector|8",
+          "x": [
+            0.0892277407507614,
+            0.2825662003873914
+          ],
+          "y": [
+            8,
+            8
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "B|nonowner|8",
+          "x": [
+            0.0892277407507614
+          ],
+          "y": [
+            8
+          ],
+          "marker": "o",
+          "color": "#9467bd",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|owner|8",
+          "x": [
+            0.2825662003873914
+          ],
+          "y": [
+            8
+          ],
+          "marker": "o",
+          "color": "#8c564b",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|connector|9",
+          "x": [
+            0.1532106095557529,
+            0.3445474061486761
+          ],
+          "y": [
+            9,
+            9
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "B|nonowner|9",
+          "x": [
+            0.1532106095557529
+          ],
+          "y": [
+            9
+          ],
+          "marker": "o",
+          "color": "#e377c2",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|owner|9",
+          "x": [
+            0.3445474061486761
+          ],
+          "y": [
+            9
+          ],
+          "marker": "o",
+          "color": "#7f7f7f",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|connector|10",
+          "x": [
+            0.0944140441678926,
+            0.2661943801172103
+          ],
+          "y": [
+            10,
+            10
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "B|nonowner|10",
+          "x": [
+            0.0944140441678926
+          ],
+          "y": [
+            10
+          ],
+          "marker": "o",
+          "color": "#bcbd22",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|owner|10",
+          "x": [
+            0.2661943801172103
+          ],
+          "y": [
+            10
+          ],
+          "marker": "o",
+          "color": "#17becf",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|connector|11",
+          "x": [
+            0.0025801299479543,
+            0.167030045563013
+          ],
+          "y": [
+            11,
+            11
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "B|nonowner|11",
+          "x": [
+            0.0025801299479543
+          ],
+          "y": [
+            11
+          ],
+          "marker": "o",
+          "color": "#1f77b4",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|owner|11",
+          "x": [
+            0.167030045563013
+          ],
+          "y": [
+            11
+          ],
+          "marker": "o",
+          "color": "#ff7f0e",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|connector|12",
+          "x": [
+            -0.0337516036147025,
+            0.1300262160587283
+          ],
+          "y": [
+            12,
+            12
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "B|nonowner|12",
+          "x": [
+            -0.0337516036147025
+          ],
+          "y": [
+            12
+          ],
+          "marker": "o",
+          "color": "#2ca02c",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|owner|12",
+          "x": [
+            0.1300262160587283
+          ],
+          "y": [
+            12
+          ],
+          "marker": "o",
+          "color": "#d62728",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|connector|13",
+          "x": [
+            0.0522471212281526,
+            0.1323555805059597
+          ],
+          "y": [
+            13,
+            13
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "B|nonowner|13",
+          "x": [
+            0.0522471212281526
+          ],
+          "y": [
+            13
+          ],
+          "marker": "o",
+          "color": "#9467bd",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|owner|13",
+          "x": [
+            0.1323555805059597
+          ],
+          "y": [
+            13
+          ],
+          "marker": "o",
+          "color": "#8c564b",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|connector|14",
+          "x": [
+            0.1644906840794105,
+            0.2210193381734084
+          ],
+          "y": [
+            14,
+            14
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "B|nonowner|14",
+          "x": [
+            0.1644906840794105
+          ],
+          "y": [
+            14
+          ],
+          "marker": "o",
+          "color": "#e377c2",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|owner|14",
+          "x": [
+            0.2210193381734084
+          ],
+          "y": [
+            14
+          ],
+          "marker": "o",
+          "color": "#7f7f7f",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|connector|15",
+          "x": [
+            0.1068761292276681,
+            0.0784425950172717
+          ],
+          "y": [
+            15,
+            15
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "B|nonowner|15",
+          "x": [
+            0.1068761292276681
+          ],
+          "y": [
+            15
+          ],
+          "marker": "o",
+          "color": "#bcbd22",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|owner|15",
+          "x": [
+            0.0784425950172717
+          ],
+          "y": [
+            15
+          ],
+          "marker": "o",
+          "color": "#17becf",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|connector|16",
+          "x": [
+            0.0304688879475037,
+            -0.0628015325316655
+          ],
+          "y": [
+            16,
+            16
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "B|nonowner|16",
+          "x": [
+            0.0304688879475037
+          ],
+          "y": [
+            16
+          ],
+          "marker": "o",
+          "color": "#1f77b4",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|owner|16",
+          "x": [
+            -0.0628015325316655
+          ],
+          "y": [
+            16
+          ],
+          "marker": "o",
+          "color": "#ff7f0e",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|connector|17",
+          "x": [
+            0.3555095583012893,
+            0.2608168650220344
+          ],
+          "y": [
+            17,
+            17
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "B|nonowner|17",
+          "x": [
+            0.3555095583012893
+          ],
+          "y": [
+            17
+          ],
+          "marker": "o",
+          "color": "#2ca02c",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|owner|17",
+          "x": [
+            0.2608168650220344
+          ],
+          "y": [
+            17
+          ],
+          "marker": "o",
+          "color": "#d62728",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|connector|18",
+          "x": [
+            0.2878555411972896,
+            0.1024233954135368
+          ],
+          "y": [
+            18,
+            18
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "B|nonowner|18",
+          "x": [
+            0.2878555411972896
+          ],
+          "y": [
+            18
+          ],
+          "marker": "o",
+          "color": "#9467bd",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|owner|18",
+          "x": [
+            0.1024233954135368
+          ],
+          "y": [
+            18
+          ],
+          "marker": "o",
+          "color": "#8c564b",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|connector|19",
+          "x": [
+            0.368472542905755,
+            0.1718325099102086
+          ],
+          "y": [
+            19,
+            19
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "B|nonowner|19",
+          "x": [
+            0.368472542905755
+          ],
+          "y": [
+            19
+          ],
+          "marker": "o",
+          "color": "#e377c2",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|owner|19",
+          "x": [
+            0.1718325099102086
+          ],
+          "y": [
+            19
+          ],
+          "marker": "o",
+          "color": "#7f7f7f",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|connector|20",
+          "x": [
+            0.0347492407335758,
+            0.6197175402954037
+          ],
+          "y": [
+            20,
+            20
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "B|nonowner|20",
+          "x": [
+            0.0347492407335758
+          ],
+          "y": [
+            20
+          ],
+          "marker": "o",
+          "color": "#bcbd22",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|owner|20",
+          "x": [
+            0.6197175402954037
+          ],
+          "y": [
+            20
+          ],
+          "marker": "o",
+          "color": "#17becf",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|connector|21",
+          "x": [
+            0.155250285511908,
+            0.7222795523340279
+          ],
+          "y": [
+            21,
+            21
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "B|nonowner|21",
+          "x": [
+            0.155250285511908
+          ],
+          "y": [
+            21
+          ],
+          "marker": "o",
+          "color": "#1f77b4",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|owner|21",
+          "x": [
+            0.7222795523340279
+          ],
+          "y": [
+            21
+          ],
+          "marker": "o",
+          "color": "#ff7f0e",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|connector|22",
+          "x": [
+            0.072185026534602,
+            0.1172160033027056
+          ],
+          "y": [
+            22,
+            22
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "B|nonowner|22",
+          "x": [
+            0.072185026534602
+          ],
+          "y": [
+            22
+          ],
+          "marker": "o",
+          "color": "#2ca02c",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|owner|22",
+          "x": [
+            0.1172160033027056
+          ],
+          "y": [
+            22
+          ],
+          "marker": "o",
+          "color": "#d62728",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|connector|23",
+          "x": [
+            0.218854273354539,
+            0.1742936085898659
+          ],
+          "y": [
+            23,
+            23
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "B|nonowner|23",
+          "x": [
+            0.218854273354539
+          ],
+          "y": [
+            23
+          ],
+          "marker": "o",
+          "color": "#9467bd",
+          "markersize": 3.5,
+          "linestyle": "None"
+        },
+        {
+          "gid": "B|owner|23",
+          "x": [
+            0.1742936085898659
+          ],
+          "y": [
+            23
+          ],
+          "marker": "o",
+          "color": "#8c564b",
+          "markersize": 3.5,
+          "linestyle": "None"
+        }
+      ],
+      "meshes": [],
+      "collections": [],
+      "patches": [],
+      "images": []
+    }
+  ],
+  "panel_tags": {
+    "A": "Aromatic amines",
+    "B": "Molecular contexts"
+  },
+  "frozen_amine_order": [
+    "M4",
+    "M8",
+    "M1",
+    "M2",
+    "M3",
+    "M5",
+    "M7",
+    "M6"
+  ],
+  "displayed_summaries": {
+    "A": [
+      0.1865674921715979,
+      0.2204636597752288
+    ],
+    "B": [
+      0.2555345936388482,
+      0.0597065796734981
+    ]
+  },
+  "d21": {
+    "status": "PASS",
+    "figure": 3,
+    "measurement_version": 3,
+    "criterion_pt": 2.0,
+    "measurement_dpi": 160,
+    "method": "Rendered text bboxes versus transformed visible marker edges, line strokes, patch paths, and all other visible text bboxes; Euclidean minimum clearance in print points.",
+    "scope": "All ordinary non-tick text except panel letters and panel tags; tick labels, axis titles and native chemical labels remain text obstacles.",
+    "annotations": 27,
+    "geometry_primitives": 227,
+    "minimum_graphic_gap_pt": 6.503937007873963,
+    "minimum_text_gap_pt": 5.059842519685117,
+    "annotation_text_bbox_corrections": [],
+    "connected_leader_exceptions": [],
+    "rows": [
+      {
+        "text": "Preference across partners",
+        "gid": null,
+        "graphic_gap_pt": 26.881102362204718,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "line"
+        },
+        "text_gap_pt": 8.381102362204718,
+        "nearest_text": "−0.4",
+        "nearest_text_gid": null
+      },
+      {
+        "text": "Owner",
+        "gid": "B|legend_owner",
+        "graphic_gap_pt": 6.503937007874015,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "marker"
+        },
+        "text_gap_pt": 27.20678185483733,
+        "nearest_text": "3-(methylthio)aniline",
+        "nearest_text_gid": "B|name|1"
+      },
+      {
+        "text": "Non-owner",
+        "gid": "B|legend_nonowner",
+        "graphic_gap_pt": 6.503937007873963,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "marker"
+        },
+        "text_gap_pt": 50.18828740157477,
+        "nearest_text": "Owner",
+        "nearest_text_gid": "B|legend_owner"
+      },
+      {
+        "text": "3-(methylthio)aniline",
+        "gid": "B|name|1",
+        "graphic_gap_pt": 23.746902118502646,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "marker"
+        },
+        "text_gap_pt": 13.159842519685014,
+        "nearest_text": "3,4-dimethoxyaniline",
+        "nearest_text_gid": "B|name|2"
+      },
+      {
+        "text": "3,4-dimethoxyaniline",
+        "gid": "B|name|2",
+        "graphic_gap_pt": 25.584641806510394,
+        "nearest_graphic": {
+          "gid": "A|path|M8",
+          "kind": "marker"
+        },
+        "text_gap_pt": 13.159842519685014,
+        "nearest_text": "3-(methylthio)aniline",
+        "nearest_text_gid": "B|name|1"
+      },
+      {
+        "text": "2-ethoxypyridin-4-amine",
+        "gid": "B|name|3",
+        "graphic_gap_pt": 24.294574852058183,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "line"
+        },
+        "text_gap_pt": 9.109842519685014,
+        "nearest_text": "3-(4-methylimidazol-1-yl)-\n5-(trifluoromethyl)aniline",
+        "nearest_text_gid": "B|name|4"
+      },
+      {
+        "text": "3-(4-methylimidazol-1-yl)-\n5-(trifluoromethyl)aniline",
+        "gid": "B|name|4",
+        "graphic_gap_pt": 22.427165354330768,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "line"
+        },
+        "text_gap_pt": 9.109842519685014,
+        "nearest_text": "2-ethoxypyridin-4-amine",
+        "nearest_text_gid": "B|name|3"
+      },
+      {
+        "text": "2,4-dimethylaniline",
+        "gid": "B|name|5",
+        "graphic_gap_pt": 23.362479587993054,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "axis spine"
+        },
+        "text_gap_pt": 9.109842519685014,
+        "nearest_text": "3-(4-methylimidazol-1-yl)-\n5-(trifluoromethyl)aniline",
+        "nearest_text_gid": "B|name|4"
+      },
+      {
+        "text": "5-methylpyridin-2-amine",
+        "gid": "B|name|6",
+        "graphic_gap_pt": 35.65691125406863,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "axis spine"
+        },
+        "text_gap_pt": 13.159842519685064,
+        "nearest_text": "2,4-dimethylaniline",
+        "nearest_text_gid": "B|name|5"
+      },
+      {
+        "text": "4-methoxyaniline",
+        "gid": "B|name|7",
+        "graphic_gap_pt": 53.83350180272493,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "axis spine"
+        },
+        "text_gap_pt": 12.259842519685014,
+        "nearest_text": "4-methoxy-$\\mathit{N}$-methylaniline",
+        "nearest_text_gid": "B|name|8"
+      },
+      {
+        "text": "4-methoxy-$\\mathit{N}$-methylaniline",
+        "gid": "B|name|8",
+        "graphic_gap_pt": 41.807192536975336,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "line"
+        },
+        "text_gap_pt": 12.259842519685014,
+        "nearest_text": "4-methoxyaniline",
+        "nearest_text_gid": "B|name|7"
+      },
+      {
+        "text": "3-ethynylaniline",
+        "gid": "B|name|9",
+        "graphic_gap_pt": 26.97227918892773,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "line"
+        },
+        "text_gap_pt": 12.259842519685014,
+        "nearest_text": "4-methoxy-$\\mathit{N}$-methylaniline",
+        "nearest_text_gid": "B|name|8"
+      },
+      {
+        "text": "4-(methylthio)aniline",
+        "gid": "B|name|10",
+        "graphic_gap_pt": 22.427165354330768,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "line"
+        },
+        "text_gap_pt": 13.159842519685014,
+        "nearest_text": "4-methylaniline",
+        "nearest_text_gid": "B|name|11"
+      },
+      {
+        "text": "4-methylaniline",
+        "gid": "B|name|11",
+        "graphic_gap_pt": 22.445441730910495,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "axis spine"
+        },
+        "text_gap_pt": 13.159842519685014,
+        "nearest_text": "4-(methylthio)aniline",
+        "nearest_text_gid": "B|name|10"
+      },
+      {
+        "text": "6-methoxypyridin-3-amine",
+        "gid": "B|name|12",
+        "graphic_gap_pt": 31.464092715421668,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "axis spine"
+        },
+        "text_gap_pt": 13.159842519685014,
+        "nearest_text": "1-butylpiperazine",
+        "nearest_text_gid": "B|name|13"
+      },
+      {
+        "text": "1-butylpiperazine",
+        "gid": "B|name|13",
+        "graphic_gap_pt": 48.74434749118702,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "axis spine"
+        },
+        "text_gap_pt": 13.159842519685014,
+        "nearest_text": "6-methoxypyridin-3-amine",
+        "nearest_text_gid": "B|name|12"
+      },
+      {
+        "text": "ethyl 3-aminobenzoate",
+        "gid": "B|name|14",
+        "graphic_gap_pt": 43.882896520072094,
+        "nearest_graphic": {
+          "gid": "A|path|M5",
+          "kind": "marker"
+        },
+        "text_gap_pt": 13.159842519685014,
+        "nearest_text": "4-methoxy-3-methylaniline",
+        "nearest_text_gid": "B|name|15"
+      },
+      {
+        "text": "4-methoxy-3-methylaniline",
+        "gid": "B|name|15",
+        "graphic_gap_pt": 29.085674325108016,
+        "nearest_graphic": {
+          "gid": "A|path|M5",
+          "kind": "marker"
+        },
+        "text_gap_pt": 12.259842519685066,
+        "nearest_text": "$\\mathit{N}$-ethylaniline",
+        "nearest_text_gid": "B|name|16"
+      },
+      {
+        "text": "$\\mathit{N}$-ethylaniline",
+        "gid": "B|name|16",
+        "graphic_gap_pt": 22.427165354330768,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "line"
+        },
+        "text_gap_pt": 12.259842519685014,
+        "nearest_text": "2-methylaniline",
+        "nearest_text_gid": "B|name|17"
+      },
+      {
+        "text": "2-methylaniline",
+        "gid": "B|name|17",
+        "graphic_gap_pt": 22.427165354330768,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "axis spine"
+        },
+        "text_gap_pt": 12.259842519685014,
+        "nearest_text": "$\\mathit{N}$-ethylaniline",
+        "nearest_text_gid": "B|name|16"
+      },
+      {
+        "text": "quinoxalin-6-amine",
+        "gid": "B|name|18",
+        "graphic_gap_pt": 27.795370496404864,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "axis spine"
+        },
+        "text_gap_pt": 9.109842519685065,
+        "nearest_text": "methyl\n4-amino-2-methoxybenzoate",
+        "nearest_text_gid": "B|name|19"
+      },
+      {
+        "text": "methyl\n4-amino-2-methoxybenzoate",
+        "gid": "B|name|19",
+        "graphic_gap_pt": 40.37864681667224,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "axis spine"
+        },
+        "text_gap_pt": 9.109842519685014,
+        "nearest_text": "3,4,5-trimethoxybenzoic acid",
+        "nearest_text_gid": "B|name|20"
+      },
+      {
+        "text": "3,4,5-trimethoxybenzoic acid",
+        "gid": "B|name|20",
+        "graphic_gap_pt": 51.19139380368598,
+        "nearest_graphic": {
+          "gid": "A|structure|M6|bond0",
+          "kind": "patch"
+        },
+        "text_gap_pt": 9.109842519685014,
+        "nearest_text": "methyl\n4-amino-2-methoxybenzoate",
+        "nearest_text_gid": "B|name|19"
+      },
+      {
+        "text": "5-(trifluoromethyl)picolinic\nacid",
+        "gid": "B|name|21",
+        "graphic_gap_pt": 31.588744306733336,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "line"
+        },
+        "text_gap_pt": 5.059842519685117,
+        "nearest_text": "5-bromo-2-methoxynicotinic\nacid",
+        "nearest_text_gid": "B|name|22"
+      },
+      {
+        "text": "5-bromo-2-methoxynicotinic\nacid",
+        "gid": "B|name|22",
+        "graphic_gap_pt": 22.453277874014873,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "line"
+        },
+        "text_gap_pt": 5.059842519685117,
+        "nearest_text": "5-(trifluoromethyl)picolinic\nacid",
+        "nearest_text_gid": "B|name|21"
+      },
+      {
+        "text": "5-fluoropicolinic acid",
+        "gid": "B|name|23",
+        "graphic_gap_pt": 22.546341648198457,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "axis spine"
+        },
+        "text_gap_pt": 9.109842519685014,
+        "nearest_text": "5-bromo-2-methoxynicotinic\nacid",
+        "nearest_text_gid": "B|name|22"
+      },
+      {
+        "text": "Preference across partners",
+        "gid": null,
+        "graphic_gap_pt": 25.463779527559165,
+        "nearest_graphic": {
+          "gid": null,
+          "kind": "line"
+        },
+        "text_gap_pt": 12.113779527559165,
+        "nearest_text": "−0.4",
+        "nearest_text_gid": null
+      }
+    ],
+    "failures": []
+  },
+  "text_styles": [
+    {
+      "text": "A",
+      "gid": "panel_A",
+      "weight": "bold",
+      "color": "black"
+    },
+    {
+      "text": "Aromatic amines",
+      "gid": "tag_A",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "B",
+      "gid": "panel_B",
+      "weight": "bold",
+      "color": "black"
+    },
+    {
+      "text": "Molecular contexts",
+      "gid": "tag_B",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "O",
+      "gid": "A|structure|M4|label0",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "NH",
+      "gid": "A|structure|M4|label1",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "2",
+      "gid": "A|structure|M4|label2",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "NH",
+      "gid": "A|structure|M8|label0",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "2",
+      "gid": "A|structure|M8|label1",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "N",
+      "gid": "A|structure|M8|label2",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "N",
+      "gid": "A|structure|M8|label3",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "NH",
+      "gid": "A|structure|M1|label0",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "2",
+      "gid": "A|structure|M1|label1",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "NH",
+      "gid": "A|structure|M2|label0",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "2",
+      "gid": "A|structure|M2|label1",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "N",
+      "gid": "A|structure|M2|label2",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "NH",
+      "gid": "A|structure|M3|label0",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "2",
+      "gid": "A|structure|M3|label1",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "S",
+      "gid": "A|structure|M5|label0",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "NH",
+      "gid": "A|structure|M5|label1",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "2",
+      "gid": "A|structure|M5|label2",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "NH",
+      "gid": "A|structure|M7|label0",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "2",
+      "gid": "A|structure|M7|label1",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "S",
+      "gid": "A|structure|M6|label0",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "NH",
+      "gid": "A|structure|M6|label1",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "2",
+      "gid": "A|structure|M6|label2",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "Preference across partners",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "Owner",
+      "gid": "B|legend_owner",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "Non-owner",
+      "gid": "B|legend_nonowner",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "3-(methylthio)aniline",
+      "gid": "B|name|1",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "3,4-dimethoxyaniline",
+      "gid": "B|name|2",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "2-ethoxypyridin-4-amine",
+      "gid": "B|name|3",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "3-(4-methylimidazol-1-yl)-\n5-(trifluoromethyl)aniline",
+      "gid": "B|name|4",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "2,4-dimethylaniline",
+      "gid": "B|name|5",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "5-methylpyridin-2-amine",
+      "gid": "B|name|6",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "4-methoxyaniline",
+      "gid": "B|name|7",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "4-methoxy-$\\mathit{N}$-methylaniline",
+      "gid": "B|name|8",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "3-ethynylaniline",
+      "gid": "B|name|9",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "4-(methylthio)aniline",
+      "gid": "B|name|10",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "4-methylaniline",
+      "gid": "B|name|11",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "6-methoxypyridin-3-amine",
+      "gid": "B|name|12",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "1-butylpiperazine",
+      "gid": "B|name|13",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "ethyl 3-aminobenzoate",
+      "gid": "B|name|14",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "4-methoxy-3-methylaniline",
+      "gid": "B|name|15",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "$\\mathit{N}$-ethylaniline",
+      "gid": "B|name|16",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "2-methylaniline",
+      "gid": "B|name|17",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "quinoxalin-6-amine",
+      "gid": "B|name|18",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "methyl\n4-amino-2-methoxybenzoate",
+      "gid": "B|name|19",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "3,4,5-trimethoxybenzoic acid",
+      "gid": "B|name|20",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "5-(trifluoromethyl)picolinic\nacid",
+      "gid": "B|name|21",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "5-bromo-2-methoxynicotinic\nacid",
+      "gid": "B|name|22",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "5-fluoropicolinic acid",
+      "gid": "B|name|23",
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "Preference across partners",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "−0.4",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "0.0",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "0.4",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "−0.4",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "0.0",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "0.4",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "−0.4",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "0.0",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "0.4",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "Amide",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "Pd",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "Pd/Cu/Ni",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "−0.4",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "0.0",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "0.4",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "Amide",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "Pd",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "Pd/Cu/Ni",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "−0.4",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "0.0",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "0.4",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    },
+    {
+      "text": "0.8",
+      "gid": null,
+      "weight": "normal",
+      "color": "black"
+    }
+  ]
+}

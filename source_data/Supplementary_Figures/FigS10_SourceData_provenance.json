@@ -1,0 +1,136 @@
+{
+ "figure": "Fig. S10 | A structure-based recommender gains most where molecules have been measured",
+ "generated_by": "06_CODE/Figures/ed10.py",
+ "inputs": {
+  "A1": {
+   "file": "05_DATA/Release/00_RAW_IMMUTABLE/DATASET_analysis.csv.gz",
+   "sha256": "98e6da9f16a4adebba15ed84f49635741c38e80a15cf0fffb40d94e63f6bbbff",
+   "rows": 177039
+  },
+  "fold_registry": {
+   "file": "05_DATA/Analysis/06_METADATA/frozen_folds.json",
+   "sha256": "455685fc1686f7f07bd14e362403e493cb10bc99519dcab9c8b61d4861b97af5",
+   "entries_used": "assignment|..., conditions|<m>, halves|<screen>|20260920, regime|..."
+  },
+  "registry_integrity": [
+   {
+    "file": "05_DATA/Analysis/06_METADATA/input_lock.json",
+    "sha256": "a7418b7f23ea0dc986ae1f450001d5861edbca0e169187ebf949041a0eaa57dc"
+   },
+   {
+    "file": "07_METHODS_AND_PROVENANCE/analysis_runtime/PATH_RELOCATIONS.json",
+    "sha256": "27275dccfb4bbfbc214b913317c5ef7b3f0aa593df90a62791e77ff5b210e64f"
+   }
+  ],
+  "frozen": {
+   "cases": {
+    "file": "05_DATA/Results/primary/fig3_regime_cases.csv",
+    "sha256": "448e37979d1f24ada6e6baa1602fd6e182a88d40f30826f974165db583b34c2b"
+   },
+   "association": {
+    "file": "05_DATA/Results/primary/structure_association.csv",
+    "sha256": "41a4658430086dc96456f3b98f9d586877d90a3b7e7a41d31e1f5429be939933"
+   },
+   "restated": {
+    "file": "05_DATA/Results/directional/structure_in_place_of_record_15.json",
+    "sha256": "3344962de45d3ce2fe2723f431a6058acb97e2b2afcc455c37dda7c262bf7b1e"
+   }
+  }
+ },
+ "randomness": {
+  "groups": "frozen registry (released as FigS10_molecule_groups.csv)",
+  "folds": "frozen registry (released as FigS10_condition_folds.csv and FigS10_pair_halves.csv)",
+  "regime_rows": "equal to regimes._historical_training_rows in all 7192 held-out cells and regimes",
+  "a": "common.whole_array_interval: default_rng(20260920), 10,000 draws, a fresh generator per regime",
+  "b": "structure.permutation_p: default_rng(20260920), 4,999 permutations, a fresh generator per array",
+  "fits": "sklearn TruncatedSVD random_state 0"
+ },
+ "transformation": {
+  "a": "Molecule-disjoint validation (regimes.py): the molecules of each role are split into groups (five partitions, groups in FigS10_molecule_groups.csv); for each pair of a partner-1 group and a partner-2 group, the pairs combining them are held out and the training pairs are, by regime: all other pairs (both molecules measured in other pairs; a target is scored only if both occur in training); all pairs without a held partner-1 molecule (partner 1 new); the mirror image (partner 2 new); all pairs without a held molecule in either role (both new). The recommender, fitted on the training pairs only: the out-of-fold, cross-fitted preference (condition folds in FigS10_condition_folds.csv) predicted by an equal blend of a ten-neighbour ECFP4 Tanimoto model and a rank-8 bilinear ridge model on truncated-SVD fingerprints (random_state 0) and ten standardized descriptors; its trio = the three largest of training condition mean + prediction. Gain = best measured yield of that trio minus that of the complementary trio of the training pairs (greedy); scored when every condition of the panels is measured. Interval: 10,000 whole-array draws, default_rng(20260920), arrays in sorted identifier order; pooled mean = sum / count over the scored cases.",
+  "b": "Arrays first require at least 40 pairs of two named molecules and 200 comparable pair-pairs (at least eight common conditions); pairs with constant raw yield profiles are then removed. Profile: the out-of-fold slope residual with a condition mean removed that is estimated on the other half of the pairs (halves in FigS10_pair_halves.csv; condition folds as in panel a); agreement = Pearson r of two pairs' profiles over common conditions; similarity = mean of the two partners' ECFP4 Tanimoto (radius 2, 2,048 bits). rho = Spearman correlation of similarity and agreement over all comparable pair-pairs; p = (hits + 1) / 5,000 over 4,999 permutations of whole structure labels (default_rng(20260920), a fresh generator per array), the eligibility held fixed; q = Benjamini-Hochberg over the 14 arrays."
+ },
+ "refit_verification": "08_REVIEW_AND_QC/extended_data/ED10_REFIT_VERIFICATION.json",
+ "estimates": {
+  "a": [
+   {
+    "regime": "warm/warm",
+    "label": "Both molecules measured in other pairs",
+    "pairs": 1609,
+    "cases": 7548,
+    "arrays": 15,
+    "mean_pp": 1.8795802565963395,
+    "ci_lower_pp": 1.0374906215162243,
+    "ci_upper_pp": 3.0781956623260984
+   },
+   {
+    "regime": "new/known",
+    "label": "Partner 1 new",
+    "pairs": 1858,
+    "cases": 8767,
+    "arrays": 15,
+    "mean_pp": 1.2388771460407042,
+    "ci_lower_pp": 0.7554802924638335,
+    "ci_upper_pp": 2.087681313063691
+   },
+   {
+    "regime": "known/new",
+    "label": "Partner 2 new",
+    "pairs": 1842,
+    "cases": 8532,
+    "arrays": 15,
+    "mean_pp": 0.8669204795268554,
+    "ci_lower_pp": -0.017904130089012708,
+    "ci_upper_pp": 1.9858402238657635
+   },
+   {
+    "regime": "new/new",
+    "label": "Both new",
+    "pairs": 2085,
+    "cases": 9842,
+    "arrays": 15,
+    "mean_pp": 0.07504807366513752,
+    "ci_lower_pp": -0.6848057769130489,
+    "ci_upper_pp": 0.9949731557154905
+   }
+  ],
+  "b": {
+   "median": 0.11716457986521744,
+   "positive": 14,
+   "q05": 13
+  }
+ },
+ "outputs": {
+  "pdf": {
+   "file": "02_FIGURES/Supplementary_Figures/FigS10.pdf",
+   "sha256": "80d1ed7ef7207e17712fd0ca3132456097e6bb4e8cdc3d7936f2de4439a0d6a0"
+  },
+  "svg": {
+   "file": "02_FIGURES/Supplementary_Figures/FigS10.svg",
+   "sha256": "6b9cac008a8716f48ef4d4b6659896b4482c0968d4f8e8857fa36d2d486e2864"
+  },
+  "png": {
+   "file": "02_FIGURES/Supplementary_Figures/FigS10.png",
+   "sha256": "91a4b431586d9e4a4f44efcdfc86829b1242a03286bdcd349c330af15bc65328"
+  },
+  "xlsx": {
+   "file": "04_SOURCE_DATA/Supplementary_Figures/FigS10_SourceData.xlsx",
+   "sha256": "70f803727ad168e58eea94e60f16f8e1cd8e8b8f82daab1d5d5fb46e73fd181b"
+  },
+  "groups": {
+   "file": "04_SOURCE_DATA/Supplementary_Figures/FigS10_molecule_groups.csv",
+   "sha256": "ba3855608fb074d22374511d81f21f30d8721f1a4f7f2954b35d1b6cc7874c2a"
+  },
+  "condition_folds": {
+   "file": "04_SOURCE_DATA/Supplementary_Figures/FigS10_condition_folds.csv",
+   "sha256": "6b42d00e0d6fcb01a2e93cd48797e9b864e46bc039aefc19dadc8b6ca5319043"
+  },
+  "halves": {
+   "file": "04_SOURCE_DATA/Supplementary_Figures/FigS10_pair_halves.csv",
+   "sha256": "1e26bc8371270a27d45ce97c94e7ef8608749d08b12702ea0bb9906ae6b906d4"
+  },
+  "readback": {
+   "file": "08_REVIEW_AND_QC/extended_data/ed10_plot_readback.json",
+   "sha256": "ad242bb53e2187089c5f68a929bc206718186f605a135dd4768cb7e5235d73da"
+  }
+ }
+}

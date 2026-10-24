@@ -1,0 +1,36 @@
+{
+ "figure1": {
+  "molecular_median_interval": [
+   0.20310295577188756,
+   0.4270294030981324
+  ],
+  "redrawn": 1167,
+  "likelihood_owner_role": {
+   "Acylation|1": 1,
+   "Buchwald-Hartwig|1": 2,
+   "Buchwald-Hartwig|2": 2,
+   "C-O competitive reactions|1": 2,
+   "Chan-Lam|1": 2,
+   "Esterification|1": 2,
+   "Grignard|1": 2,
+   "Heck|1": 2,
+   "Hiyama|1": 2,
+   "Kumada|1": 1,
+   "Reductive-amination|1": 2,
+   "SNAr|1": 2,
+   "Sonogashira|1": 2,
+   "Suzuki|1": 1,
+   "Ullmann|1": 2
+  },
+  "interval_equals_released": true,
+  "likelihood_owner_equals_released": true
+ },
+ "e3": {
+  "targets": 396,
+  "product_forming": 291,
+  "sha256": "257c4bb589201e579c475336b7b68b6ebf0d76a10ef69871019d8a905ccbc1eb",
+  "bytes_equal_released": true,
+  "max_abs_difference_pp": 0.0,
+  "targets_equal_released": true
+ }
+}

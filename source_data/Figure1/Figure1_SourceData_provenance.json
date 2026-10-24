@@ -1,0 +1,143 @@
+{
+ "figure": "Figure 1",
+ "generated_by": "06_CODE/Figures/figure1.py",
+ "inputs": {
+  "files": {
+   "02_FIGURES/ChemDraw/Fig1_A_product.svg": {
+    "file": "02_FIGURES/ChemDraw/Fig1_A_product.svg",
+    "sha256": "49cae0608819e212089462ec02ac793937b31f30bcdbc39694836998e9c039a2"
+   },
+   "02_FIGURES/ChemDraw/structures_manifest.csv": {
+    "file": "02_FIGURES/ChemDraw/structures_manifest.csv",
+    "sha256": "0d1fbaa84950b639168af68d656ff45808375effe08f50550187556d8fd8de6d"
+   },
+   "02_FIGURES/ChemDraw/v5/f1/a1.svg": {
+    "file": "02_FIGURES/ChemDraw/v5/f1/a1.svg",
+    "sha256": "7fd5e156b1543679f9c37c638b3781458c76e3e46aa4fce0941c96d813713e1b"
+   },
+   "02_FIGURES/ChemDraw/v5/f1/a2.svg": {
+    "file": "02_FIGURES/ChemDraw/v5/f1/a2.svg",
+    "sha256": "13d27b4394ca5dd5acaf6af300b6605cd3273b90b333ae1b74713703d96a13a2"
+   },
+   "02_FIGURES/ChemDraw/v5/f1/a3.svg": {
+    "file": "02_FIGURES/ChemDraw/v5/f1/a3.svg",
+    "sha256": "38697bdce6bfb254fd6d84dd69ec906c6cd840dd903a60c3b1d4907ebe9e0622"
+   },
+   "02_FIGURES/ChemDraw/v5/f1/a4.svg": {
+    "file": "02_FIGURES/ChemDraw/v5/f1/a4.svg",
+    "sha256": "2de55e6e842fff24fce8e3f7270efa25aeef64307bb9a762d6fc8afe89a545ea"
+   },
+   "02_FIGURES/ChemDraw/v5/f1/a5.svg": {
+    "file": "02_FIGURES/ChemDraw/v5/f1/a5.svg",
+    "sha256": "1afa0f4770515a755cb941509970346d8d7b546da62934f3cc0a07b530dbe56a"
+   },
+   "02_FIGURES/ChemDraw/v5/f1/a6.svg": {
+    "file": "02_FIGURES/ChemDraw/v5/f1/a6.svg",
+    "sha256": "a157e3046ee342de028d9351fc06cbd4bfc8ed6bbdbe31440cb5afab3217a95a"
+   },
+   "02_FIGURES/ChemDraw/v5/f1/a7.svg": {
+    "file": "02_FIGURES/ChemDraw/v5/f1/a7.svg",
+    "sha256": "ce30ccb3487ec851d5e2ae217abe7dc259cd50f99b15863d7fb9e643eba63f3d"
+   },
+   "02_FIGURES/ChemDraw/v5/f1/h1.svg": {
+    "file": "02_FIGURES/ChemDraw/v5/f1/h1.svg",
+    "sha256": "5756e83f10e0250da9e83d38fb8526b32ab9bb288622600760f4997d66b89c37"
+   },
+   "02_FIGURES/ChemDraw/v5/f1/h10.svg": {
+    "file": "02_FIGURES/ChemDraw/v5/f1/h10.svg",
+    "sha256": "a0a0e45f70483780bc939370527ee4f77546863bb53997e46fba0d377a806de5"
+   },
+   "02_FIGURES/ChemDraw/v5/f1/h2.svg": {
+    "file": "02_FIGURES/ChemDraw/v5/f1/h2.svg",
+    "sha256": "7e636ccd91ab662c9ea2a5f422cbd3e3850dd378031c7ea651e686c0e3138a68"
+   },
+   "02_FIGURES/ChemDraw/v5/f1/h3.svg": {
+    "file": "02_FIGURES/ChemDraw/v5/f1/h3.svg",
+    "sha256": "d57b938e073b58c1d11dcd56d4b78113ab3ef7119f12bb725e3d62a005b1e364"
+   },
+   "02_FIGURES/ChemDraw/v5/f1/h4.svg": {
+    "file": "02_FIGURES/ChemDraw/v5/f1/h4.svg",
+    "sha256": "4e1f90c820e9e4be31a91461f9b88fae05288d67864186db02c4cd530cd805ac"
+   },
+   "02_FIGURES/ChemDraw/v5/f1/h5.svg": {
+    "file": "02_FIGURES/ChemDraw/v5/f1/h5.svg",
+    "sha256": "a5d234947f3f116658017eac97a1c0ddf071470059aad267c000f5c3551b80d0"
+   },
+   "02_FIGURES/ChemDraw/v5/f1/h6.svg": {
+    "file": "02_FIGURES/ChemDraw/v5/f1/h6.svg",
+    "sha256": "d26e37704b0f6b8c986928cde8f5c92816e42875d6b7023b1dc94232f57c5495"
+   },
+   "02_FIGURES/ChemDraw/v5/f1/h7.svg": {
+    "file": "02_FIGURES/ChemDraw/v5/f1/h7.svg",
+    "sha256": "126325e7e14bff3d7ed32746edc198fa2ee099f1c643467916314abfcd88f82b"
+   },
+   "02_FIGURES/ChemDraw/v5/f1/h8.svg": {
+    "file": "02_FIGURES/ChemDraw/v5/f1/h8.svg",
+    "sha256": "fdc10333915ec64376564b2b3ce24ef420549f2a5536970d6302e2987245bdf4"
+   },
+   "02_FIGURES/ChemDraw/v5/f1/h9.svg": {
+    "file": "02_FIGURES/ChemDraw/v5/f1/h9.svg",
+    "sha256": "506666c4d01a671fb16fa4b56239740fff261d9472e6bf57f19ba61d2ac02bde"
+   },
+   "02_FIGURES/ChemDraw/v5/f1/manifest.json": {
+    "file": "02_FIGURES/ChemDraw/v5/f1/manifest.json",
+    "sha256": "64b7399ea8a4cad7e70fd601df3f411369d37c2b7cccb4e23e4d3371df5b7a4f"
+   },
+   "05_DATA/Analysis/figure_display/v5_reference_tables/MANIFEST.json": {
+    "file": "05_DATA/Analysis/figure_display/v5_reference_tables/MANIFEST.json",
+    "sha256": "e5d3baa73d123bbb89d85b287026ffa9c482f826174ff31bba42ca6780470717"
+   },
+   "05_DATA/Analysis/figure_display/v5_reference_tables/overview.xlsx": {
+    "file": "05_DATA/Analysis/figure_display/v5_reference_tables/overview.xlsx",
+    "sha256": "fa2e174c8303b7edc57fdcc6be9ff1fd2157a99f49f4409a031b6d838ad71e8d"
+   },
+   "05_DATA/Analysis/figure_display/v5_reference_tables/preference.xlsx": {
+    "file": "05_DATA/Analysis/figure_display/v5_reference_tables/preference.xlsx",
+    "sha256": "b0e602d46001b3a0fc7cff805bb21ae6123ae7e743a49c28d43eda0cb89e8fe0"
+   },
+   "05_DATA/Analysis/figure_display/v5_reference_tables/preference_payload.json": {
+    "file": "05_DATA/Analysis/figure_display/v5_reference_tables/preference_payload.json",
+    "sha256": "cd94d1ef8767212ef86845dd44e2f6aa27bddba155565669fedfe0e5959753ae"
+   },
+   "05_DATA/Release/00_RAW_IMMUTABLE/DATASET_analysis.csv.gz": {
+    "file": "05_DATA/Release/00_RAW_IMMUTABLE/DATASET_analysis.csv.gz",
+    "sha256": "98e6da9f16a4adebba15ed84f49635741c38e80a15cf0fffb40d94e63f6bbbff"
+   },
+   "07_METHODS_AND_PROVENANCE/frozen_analysis_plans/figure_selection_v3/RULE.md": {
+    "file": "07_METHODS_AND_PROVENANCE/frozen_analysis_plans/figure_selection_v3/RULE.md",
+    "sha256": "1eef02cbdb55db159135883820e4a83e353e7da0f057a2fd258f96082143c02d"
+   },
+   "10_PUBLIC_RELEASE_CANDIDATE/data/conditions.csv": {
+    "file": "10_PUBLIC_RELEASE_CANDIDATE/data/conditions.csv",
+    "sha256": "bfe80d9b789538ad24941d4ed81a21373b94da86df11de84ab2c2db57d5323db"
+   }
+  }
+ },
+ "outputs": {
+  "svg": {
+   "file": "02_FIGURES/Main/Figure1.svg",
+   "sha256": "b9247137c37404ad4fb73eca200c0f51e773902f307395194822b969050456fb"
+  },
+  "pdf": {
+   "file": "02_FIGURES/Main/Figure1.pdf",
+   "sha256": "e107f96cdd92da77fec84f4f73ef577361d22f34404133270c21a4e6fdd9341c"
+  },
+  "png": {
+   "file": "02_FIGURES/Main/Figure1.png",
+   "sha256": "46a51d21733a3bf81fc3438f5e9734f5d01cf1a824ff467e79aad1b16664e516"
+  },
+  "xlsx": {
+   "file": "04_SOURCE_DATA/Figure1/Figure1_SourceData.xlsx",
+   "sha256": "bf07184ab78ebb5d5e68419766ec738837768d859d7b6d8d439616c1775378ce"
+  },
+  "readback": {
+   "file": "04_SOURCE_DATA/Figure1/Figure1_readback.json",
+   "sha256": "0fd4e23621f67d4ac94e64b0de9f05bc8cf21eab113a185f4e6d4f8e9571fc21"
+  },
+  "payload": {
+   "file": "04_SOURCE_DATA/Figure1/figure1_payload.json",
+   "sha256": "df616e83ec5d461bc3863bda9f8dabef93ce0f63131ad11c956f5f2d71aa0bbe"
+  }
+ },
+ "panels": {}
+}

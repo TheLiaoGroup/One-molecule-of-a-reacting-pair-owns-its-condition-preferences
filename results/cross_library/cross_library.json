@@ -1,0 +1,40 @@
+{
+  "targets": 535,
+  "arrays": 13,
+  "D": 0.0889128417519909,
+  "r2_electrophile": 0.12666431389903665,
+  "r2_partner": 0.03775147214704577,
+  "ci_whole_array": [
+    0.06344926329122066,
+    0.11144115564885154
+  ],
+  "ci_electrophile_cluster": [
+    0.0570994268880353,
+    0.11899274852267272
+  ],
+  "undefined_draws": {
+    "whole_array": 0,
+    "electrophile_cluster": 0
+  },
+  "arrays_positive": 11,
+  "per_array": {
+    "Acylation|1": 0.0986697250368059,
+    "Buchwald-Hartwig|1": 0.12051003170717081,
+    "Chan-Lam|1": -0.005806979509806974,
+    "Esterification|1": 0.21658274878547365,
+    "Grignard|1": 0.05119199883929593,
+    "Heck|1": 0.11622668909321413,
+    "Hiyama|1": 0.06187449370583763,
+    "Kumada|1": 0.05967409938627664,
+    "Reductive-amination|1": 0.23904890407671717,
+    "SNAr|1": -0.022081778948454468,
+    "Sonogashira|1": 0.18916088417902044,
+    "Suzuki|1": 0.05447002626000358,
+    "Ullmann|1": 0.04133098385728717
+  },
+  "sign_test": {
+    "arrays": 13,
+    "favouring_owner": 11,
+    "one_sided_p": 0.01123046875
+  }
+}

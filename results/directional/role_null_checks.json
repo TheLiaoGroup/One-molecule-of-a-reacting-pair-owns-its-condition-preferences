@@ -1,0 +1,415 @@
+{
+ "margins": [
+  {
+   "array": "Acylation|1",
+   "owner_role": 1,
+   "margin": 0.17154815754754862,
+   "lower": -0.01155856256685212,
+   "upper": 0.36438149735391645,
+   "draws_on_owner": 0.969,
+   "share1": 0.2998313019179326,
+   "share2": 0.128283144370384
+  },
+  {
+   "array": "Buchwald-Hartwig|1",
+   "owner_role": 2,
+   "margin": 0.16223497591366048,
+   "lower": -0.03525977172818091,
+   "upper": 0.3449614175497431,
+   "draws_on_owner": 0.9465,
+   "share1": 0.08213795399675035,
+   "share2": 0.24437292991041085
+  },
+  {
+   "array": "Buchwald-Hartwig|2",
+   "owner_role": 2,
+   "margin": 0.39205305206683816,
+   "lower": -0.10595557168985505,
+   "upper": 0.8962588944340529,
+   "draws_on_owner": 0.94,
+   "share1": -0.0015394733630266831,
+   "share2": 0.3905135787038115
+  },
+  {
+   "array": "C-O competitive reactions|1",
+   "owner_role": 2,
+   "margin": 0.15729223122463487,
+   "lower": -0.40770005185954394,
+   "upper": 0.6334358385686505,
+   "draws_on_owner": 0.7515,
+   "share1": -0.05793721382167717,
+   "share2": 0.09935501740295771
+  },
+  {
+   "array": "Chan-Lam|1",
+   "owner_role": 2,
+   "margin": 0.028438849639879055,
+   "lower": -0.41182672865232817,
+   "upper": 0.4378743121214135,
+   "draws_on_owner": 0.5425,
+   "share1": 0.13060019709180912,
+   "share2": 0.15903904673168817
+  },
+  {
+   "array": "Esterification|1",
+   "owner_role": 2,
+   "margin": 0.3879860137597124,
+   "lower": -0.16584781466975573,
+   "upper": 1.1255898440825642,
+   "draws_on_owner": 0.9355,
+   "share1": 0.0011762369533934453,
+   "share2": 0.3891622507131059
+  },
+  {
+   "array": "Grignard|1",
+   "owner_role": 2,
+   "margin": 0.04194275362818004,
+   "lower": -0.19067160439322567,
+   "upper": 0.2307050469669746,
+   "draws_on_owner": 0.6305,
+   "share1": 0.013440600566893626,
+   "share2": 0.05538335419507367
+  },
+  {
+   "array": "Heck|1",
+   "owner_role": 2,
+   "margin": 0.21081224839961182,
+   "lower": -0.12427028994714504,
+   "upper": 0.642987534878342,
+   "draws_on_owner": 0.865,
+   "share1": 0.06768920612617534,
+   "share2": 0.2785014545257872
+  },
+  {
+   "array": "Hiyama|1",
+   "owner_role": 2,
+   "margin": 0.08107465046557846,
+   "lower": -0.32962438664838534,
+   "upper": 0.5076937695533366,
+   "draws_on_owner": 0.6005,
+   "share1": 0.11912924661424595,
+   "share2": 0.20020389707982442
+  },
+  {
+   "array": "Kumada|1",
+   "owner_role": 1,
+   "margin": 0.2558785153565093,
+   "lower": -0.05048098454533584,
+   "upper": 0.6316040154792895,
+   "draws_on_owner": 0.949,
+   "share1": 0.3388896308990812,
+   "share2": 0.08301111554257191
+  },
+  {
+   "array": "Reductive-amination|1",
+   "owner_role": 2,
+   "margin": 0.04281990651541284,
+   "lower": -0.3285192163678065,
+   "upper": 0.34035285873764776,
+   "draws_on_owner": 0.574,
+   "share1": 0.12666527477120823,
+   "share2": 0.16948518128662107
+  },
+  {
+   "array": "SNAr|1",
+   "owner_role": 2,
+   "margin": 0.4522122746497071,
+   "lower": -0.06894885100295169,
+   "upper": 1.1043400819465528,
+   "draws_on_owner": 0.9505,
+   "share1": 0.003436717003795668,
+   "share2": 0.45564899165350276
+  },
+  {
+   "array": "Sonogashira|1",
+   "owner_role": 2,
+   "margin": 0.1325380909363068,
+   "lower": -0.0884287061562391,
+   "upper": 0.39052603695345933,
+   "draws_on_owner": 0.8915,
+   "share1": 0.10950639544566902,
+   "share2": 0.24204448638197584
+  },
+  {
+   "array": "Suzuki|1",
+   "owner_role": 1,
+   "margin": 0.1877062682218754,
+   "lower": -0.006911939026535344,
+   "upper": 0.35719600454096867,
+   "draws_on_owner": 0.971,
+   "share1": 0.24814217262736105,
+   "share2": 0.06043590440548565
+  },
+  {
+   "array": "Ullmann|1",
+   "owner_role": 2,
+   "margin": 0.34611690836436665,
+   "lower": 0.016086824561433358,
+   "upper": 0.6899405368622278,
+   "draws_on_owner": 0.981,
+   "share1": -0.0472997334403652,
+   "share2": 0.29881717492400145
+  }
+ ],
+ "equal_role_null": {
+  "observed_median_owner_index": 0.8041471222239404,
+  "models": {
+   "independent conditions": {
+    "simulations": 500,
+    "median": 0.5325337702038766,
+    "p95": 0.5528570250120374,
+    "reaching_observed": 0
+   },
+   "8 shared condition factors": {
+    "simulations": 500,
+    "median": 0.5622330245313671,
+    "p95": 0.599921141788161,
+    "reaching_observed": 0
+   },
+   "4 shared condition factors": {
+    "simulations": 500,
+    "median": 0.5802882109861538,
+    "p95": 0.6236948408096331,
+    "reaching_observed": 0
+   }
+  }
+ },
+ "equal_role_null_measured_covariance": {
+  "simulations": 500,
+  "median": 0.5874235340384677,
+  "p95": 0.6491482466845201,
+  "reaching_observed": 0,
+  "observed_median_owner_index": 0.8041471222239404,
+  "effective_rank_observed_median": 17.540242937382352,
+  "effective_rank_simulated_median": 13.932287908740935
+ },
+ "molecules_weighted_equally": {
+  "rows": [
+   {
+    "array": "Acylation|1",
+    "share1": 0.29797067356541845,
+    "share2": 0.12922483704656793,
+    "owner": 1,
+    "owner_published": 1,
+    "molecular": 0.42719551061198635,
+    "owner_index": 0.6975042250293206
+   },
+   {
+    "array": "Buchwald-Hartwig|1",
+    "share1": 0.11393775361350474,
+    "share2": 0.2904548908869845,
+    "owner": 2,
+    "owner_published": 2,
+    "molecular": 0.40439264450048923,
+    "owner_index": 0.718249688358595
+   },
+   {
+    "array": "Buchwald-Hartwig|2",
+    "share1": 0.059063887356896584,
+    "share2": 0.2917160516728396,
+    "owner": 2,
+    "owner_published": 2,
+    "molecular": 0.3507799390297362,
+    "owner_index": 0.8316212508609574
+   },
+   {
+    "array": "C-O competitive reactions|1",
+    "share1": -0.01854363619761636,
+    "share2": 0.29352970682121055,
+    "owner": 2,
+    "owner_published": 2,
+    "molecular": 0.2749860706235942,
+    "owner_index": 1.0674348200822115
+   },
+   {
+    "array": "Chan-Lam|1",
+    "share1": 0.13994083159655935,
+    "share2": 0.1910384280220959,
+    "owner": 2,
+    "owner_published": 2,
+    "molecular": 0.33097925961865526,
+    "owner_index": 0.5771915383525991
+   },
+   {
+    "array": "Esterification|1",
+    "share1": -0.13935097706953103,
+    "share2": 0.4415411899931648,
+    "owner": 2,
+    "owner_published": 2,
+    "molecular": 0.30219021292363374,
+    "owner_index": 1.4611366321937975
+   },
+   {
+    "array": "Grignard|1",
+    "share1": 0.049041699144150436,
+    "share2": 0.011738521013282639,
+    "owner": 1,
+    "owner_published": 2,
+    "molecular": 0.060780220157433076,
+    "owner_index": 0.8068693896982029
+   },
+   {
+    "array": "Heck|1",
+    "share1": 0.08340019138753911,
+    "share2": 0.2440745373452441,
+    "owner": 2,
+    "owner_published": 2,
+    "molecular": 0.3274747287327832,
+    "owner_index": 0.7453232751416583
+   },
+   {
+    "array": "Hiyama|1",
+    "share1": 0.1057703626578282,
+    "share2": 0.11799690101735612,
+    "owner": 2,
+    "owner_published": 2,
+    "molecular": 0.22376726367518432,
+    "owner_index": 0.5273197655428179
+   },
+   {
+    "array": "Kumada|1",
+    "share1": 0.2923026993642427,
+    "share2": 0.10049004895409201,
+    "owner": 1,
+    "owner_published": 1,
+    "molecular": 0.3927927483183347,
+    "owner_index": 0.7441652133744309
+   },
+   {
+    "array": "Reductive-amination|1",
+    "share1": 0.14487973273739982,
+    "share2": 0.1018783335835359,
+    "owner": 1,
+    "owner_published": 2,
+    "molecular": 0.24675806632093572,
+    "owner_index": 0.5871327122047064
+   },
+   {
+    "array": "SNAr|1",
+    "share1": 0.08658047188803186,
+    "share2": 0.3806061665446872,
+    "owner": 2,
+    "owner_published": 2,
+    "molecular": 0.46718663843271907,
+    "owner_index": 0.8146769090432783
+   },
+   {
+    "array": "Sonogashira|1",
+    "share1": 0.06458372607156736,
+    "share2": 0.2268086375381653,
+    "owner": 2,
+    "owner_published": 2,
+    "molecular": 0.29139236360973264,
+    "owner_index": 0.7783616383370102
+   },
+   {
+    "array": "Suzuki|1",
+    "share1": 0.2724038626546511,
+    "share2": 0.07633286954220325,
+    "owner": 1,
+    "owner_published": 1,
+    "molecular": 0.34873673219685436,
+    "owner_index": 0.7811160612151548
+   },
+   {
+    "array": "Ullmann|1",
+    "share1": -0.018803195472906483,
+    "share2": 0.30751644278041956,
+    "owner": 2,
+    "owner_published": 2,
+    "molecular": 0.2887132473075131,
+    "owner_index": 1.0651275812532388
+   }
+  ],
+  "molecular_median": 0.3274747287327832,
+  "owner_index_median": 0.7783616383370102,
+  "same_owner": 13,
+  "different_owner": [
+   "Grignard|1",
+   "Reductive-amination|1"
+  ],
+  "comparison_concentration": {
+   "roles": 30,
+   "top3_share_median": 0.576099537037037,
+   "top1_share_max": 0.7567567567567568,
+   "top1_share_max_array": "C-O competitive reactions|1"
+  }
+ },
+ "snar_class_proxy": {
+  "observed_halide_share": 0.45564899165350276,
+  "observed_class_fit": 0.12289263812800066,
+  "pairs": 38,
+  "conditions": 47,
+  "classes": {
+   "aliphatic amine": 10,
+   "aniline": 2,
+   "azole/lactam N\u2013H": 5
+  },
+  "levels": [
+   {
+    "class_variance": 0.1,
+    "simulations": 1000,
+    "halide_share_median": 0.009998342240131904,
+    "halide_share_p95": 0.06231436496414793,
+    "reaching_observed": 0,
+    "halide_named_owner": 432,
+    "class_fit_median": 0.07442142162093557,
+    "class_fit_p05": 0.0532724846861658
+   },
+   {
+    "class_variance": 0.25,
+    "simulations": 1000,
+    "halide_share_median": 0.06822975112247152,
+    "halide_share_p95": 0.1305589358934302,
+    "reaching_observed": 0,
+    "halide_named_owner": 294,
+    "class_fit_median": 0.15253736593288192,
+    "class_fit_p05": 0.11427378037162052
+   },
+   {
+    "class_variance": 0.5,
+    "simulations": 1000,
+    "halide_share_median": 0.20163870165564843,
+    "halide_share_p95": 0.26732700634886025,
+    "reaching_observed": 0,
+    "halide_named_owner": 120,
+    "class_fit_median": 0.324864010329424,
+    "class_fit_p05": 0.25540982021520153
+   },
+   {
+    "class_variance": 0.75,
+    "simulations": 1000,
+    "halide_share_median": 0.3733411295328057,
+    "halide_share_p95": 0.4483845368598942,
+    "reaching_observed": 40,
+    "halide_named_owner": 16,
+    "class_fit_median": 0.5731754634587212,
+    "class_fit_p05": 0.4911314723879711
+   },
+   {
+    "class_variance": 0.95,
+    "simulations": 1000,
+    "halide_share_median": 0.5826506024682623,
+    "halide_share_p95": 0.6497561248896982,
+    "reaching_observed": 995,
+    "halide_named_owner": 4,
+    "class_fit_median": 0.8836272095319315,
+    "class_fit_p05": 0.8440172778496143
+   }
+  ]
+ },
+ "snar_nesting": {
+  "pairs": 36,
+  "nucleophiles": 15,
+  "aryl_halides": 21,
+  "aryl_halides_meeting_both_classes": 2,
+  "pairs_of_those": 6,
+  "class_fit": 0.12289263812800066,
+  "aryl_halide_fit": 0.6463821065276502,
+  "class_fit_after_aryl_halide": 0.01747857813397702,
+  "classes": [
+   "aliphatic amine",
+   "azole/lactam N\u2013H"
+  ]
+ }
+}

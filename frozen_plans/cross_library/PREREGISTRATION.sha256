@@ -1,0 +1,8 @@
+# Frozen 2026-10-02T01:35:12+00:00
+# Pre-registration, scoring code, sealed data, outcome-free manifest, power emulation.
+6dff4796de2ca9db054ecff96ac6586ecdaa694f637c3d260de87288a1a346a5  04_ANALYSES/13_cross_library/PREREGISTRATION.md
+8fe55d53b00fcbd5cd5934e0d1d792df9716b85a6c5e839adc8098a19246a18d  03_CODE/13_cross_library/cross_library_validation.py
+58b76fbd433ae818c862670c203d4546fff10fd1382412a2a554fba9470668a6  02_DATA/04_SEALED/never_opened_cross_library.csv.gz
+16c6ed37c2f91eaa2e5c9e2d2191fe390d27a95f9d679206e6ccb0537d3d9371  06_RESULTS/cross_library/target_manifest.csv
+8d91d4ab6226854d55e468d64028739623a9a2a9a18202fab36112e3ce40dd8d  06_RESULTS/cross_library/training_only_usability.csv
+82bcb3082c7ef562e3c93715c02398001b784724f807bfa5b8a0842254575381  06_RESULTS/cross_library/power.json

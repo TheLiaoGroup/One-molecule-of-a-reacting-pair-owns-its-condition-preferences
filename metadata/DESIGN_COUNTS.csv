@@ -1,0 +1,201 @@
+set,stratum,triple_context,molecule,array,role,role_label,context,array_clear_owner,n_pf_partners,n_ordered_pair_pairs,partner_mean_tanimoto
+G1,acid,False,COc1cc(C(=O)O)cc(OC)c1OC,Acylation|1,2,carboxylic acid,non-owner,True,7,42,0.21769637359632377
+G1,acid,False,COc1cc(C(=O)O)cc(OC)c1OC,Esterification|1,2,carboxylic acid,owner,True,5,20,0.1957521132747993
+G1,acid,False,COc1ncc(Br)cc1C(=O)O,Acylation|1,2,carboxylic acid,non-owner,True,16,240,0.1580106368349132
+G1,acid,False,COc1ncc(Br)cc1C(=O)O,Esterification|1,2,carboxylic acid,owner,True,3,6,0.21726190476190477
+G1,acid,False,O=C(O)c1ccc(C(F)(F)F)cn1,Acylation|1,2,carboxylic acid,non-owner,True,8,56,0.1787249265531953
+G1,acid,False,O=C(O)c1ccc(C(F)(F)F)cn1,Esterification|1,2,carboxylic acid,owner,True,2,2,0.19444444444444445
+G1,acid,False,O=C(O)c1ccc(F)cn1,Acylation|1,2,carboxylic acid,non-owner,True,6,30,0.2712256750107986
+G1,acid,False,O=C(O)c1ccc(F)cn1,Esterification|1,2,carboxylic acid,owner,True,5,20,0.15130713193098785
+G1,amine,False,C#Cc1cccc(N)c1,Acylation|1,1,N–H partner,owner,True,8,56,0.23010310520188648
+G1,amine,False,C#Cc1cccc(N)c1,Buchwald-Hartwig|1,1,N–H partner,non-owner,True,4,12,0.22984928629272017
+G1,amine,False,C#Cc1cccc(N)c1,Sonogashira|1,1,alkyne,non-owner,True,8,56,0.2118247306141738
+G1,amine,False,CCCCN1CCNCC1,Acylation|1,1,N–H partner,owner,True,3,6,0.24709415297650592
+G1,amine,False,CCCCN1CCNCC1,Chan-Lam|1,1,N–H partner,non-owner,False,3,6,0.39718920958309756
+G1,amine,False,CCCCN1CCNCC1,SNAr|1,1,N–H nucleophile,non-owner,True,3,6,0.3364095195991748
+G1,amine,False,CCNc1ccccc1,Acylation|1,1,N–H partner,owner,True,3,6,0.21997300944669362
+G1,amine,False,CCNc1ccccc1,Buchwald-Hartwig|1,1,N–H partner,non-owner,True,2,2,0.24324324324324326
+G1,amine,False,CCOC(=O)c1cccc(N)c1,Acylation|1,1,N–H partner,owner,True,3,6,0.22645372645372644
+G1,amine,False,CCOC(=O)c1cccc(N)c1,Buchwald-Hartwig|1,1,N–H partner,non-owner,True,6,30,0.1784185147267422
+G1,amine,False,CCOc1cc(N)ccn1,Acylation|1,1,N–H partner,owner,True,2,2,0.2903225806451613
+G1,amine,False,CCOc1cc(N)ccn1,Buchwald-Hartwig|1,1,N–H partner,non-owner,True,5,20,0.22579446514930387
+G1,amine,False,CNc1ccc(OC)cc1,Acylation|1,1,N–H partner,owner,True,8,56,0.20021090186096036
+G1,amine,False,CNc1ccc(OC)cc1,Buchwald-Hartwig|1,1,N–H partner,non-owner,True,3,6,0.2912186379928315
+G1,amine,False,COC(=O)c1ccc(N)cc1OC,Acylation|1,1,N–H partner,owner,True,6,30,0.25150049956438236
+G1,amine,False,COC(=O)c1ccc(N)cc1OC,Buchwald-Hartwig|1,1,N–H partner,non-owner,True,4,12,0.2280143890184458
+G1,amine,True,COc1ccc(N)cc1,Acylation|1,1,N–H partner,owner,True,10,90,0.2470428220484339
+G1,amine,True,COc1ccc(N)cc1,Buchwald-Hartwig|1,1,N–H partner,non-owner,True,5,20,0.2596538665288666
+G1,amine,True,COc1ccc(N)cc1,Buchwald-Hartwig|2,1,N–H partner,non-owner,True,3,6,0.1711711711711712
+G1,amine,False,COc1ccc(N)cc1C,Acylation|1,1,N–H partner,owner,True,14,182,0.24991265248194075
+G1,amine,False,COc1ccc(N)cc1C,Buchwald-Hartwig|1,1,N–H partner,non-owner,True,7,42,0.23974824955026938
+G1,amine,False,COc1ccc(N)cc1OC,Acylation|1,1,N–H partner,owner,True,7,42,0.2249466676556893
+G1,amine,False,COc1ccc(N)cc1OC,Buchwald-Hartwig|2,1,N–H partner,non-owner,True,3,6,0.20892995892995894
+G1,amine,False,COc1ccc(N)cn1,Acylation|1,1,N–H partner,owner,True,21,420,0.2205853079205188
+G1,amine,False,COc1ccc(N)cn1,Buchwald-Hartwig|1,1,N–H partner,non-owner,True,4,12,0.159786312185693
+G1,amine,False,COc1ccc(N)cn1,Chan-Lam|1,1,N–H partner,non-owner,False,2,2,0.2777777777777778
+G1,amine,True,CSc1ccc(N)cc1,Acylation|1,1,N–H partner,owner,True,10,90,0.23626450969455676
+G1,amine,True,CSc1ccc(N)cc1,Buchwald-Hartwig|1,1,N–H partner,non-owner,True,3,6,0.17766554433221096
+G1,amine,True,CSc1ccc(N)cc1,Buchwald-Hartwig|2,1,N–H partner,non-owner,True,2,2,0.3548387096774194
+G1,amine,True,CSc1cccc(N)c1,Acylation|1,1,N–H partner,owner,True,8,56,0.26665137954066437
+G1,amine,True,CSc1cccc(N)c1,Buchwald-Hartwig|1,1,N–H partner,non-owner,True,5,20,0.15820005175983437
+G1,amine,True,CSc1cccc(N)c1,Buchwald-Hartwig|2,1,N–H partner,non-owner,True,2,2,0.3125
+G1,amine,True,CSc1cccc(N)c1,Chan-Lam|1,1,N–H partner,non-owner,False,2,2,0.32432432432432434
+G1,amine,True,Cc1ccc(N)c(C)c1,Acylation|1,1,N–H partner,owner,True,6,30,0.25827655497760976
+G1,amine,True,Cc1ccc(N)c(C)c1,Buchwald-Hartwig|1,1,N–H partner,non-owner,True,2,2,0.21212121212121213
+G1,amine,True,Cc1ccc(N)c(C)c1,Buchwald-Hartwig|2,1,N–H partner,non-owner,True,2,2,0.2727272727272727
+G1,amine,True,Cc1ccc(N)c(C)c1,Chan-Lam|1,1,N–H partner,non-owner,False,3,6,0.1976911976911977
+G1,amine,True,Cc1ccc(N)cc1,Acylation|1,1,N–H partner,owner,True,9,72,0.23411423638038592
+G1,amine,True,Cc1ccc(N)cc1,Buchwald-Hartwig|1,1,N–H partner,non-owner,True,5,20,0.16103318052576457
+G1,amine,True,Cc1ccc(N)cc1,Buchwald-Hartwig|2,1,N–H partner,non-owner,True,2,2,0.175
+G1,amine,True,Cc1ccc(N)cc1,Chan-Lam|1,1,N–H partner,non-owner,False,2,2,0.2558139534883721
+G1,amine,True,Cc1ccc(N)nc1,Acylation|1,1,N–H partner,owner,True,3,6,0.2778274696879348
+G1,amine,True,Cc1ccc(N)nc1,Buchwald-Hartwig|1,1,N–H partner,non-owner,True,3,6,0.1313576734629366
+G1,amine,True,Cc1ccc(N)nc1,Buchwald-Hartwig|2,1,N–H partner,non-owner,True,2,2,0.25
+G1,amine,True,Cc1ccccc1N,Acylation|1,1,N–H partner,owner,True,8,56,0.23108481117260296
+G1,amine,True,Cc1ccccc1N,Buchwald-Hartwig|1,1,N–H partner,non-owner,True,3,6,0.3168864468864469
+G1,amine,True,Cc1ccccc1N,Buchwald-Hartwig|2,1,N–H partner,non-owner,True,2,2,0.1388888888888889
+G1,amine,False,Cc1cn(-c2cc(N)cc(C(F)(F)F)c2)cn1,Acylation|1,1,N–H partner,owner,True,6,30,0.19972636577578806
+G1,amine,False,Cc1cn(-c2cc(N)cc(C(F)(F)F)c2)cn1,Buchwald-Hartwig|1,1,N–H partner,non-owner,True,7,42,0.3078015827596351
+G1,amine,True,Nc1ccc2nccnc2c1,Acylation|1,1,N–H partner,owner,True,8,56,0.2208961936554769
+G1,amine,True,Nc1ccc2nccnc2c1,Buchwald-Hartwig|1,1,N–H partner,non-owner,True,9,72,0.1685067335154812
+G1,amine,True,Nc1ccc2nccnc2c1,Buchwald-Hartwig|2,1,N–H partner,non-owner,True,2,2,0.5
+G1_all_only,,False,CCc1ccc(N)cc1,Buchwald-Hartwig|1,1,N–H partner,non-owner,True,2,2,0.2727272727272727
+G1_all_only,,False,CCc1ccc(N)cc1,Buchwald-Hartwig|2,1,N–H partner,non-owner,True,2,2,0.19444444444444445
+G1_all_only,,False,CCc1ccc(N)cc1,Chan-Lam|1,1,N–H partner,non-owner,False,2,2,0.2702702702702703
+G1_all_only,,False,CCc1ccc(N)cc1,Reductive-amination|1,2,amine,owner,False,3,6,0.3049019607843137
+G1_all_only,,False,COC(=O)c1ccc(B(O)O)cc1,Chan-Lam|1,2,boronic acid,owner,False,3,6,0.2444881360489346
+G1_all_only,,False,COC(=O)c1ccc(B(O)O)cc1,Suzuki|1,2,boronic acid,non-owner,True,11,110,0.24435538628506268
+G1_all_only,,False,COc1ccc(B(O)O)cn1,Chan-Lam|1,2,boronic acid,owner,False,3,6,0.06470071559585626
+G1_all_only,,False,COc1ccc(B(O)O)cn1,Suzuki|1,2,boronic acid,non-owner,True,10,90,0.24368966026089772
+G1_all_only,,False,COc1ccc(OC)c(B(O)O)c1,Chan-Lam|1,2,boronic acid,owner,False,5,20,0.15808884098357784
+G1_all_only,,False,COc1ccc(OC)c(B(O)O)c1,Suzuki|1,2,boronic acid,non-owner,True,11,110,0.21352174453102976
+G1_all_only,,False,Cc1cc(B(O)O)ccc1F,Chan-Lam|1,2,boronic acid,owner,False,3,6,0.05291637791637791
+G1_all_only,,False,Cc1cc(B(O)O)ccc1F,Suzuki|1,2,boronic acid,non-owner,True,8,56,0.22303298105260017
+G1_all_only,,False,Nc1ccccn1,Buchwald-Hartwig|1,1,N–H partner,non-owner,True,2,2,0.38461538461538464
+G1_all_only,,False,Nc1ccccn1,Reductive-amination|1,2,amine,owner,False,4,12,0.16544383835405505
+control_nonowner_nonowner,,False,CC(C)S(=O)(=O)c1ccccc1N,Buchwald-Hartwig|1,1,N–H partner,non-owner,True,2,2,0.43333333333333335
+control_nonowner_nonowner,,False,CC(C)S(=O)(=O)c1ccccc1N,Buchwald-Hartwig|2,1,N–H partner,non-owner,True,2,2,0.22580645161290322
+control_nonowner_nonowner,,False,CC1CCCNC1,Buchwald-Hartwig|1,1,N–H partner,non-owner,True,3,6,0.4290123456790123
+control_nonowner_nonowner,,False,CC1CCCNC1,Chan-Lam|1,1,N–H partner,non-owner,False,3,6,0.3048100365173536
+control_nonowner_nonowner,,False,CC1CCCNC1,SNAr|1,1,N–H nucleophile,non-owner,True,8,56,0.161157406717395
+control_nonowner_nonowner,,False,COc1cc(F)c([N+](=O)[O-])cc1N,Buchwald-Hartwig|1,1,N–H partner,non-owner,True,2,2,0.21875
+control_nonowner_nonowner,,False,COc1cc(F)c([N+](=O)[O-])cc1N,Buchwald-Hartwig|2,1,N–H partner,non-owner,True,3,6,0.19193121693121692
+control_nonowner_nonowner,,False,COc1ccc(O)cn1,C-O competitive reactions|1,1,phenol or alcohol,non-owner,True,2,2,0.16216216216216217
+control_nonowner_nonowner,,False,COc1ccc(O)cn1,Esterification|1,1,alcohol,non-owner,True,3,6,0.244457297088876
+control_nonowner_nonowner,,False,COc1ccc(O)cn1,Ullmann|1,1,phenol,non-owner,True,6,30,0.1685915380243874
+control_nonowner_nonowner,,False,COc1ccc(OC)c(N)c1,Buchwald-Hartwig|1,1,N–H partner,non-owner,True,2,2,0.30434782608695654
+control_nonowner_nonowner,,False,COc1ccc(OC)c(N)c1,Buchwald-Hartwig|2,1,N–H partner,non-owner,True,2,2,0.15151515151515152
+control_nonowner_nonowner,,False,COc1ccc[c]([Mg][Br])c1,Grignard|1,1,Grignard reagent,non-owner,True,2,2,0.1951219512195122
+control_nonowner_nonowner,,False,COc1ccc[c]([Mg][Br])c1,Kumada|1,2,Grignard reagent,non-owner,True,10,90,0.23517353181293504
+control_nonowner_nonowner,,False,Cc1cc(C)cc(O)c1,C-O competitive reactions|1,1,phenol or alcohol,non-owner,True,3,6,0.2569444444444444
+control_nonowner_nonowner,,False,Cc1cc(C)cc(O)c1,Ullmann|1,1,phenol,non-owner,True,4,12,0.2136354680417064
+control_nonowner_nonowner,,False,Cc1cc(C)nc(N)c1,Buchwald-Hartwig|1,1,N–H partner,non-owner,True,10,90,0.2160571697986378
+control_nonowner_nonowner,,False,Cc1cc(C)nc(N)c1,Buchwald-Hartwig|2,1,N–H partner,non-owner,True,2,2,0.35714285714285715
+control_nonowner_nonowner,,False,Cc1cc[c]([Mg][Br])cc1,Grignard|1,1,Grignard reagent,non-owner,True,2,2,0.16666666666666666
+control_nonowner_nonowner,,False,Cc1cc[c]([Mg][Br])cc1,Kumada|1,2,Grignard reagent,non-owner,True,11,110,0.22856753250243247
+control_nonowner_nonowner,,False,Cc1nccn1-c1ccc(N)cc1,Buchwald-Hartwig|1,1,N–H partner,non-owner,True,5,20,0.13146610347376791
+control_nonowner_nonowner,,False,Cc1nccn1-c1ccc(N)cc1,Buchwald-Hartwig|2,1,N–H partner,non-owner,True,2,2,0.24
+control_nonowner_nonowner,,False,Clc1cc[c]([Mg][Br])cc1,Grignard|1,1,Grignard reagent,non-owner,True,12,132,0.24618506068457138
+control_nonowner_nonowner,,False,Clc1cc[c]([Mg][Br])cc1,Kumada|1,2,Grignard reagent,non-owner,True,7,42,0.304151656567623
+control_nonowner_nonowner,,False,Fc1cc[c]([Mg][Br])cc1,Grignard|1,1,Grignard reagent,non-owner,True,3,6,0.20029239766081872
+control_nonowner_nonowner,,False,Fc1cc[c]([Mg][Br])cc1,Kumada|1,2,Grignard reagent,non-owner,True,13,156,0.24608226316163018
+control_nonowner_nonowner,,False,Nc1ccnc(C(F)(F)F)c1,Buchwald-Hartwig|1,1,N–H partner,non-owner,True,6,30,0.28259767822970533
+control_nonowner_nonowner,,False,Nc1ccnc(C(F)(F)F)c1,Buchwald-Hartwig|2,1,N–H partner,non-owner,True,3,6,0.29799498746867165
+control_nonowner_nonowner,,False,[Br][Mg][c]1ccc2ccccc2c1,Grignard|1,1,Grignard reagent,non-owner,True,4,12,0.23818649885583523
+control_nonowner_nonowner,,False,[Br][Mg][c]1ccc2ccccc2c1,Kumada|1,2,Grignard reagent,non-owner,True,2,2,0.18181818181818182
+control_owner_owner,,False,Brc1ccc(N2CCOCC2)nc1,Heck|1,2,aryl halide,owner,True,4,12,0.18731758832565282
+control_owner_owner,,False,Brc1ccc(N2CCOCC2)nc1,Suzuki|1,1,aryl halide,owner,True,3,6,0.33464696223316914
+control_owner_owner,,False,Brc1ccc(N2CCOCC2)nc1,Ullmann|1,2,aryl halide,owner,True,3,6,0.2522707177879591
+control_owner_owner,,False,Brc1ccc2c(c1)OCCO2,Buchwald-Hartwig|1,2,aryl (pseudo)halide,owner,True,3,6,0.1905155776123518
+control_owner_owner,,False,Brc1ccc2c(c1)OCCO2,Buchwald-Hartwig|2,2,aryl halide,owner,True,2,2,0.21428571428571427
+control_owner_owner,,False,Brc1ccc2ccccc2n1,Heck|1,2,aryl halide,owner,True,2,2,0.3225806451612903
+control_owner_owner,,False,Brc1ccc2ccccc2n1,Sonogashira|1,2,aryl halide,owner,True,5,20,0.23459034755187808
+control_owner_owner,,False,Brc1ccc2ccccc2n1,Suzuki|1,1,aryl halide,owner,True,5,20,0.4345662952837306
+control_owner_owner,,False,Brc1ccc2cn[nH]c2c1,Sonogashira|1,2,aryl halide,owner,True,4,12,0.3311979091099611
+control_owner_owner,,False,Brc1ccc2cn[nH]c2c1,Suzuki|1,1,aryl halide,owner,True,2,2,0.43333333333333335
+control_owner_owner,,False,Brc1ccc2cnccc2c1,Buchwald-Hartwig|2,2,aryl halide,owner,True,3,6,0.20794694988243378
+control_owner_owner,,False,Brc1ccc2cnccc2c1,Suzuki|1,1,aryl halide,owner,True,3,6,0.29603174603174603
+control_owner_owner,,False,Brc1ccc2cnccc2c1,Ullmann|1,2,aryl halide,owner,True,2,2,0.32142857142857145
+control_owner_owner,,False,Brc1ccc2ncccc2c1,Heck|1,2,aryl halide,owner,True,3,6,0.24675324675324672
+control_owner_owner,,False,Brc1ccc2ncccc2c1,Suzuki|1,1,aryl halide,owner,True,4,12,0.35498786964304213
+control_owner_owner,,False,Brc1ccc2scnc2c1,Suzuki|1,1,aryl halide,owner,True,2,2,0.36363636363636365
+control_owner_owner,,False,Brc1ccc2scnc2c1,Ullmann|1,2,aryl halide,owner,True,2,2,0.21428571428571427
+control_owner_owner,,False,Brc1cccc2cnccc12,Buchwald-Hartwig|1,2,aryl (pseudo)halide,owner,True,3,6,0.2257834757834758
+control_owner_owner,,False,Brc1cccc2cnccc12,Suzuki|1,1,aryl halide,owner,True,9,72,0.3050993409778202
+control_owner_owner,,False,Brc1ccccn1,Buchwald-Hartwig|1,2,aryl (pseudo)halide,owner,True,2,2,0.2702702702702703
+control_owner_owner,,False,Brc1ccccn1,Sonogashira|1,2,aryl halide,owner,True,2,2,0.12195121951219512
+control_owner_owner,,False,Brc1cnc2[nH]ccc2c1,Heck|1,2,aryl halide,owner,True,3,6,0.17696476964769647
+control_owner_owner,,False,Brc1cnc2[nH]ccc2c1,Sonogashira|1,2,aryl halide,owner,True,3,6,0.1862874779541446
+control_owner_owner,,False,Brc1cnc2[nH]ccc2c1,Suzuki|1,1,aryl halide,owner,True,5,20,0.28320863433092536
+control_owner_owner,,False,CC(=O)c1cncc(Br)c1,Buchwald-Hartwig|2,2,aryl halide,owner,True,2,2,0.30303030303030304
+control_owner_owner,,False,CC(=O)c1cncc(Br)c1,Sonogashira|1,2,aryl halide,owner,True,3,6,0.3510558069381599
+control_owner_owner,,False,CC(=O)c1cncc(Br)c1,Suzuki|1,1,aryl halide,owner,True,2,2,0.21875
+control_owner_owner,,False,CC(C)c1ccc(Br)cc1,Buchwald-Hartwig|1,2,aryl (pseudo)halide,owner,True,2,2,0.45
+control_owner_owner,,False,CC(C)c1ccc(Br)cc1,Buchwald-Hartwig|2,2,aryl halide,owner,True,3,6,0.17724867724867724
+control_owner_owner,,False,COC(=O)c1cc(Br)ccn1,Heck|1,2,aryl halide,owner,True,5,20,0.20818332785117777
+control_owner_owner,,False,COC(=O)c1cc(Br)ccn1,Sonogashira|1,2,aryl halide,owner,True,2,2,0.3
+control_owner_owner,,False,COC(=O)c1ccc(Br)nc1,Buchwald-Hartwig|2,2,aryl halide,owner,True,5,20,0.10974754034442939
+control_owner_owner,,False,COC(=O)c1ccc(Br)nc1,Suzuki|1,1,aryl halide,owner,True,10,90,0.33175970574613917
+control_owner_owner,,False,COC(=O)c1cncc(Br)c1,C-O competitive reactions|1,2,aryl halide,owner,True,3,6,0.17460317460317457
+control_owner_owner,,False,COC(=O)c1cncc(Br)c1,Heck|1,2,aryl halide,owner,True,4,12,0.15603287110640052
+control_owner_owner,,False,COc1ccc(Br)nc1,Heck|1,2,aryl halide,owner,True,2,2,0.44
+control_owner_owner,,False,COc1ccc(Br)nc1,Kumada|1,1,aryl or acyl halide,owner,True,3,6,0.37927350427350426
+control_owner_owner,,False,COc1cccnc1Br,Heck|1,2,aryl halide,owner,True,4,12,0.16417629853962623
+control_owner_owner,,False,COc1cccnc1Br,Hiyama|1,2,aryl halide,owner,False,3,6,0.48708463949843256
+control_owner_owner,,False,COc1cccnc1Br,Kumada|1,1,aryl or acyl halide,owner,True,4,12,0.3346674876847291
+control_owner_owner,,False,COc1cccnc1Br,Suzuki|1,1,aryl halide,owner,True,8,56,0.37062846133745697
+control_owner_owner,,False,COc1cccnc1Br,Ullmann|1,2,aryl halide,owner,True,2,2,0.18421052631578946
+control_owner_owner,,False,COc1ccnc(Cl)c1,Buchwald-Hartwig|1,2,aryl (pseudo)halide,owner,True,12,132,0.1421022066951996
+control_owner_owner,,False,COc1ccnc(Cl)c1,Kumada|1,1,aryl or acyl halide,owner,True,6,30,0.29740695128626166
+control_owner_owner,,False,COc1cnc(Cl)nc1,Buchwald-Hartwig|1,2,aryl (pseudo)halide,owner,True,5,20,0.11713754482136833
+control_owner_owner,,False,COc1cnc(Cl)nc1,Kumada|1,1,aryl or acyl halide,owner,True,4,12,0.3221674876847291
+control_owner_owner,,False,COc1cncc(Br)c1,C-O competitive reactions|1,2,aryl halide,owner,True,2,2,0.25
+control_owner_owner,,False,COc1cncc(Br)c1,Heck|1,2,aryl halide,owner,True,3,6,0.22664141414141414
+control_owner_owner,,False,COc1cncc(Br)c1,SNAr|1,2,aryl halide,owner,True,2,2,0.19230769230769232
+control_owner_owner,,False,COc1cncc(Br)c1,Suzuki|1,1,aryl halide,owner,True,4,12,0.3602842675884281
+control_owner_owner,,False,COc1cncc(Br)c1,Ullmann|1,2,aryl halide,owner,True,3,6,0.5100842435924895
+control_owner_owner,,False,COc1ncc(Br)c(OC)n1,Kumada|1,1,aryl or acyl halide,owner,True,2,2,0.5238095238095238
+control_owner_owner,,False,COc1ncc(Br)c(OC)n1,Suzuki|1,1,aryl halide,owner,True,8,56,0.2918079566424701
+control_owner_owner,,False,COc1ncc(Br)cn1,Buchwald-Hartwig|1,2,aryl (pseudo)halide,owner,True,2,2,0.25
+control_owner_owner,,False,COc1ncc(Br)cn1,Sonogashira|1,2,aryl halide,owner,True,4,12,0.3279849288388188
+control_owner_owner,,False,COc1ncc(Br)cn1,Suzuki|1,1,aryl halide,owner,True,4,12,0.22917615881775424
+control_owner_owner,,False,Cc1cc(Br)ccn1,C-O competitive reactions|1,2,aryl halide,owner,True,8,56,0.2273017076939547
+control_owner_owner,,False,Cc1cc(Br)ccn1,Heck|1,2,aryl halide,owner,True,3,6,0.13483264702776898
+control_owner_owner,,False,Cc1cc(Br)ccn1,Sonogashira|1,2,aryl halide,owner,True,2,2,0.22
+control_owner_owner,,False,Cc1cc(Br)ccn1,Suzuki|1,1,aryl halide,owner,True,3,6,0.39818376068376066
+control_owner_owner,,False,Cc1cc(Br)ccn1,Ullmann|1,2,aryl halide,owner,True,7,42,0.20613994496677665
+control_owner_owner,,False,Cc1cc(Cl)nc2ccccc12,Buchwald-Hartwig|1,2,aryl (pseudo)halide,owner,True,15,210,0.17238137567765224
+control_owner_owner,,False,Cc1cc(Cl)nc2ccccc12,Kumada|1,1,aryl or acyl halide,owner,True,2,2,0.3
+control_owner_owner,,False,Cc1ccc(Br)c(C)n1,C-O competitive reactions|1,2,aryl halide,owner,True,2,2,0.18181818181818182
+control_owner_owner,,False,Cc1ccc(Br)c(C)n1,Suzuki|1,1,aryl halide,owner,True,2,2,0.3225806451612903
+control_owner_owner,,False,Cc1ccc(Br)cn1,Heck|1,2,aryl halide,owner,True,5,20,0.20989072154046912
+control_owner_owner,,False,Cc1ccc(Br)cn1,SNAr|1,2,aryl halide,owner,True,2,2,0.06060606060606061
+control_owner_owner,,False,Cc1ccc(Br)nc1,Sonogashira|1,2,aryl halide,owner,True,7,42,0.3178606453576969
+control_owner_owner,,False,Cc1ccc(Br)nc1,Ullmann|1,2,aryl halide,owner,True,4,12,0.18484349223230143
+control_owner_owner,,False,Cc1ccc(Br)nn1,C-O competitive reactions|1,2,aryl halide,owner,True,2,2,0.21428571428571427
+control_owner_owner,,False,Cc1ccc(Br)nn1,Suzuki|1,1,aryl halide,owner,True,5,20,0.32722970577809285
+control_owner_owner,,False,Cc1ccc(Br)nn1,Ullmann|1,2,aryl halide,owner,True,4,12,0.21462297562703245
+control_owner_owner,,False,Cc1ccc(Cl)nc1,Buchwald-Hartwig|1,2,aryl (pseudo)halide,owner,True,4,12,0.14603613773872398
+control_owner_owner,,False,Cc1ccc(Cl)nc1,Kumada|1,1,aryl or acyl halide,owner,True,2,2,0.37037037037037035
+control_owner_owner,,False,Cc1cccc(Br)n1,Hiyama|1,2,aryl halide,owner,False,2,2,0.2727272727272727
+control_owner_owner,,False,Cc1cccc(Br)n1,Sonogashira|1,2,aryl halide,owner,True,2,2,0.4782608695652174
+control_owner_owner,,False,Cc1cccc(Br)n1,Ullmann|1,2,aryl halide,owner,True,2,2,0.25
+control_owner_owner,,False,Cc1ccccc1Br,Buchwald-Hartwig|1,2,aryl (pseudo)halide,owner,True,2,2,0.24242424242424243
+control_owner_owner,,False,Cc1ccccc1Br,Buchwald-Hartwig|2,2,aryl halide,owner,True,4,12,0.3115953597275436
+control_owner_owner,,False,Cc1cccnc1Br,Heck|1,2,aryl halide,owner,True,3,6,0.1057593543653705
+control_owner_owner,,False,Cc1cccnc1Br,Ullmann|1,2,aryl halide,owner,True,5,20,0.1749408995461627
+control_owner_owner,,False,Cc1ccnc(Cl)n1,Buchwald-Hartwig|1,2,aryl (pseudo)halide,owner,True,6,30,0.19918476503842358
+control_owner_owner,,False,Cc1ccnc(Cl)n1,Kumada|1,1,aryl or acyl halide,owner,True,2,2,0.27586206896551724
+control_owner_owner,,False,Cc1cnc(Cl)nc1,Buchwald-Hartwig|1,2,aryl (pseudo)halide,owner,True,5,20,0.13767292284349672
+control_owner_owner,,False,Cc1cnc(Cl)nc1,SNAr|1,2,aryl halide,owner,True,2,2,0.1388888888888889
+control_owner_owner,,False,Cc1ncccc1Br,Buchwald-Hartwig|2,2,aryl halide,owner,True,3,6,0.21978820926189346
+control_owner_owner,,False,Cc1ncccc1Br,C-O competitive reactions|1,2,aryl halide,owner,True,3,6,0.25746031746031744
+control_owner_owner,,False,Cc1ncccc1Br,Hiyama|1,2,aryl halide,owner,False,2,2,0.25806451612903225
+control_owner_owner,,False,Cc1ncccc1Br,Suzuki|1,1,aryl halide,owner,True,2,2,0.36666666666666664
+control_owner_owner,,False,Clc1ccc2ccccc2n1,Buchwald-Hartwig|1,2,aryl (pseudo)halide,owner,True,5,20,0.19903078101746557
+control_owner_owner,,False,Clc1ccc2ccccc2n1,Kumada|1,1,aryl or acyl halide,owner,True,2,2,0.3
+control_owner_owner,,False,Clc1ccc2ccccc2n1,Ullmann|1,2,aryl halide,owner,True,2,2,0.18421052631578946
+control_owner_owner,,False,Clc1ncnc2ccsc12,Kumada|1,1,aryl or acyl halide,owner,True,5,20,0.29012224656902313
+control_owner_owner,,False,Clc1ncnc2ccsc12,SNAr|1,2,aryl halide,owner,True,2,2,1.0
+control_owner_owner,,False,Fc1ccnc(Br)c1,Buchwald-Hartwig|2,2,aryl halide,owner,True,2,2,0.2222222222222222
+control_owner_owner,,False,Fc1ccnc(Br)c1,Suzuki|1,1,aryl halide,owner,True,7,42,0.34913422403405636

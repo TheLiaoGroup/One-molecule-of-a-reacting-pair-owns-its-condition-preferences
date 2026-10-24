@@ -1,0 +1,51 @@
+{
+ "figure": "Fig. S6 | Partner molecules often have the deeper history",
+ "generated_by": "06_CODE/Figures/ed06.py",
+ "inputs": {
+  "A1": {
+   "file": "05_DATA/Release/00_RAW_IMMUTABLE/DATASET_analysis.csv.gz",
+   "sha256": "98e6da9f16a4adebba15ed84f49635741c38e80a15cf0fffb40d94e63f6bbbff",
+   "rows": 177039
+  },
+  "frozen": {
+   "file": "05_DATA/Results/directional/ED_owner_partner_exposure_depth.csv",
+   "sha256": "cf4a817421bfc4bd5dd46ed36d3a5267dcc3766d720c0122b481b71cef1fff7c"
+  },
+  "owner_roles": {
+   "file": "05_DATA/Results/display_inputs/Anatomy_arrays.csv",
+   "sha256": "cfe3de1982d721c37241e3da95f670f3f9faa98bc73e709c9a7590878466ee1e"
+  }
+ },
+ "randomness": "none",
+ "transformation": "For each pair of the population (all pairs of the array, or its product-forming pairs), the number of other partners its owner molecule has within that population, and the same for its partner molecule (molecules by canonical SMILES); mean over the pairs. Owner = the role of Fig. 1F. 'Partner deeper' when the partner's mean is the larger.",
+ "owner_shallower": {
+  "all pairs": 9,
+  "product-forming pairs": 7
+ },
+ "partner_over_owner_range": [
+  1.8214285714285714,
+  4.333333333333334
+ ],
+ "outputs": {
+  "pdf": {
+   "file": "02_FIGURES/Supplementary_Figures/FigS6.pdf",
+   "sha256": "82300b7a00369c70d6b729fbfbcf47966d723cbcef7212d15f7fbb8882ad0f73"
+  },
+  "svg": {
+   "file": "02_FIGURES/Supplementary_Figures/FigS6.svg",
+   "sha256": "e9c896d692275aad3f9ca51e16dd025479cc66833274b32edc73518ed86764a8"
+  },
+  "png": {
+   "file": "02_FIGURES/Supplementary_Figures/FigS6.png",
+   "sha256": "7d94cace8334b322cfd04dd477c017bebd5688a5f3f707aed6a6c8bd4685bf0a"
+  },
+  "xlsx": {
+   "file": "04_SOURCE_DATA/Supplementary_Figures/FigS6_SourceData.xlsx",
+   "sha256": "864170447a7e4cfbab205aae01a91162d29a2beb247f3bc568c9aa48faae3010"
+  },
+  "readback": {
+   "file": "08_REVIEW_AND_QC/extended_data/ed6_plot_readback.json",
+   "sha256": "ae29404fb41e08c81064400aa780434177923b497ba6e819f42376fbef740329"
+  }
+ }
+}

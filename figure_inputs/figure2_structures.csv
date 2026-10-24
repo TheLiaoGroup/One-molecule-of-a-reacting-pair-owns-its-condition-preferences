@@ -1,0 +1,4 @@
+role,smiles,source_screen,source_pair
+halide,Cc1cc(F)ccc1C#N,SNAr|1,c1cc2[nH]ccc2cn1 >> Cc1cc(F)ccc1C#N
+N-H partner,c1cc2[nH]ccc2cn1,SNAr|1,c1cc2[nH]ccc2cn1 >> Cc1cc(F)ccc1C#N
+product,Cc1cc(-n2ccc3cnccc32)ccc1C#N,SNAr|1,c1cc2[nH]ccc2cn1 >> Cc1cc(F)ccc1C#N

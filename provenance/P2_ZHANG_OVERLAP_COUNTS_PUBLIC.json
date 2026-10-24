@@ -1,0 +1,48 @@
+{
+ "measurements": 244179,
+ "zhang_overlap": 42671,
+ "rule": {
+  "version": "PROV-1+A2",
+  "text": "07_METHODS_AND_PROVENANCE/provenance_public/PROV-1+A2_PUBLIC_RULE.md",
+  "text_sha256": "61aef94c6b812b2e5dd20962185572d714ebe1f686ccbf4551c018140ba055f1",
+  "history": "PROV-1 was frozen before counting; Amendment 2 corrected two mechanical matching defects after the first run. The final counts use PROV-1+A2."
+ },
+ "environment": {
+  "python": "3.13.3",
+  "pandas": "2.2.3",
+  "numpy": "2.2.5",
+  "rdkit": "2025.03.2"
+ },
+ "inputs": {
+  "P2": {
+   "05_DATA/Release/00_RAW_IMMUTABLE/DATASET_analysis.csv.gz": "98e6da9f16a4adebba15ed84f49635741c38e80a15cf0fffb40d94e63f6bbbff",
+   "05_DATA/Validation_Set_A/never_analysed_reserve.csv.gz": "180ab88e532e7e7675f67cb2caf4baffa87292b3c0ce62489420bb40c03a3218",
+   "05_DATA/Validation_Set_B/never_opened_cross_library.csv.gz": "b69eeb05fc829124004803891e0dc01146e71ffe2632d6e9c2ba24ec4ab87cc8",
+   "05_DATA/Results/reserve_validation/record_transfer_losses.csv": "6feaced7740bf28296625b62c61ec799de0f3204c64276d41a73214fc214d64d",
+   "05_DATA/Results/reserve_validation/decision_targets.csv": "2516ba757b651294c818663d538b51b8f0836e9cecfc900e0af841645de74743"
+  },
+  "condition_dictionary": {
+   "05_DATA/Release/00_RAW_IMMUTABLE/DATASET_conditions.csv.gz": "c8ce0201734e1542da99ebda11d40541abf4942ea32cd0e0b49c97762f0c4430"
+  },
+  "role_table": {
+   "06_CODE/Core/00_common/ctb/history.py": "998abd201a8dfcf97a3716feb13279b8962ca8e212f97b67ca3693ac71beab86"
+  },
+  "Zhang": {
+   "repository": "github.com/aichemeco/amide_coupling",
+   "commit": "f6fdbe283fc24af53389aab8dcba5e46386ac9c0",
+   "path": "data/all_HTE_with_condition.csv",
+   "git_blob": "778db5176ed6a1b3b11cbb80da4eacbd40ea74c5",
+   "bytes": 17657403,
+   "sha256": "5085e1ae50ee26173bd170a4b10a99c4e3101a46b706d115e425aff17c091b41",
+   "citation": "Zhang, C. et al. Chem. Sci. 16, 11809-11822 (2025). doi:10.1039/d5sc03364k"
+  }
+ },
+ "cross_check": {
+  "per_record_flags_reproduce_overlap": true,
+  "yield_guard": {
+   "record_pairs_joined_by_the_two_stage_rounding": 178,
+   "max_abs_stored_yield_difference": 4.955400534356613e-10,
+   "threshold": 1e-09
+  }
+ }
+}

@@ -219,6 +219,7 @@ def _numbers(text, context):
 
 def _scientific_text(text, context, main_caption=False, bibliography=False):
     text = str(text)
+    text = text.replace(" (Supplementary Figs. 1\u201316)", "")
     if bibliography:
         return json.dumps(reference_facts(text), ensure_ascii=True, sort_keys=True)
     for start, end, _ in reversed(_citation_spans(text, context)):
@@ -375,7 +376,19 @@ def documents(root, journal="natcatal"):
     render = lambda record: _render(record, main_map, local_map)
     main = [render(record) for record in main_body]
     main.append(_generated("h2", "Methods", "methods-heading"))
-    main.extend(render(record) for record in methods)
+    platform_calls = 0
+    for record in methods:
+        rendered = render(record)
+        if record["kind"] == "p" and record["content"].startswith("Every well was first screened for product"):
+            anchor = "given in Supplementary Note 17,"
+            if rendered["content"].count(anchor) != 1:
+                raise ValueError("The platform Methods citation anchor changed")
+            rendered["content"] = rendered["content"].replace(
+                anchor, "given in Supplementary Note 17 (Supplementary Figs. 1\u201316),")
+            platform_calls += 1
+        main.append(rendered)
+    if platform_calls != 1:
+        raise ValueError("The platform Methods paragraph must occur exactly once")
     main.append(_generated("h2", "References", "main-references-heading"))
     refs = {"main": [], "supplementary": [], "mapping": {"main": main_map, "supplementary": local_map}}
     for scope, mapping in (("main", main_map), ("supplementary", local_map)):
@@ -392,13 +405,9 @@ def documents(root, journal="natcatal"):
         for record in ms:
             if record["section"] != section:
                 continue
-            if section == "Funding" and record["kind"] == "h2":
-                continue
             rendered = render(record)
             if section == "Acknowledgments" and record["kind"] == "h2":
                 rendered["content"] = "Acknowledgements"
-            if section == "Funding" and record["kind"] == "p":
-                rendered["content"] = "**Funding.** " + rendered["content"]
             main.append(rendered)
     main.append(_generated("h2", "Data availability", "data-availability-heading"))
     for record in availability:

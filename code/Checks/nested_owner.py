@@ -1,6 +1,6 @@
-"""Owner labels fixed without the scored pair, and ownership within connected pair networks (Bruce, 2026-10-13, '全都做',
-in answer to an external review: the owner label of Fig. 4 came from the full array, which contains the scored pairs; and the
-shares assume that a molecule's sampled partners are exchangeable while 13 of 15 pair networks are not connected).
+"""Owner labels fixed without the scored pair, and ownership within connected pair networks.
+The owner label of Fig. 4 came from the full array, which contains the scored pairs; and the
+shares assume that a molecule's sampled partners are exchangeable while 13 of 15 pair networks are not connected.
 
 1 History-depth analysis (Fig. 4C), nested: in each array-fold the owner is re-estimated from the training pairs of that fold alone (method-of-moments role
   shares, product-forming gate, pattern recomputed on those pairs); each depth record takes the side of that label. Positive

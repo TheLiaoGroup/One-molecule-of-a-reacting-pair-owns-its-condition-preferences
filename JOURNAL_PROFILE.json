@@ -88,7 +88,7 @@
  },
  "format_labels_source": {
   "path": "code/release/journal_model.py",
-  "sha256": "53cd9a22b42c28d971cd3a094b49e32f38c050141319b2bf19c117504dde24f7"
+  "sha256": "43368262104c1217af28a11203b391479956d99c98193211c5b8b045db58a098"
  },
  "journal": "natcatal",
  "schema_version": 1,

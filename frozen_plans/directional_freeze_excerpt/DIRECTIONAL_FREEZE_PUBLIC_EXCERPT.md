@@ -1,6 +1,6 @@
 # Same-molecule analysis: frozen plan, public excerpt
 
-This file reproduces verbatim, byte for byte, Sections 1–7, the freeze marker, Amendment 1 and Notes 1–3 of the frozen analysis plan of the same-molecule analysis. Section 8 concerns future cohorts not used in this article and is omitted from the public excerpt; Sections 9–10 (the run order, and the internal files read after the freeze with their paths and hashes) are omitted with it. The complete plan can be provided to editors and reviewers for research-integrity verification; it is not part of the public repository.
+This file reproduces Sections 1–7, the freeze marker, Amendment 1 and Notes 1–3 of the frozen analysis plan of the same-molecule analysis, verbatim except for the English translation of one historical manuscript path in Amendment 1, item 5. Section 8 concerns future cohorts not used in this article and is omitted from the public excerpt; Sections 9–10 (the run order, and the internal files read after the freeze with their paths and hashes) are omitted with it. The complete plan can be provided to editors and reviewers for research-integrity verification; it is not part of the public repository.
 
 - SHA-256 of the complete plan: 9bfb2f20edbc9d4ff60d7fb0b365954267690bc4ac702a93b0023dcf7cf6460b
 - SHA-256 of this excerpt: `DIRECTIONAL_FREEZE_PUBLIC_EXCERPT.sha256`
@@ -177,7 +177,7 @@ SHA-256 of this file above this heading: f086ef00cd6f55d1ccc486b610015842dc298c8
    `anatomy_depth.csv` is not opened. Phase 1 ends before any fresh-cohort yield read: the five fresh cohorts stay
    sealed with their design counts, structures and roles, condition identities, hashes and hypotheses; no yield
    or saved outcome of them is read. Opening any of them later is a separate decision.
-5. `P2_Molecular_Owner/01_期刊投稿/01_主文与补充材料/Manuscript_Nature.docx` showed pre-existing byte drift
+5. `P2_Molecular_Owner/01_journal_submission/01_main_text_and_SI/Manuscript_Nature.docx` showed pre-existing byte drift
    before this execution; it is not used as an analytical input and will not be modified or reconciled in this
    task. Current state: modified 2026-10-04 10:29:39 -0400; 1,358,287 bytes; SHA-256
    17052bcde77cc4be969815067332f50263deab2a108e417ba6d8b69bd009f00c. The organisation map registers 1,185,722

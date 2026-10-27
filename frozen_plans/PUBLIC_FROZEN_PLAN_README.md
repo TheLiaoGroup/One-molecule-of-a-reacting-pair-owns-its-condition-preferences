@@ -1,6 +1,6 @@
 # Frozen analysis plans released with this article
 
-These plans support the results reported in the article. Each listed folder keeps its frozen files and their SHA-256 records unchanged; only the files listed are released.
+These plans support the results reported in the article. Each listed folder keeps its frozen files and their SHA-256 records unchanged, except for the same-molecule public excerpt's documented historical path translation and its updated excerpt checksum; only the files listed are released.
 
 | Folder | Files | Supports |
 |---|---|---|
@@ -22,4 +22,4 @@ Beside the folders, two files accompany the plans of the out-of-array evaluation
 
 Frozen plans are preserved as historical analysis records and may mention datasets or endpoints outside the finalized publication scope. Such references document analysis provenance and do not imply that the corresponding measurements or results are used or released in this article.
 
-The plans of Set A and Set B and the Set B outcome record say that their pairs had not been opened or analysed before the freeze; those statements are historical and are corrected in `OUT_OF_ARRAY_EVALUATION_PROVENANCE_CORRECTION.md`. The verbatim excerpt of the same-molecule plan keeps that plan's wording about its future cohorts and about outcomes not read at its freeze; that wording is historical and does not state that no outcome of those cohorts was read elsewhere in the project lineage.
+The plans of Set A and Set B and the Set B outcome record say that their pairs had not been opened or analysed before the freeze; those statements are historical and are corrected in `OUT_OF_ARRAY_EVALUATION_PROVENANCE_CORRECTION.md`. The public excerpt of the same-molecule plan keeps that plan's wording about its future cohorts and about outcomes not read at its freeze, apart from the one documented historical path translation; that wording is historical and does not state that no outcome of those cohorts was read elsewhere in the project lineage.

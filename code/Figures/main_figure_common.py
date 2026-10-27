@@ -3,7 +3,9 @@ from contextlib import contextmanager
 import argparse
 import hashlib
 import json
+import os
 from pathlib import Path
+import re
 
 import matplotlib
 import matplotlib.pyplot as plt
@@ -26,6 +28,7 @@ DARK, LIGHT = "#4D4D4D", "#B3B3B3"
 HEAT = LinearSegmentedColormap.from_list("v5_preference", ["#5A5A5A", "#FFFFFF", "#D9B748"])
 WIDTH = 180.0
 OVERRIDE = None
+JOURNAL = "science"
 
 
 @contextmanager
@@ -65,7 +68,8 @@ def new_figure(height):
 
 
 def panel(canvas, letter, x, y, tag=None):
-    canvas.text(x, y, letter, fontsize=9, weight="bold", va="center", gid=f"panel_{letter}")
+    shown, fontsize = (letter.lower(), 8) if JOURNAL == "natcatal" else (letter, 9)
+    canvas.text(x, y, shown, fontsize=fontsize, weight="bold", va="center", gid=f"panel_{letter}")
     if tag:
         assert len(tag.split()) <= 5
         canvas.text(x + 5, y, tag, fontsize=8, va="center", gid=f"tag_{letter}")
@@ -128,10 +132,30 @@ def write_json(number, filename, value):
     return target
 
 
+def _apply_journal(fig):
+    if JOURNAL != "natcatal":
+        return
+    from matplotlib.text import Text
+
+    texts = fig.findobj(Text)
+    panels = {t.get_gid()[-1] for t in texts
+              if re.fullmatch(r"panel_[A-Z]", t.get_gid() or "")}
+    reference = re.compile(r"\b(kept in |[Pp]anel ?)([A-Z])\b")
+    for text in texts:
+        if re.fullmatch(r"panel_[A-Z]", text.get_gid() or ""):
+            text.set_text(text.get_gid()[-1].lower())
+            text.set_fontsize(8)
+        else:
+            text.set_text(reference.sub(
+                lambda match: match[1] + match[2].lower() if match[2] in panels else match[0],
+                text.get_text()))
+
+
 def save(fig, number, tables, extra=None):
     from matplotlib.text import Text
     from figure_layout_checks import d21
 
+    _apply_journal(fig)
     output = OVERRIDE or ART
     sources = OVERRIDE or DATA / f"Figure{number}"
     output.mkdir(parents=True, exist_ok=True)
@@ -155,6 +179,8 @@ def save(fig, number, tables, extra=None):
     titles = {t.get_gid().replace("tag_", ""): t.get_text()
               for t in fig.findobj(Text) if (t.get_gid() or "").startswith("tag_")}
     readback = capture_readback(fig, number, titles, extra or {})
+    if JOURNAL == "natcatal":
+        readback["journal"] = JOURNAL
     readback["d21"] = clearance
     readback["text_styles"] = [dict(text=t.get_text(), gid=t.get_gid(),
                                     weight=t.get_fontweight(), color=t.get_color())
@@ -166,11 +192,16 @@ def save(fig, number, tables, extra=None):
 
 
 def cli(main, number):
-    global OVERRIDE
+    global OVERRIDE, JOURNAL
     matplotlib.use("Agg")
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(allow_abbrev=False)
     parser.add_argument("--out", type=Path)
+    parser.add_argument("--journal", choices=("science", "natcatal"))
     args = parser.parse_args()
+    journal = args.journal if args.journal is not None else os.environ.get("P2_FIGURE_JOURNAL", "science")
+    if journal not in ("science", "natcatal"):
+        parser.error("P2_FIGURE_JOURNAL must be science or natcatal")
+    JOURNAL = journal
     OVERRIDE = args.out
     panels, outputs = {}, {}
     with InputTrace() as trace:

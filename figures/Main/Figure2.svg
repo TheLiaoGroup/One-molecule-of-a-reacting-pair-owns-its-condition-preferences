@@ -43,7 +43,7 @@ L 223.937008 366.616996
 " clip-path="url(#p6749402a88)" style="fill: none; stroke: #000000; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="panel_A">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial'; text-anchor: start" x="2.834646" y="12.254229" transform="rotate(-0 2.834646 12.254229)">A</text>
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'; text-anchor: start" x="2.834646" y="11.99501" transform="rotate(-0 2.834646 11.99501)">a</text>
    </g>
    <g id="A_axis_label">
     <text style="font-size: 8px; font-family: 'Arial'; text-anchor: middle" x="282.047244" y="604.432205" transform="rotate(-0 282.047244 604.432205)">Preference share (%)</text>
@@ -102,13 +102,13 @@ L 223.937008 366.616996
     <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="2.834646" y="571.312236" transform="rotate(-0 2.834646 571.312236)">Reductive amination</text>
    </g>
    <g id="panel_B">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial'; text-anchor: start" x="354.330709" y="12.254229" transform="rotate(-0 354.330709 12.254229)">B</text>
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'; text-anchor: start" x="354.330709" y="11.99501" transform="rotate(-0 354.330709 11.99501)">b</text>
    </g>
    <g id="B_axis_label">
     <text style="font-size: 8px; font-family: 'Arial'; text-anchor: middle" x="432.283465" y="98.447953" transform="rotate(-0 432.283465 98.447953)">Molecular share (%)</text>
    </g>
    <g id="panel_C">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial'; text-anchor: start" x="354.330709" y="124.222733" transform="rotate(-0 354.330709 124.222733)">C</text>
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'; text-anchor: start" x="354.330709" y="123.963514" transform="rotate(-0 354.330709 123.963514)">c</text>
    </g>
    <g id="tag_C">
     <!-- S$_{\mathrm{N}}$Ar -->

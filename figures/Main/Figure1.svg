@@ -39,19 +39,19 @@ L 424.062992 115.795276
 " clip-path="url(#p6749402a88)" style="fill: none; stroke: #d55e00; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="panel_A">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial'; text-anchor: start" x="5.669291" y="13.671551" transform="rotate(-0 5.669291 13.671551)">A</text>
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'; text-anchor: start" x="5.669291" y="13.412333" transform="rotate(-0 5.669291 13.412333)">a</text>
    </g>
    <g id="tag_A">
     <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="19.84252" y="13.408583" transform="rotate(-0 19.84252 13.408583)">C–N ligand library</text>
    </g>
    <g id="panel_B">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial'; text-anchor: start" x="396.850394" y="13.671551" transform="rotate(-0 396.850394 13.671551)">B</text>
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'; text-anchor: start" x="396.850394" y="13.412333" transform="rotate(-0 396.850394 13.412333)">b</text>
    </g>
    <g id="A_halide_kept">
-    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: middle" x="36.269276" y="101.329473" transform="rotate(-0 36.269276 101.329473)">kept in C</text>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: middle" x="36.269276" y="101.280723" transform="rotate(-0 36.269276 101.280723)">kept in c</text>
    </g>
    <g id="A_amine_kept">
-    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: middle" x="110.239357" y="101.280723" transform="rotate(-0 110.239357 101.280723)">kept in D</text>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: middle" x="110.239357" y="101.280723" transform="rotate(-0 110.239357 101.280723)">kept in d</text>
    </g>
    <g id="A_plus">
     <text style="font-size: 8px; font-family: 'Arial'; text-anchor: middle" x="75.685039" y="70.099621" transform="rotate(-0 75.685039 70.099621)">+</text>
@@ -1024,7 +1024,7 @@ z
     <text style="font-size: 8px; font-family: 'Arial'" transform="translate(396.036998 88.475344) rotate(-90)">aryl halides</text>
    </g>
    <g id="panel_C">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial'; text-anchor: start" x="2.834646" y="135.561315" transform="rotate(-0 2.834646 135.561315)">C</text>
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'; text-anchor: start" x="2.834646" y="135.302096" transform="rotate(-0 2.834646 135.302096)">c</text>
    </g>
    <g id="tag_C">
     <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="17.007874" y="135.296471" transform="rotate(-0 17.007874 135.296471)">Fixed halide</text>
@@ -1036,7 +1036,7 @@ z
     <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="240.944882" y="464.115369" transform="rotate(-0 240.944882 464.115369)">mean r 0.27</text>
    </g>
    <g id="panel_D">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial'; text-anchor: start" x="260.787402" y="135.561315" transform="rotate(-0 260.787402 135.561315)">D</text>
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'; text-anchor: start" x="260.787402" y="135.302096" transform="rotate(-0 260.787402 135.302096)">d</text>
    </g>
    <g id="tag_D">
     <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="274.96063" y="135.296471" transform="rotate(-0 274.96063 135.296471)">Fixed amine</text>
@@ -1048,7 +1048,7 @@ z
     <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="501.732283" y="506.635054" transform="rotate(-0 501.732283 506.635054)">mean r 0.07</text>
    </g>
    <g id="panel_E">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial'; text-anchor: start" x="5.669291" y="523.907772" transform="rotate(-0 5.669291 523.907772)">E</text>
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'; text-anchor: start" x="5.669291" y="523.648553" transform="rotate(-0 5.669291 523.648553)">e</text>
    </g>
    <g id="tag_E">
     <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="19.84252" y="523.596053" transform="rotate(-0 19.84252 523.596053)">Molecular agreement</text>

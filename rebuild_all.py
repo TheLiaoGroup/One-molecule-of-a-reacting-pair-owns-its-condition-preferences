@@ -148,12 +148,16 @@ def run(cmd, log, env):
 
 def generators(names, jobs, env):
     todo = [(n, s) for n, s in L.GENERATORS if n in names]
+    journal = L.journal()
 
     def one(item):
         n, s = item
         out = OUT / n
         out.mkdir(parents=True, exist_ok=True)
-        return n, run([sys.executable, "-B", str(TREE / s), "--out", str(out)], WORK / "logs" / f"{n}.log", env)
+        command = [sys.executable, "-B", str(TREE / s), "--out", str(out)]
+        if n.startswith("figure"):
+            command += ["--journal", journal]
+        return n, run(command, WORK / "logs" / f"{n}.log", env)
     with ThreadPoolExecutor(max_workers=jobs) as ex:
         codes = dict(ex.map(one, todo))
     bad = [f"{n}: exit code {c} (see _rebuild/logs/{n}.log)" for n, c in codes.items() if c != 0]
@@ -170,7 +174,7 @@ def figure_audits(names, env):
         number = int(name.removeprefix("figure"))
         script = TREE / f"06_CODE/Checks/audit_figure{number}.py"
         code = run([sys.executable, "-B", str(script), "--values-only", "--root", str(TREE), "--qc-dir", str(qc),
-                    "--artifact-dir", str(OUT / name)], WORK / "logs" / f"audit_{name}.log", env)
+                    "--artifact-dir", str(OUT / name), "--journal", L.journal()], WORK / "logs" / f"audit_{name}.log", env)
         path = qc / f"Figure{number}_v5_audit.json"
         if code != 0:
             bad.append(f"{name} independent audit: exit code {code} (see _rebuild/logs/audit_{name}.log)")
@@ -313,7 +317,11 @@ def main():
     ap.add_argument("--jobs", type=int, default=min(6, os.cpu_count() or 1))
     ap.add_argument("--only", nargs="*", help="generator names (figure1-4, ed01-ed10)")
     ap.add_argument("--zhang", help="data/all_HTE_with_condition.csv of the pinned Zhang commit, plain or gzip (optional)")
+    ap.add_argument("--journal", choices=("science", "natcatal"), help="must match JOURNAL_PROFILE.json; Science when absent")
     a = ap.parse_args()
+    journal = L.journal()
+    if a.journal is not None and a.journal != journal:
+        ap.error(f"requested journal {a.journal!r} differs from the fixed package journal {journal!r}")
     names = set(a.only) if a.only else {n for n, _ in L.GENERATORS}
     unknown = names - {n for n, _ in L.GENERATORS}
     if unknown:
@@ -328,6 +336,7 @@ def main():
     guard.install(cfg)                                            # this process too
     env = {k: v for k, v in os.environ.items() if k not in ("PYTHONPATH", "PYTHONHOME", "PYTHONSTARTUP", "PYTHONUSERBASE")}
     env.update(P2_PUBLIC_GUARD=json.dumps(cfg), P2_RELEASE_MODE="public", PYTHONPATH=str(PKG / "code/release/guard"),
+               P2_FIGURE_JOURNAL=journal,
                PYTHONDONTWRITEBYTECODE="1", MPLCONFIGDIR=str(WORK / "mplconfig"), TMP=str(WORK / "tmp"), TEMP=str(WORK / "tmp"),
                TMPDIR=str(WORK / "tmp"), PYTHONIOENCODING="utf-8")
     import matplotlib, numpy, pandas, scipy, sklearn, rdkit, openpyxl              # noqa: E401
@@ -338,6 +347,8 @@ def main():
                   inputs=dict(checksums_sha256=L.sha256(PKG / L.CHECKSUMS)), generators=sorted(names),
                   guard=dict(read=cfg["read"], write=cfg["write"],
                              monitoring="Python file access logged; only this Python executable may start child processes; Python network connections refused"))
+    if journal != "science":
+        report["journal"] = journal
     ok = step("1 checksums of every released file", report, checksums)
     ok &= step("2 task construction: derived tables from the released records", report, task_construction)
     ok &= step("3 work tree: copies of the package files where the code reads them", report,
@@ -346,14 +357,14 @@ def main():
     ok &= step(f"5 figure generators in public mode ({len(names)})", report, lambda: generators(names, a.jobs, env))
     full = names == {n for n, _ in L.GENERATORS}
     if full:
-        ok &= step("6 re-fit of Fig. S10 (fold registry blocked)", report, lambda: refit(a.jobs, env))
+        ok &= step(L.journal_formatter()("6 re-fit of Fig. S10 (fold registry blocked)"), report, lambda: refit(a.jobs, env))
         ok &= step("7 provenance flags", report, lambda: provenance(env, a.zhang))
         ok &= step("8 text statements and publication use of every measurement", report, lambda: claims_and_use(OUT / "figure2/Figure2_SourceData_provenance.json"))
     ok &= step("9 rebuilt outputs against the released ones", report, lambda: compare(names))
     if full:
         ok &= step("10 owner labels without the scored pairs; largest connected networks", report, lambda: nested(env))
         ok &= step("11 owner margins, equal-role null, SNAr class proxy and nesting", report, lambda: nullchk(env))
-        ok &= step("12 tables S5 and S7, Notes 7, 10 and 15, and the counts", report, lambda: sitables(env))
+        ok &= step(L.journal_formatter()("12 tables S5 and S7, Notes 7, 10 and 15, and the counts"), report, lambda: sitables(env))
         ok &= step("13 values read from the full analysis run: Fig. 2A interval and likelihood owner, the Set A decision", report,
                    lambda: frozenreads(env))
     if any(name.startswith("figure") for name in names):

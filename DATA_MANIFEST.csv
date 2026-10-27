@@ -5,7 +5,7 @@ code/Checks/audit_figure2.py,code,CD1,,144,6388a918af48d23b64f1a95aaa1650bf06446
 code/Checks/audit_figure3.py,code,CD1,,156,d7dede36e10d2cd2306cbcf36b1a17ab94f1dcd77aa2c5f0a7b49792c8050633,
 code/Checks/audit_figure4.py,code,CD1,,135,0a7869435ba7e06e304f4d3b1fa02e0623be7acc06b42d9b48937724e267827b,
 code/Checks/audit_figure_v3_common.py,code,CD1,,18331,6e1a478cb8b71c89806197cf9868a27068fdd7f3be7421dd1ce6a3c70da5c215,
-code/Checks/audit_figure_v5_common.py,code,CD1,,11685,2b6bfc77b6dca9b12a271cd85d0c5f68d3ba63ffce47ef024dafc5cb73d47825,
+code/Checks/audit_figure_v5_common.py,code,CD1,,13665,471e8e8a8898cdacdc438e7214ca77da8ab5d8dc8f2555b3a18995f189b2e53e,
 code/Checks/audit_main_v2_values23.py,code,CD1,,28377,8fcdcf8b9bec25cf87bbc5ffdabbb73e360427fc57856139350400c2ae36fc02,
 code/Checks/audit_main_v3_values12.py,code,CD1,,51905,3e5afcd1922d0d8e061a3ad962f9ba819e787a55edcc3eb4543efb299c1f5878,
 code/Checks/audit_main_v3_values35.py,code,CD1,,49669,8fa0a67dddf698621e655166ab1237a87fae4d27d58753546e671f95f176b9b2,
@@ -55,12 +55,13 @@ code/Figures/figure_common.py,code,CD1,,11512,d310517e2b42f6d6d683bb6defb8796713
 code/Figures/figure_export.py,code,CD1,,7353,79ca2c5fe62cbc6874aea0131c6aa99b30e28e754d1514c59274e3c52e59cae8,
 code/Figures/figure_layout_checks.py,code,CD1,,11309,ed5749aa04d4bc68a560afccd0ba91e25a9778b3a9444977aa9737e399c1b97d,
 code/Figures/figure_structure_inputs.py,code,CD1,,4279,0c0b74284de9080008897147ea71823a95fad6cfe77d01f26bba1461165ae9fc,
-code/Figures/main_figure_common.py,code,CD1,,8197,7c74bfcfe2c5724c5eacde45aecb6b374380a86aa6725282e91cab4452c32b38,
+code/Figures/main_figure_common.py,code,CD1,,9434,844e57ca9133b120b46a1fb99414b4727fb8d17f6914d30caeb6963e14155b56,
 code/Figures/preference_data.py,code,CD1,,11188,499cb2ac827da7065065aa1048609921b70b325a90ed52e31d0f7efb47277daa,
 code/Figures/structure_art.py,code,CD1,,3893,b9c92e645fd3df607854e9e1325ed6a7f4146a62257c3abcfec203cf6855822a,
 code/Figures/transfer_data.py,code,CD1,,8855,1a80dbe785424d99a77cdd0160eac0b8df1ed56a2ca6c36eed69bc698f3301ab,
 code/release/guard/sitecustomize.py,code,CD1,,5526,024b9be1a68e356567e8b676772252fd951f3c21bdb737737b3e451b0606a8e2,
-code/release/package_lib.py,code,CD1,,28789,957b8cc0bc95b2bfdd35e37bf6872abfcc3a05985a5d4ea0008d479d069b4349,
+code/release/journal_model.py,code,CD1,,24678,53cd9a22b42c28d971cd3a094b49e32f38c050141319b2bf19c117504dde24f7,
+code/release/package_lib.py,code,CD1,,31933,a7393207df700226f9e59c8c91270fe0b33271d6593c895b31e32bc8e70d3515,
 code/Validation/06_validation/analysis_config.json,code,CD1,,949,44db94208d0b37247f357dee4763ff781245a3a9a63e5349c186d06c6e331170,
 code/Validation/06_validation/matched_control.py,code,CD1,,19139,c79903769db89fab834184166169fdd73cd79c14597e12cf5a28f1aac5ab227a,
 code/Validation/06_validation/validation_core.py,code,CD1,,6029,a738ff500792741bef50dc55f2de7c4ce705eecb139b1075c489add1181054b8,
@@ -90,18 +91,18 @@ figure_inputs/v5_reference_tables/preference.xlsx,retained computed figure input
 figure_inputs/v5_reference_tables/preference_payload.json,retained computed figure input; separate from generated Source Data,,,232017,cd94d1ef8767212ef86845dd44e2f6aa27bddba155565669fedfe0e5959753ae,
 figure_inputs/v5_reference_tables/screen_shares.xlsx,retained computed figure input; separate from generated Source Data,,,131034,845ccfab160c0c68a8089108fc70a2bb817db99edceb9b1fe80f3b611c5e7d3a,
 figure_inputs/v5_reference_tables/transfer.xlsx,retained computed figure input; separate from generated Source Data,,,619632,088057a1309dac76fc1f4c8ab79b7ba96c83a9617abd748918f771d676485821,
-figures/Main/Figure1.pdf,figure,,,108969,e107f96cdd92da77fec84f4f73ef577361d22f34404133270c21a4e6fdd9341c,
-figures/Main/Figure1.png,figure,,,964546,46a51d21733a3bf81fc3438f5e9734f5d01cf1a824ff467e79aad1b16664e516,
-figures/Main/Figure1.svg,figure,,,575813,b9247137c37404ad4fb73eca200c0f51e773902f307395194822b969050456fb,
-figures/Main/Figure2.pdf,figure,,,52189,1039a6106b264c6142597c0f5d608c0001e177b241a20058f602617cd4c18c09,
-figures/Main/Figure2.png,figure,,,789027,b9b647970a7f6b38788e106277ec0e9ceabd5f14c83d1a9864157064eff07bdf,
-figures/Main/Figure2.svg,figure,,,126065,80201d902b3b454ce4fa5afb738b516372515eeb1832fc6db59104457524a977,
-figures/Main/Figure3.pdf,figure,,,59776,6cbe0f835009db460f89fe089808ca04ddadd3fcebdf64ae05cbc267184077b4,
-figures/Main/Figure3.png,figure,,,749276,7d1117d70b77a25667686e38e69798b5c85fc5f80df3d8d37d6f6d41467412a8,
-figures/Main/Figure3.svg,figure,,,90848,418aa57c34464936771245bd157fad4ab82364067c5c1d30dbe9f9fece9ee5c8,
-figures/Main/Figure4.pdf,figure,,,43694,bd71b7f3fed1362259f42e2d77d174876c4696b3032bacae0eb4109045fac8bc,
-figures/Main/Figure4.png,figure,,,498444,ddcb8a352a487bcabc3ea768f6ada6d8d77f19f6c8c8e6c1293923b61bc859a5,
-figures/Main/Figure4.svg,figure,,,33455,262239ddecca5ecaa8f283b795a01680954d7b7951da019e55fbc8ae56c27aaa,
+figures/Main/Figure1.pdf,figure,,,109037,fee5ff8e15e6dd0084b73480a6af045dc9dfca507fe8b3f53ceece57ae488c99,
+figures/Main/Figure1.png,figure,,,963106,c5d3eba3eafae8fd9c3d970b164e9d3f23ecf5d0756dba03a786cac028db353f,
+figures/Main/Figure1.svg,figure,,,575813,051c4a2d0868fc3382bac8d677792e1b81d57106439189a1b90272e5d9e166ef,
+figures/Main/Figure2.pdf,figure,,,52264,fc065e385601588491c14a280b14fd926d87c6e43eabaafedb42853cd4fedea9,
+figures/Main/Figure2.png,figure,,,787973,b8fd57424bc90d49afcf569f7a61e61c60af3fa9aacf8db8d857fad08bb98332,
+figures/Main/Figure2.svg,figure,,,126061,82211a8232d109b5e44e41f207bd6e6951f618fb6a4c770746cf4776d34e7eec,
+figures/Main/Figure3.pdf,figure,,,59838,4a3d80d215f43501683531a802198c46fae2e51cfe2b4632a875e1852e1f0c50,
+figures/Main/Figure3.png,figure,,,748607,c00334a82af212b862a98799312dca85605928774f76c2986f06b213ee9e4508,
+figures/Main/Figure3.svg,figure,,,90848,e0a85454330bb46cd783b06407c344094511d1c2151516638ae6e4a9b878905e,
+figures/Main/Figure4.pdf,figure,,,43769,5622aa7d72c9d69702ba6f8c71a14f34907d5f1fb2ea86ba1a1dbef649f32df4,
+figures/Main/Figure4.png,figure,,,496899,d874d3156f3fce3e0ab0b38350886cdd3f81eac44e457cf8d4e0339a4e427557,
+figures/Main/Figure4.svg,figure,,,33455,70154698bedc78be75861cc677326b02df65c212889ea7510132c4a846a3f374,
 figures/structures/Fig1_a_amine.cdxml,chemical structure,,,4268,855995704a123ff9a6038e84620e8b091c3f3632eb7bd8be44d6e432cbac676e,
 figures/structures/Fig1_a_amine.svg,chemical structure,,,3491,13d27b4394ca5dd5acaf6af300b6605cd3273b90b333ae1b74713703d96a13a2,
 figures/structures/Fig1_a_halide.cdxml,chemical structure,,,4457,79c93ba64be3eafef4250f5128632800512e7b40d5a5c6a84a8f880825f19149,
@@ -295,76 +296,77 @@ frozen_plans/reserve_validation/reserve_validation.py,frozen analysis plan,FP1,,
 frozen_plans/SET_B_DOCUMENTED_PRIOR_SCORING.csv,provenance correction: per-pair Set B flags,FP1,535,33705,689d8898eada980e4fb9056e2c29e8d2dfbad16f1fc03095593067d32441d82a,
 frozen_plans/structure_in_place_of_record_15/RULE.md,frozen analysis plan,FP1,,3931,2baccbbea130ce72a92a0568b3e952ff3aae33888bf465c5ee2c469c363a5137,
 frozen_plans/structure_in_place_of_record_15/RULE.sha256,frozen analysis plan,FP1,,125,67ff4a5949d46f994fe75a6818e2a0aec2e63018db28f68d5e70c3d6e2d61cbf,
+JOURNAL_PROFILE.json,journal presentation and locked source mapping,,,28422,ceafe864d6d84747c57bc20fd1dd9b6204fd5e750ad6a3bb49e58842ed2c0000,
 LICENSE_CODE_MIT.txt,licence,,,1071,8b578a7d72b06ff3641539f8e9a7ae88096919688939e622c7c38c46249176fb,
 LICENSE_DATA_CC-BY-4.0.txt,licence,,,1126,7eea5000378f65f132d92dff1b465420b7bbeccdac782fd180f242ca577c0578,
 metadata/DESIGN_COUNTS.csv,metadata,DC1,200,21467,707ec422fd493e7a95653d08b57536f9b76e036ea3938509996e11e98b647187,
 metadata/figure_display/Fig4a_folds.csv,metadata,,2207,117603,dbcc9fe28abbd31329faebe6f9b0c76b23e5627ef1d38405396212a169245991,
 metadata/figure_display/Fig4a_history_draws.csv,metadata,,6235,2216542,72483e785cb643c84120f088694ad27e7c52d8a2ad1d3abe5366006dd91fcf58,
-metadata/PUBLICATION_USE_BY_PAIR.csv,metadata,,3236,459070,0398cc98a476a0f256677099d4d0342b2d18cab4c12d83aa504211cea052fd0a,
+metadata/PUBLICATION_USE_BY_PAIR.csv,metadata,,3236,461891,bb8e41fe813930d893b9ff0fb9071132f05960eaf9dc01d113b7e37a192e96d3,
 metadata/set_A_frozen_manifest.csv,metadata,SAM,442,58938,277dbae5bac99e18397cf26efebdea8d0286638b88218569ecc9759216432979,
 metadata/set_A_release.json,metadata,SAM,,1324,f83ae4f522b8d1586c2dc50bd97e2a619f0bea992bf8c482f4f48795dff1c053,
 provenance/P2_RECORD_PROVENANCE.csv,provenance,PV1,244179,19687449,4c4a1c560da4169b3c05d1ebf7b041c4d1ef3f5c12d5dc63122890a404bd6f55,
 provenance/P2_ZHANG_OVERLAP_COUNTS_PUBLIC.json,provenance,PV2,,2224,a2f0403293cd220c831fdace833ad857e2bb1328e557c49c373eef19dea8575d,
 provenance/PROV-1+A2_PUBLIC_RULE.md,provenance,PV2,,7874,61aef94c6b812b2e5dd20962185572d714ebe1f686ccbf4551c018140ba055f1,
 provenance/provenance_overlap_public.py,provenance,PV2,,14443,c50638ee8be0fed86132c44b5faac550751550e7e6374e7d5623e02b7607b309,
-README.md,documentation,,,14883,e0878073feb870025f326a3c860bc6c89518cd67aabeb406483e0193c01280bb,
-rebuild_all.py,entry point,CD1,,24165,a2792eccdeed63e652c92bf5802243211947feb6eca8aa0bf78b5d1c1b8ac38f,
-results/cross_library/cross_library.json,retained result,RS1,,1091,b02caa606a8dd11f069a1473b046614218e661d63d256e86eab315ca105402e0,Fig. 4A: Set B
-results/cross_library/target_losses.csv,retained result,RS1,535,66108,150c00c83a8000ab56f670d20ead14381719c52b33ba749a5f7be786a58362e1,"Fig. 4A-B and the post hoc Set B provenance sensitivity (Methods; claim T12): Set B, every target"
-results/directional/ED_owner_partner_exposure_depth.csv,retained result,RS1,30,3163,cf4a817421bfc4bd5dd46ed36d3a5267dcc3766d720c0122b481b71cef1fff7c,Fig. S6: history exposure by role
-results/directional/fixed_condition_gap_15.json,retained result,RS1,,836,4ee503d47cd0740ad129af554980e35bc40b6726655a652e6e9cc505e795f652,"Introduction and Fig. S1: fixed-condition gap, 17.4 percentage points"
-results/directional/frozen_reads_recomputed.json,retained result,RS1,,809,d17a46625a642a62b61512bb99145b80fb77bdf65477f7c4d85ba3684088c95b,"Fig. 2A (the interval of the median molecular share and the likelihood owner) and Results (the frozen three-condition decision on Set A, every target), recomputed from the measurements"
+README.md,documentation,,,14814,240b7b05b0f7c0e6a50beee23a612e128cbb31e36117e55dad383131c528b314,
+rebuild_all.py,entry point,CD1,,24789,e9526a8b8c43aa9aa2086a54b19e74e9f4ea8732a6243237a299c788166a1ec8,
+results/cross_library/cross_library.json,retained result,RS1,,1091,b02caa606a8dd11f069a1473b046614218e661d63d256e86eab315ca105402e0,Fig. 4a: Set B
+results/cross_library/target_losses.csv,retained result,RS1,535,66108,150c00c83a8000ab56f670d20ead14381719c52b33ba749a5f7be786a58362e1,"Fig. 4a-b and the post hoc Set B provenance sensitivity (Methods; claim T12): Set B, every target"
+results/directional/ED_owner_partner_exposure_depth.csv,retained result,RS1,30,3163,cf4a817421bfc4bd5dd46ed36d3a5267dcc3766d720c0122b481b71cef1fff7c,Extended Data Fig. 6: history exposure by role
+results/directional/fixed_condition_gap_15.json,retained result,RS1,,836,4ee503d47cd0740ad129af554980e35bc40b6726655a652e6e9cc505e795f652,"Introduction and Extended Data Fig. 1: fixed-condition gap, 17.4 percentage points"
+results/directional/frozen_reads_recomputed.json,retained result,RS1,,809,d17a46625a642a62b61512bb99145b80fb77bdf65477f7c4d85ba3684088c95b,"Fig. 2a (the interval of the median molecular share and the likelihood owner) and Results (the frozen three-condition decision on Set A, every target), recomputed from the measurements"
 results/directional/nested_owner_results.json,retained result,RS1,,8336,220278fceb1696cb34d6325b9cff3e28b1b88e80e5aaf2cfda2690c0a6aa9974,Methods: owner labels fixed without the scored pairs (Fig. 4) and the largest connected network of pairs
-results/directional/phase1_check.csv,retained result,RS1,30,2910,dc9c4866c8d02b4a58ff3b09e95f0025923b21cfc471f4916e1e29cc2094e0c6,Fig. S4D: recombined role shares
-results/directional/phase1_D.csv,retained result,RS1,23,3324,2a7b895c94cefe15c6657746f43e434e0156ac9fb9a15e5421cb6bcf74bc5495,Fig. 3B: D of the 23 molecules
-results/directional/phase1_lomo.csv,retained result,RS1,55,7108,132ff35598b4dd6079e8bfd3a9cb643fc838bee5f57bd843ab7c8dffec8cc77c,Fig. S4C: leave-one-molecule-out refits
-results/directional/phase1_summary.json,retained result,RS1,,8700,8cc43fd0d76195369779e2fd8c6c043fa8cd5a5962b2695ff537e593c44c194e,Fig. 3 and Fig. S4: criteria A-D
-results/directional/phase1_T.csv,retained result,RS1,542,30889,fb2842fc145d4efc307408e7db1d393d875aa591c9956c7c04dbc0735c2bde88,Fig. 3A-B and Fig. S4: T in owner and non-owner contexts
-results/directional/phase2_decision.csv,retained result,RS1,908,121588,2941a80b71d145eb54d65b32479a75a66e016d7a861e6e45275457ed54f3d67c,"Fig. S8C: equal-depth decision, every target"
+results/directional/phase1_check.csv,retained result,RS1,30,2910,dc9c4866c8d02b4a58ff3b09e95f0025923b21cfc471f4916e1e29cc2094e0c6,Extended Data Fig. 4D: recombined role shares
+results/directional/phase1_D.csv,retained result,RS1,23,3324,2a7b895c94cefe15c6657746f43e434e0156ac9fb9a15e5421cb6bcf74bc5495,Fig. 3b: D of the 23 molecules
+results/directional/phase1_lomo.csv,retained result,RS1,55,7108,132ff35598b4dd6079e8bfd3a9cb643fc838bee5f57bd843ab7c8dffec8cc77c,Extended Data Fig. 4C: leave-one-molecule-out refits
+results/directional/phase1_summary.json,retained result,RS1,,8700,8cc43fd0d76195369779e2fd8c6c043fa8cd5a5962b2695ff537e593c44c194e,Fig. 3 and Extended Data Fig. 4: criteria A-D
+results/directional/phase1_T.csv,retained result,RS1,542,30889,fb2842fc145d4efc307408e7db1d393d875aa591c9956c7c04dbc0735c2bde88,Fig. 3a-b and Extended Data Fig. 4: T in owner and non-owner contexts
+results/directional/phase2_decision.csv,retained result,RS1,908,121588,2941a80b71d145eb54d65b32479a75a66e016d7a861e6e45275457ed54f3d67c,"Extended Data Fig. 8C: equal-depth decision, every target"
 results/directional/phase2_depth_by_role.csv,retained result,RS1,14,1842,7f312a10eb9ccd021a139e2736621fcbe042566c12dc663a640c51b3fdbd0a66,Supplementary Note 11 and Fig. 4 retained Source Data: depth curves pooled over the full record sets
-results/directional/phase2_depth_curve.csv,retained result,RS1,4820,473934,d7046c099dd775cf352e7960e71ee0d74cb49b881e0d7b6ce67246c4ab184e7b,Fig. S8D: gain over the fixed trio by depth
-results/directional/phase2_setAB_k2.csv,retained result,RS1,844,148272,06c691b8a9b5cac98da60c45d558afe099e7aabddc121f13512b21994173c6b1,Fig. 4B: two-partner histories on Set A and Set B
-results/directional/phase2_summary.json,retained result,RS1,,16887,16b577e7d6042f681f6b5fc7a4c44b2d8390e2dfee4d79f936092edfc9c82aaa,Fig. 4B and Fig. S8C-D: pooled values and intervals
-results/directional/phase3_amplitude.csv,retained result,RS1,15,2230,7aa70d0b92e2333843fb7fc0bf023df7109c0240ee37b7fdfcf0487644cc67e3,Fig. S9: amplitude against preference owner
-results/directional/phase3_halves.csv,retained result,RS1,30,2138,10334c5ea7dd3d4cb6c6e8bd612cdea1ff314aa206c9c532b4ea5a10f4feba39,Fig. S3: condition halves
-results/directional/phase3_summary.json,retained result,RS1,,12379,d9d37449d3513f0f55d7b280719442fc63bf9fb339797d3b6703360e2303e492,Fig. 4B and Fig. S3: equal-depth transport and halves
-results/directional/phase3_transport.csv,retained result,RS1,908,103955,b4afec29c29669d3f490ad2354c494c37f176a8c0b8240c7e74c7dd5685df874,"Fig. 4B: equal-depth transport, every target"
-results/directional/role_null_checks.json,retained result,RS1,,10649,b3a5e8691ca0f81ac8fe024d6a546ed52270ff648af9325b84b17f0b968669f0,"Results, table S1 and Notes 5 and 9: per-array owner margins, the equal-role null, the SNAr class proxy and nesting"
-results/directional/si_tables_checks.json,retained result,RS1,,23885,7a868a16959f57e503beff4bd8323254d6d395a5ea157983933d927e789674b1,"tables S5 and S7, Notes 7, 10 and 15, and the counts of Methods and Note 3"
-results/directional/structure_in_place_of_record_15.json,retained result,RS1,,2359,37f43d4371e77b67f68bd2aaf0d87e70ec131933325fd23284785fa4045b6ea7,"Fig. S10 and Discussion: structure in place of a record, fifteen arrays"
-results/display_inputs/Anatomy.json,retained result,RS1,,5973,90b6406b3850b85145fcc297718d6099cc029d16cebeb74ede2505190b906c0b,Fig. 2A: role shares and ownership; SI Note 9: substrate-class analysis
-results/display_inputs/Anatomy_arrays.csv,retained result,RS1,15,7554,cfe3de1982d721c37241e3da95f670f3f9faa98bc73e709c9a7590878466ee1e,Fig. 2A per-screen shares; the owner role of every screen (Figs. 1–4 and figs. S2–S7 and S9)
-results/display_inputs/Figure4a_history_depth.csv,retained result,RS1,5,197,42e0cc27ce7d584706be54eab5f54b6229c4cbd2c58e9a2d28f7c4907f5a8f39,Fig. S7A: pooled depth curve
-results/display_inputs/FigureS2_profile_correlations.csv,retained result,RS1,15,1455,1ebb8b22eeeb0bbd720dfcc38aa9b82317e3318b2d1be7c697ef30ccd9762584,Fig. S2: reciprocal pair correlations
-results/primary/anatomy.json,retained result,RS1,,5973,90b6406b3850b85145fcc297718d6099cc029d16cebeb74ede2505190b906c0b,Fig. S7A (depth interval) and Fig. S8A (both-partner histories)
-results/primary/anatomy_depth.csv,retained result,RS1,1247,165090,f25942cd794e8adeb6788bdd17597de598ce38a596c967341b6412238b636354,"Fig. 4C and Fig. S7A: the 1,247 depth records; Fig. 4C uses the 310 targets observed in both roles"
-results/primary/fig3_regime_cases.csv,retained result,RS1,39067,6141677,072eeb62f24b6a0b1d723dcc1a7bb312183b22b11a86fa418e5c4cba333fd887,"Fig. S10A: structure-based recommender, every held-out case"
-results/primary/history_arrays.csv,retained result,RS1,15,3898,3830a6fc9d1709133c98e61a21c1b88e70942c82e232178a4053044ab6079596,Fig. S8A: role resampled for the interval
-results/primary/history_cv.csv,retained result,RS1,5694,344631,da38104f13917f90efb99af16687341c41d26d3ec27b413584229667c37f42f6,Fig. S8A: both-partner histories against the fixed trio
-results/primary/history_roles.csv,retained result,RS1,15,743,fd26f8d49867f1b1935cdac5a9de91dac6a37970068ec9e7869a76c61a10bac1,Fig. 2A: molecular identities of the two roles in each screen
-results/primary/structure_association.csv,retained result,RS1,14,3633,62c2cbfbd41cc7463933726398e13ba1ab18b732f7905213ea5c7f00568ee0ca,Fig. S10B: similarity against preference agreement
+results/directional/phase2_depth_curve.csv,retained result,RS1,4820,473934,d7046c099dd775cf352e7960e71ee0d74cb49b881e0d7b6ce67246c4ab184e7b,Extended Data Fig. 8D: gain over the fixed trio by depth
+results/directional/phase2_setAB_k2.csv,retained result,RS1,844,148272,06c691b8a9b5cac98da60c45d558afe099e7aabddc121f13512b21994173c6b1,Fig. 4b: two-partner histories on Set A and Set B
+results/directional/phase2_summary.json,retained result,RS1,,16887,16b577e7d6042f681f6b5fc7a4c44b2d8390e2dfee4d79f936092edfc9c82aaa,Fig. 4b and Extended Data Fig. 8C-D: pooled values and intervals
+results/directional/phase3_amplitude.csv,retained result,RS1,15,2230,7aa70d0b92e2333843fb7fc0bf023df7109c0240ee37b7fdfcf0487644cc67e3,Extended Data Fig. 9: amplitude against preference owner
+results/directional/phase3_halves.csv,retained result,RS1,30,2138,10334c5ea7dd3d4cb6c6e8bd612cdea1ff314aa206c9c532b4ea5a10f4feba39,Extended Data Fig. 3: condition halves
+results/directional/phase3_summary.json,retained result,RS1,,12379,d9d37449d3513f0f55d7b280719442fc63bf9fb339797d3b6703360e2303e492,Fig. 4b and Extended Data Fig. 3: equal-depth transport and halves
+results/directional/phase3_transport.csv,retained result,RS1,908,103955,b4afec29c29669d3f490ad2354c494c37f176a8c0b8240c7e74c7dd5685df874,"Fig. 4b: equal-depth transport, every target"
+results/directional/role_null_checks.json,retained result,RS1,,10649,b3a5e8691ca0f81ac8fe024d6a546ed52270ff648af9325b84b17f0b968669f0,"Results, Supplementary Table 1 and Notes 5 and 9: per-array owner margins, the equal-role null, the SNAr class proxy and nesting"
+results/directional/si_tables_checks.json,retained result,RS1,,23885,7a868a16959f57e503beff4bd8323254d6d395a5ea157983933d927e789674b1,"Supplementary Tables 5 and 7, Notes 7, 10 and 15, and the counts of Methods and Note 3"
+results/directional/structure_in_place_of_record_15.json,retained result,RS1,,2359,37f43d4371e77b67f68bd2aaf0d87e70ec131933325fd23284785fa4045b6ea7,"Extended Data Fig. 10 and Discussion: structure in place of a record, fifteen arrays"
+results/display_inputs/Anatomy.json,retained result,RS1,,5973,90b6406b3850b85145fcc297718d6099cc029d16cebeb74ede2505190b906c0b,Fig. 2a: role shares and ownership; SI Note 9: substrate-class analysis
+results/display_inputs/Anatomy_arrays.csv,retained result,RS1,15,7554,cfe3de1982d721c37241e3da95f670f3f9faa98bc73e709c9a7590878466ee1e,Fig. 2a per-screen shares; the owner role of every screen (Figs. 1–4 and Extended Data Figs. 2–7 and 9)
+results/display_inputs/Figure4a_history_depth.csv,retained result,RS1,5,197,42e0cc27ce7d584706be54eab5f54b6229c4cbd2c58e9a2d28f7c4907f5a8f39,Extended Data Fig. 7A: pooled depth curve
+results/display_inputs/FigureS2_profile_correlations.csv,retained result,RS1,15,1455,1ebb8b22eeeb0bbd720dfcc38aa9b82317e3318b2d1be7c697ef30ccd9762584,Extended Data Fig. 2: reciprocal pair correlations
+results/primary/anatomy.json,retained result,RS1,,5973,90b6406b3850b85145fcc297718d6099cc029d16cebeb74ede2505190b906c0b,Extended Data Fig. 7A (depth interval) and Extended Data Fig. 8A (both-partner histories)
+results/primary/anatomy_depth.csv,retained result,RS1,1247,165090,f25942cd794e8adeb6788bdd17597de598ce38a596c967341b6412238b636354,"Fig. 4c and Extended Data Fig. 7A: the 1,247 depth records; Fig. 4c uses the 310 targets observed in both roles"
+results/primary/fig3_regime_cases.csv,retained result,RS1,39067,6141677,072eeb62f24b6a0b1d723dcc1a7bb312183b22b11a86fa418e5c4cba333fd887,"Extended Data Fig. 10A: structure-based recommender, every held-out case"
+results/primary/history_arrays.csv,retained result,RS1,15,3898,3830a6fc9d1709133c98e61a21c1b88e70942c82e232178a4053044ab6079596,Extended Data Fig. 8A: role resampled for the interval
+results/primary/history_cv.csv,retained result,RS1,5694,344631,da38104f13917f90efb99af16687341c41d26d3ec27b413584229667c37f42f6,Extended Data Fig. 8A: both-partner histories against the fixed trio
+results/primary/history_roles.csv,retained result,RS1,15,743,fd26f8d49867f1b1935cdac5a9de91dac6a37970068ec9e7869a76c61a10bac1,Fig. 2a: molecular identities of the two roles in each screen
+results/primary/structure_association.csv,retained result,RS1,14,3633,62c2cbfbd41cc7463933726398e13ba1ab18b732f7905213ea5c7f00568ee0ca,Extended Data Fig. 10B: similarity against preference agreement
 results/reserve_validation/decision_targets.csv,retained result,RS1,396,50163,2516ba757b651294c818663d538b51b8f0836e9cecfc900e0af841645de74743,"Results: the frozen three-condition decision on Set A (e3), every target; the SA1 release rule"
-results/reserve_validation/record_transfer_losses.csv,retained result,RS1,309,37947,6feaced7740bf28296625b62c61ec799de0f3204c64276d41a73214fc214d64d,"Fig. 4A-B: Set A, every record-transfer target; the SA1 release rule"
-results/reserve_validation/reserve_validation.json,retained result,RS1,,2337,42adbed68f50ba9d559afa91b1035a009a9d6e91ee32a2d6038c578bc5af1641,"Fig. 4A (Set A), Fig. S5 (ownership on 217 amide pairs) and the three-condition decision on Set A (Results; e3)"
-results/RESULTS_MANIFEST.csv,retained result,RS1,39,8997,1d4c9efb4aab33aff1746079d44d706fcf3c435b76b9339e0db7f8248480fead,
-results/TEXT_CLAIMS.csv,retained result,RS1,11,2341,9881a4a3b4623258a9043b770cb65fe358f001b1a4cdb8fbf9b40d503af1efb8,
-results/validation/matched/fold_effects.csv,retained result,RS1,14532,1331085,d85404616c6a21b32bae434613d929a583c05422c00dd537efe3c22281847874,"Fig. S8B: substituted histories, every fold"
-results/validation/matched/pooled_effects.csv,retained result,RS1,24,4778,659315f9de54c27a852362363fcd9e0d1709ca4ec9c70e4a01dcc45874064dab,Fig. S8B: pooled substituted-history effects
+results/reserve_validation/record_transfer_losses.csv,retained result,RS1,309,37947,6feaced7740bf28296625b62c61ec799de0f3204c64276d41a73214fc214d64d,"Fig. 4a-b: Set A, every record-transfer target; the SA1 release rule"
+results/reserve_validation/reserve_validation.json,retained result,RS1,,2337,42adbed68f50ba9d559afa91b1035a009a9d6e91ee32a2d6038c578bc5af1641,"Fig. 4a (Set A), Extended Data Fig. 5 (ownership on 217 amide pairs) and the three-condition decision on Set A (Results; e3)"
+results/RESULTS_MANIFEST.csv,retained result,RS1,39,9371,fbf06490ace0586f0bc0f26fd5e1bcbb723407eb31d9f5f27f528b556b6924c4,
+results/TEXT_CLAIMS.csv,retained result,RS1,11,2354,297bd459e40a1316b88903eefea57660b75b2009225640b4e449c09c0fe2bfb6,
+results/validation/matched/fold_effects.csv,retained result,RS1,14532,1331085,d85404616c6a21b32bae434613d929a583c05422c00dd537efe3c22281847874,"Extended Data Fig. 8B: substituted histories, every fold"
+results/validation/matched/pooled_effects.csv,retained result,RS1,24,4778,659315f9de54c27a852362363fcd9e0d1709ca4ec9c70e4a01dcc45874064dab,Extended Data Fig. 8B: pooled substituted-history effects
 source_data/Figure1/figure1_payload.json,Source Data,,,232373,df616e83ec5d461bc3863bda9f8dabef93ce0f63131ad11c956f5f2d71aa0bbe,
-source_data/Figure1/Figure1_readback.json,Source Data,,,435593,0fd4e23621f67d4ac94e64b0de9f05bc8cf21eab113a185f4e6d4f8e9571fc21,
+source_data/Figure1/Figure1_readback.json,Source Data,,,435626,6b01e8b276e60d98a00a610e194cf5702d0fda6dd9d1e3c6496498bd36a1b847,
 source_data/Figure1/Figure1_SourceData.xlsx,Source Data,,,311325,bf07184ab78ebb5d5e68419766ec738837768d859d7b6d8d439616c1775378ce,
-source_data/Figure1/Figure1_SourceData_provenance.json,Source Data,,,6425,34642455dc019f49bc54c1f575cbd633e4855b9828fd92382a1f8756e22e9d25,
-source_data/Figure2/Figure2_readback.json,Source Data,,,622972,3994c43ef6bf82b2d9fc95201c34fa39d7f195d362fb360b9033965d5823653e,
+source_data/Figure1/Figure1_SourceData_provenance.json,Source Data,,,6425,4a95fb47c793430de56fad7b04ce54ad1bdcfa0fcd88b5f09d24949164324fd4,
+source_data/Figure2/Figure2_readback.json,Source Data,,,623001,68e1daa83583b2d034c7b188679a81a84721bcff1a42770537ed1b3a0e8b1f16,
 source_data/Figure2/figure2_selection.json,Source Data,,,520114,152c730b7995d30a4f53d898749ced790c9c2304a40fdde654b3d9e0744a50e4,
 source_data/Figure2/Figure2_SourceData.xlsx,Source Data,,,138509,dd9a1b098b75595628836f5dc86bb103292be2274f526b8d233cc48badaae05a,
-source_data/Figure2/Figure2_SourceData_provenance.json,Source Data,,,6327,2493f91a9fb0dbb6e02b7d4a02e9a802392e4a40de6523ab2acbdce23dc7b69d,
-source_data/Figure3/Figure3_readback.json,Source Data,,,72943,c494497b9534e96928a92a6d1b55aceb516e32be4322ab46423a8f1569d29425,
+source_data/Figure2/Figure2_SourceData_provenance.json,Source Data,,,6327,fefa9ca7585780b680dbd2231546c11b58b4e55b40470473a44e98f43f07ee0c,
+source_data/Figure3/Figure3_readback.json,Source Data,,,72971,bef144bc24e542ebf5fa83c9f03fd8f130535841f0f810ea30de9e548e7cc1f5,
 source_data/Figure3/Figure3_SourceData.xlsx,Source Data,,,47103,30c8fef449e6b661149d6dbc2e4187897ef84dc694e51df9b6d2423c86378c75,
-source_data/Figure3/Figure3_SourceData_provenance.json,Source Data,,,2865,0486d5105b571b54bf8607470319c30751ad8de44f28f69ab5a43285ccd80474,
-source_data/Figure4/Figure4_readback.json,Source Data,,,39472,cbfc321241439114ed1c2689b1908b1c4eb1de86f6e2e7b14102b5cfdc0e229c,
+source_data/Figure3/Figure3_SourceData_provenance.json,Source Data,,,2865,399075cc4422f6f962963ee2c9d85bf31e9a2b2f8c3a7a51815fec5eed420365,
+source_data/Figure4/Figure4_readback.json,Source Data,,,39501,f02c786e28ecaad1dffbd20abefbe5c49fa4bc1525479c5c275bba0df559b13d,
 source_data/Figure4/figure4_selection.json,Source Data,,,845,57e09986ff693c31040a33f786ce7f81959303a0d37a6971e232e5ca6977d624,
 source_data/Figure4/Figure4_SourceData.xlsx,Source Data,,,620967,7ec0ab02211c47dabe8890320c42a6cd395ceaff669c6f1d88b2b3198dbc81f2,
-source_data/Figure4/Figure4_SourceData_provenance.json,Source Data,,,5301,d41bef27b8ef36ca9b761a9488b22494c0d04e09abe9dd03be895895d995dde4,
+source_data/Figure4/Figure4_SourceData_provenance.json,Source Data,,,5301,88e30b9baada3dfdcbc33d250656bdd4ef2232f802a940baa2c5c6f2e4849cc6,
 source_data/Figure4/SetA_owner_block_bootstrap_draws.csv,Source Data,,2000,3955393,a3adff0757a94f036695173c302c42925f941ab6a630529316d9c0db7010536f,
 source_data/Figure4/SetA_whole_array_bootstrap_draws.csv,Source Data,,2000,224584,9e7520f98b24bf5890587825e5fea8fc5d08d7f19f24f39a97e67c4b4a572a24,
 source_data/Supplementary_Figures/FigS10_condition_folds.csv,Source Data,,1191,23565,6b42d00e0d6fcb01a2e93cd48797e9b864e46bc039aefc19dadc8b6ca5319043,

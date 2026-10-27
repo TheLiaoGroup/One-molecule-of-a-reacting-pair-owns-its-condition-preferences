@@ -65,13 +65,13 @@ z
     </g>
    </g>
    <g id="panel_A">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial'; text-anchor: start" x="2.834646" y="10.836906" transform="rotate(-0 2.834646 10.836906)">A</text>
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'; text-anchor: start" x="2.834646" y="10.577687" transform="rotate(-0 2.834646 10.577687)">a</text>
    </g>
    <g id="tag_A">
     <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="17.007874" y="10.572062" transform="rotate(-0 17.007874 10.572062)">Aromatic amines</text>
    </g>
    <g id="panel_B">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial'; text-anchor: start" x="263.622047" y="10.836906" transform="rotate(-0 263.622047 10.836906)">B</text>
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'; text-anchor: start" x="263.622047" y="10.577687" transform="rotate(-0 263.622047 10.577687)">b</text>
    </g>
    <g id="tag_B">
     <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="277.795276" y="10.572062" transform="rotate(-0 277.795276 10.572062)">Molecular contexts</text>

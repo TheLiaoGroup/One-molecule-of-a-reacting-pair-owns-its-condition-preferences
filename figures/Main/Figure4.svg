@@ -29,19 +29,19 @@ z
   </g>
   <g id="axes_1">
    <g id="panel_A">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial'; text-anchor: start" x="2.834646" y="10.836906" transform="rotate(-0 2.834646 10.836906)">A</text>
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'; text-anchor: start" x="2.834646" y="10.577687" transform="rotate(-0 2.834646 10.577687)">a</text>
    </g>
    <g id="tag_A">
     <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="17.007874" y="10.572062" transform="rotate(-0 17.007874 10.572062)">New pairs</text>
    </g>
    <g id="panel_B">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial'; text-anchor: start" x="311.811024" y="10.836906" transform="rotate(-0 311.811024 10.836906)">B</text>
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'; text-anchor: start" x="311.811024" y="10.577687" transform="rotate(-0 311.811024 10.577687)">b</text>
    </g>
    <g id="tag_B">
     <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="325.984252" y="10.525187" transform="rotate(-0 325.984252 10.525187)">Equal history depth</text>
    </g>
    <g id="panel_C">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial'; text-anchor: start" x="2.834646" y="322.647929" transform="rotate(-0 2.834646 322.647929)">C</text>
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'; text-anchor: start" x="2.834646" y="322.388711" transform="rotate(-0 2.834646 322.388711)">c</text>
    </g>
    <g id="tag_C">
     <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="17.007874" y="322.336211" transform="rotate(-0 17.007874 322.336211)">History growth</text>

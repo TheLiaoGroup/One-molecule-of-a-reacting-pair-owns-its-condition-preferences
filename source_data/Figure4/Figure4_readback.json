@@ -12,16 +12,16 @@
   },
   "texts": [
     {
-      "text": "A",
-      "fontsize": 9.0,
+      "text": "a",
+      "fontsize": 8.0,
       "family": [
         "Arial"
       ],
       "bbox": [
         6.299212598425197,
-        1218.8464566929135,
-        14.5,
-        19.0
+        1219.3464566929135,
+        9.875,
+        18.0
       ],
       "gid": "panel_A",
       "axes_gid": null
@@ -42,16 +42,16 @@
       "axes_gid": null
     },
     {
-      "text": "B",
-      "fontsize": 9.0,
+      "text": "b",
+      "fontsize": 8.0,
       "family": [
         "Arial"
       ],
       "bbox": [
         692.9133858267717,
-        1218.8464566929135,
-        14.5,
-        19.0
+        1219.3464566929135,
+        10.75,
+        18.0
       ],
       "gid": "panel_B",
       "axes_gid": null
@@ -72,16 +72,16 @@
       "axes_gid": null
     },
     {
-      "text": "C",
-      "fontsize": 9.0,
+      "text": "c",
+      "fontsize": 8.0,
       "family": [
         "Arial"
       ],
       "bbox": [
         6.299212598425197,
-        525.9330708661417,
-        14.5,
-        19.0
+        526.4330708661417,
+        9.875,
+        18.0
       ],
       "gid": "panel_C",
       "axes_gid": null
@@ -1351,6 +1351,7 @@
     "Suzuki|1"
   ],
   "common_targets": 310,
+  "journal": "natcatal",
   "d21": {
     "status": "PASS",
     "figure": 4,
@@ -1595,7 +1596,7 @@
   },
   "text_styles": [
     {
-      "text": "A",
+      "text": "a",
       "gid": "panel_A",
       "weight": "bold",
       "color": "black"
@@ -1607,7 +1608,7 @@
       "color": "black"
     },
     {
-      "text": "B",
+      "text": "b",
       "gid": "panel_B",
       "weight": "bold",
       "color": "black"
@@ -1619,7 +1620,7 @@
       "color": "black"
     },
     {
-      "text": "C",
+      "text": "c",
       "gid": "panel_C",
       "weight": "bold",
       "color": "black"

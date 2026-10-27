@@ -1,0 +1,437 @@
+{
+ "canonical_locked_sha256": {
+  "02_FIGURES/Main/Figure1.pdf": "e107f96cdd92da77fec84f4f73ef577361d22f34404133270c21a4e6fdd9341c",
+  "02_FIGURES/Main/Figure1.png": "46a51d21733a3bf81fc3438f5e9734f5d01cf1a824ff467e79aad1b16664e516",
+  "02_FIGURES/Main/Figure1.svg": "b9247137c37404ad4fb73eca200c0f51e773902f307395194822b969050456fb",
+  "02_FIGURES/Main/Figure2.pdf": "1039a6106b264c6142597c0f5d608c0001e177b241a20058f602617cd4c18c09",
+  "02_FIGURES/Main/Figure2.png": "b9b647970a7f6b38788e106277ec0e9ceabd5f14c83d1a9864157064eff07bdf",
+  "02_FIGURES/Main/Figure2.svg": "80201d902b3b454ce4fa5afb738b516372515eeb1832fc6db59104457524a977",
+  "02_FIGURES/Main/Figure3.pdf": "6cbe0f835009db460f89fe089808ca04ddadd3fcebdf64ae05cbc267184077b4",
+  "02_FIGURES/Main/Figure3.png": "7d1117d70b77a25667686e38e69798b5c85fc5f80df3d8d37d6f6d41467412a8",
+  "02_FIGURES/Main/Figure3.svg": "418aa57c34464936771245bd157fad4ab82364067c5c1d30dbe9f9fece9ee5c8",
+  "02_FIGURES/Main/Figure4.pdf": "bd71b7f3fed1362259f42e2d77d174876c4696b3032bacae0eb4109045fac8bc",
+  "02_FIGURES/Main/Figure4.png": "ddcb8a352a487bcabc3ea768f6ada6d8d77f19f6c8c8e6c1293923b61bc859a5",
+  "02_FIGURES/Main/Figure4.svg": "262239ddecca5ecaa8f283b795a01680954d7b7951da019e55fbc8ae56c27aaa",
+  "02_FIGURES/Supplementary_Figures/FigS1.pdf": "576b83bdb5be02eea4f6615f292cc619f16afae001139499ff13ba604b156bf8",
+  "02_FIGURES/Supplementary_Figures/FigS1.png": "bd2d3148f077eb5060a84841a3c853740b4d47b7333e265db7feb7c75db2a921",
+  "02_FIGURES/Supplementary_Figures/FigS1.svg": "9003a6411d2a1ec1219de10a6cfe9f3e599a926db10cca42304f111ceaf151a3",
+  "02_FIGURES/Supplementary_Figures/FigS10.pdf": "80d1ed7ef7207e17712fd0ca3132456097e6bb4e8cdc3d7936f2de4439a0d6a0",
+  "02_FIGURES/Supplementary_Figures/FigS10.png": "91a4b431586d9e4a4f44efcdfc86829b1242a03286bdcd349c330af15bc65328",
+  "02_FIGURES/Supplementary_Figures/FigS10.svg": "6b9cac008a8716f48ef4d4b6659896b4482c0968d4f8e8857fa36d2d486e2864",
+  "02_FIGURES/Supplementary_Figures/FigS2.pdf": "01ac63e7ebd87bfbe195fb79bd12403f0179e1f9b7f85731c8172cdefc9e6468",
+  "02_FIGURES/Supplementary_Figures/FigS2.png": "d07cf6e23c017d9db2fdfd159350b83e14ed3df21ebbefa86b8f336abe94ea34",
+  "02_FIGURES/Supplementary_Figures/FigS2.svg": "7df6b2f64bee1adbe38ebc14ff18fe617b60e68c58d67f7ada4622dba805bc62",
+  "02_FIGURES/Supplementary_Figures/FigS3.pdf": "72cd5c8a45f5692ce01ac781d9afd2de2cf14beb2b7fee9828fe53514e1e7f16",
+  "02_FIGURES/Supplementary_Figures/FigS3.png": "720d59d6f97a48643c48a21a1f25d95901a2033e3a94ae3ab8b4b652ece55018",
+  "02_FIGURES/Supplementary_Figures/FigS3.svg": "588a6873ba300dba40e4fcda20df61e2e00279d5ea76896b57761bbfbcafeada",
+  "02_FIGURES/Supplementary_Figures/FigS4.pdf": "a02c87436af333083f742a8ceac6594af7607b8dd3cc55b28096d77afa508e51",
+  "02_FIGURES/Supplementary_Figures/FigS4.png": "7f003f55fda818c8490f5aaa72a61eeef6f9fba6e5526c64b7b8369f05c5bc1d",
+  "02_FIGURES/Supplementary_Figures/FigS4.svg": "ccb742cc156a4e95480dba511a15b12581f2ed5276447b2b8279b59fabdff584",
+  "02_FIGURES/Supplementary_Figures/FigS5.pdf": "d47bd356dd4c7c92f86544a1bdb8525c7a222889ad7b8cb0573f089987ece0a3",
+  "02_FIGURES/Supplementary_Figures/FigS5.png": "6645f2ebb4c3fda4c245bf0841f74946503ffd1510a3629ce352d562fdc2f093",
+  "02_FIGURES/Supplementary_Figures/FigS5.svg": "a8480ee7afffc6acd9b6837fa5db51bd235b9b4109c0887dfb881ce8c93f224d",
+  "02_FIGURES/Supplementary_Figures/FigS6.pdf": "82300b7a00369c70d6b729fbfbcf47966d723cbcef7212d15f7fbb8882ad0f73",
+  "02_FIGURES/Supplementary_Figures/FigS6.png": "7d94cace8334b322cfd04dd477c017bebd5688a5f3f707aed6a6c8bd4685bf0a",
+  "02_FIGURES/Supplementary_Figures/FigS6.svg": "e9c896d692275aad3f9ca51e16dd025479cc66833274b32edc73518ed86764a8",
+  "02_FIGURES/Supplementary_Figures/FigS7.pdf": "7ae76d3a1bdac103f6c8fcb46e9bd67720372cd2695fee9dfed1e68b51c69c24",
+  "02_FIGURES/Supplementary_Figures/FigS7.png": "b400422c43baf6cf6d15be0436f9a87f0ebdac4566c04e136532bf3606ef5196",
+  "02_FIGURES/Supplementary_Figures/FigS7.svg": "36eb981a73c752eaa7f474bccb7e969393c7da5b8ab5fd8209a736790721063b",
+  "02_FIGURES/Supplementary_Figures/FigS8.pdf": "8c12eaf9e7d8de4df28a1f35cfe3cd997c9673afcdcab9562359458b13971138",
+  "02_FIGURES/Supplementary_Figures/FigS8.png": "8268686c26020ac05dfebe9f8a614259f68b858de468b8752abfdf20cf1fa47d",
+  "02_FIGURES/Supplementary_Figures/FigS8.svg": "6f6263784bf1a26dedad8d5716e27709a4a0fed30dec13330e8b760caaabcf66",
+  "02_FIGURES/Supplementary_Figures/FigS9.pdf": "e15ce757bbadfa5f911d01f664703bcf2b869e48681aedda9ecd82769c8518c6",
+  "02_FIGURES/Supplementary_Figures/FigS9.png": "97e9f80d468c6985e4d5332ab8cd6068e5cb1ff5c76ad264a9a7232fa0571a17",
+  "02_FIGURES/Supplementary_Figures/FigS9.svg": "87ce8675049471a21edd8f7c22031396098038f6d2fbe0c4ab1677e0c5158d29",
+  "04_SOURCE_DATA/Figure1/Figure1_SourceData.xlsx": "bf07184ab78ebb5d5e68419766ec738837768d859d7b6d8d439616c1775378ce",
+  "04_SOURCE_DATA/Figure1/Figure1_SourceData_provenance.json": "34642455dc019f49bc54c1f575cbd633e4855b9828fd92382a1f8756e22e9d25",
+  "04_SOURCE_DATA/Figure1/Figure1_readback.json": "0fd4e23621f67d4ac94e64b0de9f05bc8cf21eab113a185f4e6d4f8e9571fc21",
+  "04_SOURCE_DATA/Figure1/figure1_payload.json": "df616e83ec5d461bc3863bda9f8dabef93ce0f63131ad11c956f5f2d71aa0bbe",
+  "04_SOURCE_DATA/Figure2/Figure2_SourceData.xlsx": "dd9a1b098b75595628836f5dc86bb103292be2274f526b8d233cc48badaae05a",
+  "04_SOURCE_DATA/Figure2/Figure2_SourceData_provenance.json": "2493f91a9fb0dbb6e02b7d4a02e9a802392e4a40de6523ab2acbdce23dc7b69d",
+  "04_SOURCE_DATA/Figure2/Figure2_readback.json": "3994c43ef6bf82b2d9fc95201c34fa39d7f195d362fb360b9033965d5823653e",
+  "04_SOURCE_DATA/Figure2/figure2_selection.json": "152c730b7995d30a4f53d898749ced790c9c2304a40fdde654b3d9e0744a50e4",
+  "04_SOURCE_DATA/Figure3/Figure3_SourceData.xlsx": "30c8fef449e6b661149d6dbc2e4187897ef84dc694e51df9b6d2423c86378c75",
+  "04_SOURCE_DATA/Figure3/Figure3_SourceData_provenance.json": "0486d5105b571b54bf8607470319c30751ad8de44f28f69ab5a43285ccd80474",
+  "04_SOURCE_DATA/Figure3/Figure3_readback.json": "c494497b9534e96928a92a6d1b55aceb516e32be4322ab46423a8f1569d29425",
+  "04_SOURCE_DATA/Figure4/Figure4_SourceData.xlsx": "7ec0ab02211c47dabe8890320c42a6cd395ceaff669c6f1d88b2b3198dbc81f2",
+  "04_SOURCE_DATA/Figure4/Figure4_SourceData_provenance.json": "d41bef27b8ef36ca9b761a9488b22494c0d04e09abe9dd03be895895d995dde4",
+  "04_SOURCE_DATA/Figure4/Figure4_readback.json": "cbfc321241439114ed1c2689b1908b1c4eb1de86f6e2e7b14102b5cfdc0e229c",
+  "04_SOURCE_DATA/Figure4/SetA_owner_block_bootstrap_draws.csv": "a3adff0757a94f036695173c302c42925f941ab6a630529316d9c0db7010536f",
+  "04_SOURCE_DATA/Figure4/SetA_whole_array_bootstrap_draws.csv": "9e7520f98b24bf5890587825e5fea8fc5d08d7f19f24f39a97e67c4b4a572a24",
+  "04_SOURCE_DATA/Figure4/figure4_selection.json": "57e09986ff693c31040a33f786ce7f81959303a0d37a6971e232e5ca6977d624",
+  "04_SOURCE_DATA/Supplementary_Figures/FigS10_SourceData.xlsx": "70f803727ad168e58eea94e60f16f8e1cd8e8b8f82daab1d5d5fb46e73fd181b",
+  "04_SOURCE_DATA/Supplementary_Figures/FigS10_SourceData_provenance.json": "33e991780276ad26fba5738b6ee80f9b95c1e47bba09433c5bffdbc63de07ab7",
+  "04_SOURCE_DATA/Supplementary_Figures/FigS10_condition_folds.csv": "6b42d00e0d6fcb01a2e93cd48797e9b864e46bc039aefc19dadc8b6ca5319043",
+  "04_SOURCE_DATA/Supplementary_Figures/FigS10_molecule_groups.csv": "ba3855608fb074d22374511d81f21f30d8721f1a4f7f2954b35d1b6cc7874c2a",
+  "04_SOURCE_DATA/Supplementary_Figures/FigS10_pair_halves.csv": "1e26bc8371270a27d45ce97c94e7ef8608749d08b12702ea0bb9906ae6b906d4",
+  "04_SOURCE_DATA/Supplementary_Figures/FigS1_SourceData.xlsx": "a61d0277011e0180f45304df8d47963a09585389a22e46697c20b9ba6d5f7e22",
+  "04_SOURCE_DATA/Supplementary_Figures/FigS1_SourceData_provenance.json": "ff0af8564abfbcbeb47f25f1b1d6abcb1ebb72a9784815a7ab6d9b2729ba6aea",
+  "04_SOURCE_DATA/Supplementary_Figures/FigS2_SourceData.xlsx": "7c108df1abc2df9d01c88dbf408efbfe05e694a3d5ea9e05cebc2a10af059163",
+  "04_SOURCE_DATA/Supplementary_Figures/FigS2_SourceData_provenance.json": "539c18a96588a07d3d065699f0e4b551f1ae77ad2210c907eee9c407b741c97b",
+  "04_SOURCE_DATA/Supplementary_Figures/FigS3_SourceData.xlsx": "4a20e55f4e5c579bc72c8fbc56acab54e533acbe677649863c7998b1e8042368",
+  "04_SOURCE_DATA/Supplementary_Figures/FigS3_SourceData_provenance.json": "8ad9ae720a90cc6e973bde67933a0d8c46f9fbe549e20ac902f488e062931895",
+  "04_SOURCE_DATA/Supplementary_Figures/FigS3_all_context_draws.csv": "1d61c69b4d7132d74d95fc08943b09b1e8528b53b3dd7486ece6be8c56111dab",
+  "04_SOURCE_DATA/Supplementary_Figures/FigS4_SourceData.xlsx": "57f209b9c918761a9d136b5fe48f82caeec5cc749c7a85081e287db99afea99a",
+  "04_SOURCE_DATA/Supplementary_Figures/FigS4_SourceData_provenance.json": "ea77586804d83b65aabb9fd78b64b007dd31e058163c327ff6e167da66c076bb",
+  "04_SOURCE_DATA/Supplementary_Figures/FigS5_SourceData.xlsx": "f20efbf00957c5c6488d82e2bbadc456fcbacc663f6668003c56f163f326d546",
+  "04_SOURCE_DATA/Supplementary_Figures/FigS5_SourceData_provenance.json": "54bc17f998f477084a1e38ea753d0fe679014f1894e1854628d2be9818d0a74b",
+  "04_SOURCE_DATA/Supplementary_Figures/FigS6_SourceData.xlsx": "864170447a7e4cfbab205aae01a91162d29a2beb247f3bc568c9aa48faae3010",
+  "04_SOURCE_DATA/Supplementary_Figures/FigS6_SourceData_provenance.json": "2a88a00a1d6b0459046cb314c74721a22e82138df3d4d1fa357954c222ad382b",
+  "04_SOURCE_DATA/Supplementary_Figures/FigS7_SourceData.xlsx": "72be945021b07cbbdb470b8bcfeccc9998295b1265e87ffa16500b9038ab8396",
+  "04_SOURCE_DATA/Supplementary_Figures/FigS7_SourceData_provenance.json": "00c666b7a57d21c5d303e121c6991e5bca201f8b229a98408252f78283247a53",
+  "04_SOURCE_DATA/Supplementary_Figures/FigS7_depth_interval_draws.csv": "c93768aabdf5b2cbd4b260b8fd2735cb4904637de3971b082eab213ae318be69",
+  "04_SOURCE_DATA/Supplementary_Figures/FigS8_SourceData.xlsx": "711e4b85b328d0c3c8dbc7192e87789a9601d8b1f2bf21ef56cdf149c52f5f68",
+  "04_SOURCE_DATA/Supplementary_Figures/FigS8_SourceData_provenance.json": "cd70d6c34e798c7a3db6f60550b529a5d5cb6655866a9b774bc1e0076bb713c2",
+  "04_SOURCE_DATA/Supplementary_Figures/FigS8_transfer_folds.csv": "791b10a9980ac68cbe5155cddbe80efd2a791782038cb6eb356c0b1baf1dbcfe",
+  "04_SOURCE_DATA/Supplementary_Figures/FigS9_SourceData.xlsx": "16b21b96e7a25430cd8071829e63398009307cc98524cbb42307d51bea1323fc",
+  "04_SOURCE_DATA/Supplementary_Figures/FigS9_SourceData_provenance.json": "7debd607515d3e066bb8aba8a8df23973f3e14d3b6011e781abab06dbccb8e4f"
+ },
+ "format_labels_source": {
+  "path": "code/release/journal_model.py",
+  "sha256": "53cd9a22b42c28d971cd3a094b49e32f38c050141319b2bf19c117504dde24f7"
+ },
+ "journal": "natcatal",
+ "schema_version": 1,
+ "selected_files": {
+  "02_FIGURES/Main/Figure1.pdf": {
+   "path": "02_FIGURES/Journal_Formats/natcatal/Main/Figure1.pdf",
+   "sha256": "fee5ff8e15e6dd0084b73480a6af045dc9dfca507fe8b3f53ceece57ae488c99"
+  },
+  "02_FIGURES/Main/Figure1.png": {
+   "path": "02_FIGURES/Journal_Formats/natcatal/Main/Figure1.png",
+   "sha256": "c5d3eba3eafae8fd9c3d970b164e9d3f23ecf5d0756dba03a786cac028db353f"
+  },
+  "02_FIGURES/Main/Figure1.svg": {
+   "path": "02_FIGURES/Journal_Formats/natcatal/Main/Figure1.svg",
+   "sha256": "051c4a2d0868fc3382bac8d677792e1b81d57106439189a1b90272e5d9e166ef"
+  },
+  "02_FIGURES/Main/Figure2.pdf": {
+   "path": "02_FIGURES/Journal_Formats/natcatal/Main/Figure2.pdf",
+   "sha256": "fc065e385601588491c14a280b14fd926d87c6e43eabaafedb42853cd4fedea9"
+  },
+  "02_FIGURES/Main/Figure2.png": {
+   "path": "02_FIGURES/Journal_Formats/natcatal/Main/Figure2.png",
+   "sha256": "b8fd57424bc90d49afcf569f7a61e61c60af3fa9aacf8db8d857fad08bb98332"
+  },
+  "02_FIGURES/Main/Figure2.svg": {
+   "path": "02_FIGURES/Journal_Formats/natcatal/Main/Figure2.svg",
+   "sha256": "82211a8232d109b5e44e41f207bd6e6951f618fb6a4c770746cf4776d34e7eec"
+  },
+  "02_FIGURES/Main/Figure3.pdf": {
+   "path": "02_FIGURES/Journal_Formats/natcatal/Main/Figure3.pdf",
+   "sha256": "4a3d80d215f43501683531a802198c46fae2e51cfe2b4632a875e1852e1f0c50"
+  },
+  "02_FIGURES/Main/Figure3.png": {
+   "path": "02_FIGURES/Journal_Formats/natcatal/Main/Figure3.png",
+   "sha256": "c00334a82af212b862a98799312dca85605928774f76c2986f06b213ee9e4508"
+  },
+  "02_FIGURES/Main/Figure3.svg": {
+   "path": "02_FIGURES/Journal_Formats/natcatal/Main/Figure3.svg",
+   "sha256": "e0a85454330bb46cd783b06407c344094511d1c2151516638ae6e4a9b878905e"
+  },
+  "02_FIGURES/Main/Figure4.pdf": {
+   "path": "02_FIGURES/Journal_Formats/natcatal/Main/Figure4.pdf",
+   "sha256": "5622aa7d72c9d69702ba6f8c71a14f34907d5f1fb2ea86ba1a1dbef649f32df4"
+  },
+  "02_FIGURES/Main/Figure4.png": {
+   "path": "02_FIGURES/Journal_Formats/natcatal/Main/Figure4.png",
+   "sha256": "d874d3156f3fce3e0ab0b38350886cdd3f81eac44e457cf8d4e0339a4e427557"
+  },
+  "02_FIGURES/Main/Figure4.svg": {
+   "path": "02_FIGURES/Journal_Formats/natcatal/Main/Figure4.svg",
+   "sha256": "70154698bedc78be75861cc677326b02df65c212889ea7510132c4a846a3f374"
+  },
+  "02_FIGURES/Supplementary_Figures/FigS1.pdf": {
+   "path": "02_FIGURES/Supplementary_Figures/FigS1.pdf",
+   "sha256": "576b83bdb5be02eea4f6615f292cc619f16afae001139499ff13ba604b156bf8"
+  },
+  "02_FIGURES/Supplementary_Figures/FigS1.png": {
+   "path": "02_FIGURES/Supplementary_Figures/FigS1.png",
+   "sha256": "bd2d3148f077eb5060a84841a3c853740b4d47b7333e265db7feb7c75db2a921"
+  },
+  "02_FIGURES/Supplementary_Figures/FigS1.svg": {
+   "path": "02_FIGURES/Supplementary_Figures/FigS1.svg",
+   "sha256": "9003a6411d2a1ec1219de10a6cfe9f3e599a926db10cca42304f111ceaf151a3"
+  },
+  "02_FIGURES/Supplementary_Figures/FigS10.pdf": {
+   "path": "02_FIGURES/Supplementary_Figures/FigS10.pdf",
+   "sha256": "80d1ed7ef7207e17712fd0ca3132456097e6bb4e8cdc3d7936f2de4439a0d6a0"
+  },
+  "02_FIGURES/Supplementary_Figures/FigS10.png": {
+   "path": "02_FIGURES/Supplementary_Figures/FigS10.png",
+   "sha256": "91a4b431586d9e4a4f44efcdfc86829b1242a03286bdcd349c330af15bc65328"
+  },
+  "02_FIGURES/Supplementary_Figures/FigS10.svg": {
+   "path": "02_FIGURES/Supplementary_Figures/FigS10.svg",
+   "sha256": "6b9cac008a8716f48ef4d4b6659896b4482c0968d4f8e8857fa36d2d486e2864"
+  },
+  "02_FIGURES/Supplementary_Figures/FigS2.pdf": {
+   "path": "02_FIGURES/Supplementary_Figures/FigS2.pdf",
+   "sha256": "01ac63e7ebd87bfbe195fb79bd12403f0179e1f9b7f85731c8172cdefc9e6468"
+  },
+  "02_FIGURES/Supplementary_Figures/FigS2.png": {
+   "path": "02_FIGURES/Supplementary_Figures/FigS2.png",
+   "sha256": "d07cf6e23c017d9db2fdfd159350b83e14ed3df21ebbefa86b8f336abe94ea34"
+  },
+  "02_FIGURES/Supplementary_Figures/FigS2.svg": {
+   "path": "02_FIGURES/Supplementary_Figures/FigS2.svg",
+   "sha256": "7df6b2f64bee1adbe38ebc14ff18fe617b60e68c58d67f7ada4622dba805bc62"
+  },
+  "02_FIGURES/Supplementary_Figures/FigS3.pdf": {
+   "path": "02_FIGURES/Supplementary_Figures/FigS3.pdf",
+   "sha256": "72cd5c8a45f5692ce01ac781d9afd2de2cf14beb2b7fee9828fe53514e1e7f16"
+  },
+  "02_FIGURES/Supplementary_Figures/FigS3.png": {
+   "path": "02_FIGURES/Supplementary_Figures/FigS3.png",
+   "sha256": "720d59d6f97a48643c48a21a1f25d95901a2033e3a94ae3ab8b4b652ece55018"
+  },
+  "02_FIGURES/Supplementary_Figures/FigS3.svg": {
+   "path": "02_FIGURES/Supplementary_Figures/FigS3.svg",
+   "sha256": "588a6873ba300dba40e4fcda20df61e2e00279d5ea76896b57761bbfbcafeada"
+  },
+  "02_FIGURES/Supplementary_Figures/FigS4.pdf": {
+   "path": "02_FIGURES/Supplementary_Figures/FigS4.pdf",
+   "sha256": "a02c87436af333083f742a8ceac6594af7607b8dd3cc55b28096d77afa508e51"
+  },
+  "02_FIGURES/Supplementary_Figures/FigS4.png": {
+   "path": "02_FIGURES/Supplementary_Figures/FigS4.png",
+   "sha256": "7f003f55fda818c8490f5aaa72a61eeef6f9fba6e5526c64b7b8369f05c5bc1d"
+  },
+  "02_FIGURES/Supplementary_Figures/FigS4.svg": {
+   "path": "02_FIGURES/Supplementary_Figures/FigS4.svg",
+   "sha256": "ccb742cc156a4e95480dba511a15b12581f2ed5276447b2b8279b59fabdff584"
+  },
+  "02_FIGURES/Supplementary_Figures/FigS5.pdf": {
+   "path": "02_FIGURES/Supplementary_Figures/FigS5.pdf",
+   "sha256": "d47bd356dd4c7c92f86544a1bdb8525c7a222889ad7b8cb0573f089987ece0a3"
+  },
+  "02_FIGURES/Supplementary_Figures/FigS5.png": {
+   "path": "02_FIGURES/Supplementary_Figures/FigS5.png",
+   "sha256": "6645f2ebb4c3fda4c245bf0841f74946503ffd1510a3629ce352d562fdc2f093"
+  },
+  "02_FIGURES/Supplementary_Figures/FigS5.svg": {
+   "path": "02_FIGURES/Supplementary_Figures/FigS5.svg",
+   "sha256": "a8480ee7afffc6acd9b6837fa5db51bd235b9b4109c0887dfb881ce8c93f224d"
+  },
+  "02_FIGURES/Supplementary_Figures/FigS6.pdf": {
+   "path": "02_FIGURES/Supplementary_Figures/FigS6.pdf",
+   "sha256": "82300b7a00369c70d6b729fbfbcf47966d723cbcef7212d15f7fbb8882ad0f73"
+  },
+  "02_FIGURES/Supplementary_Figures/FigS6.png": {
+   "path": "02_FIGURES/Supplementary_Figures/FigS6.png",
+   "sha256": "7d94cace8334b322cfd04dd477c017bebd5688a5f3f707aed6a6c8bd4685bf0a"
+  },
+  "02_FIGURES/Supplementary_Figures/FigS6.svg": {
+   "path": "02_FIGURES/Supplementary_Figures/FigS6.svg",
+   "sha256": "e9c896d692275aad3f9ca51e16dd025479cc66833274b32edc73518ed86764a8"
+  },
+  "02_FIGURES/Supplementary_Figures/FigS7.pdf": {
+   "path": "02_FIGURES/Supplementary_Figures/FigS7.pdf",
+   "sha256": "7ae76d3a1bdac103f6c8fcb46e9bd67720372cd2695fee9dfed1e68b51c69c24"
+  },
+  "02_FIGURES/Supplementary_Figures/FigS7.png": {
+   "path": "02_FIGURES/Supplementary_Figures/FigS7.png",
+   "sha256": "b400422c43baf6cf6d15be0436f9a87f0ebdac4566c04e136532bf3606ef5196"
+  },
+  "02_FIGURES/Supplementary_Figures/FigS7.svg": {
+   "path": "02_FIGURES/Supplementary_Figures/FigS7.svg",
+   "sha256": "36eb981a73c752eaa7f474bccb7e969393c7da5b8ab5fd8209a736790721063b"
+  },
+  "02_FIGURES/Supplementary_Figures/FigS8.pdf": {
+   "path": "02_FIGURES/Supplementary_Figures/FigS8.pdf",
+   "sha256": "8c12eaf9e7d8de4df28a1f35cfe3cd997c9673afcdcab9562359458b13971138"
+  },
+  "02_FIGURES/Supplementary_Figures/FigS8.png": {
+   "path": "02_FIGURES/Supplementary_Figures/FigS8.png",
+   "sha256": "8268686c26020ac05dfebe9f8a614259f68b858de468b8752abfdf20cf1fa47d"
+  },
+  "02_FIGURES/Supplementary_Figures/FigS8.svg": {
+   "path": "02_FIGURES/Supplementary_Figures/FigS8.svg",
+   "sha256": "6f6263784bf1a26dedad8d5716e27709a4a0fed30dec13330e8b760caaabcf66"
+  },
+  "02_FIGURES/Supplementary_Figures/FigS9.pdf": {
+   "path": "02_FIGURES/Supplementary_Figures/FigS9.pdf",
+   "sha256": "e15ce757bbadfa5f911d01f664703bcf2b869e48681aedda9ecd82769c8518c6"
+  },
+  "02_FIGURES/Supplementary_Figures/FigS9.png": {
+   "path": "02_FIGURES/Supplementary_Figures/FigS9.png",
+   "sha256": "97e9f80d468c6985e4d5332ab8cd6068e5cb1ff5c76ad264a9a7232fa0571a17"
+  },
+  "02_FIGURES/Supplementary_Figures/FigS9.svg": {
+   "path": "02_FIGURES/Supplementary_Figures/FigS9.svg",
+   "sha256": "87ce8675049471a21edd8f7c22031396098038f6d2fbe0c4ab1677e0c5158d29"
+  },
+  "04_SOURCE_DATA/Figure1/Figure1_SourceData.xlsx": {
+   "path": "04_SOURCE_DATA/Figure1/Figure1_SourceData.xlsx",
+   "sha256": "bf07184ab78ebb5d5e68419766ec738837768d859d7b6d8d439616c1775378ce"
+  },
+  "04_SOURCE_DATA/Figure1/Figure1_SourceData_provenance.json": {
+   "path": "02_FIGURES/Journal_Formats/natcatal/Figure1/Figure1_SourceData_provenance.json",
+   "sha256": "4a95fb47c793430de56fad7b04ce54ad1bdcfa0fcd88b5f09d24949164324fd4"
+  },
+  "04_SOURCE_DATA/Figure1/Figure1_readback.json": {
+   "path": "02_FIGURES/Journal_Formats/natcatal/Figure1/Figure1_readback.json",
+   "sha256": "6b01e8b276e60d98a00a610e194cf5702d0fda6dd9d1e3c6496498bd36a1b847"
+  },
+  "04_SOURCE_DATA/Figure1/figure1_payload.json": {
+   "path": "04_SOURCE_DATA/Figure1/figure1_payload.json",
+   "sha256": "df616e83ec5d461bc3863bda9f8dabef93ce0f63131ad11c956f5f2d71aa0bbe"
+  },
+  "04_SOURCE_DATA/Figure2/Figure2_SourceData.xlsx": {
+   "path": "04_SOURCE_DATA/Figure2/Figure2_SourceData.xlsx",
+   "sha256": "dd9a1b098b75595628836f5dc86bb103292be2274f526b8d233cc48badaae05a"
+  },
+  "04_SOURCE_DATA/Figure2/Figure2_SourceData_provenance.json": {
+   "path": "02_FIGURES/Journal_Formats/natcatal/Figure2/Figure2_SourceData_provenance.json",
+   "sha256": "fefa9ca7585780b680dbd2231546c11b58b4e55b40470473a44e98f43f07ee0c"
+  },
+  "04_SOURCE_DATA/Figure2/Figure2_readback.json": {
+   "path": "02_FIGURES/Journal_Formats/natcatal/Figure2/Figure2_readback.json",
+   "sha256": "68e1daa83583b2d034c7b188679a81a84721bcff1a42770537ed1b3a0e8b1f16"
+  },
+  "04_SOURCE_DATA/Figure2/figure2_selection.json": {
+   "path": "04_SOURCE_DATA/Figure2/figure2_selection.json",
+   "sha256": "152c730b7995d30a4f53d898749ced790c9c2304a40fdde654b3d9e0744a50e4"
+  },
+  "04_SOURCE_DATA/Figure3/Figure3_SourceData.xlsx": {
+   "path": "04_SOURCE_DATA/Figure3/Figure3_SourceData.xlsx",
+   "sha256": "30c8fef449e6b661149d6dbc2e4187897ef84dc694e51df9b6d2423c86378c75"
+  },
+  "04_SOURCE_DATA/Figure3/Figure3_SourceData_provenance.json": {
+   "path": "02_FIGURES/Journal_Formats/natcatal/Figure3/Figure3_SourceData_provenance.json",
+   "sha256": "399075cc4422f6f962963ee2c9d85bf31e9a2b2f8c3a7a51815fec5eed420365"
+  },
+  "04_SOURCE_DATA/Figure3/Figure3_readback.json": {
+   "path": "02_FIGURES/Journal_Formats/natcatal/Figure3/Figure3_readback.json",
+   "sha256": "bef144bc24e542ebf5fa83c9f03fd8f130535841f0f810ea30de9e548e7cc1f5"
+  },
+  "04_SOURCE_DATA/Figure4/Figure4_SourceData.xlsx": {
+   "path": "04_SOURCE_DATA/Figure4/Figure4_SourceData.xlsx",
+   "sha256": "7ec0ab02211c47dabe8890320c42a6cd395ceaff669c6f1d88b2b3198dbc81f2"
+  },
+  "04_SOURCE_DATA/Figure4/Figure4_SourceData_provenance.json": {
+   "path": "02_FIGURES/Journal_Formats/natcatal/Figure4/Figure4_SourceData_provenance.json",
+   "sha256": "88e30b9baada3dfdcbc33d250656bdd4ef2232f802a940baa2c5c6f2e4849cc6"
+  },
+  "04_SOURCE_DATA/Figure4/Figure4_readback.json": {
+   "path": "02_FIGURES/Journal_Formats/natcatal/Figure4/Figure4_readback.json",
+   "sha256": "f02c786e28ecaad1dffbd20abefbe5c49fa4bc1525479c5c275bba0df559b13d"
+  },
+  "04_SOURCE_DATA/Figure4/SetA_owner_block_bootstrap_draws.csv": {
+   "path": "04_SOURCE_DATA/Figure4/SetA_owner_block_bootstrap_draws.csv",
+   "sha256": "a3adff0757a94f036695173c302c42925f941ab6a630529316d9c0db7010536f"
+  },
+  "04_SOURCE_DATA/Figure4/SetA_whole_array_bootstrap_draws.csv": {
+   "path": "04_SOURCE_DATA/Figure4/SetA_whole_array_bootstrap_draws.csv",
+   "sha256": "9e7520f98b24bf5890587825e5fea8fc5d08d7f19f24f39a97e67c4b4a572a24"
+  },
+  "04_SOURCE_DATA/Figure4/figure4_selection.json": {
+   "path": "04_SOURCE_DATA/Figure4/figure4_selection.json",
+   "sha256": "57e09986ff693c31040a33f786ce7f81959303a0d37a6971e232e5ca6977d624"
+  },
+  "04_SOURCE_DATA/Supplementary_Figures/FigS10_SourceData.xlsx": {
+   "path": "04_SOURCE_DATA/Supplementary_Figures/FigS10_SourceData.xlsx",
+   "sha256": "70f803727ad168e58eea94e60f16f8e1cd8e8b8f82daab1d5d5fb46e73fd181b"
+  },
+  "04_SOURCE_DATA/Supplementary_Figures/FigS10_SourceData_provenance.json": {
+   "path": "04_SOURCE_DATA/Supplementary_Figures/FigS10_SourceData_provenance.json",
+   "sha256": "33e991780276ad26fba5738b6ee80f9b95c1e47bba09433c5bffdbc63de07ab7"
+  },
+  "04_SOURCE_DATA/Supplementary_Figures/FigS10_condition_folds.csv": {
+   "path": "04_SOURCE_DATA/Supplementary_Figures/FigS10_condition_folds.csv",
+   "sha256": "6b42d00e0d6fcb01a2e93cd48797e9b864e46bc039aefc19dadc8b6ca5319043"
+  },
+  "04_SOURCE_DATA/Supplementary_Figures/FigS10_molecule_groups.csv": {
+   "path": "04_SOURCE_DATA/Supplementary_Figures/FigS10_molecule_groups.csv",
+   "sha256": "ba3855608fb074d22374511d81f21f30d8721f1a4f7f2954b35d1b6cc7874c2a"
+  },
+  "04_SOURCE_DATA/Supplementary_Figures/FigS10_pair_halves.csv": {
+   "path": "04_SOURCE_DATA/Supplementary_Figures/FigS10_pair_halves.csv",
+   "sha256": "1e26bc8371270a27d45ce97c94e7ef8608749d08b12702ea0bb9906ae6b906d4"
+  },
+  "04_SOURCE_DATA/Supplementary_Figures/FigS1_SourceData.xlsx": {
+   "path": "04_SOURCE_DATA/Supplementary_Figures/FigS1_SourceData.xlsx",
+   "sha256": "a61d0277011e0180f45304df8d47963a09585389a22e46697c20b9ba6d5f7e22"
+  },
+  "04_SOURCE_DATA/Supplementary_Figures/FigS1_SourceData_provenance.json": {
+   "path": "04_SOURCE_DATA/Supplementary_Figures/FigS1_SourceData_provenance.json",
+   "sha256": "ff0af8564abfbcbeb47f25f1b1d6abcb1ebb72a9784815a7ab6d9b2729ba6aea"
+  },
+  "04_SOURCE_DATA/Supplementary_Figures/FigS2_SourceData.xlsx": {
+   "path": "04_SOURCE_DATA/Supplementary_Figures/FigS2_SourceData.xlsx",
+   "sha256": "7c108df1abc2df9d01c88dbf408efbfe05e694a3d5ea9e05cebc2a10af059163"
+  },
+  "04_SOURCE_DATA/Supplementary_Figures/FigS2_SourceData_provenance.json": {
+   "path": "04_SOURCE_DATA/Supplementary_Figures/FigS2_SourceData_provenance.json",
+   "sha256": "539c18a96588a07d3d065699f0e4b551f1ae77ad2210c907eee9c407b741c97b"
+  },
+  "04_SOURCE_DATA/Supplementary_Figures/FigS3_SourceData.xlsx": {
+   "path": "04_SOURCE_DATA/Supplementary_Figures/FigS3_SourceData.xlsx",
+   "sha256": "4a20e55f4e5c579bc72c8fbc56acab54e533acbe677649863c7998b1e8042368"
+  },
+  "04_SOURCE_DATA/Supplementary_Figures/FigS3_SourceData_provenance.json": {
+   "path": "04_SOURCE_DATA/Supplementary_Figures/FigS3_SourceData_provenance.json",
+   "sha256": "8ad9ae720a90cc6e973bde67933a0d8c46f9fbe549e20ac902f488e062931895"
+  },
+  "04_SOURCE_DATA/Supplementary_Figures/FigS3_all_context_draws.csv": {
+   "path": "04_SOURCE_DATA/Supplementary_Figures/FigS3_all_context_draws.csv",
+   "sha256": "1d61c69b4d7132d74d95fc08943b09b1e8528b53b3dd7486ece6be8c56111dab"
+  },
+  "04_SOURCE_DATA/Supplementary_Figures/FigS4_SourceData.xlsx": {
+   "path": "04_SOURCE_DATA/Supplementary_Figures/FigS4_SourceData.xlsx",
+   "sha256": "57f209b9c918761a9d136b5fe48f82caeec5cc749c7a85081e287db99afea99a"
+  },
+  "04_SOURCE_DATA/Supplementary_Figures/FigS4_SourceData_provenance.json": {
+   "path": "04_SOURCE_DATA/Supplementary_Figures/FigS4_SourceData_provenance.json",
+   "sha256": "ea77586804d83b65aabb9fd78b64b007dd31e058163c327ff6e167da66c076bb"
+  },
+  "04_SOURCE_DATA/Supplementary_Figures/FigS5_SourceData.xlsx": {
+   "path": "04_SOURCE_DATA/Supplementary_Figures/FigS5_SourceData.xlsx",
+   "sha256": "f20efbf00957c5c6488d82e2bbadc456fcbacc663f6668003c56f163f326d546"
+  },
+  "04_SOURCE_DATA/Supplementary_Figures/FigS5_SourceData_provenance.json": {
+   "path": "04_SOURCE_DATA/Supplementary_Figures/FigS5_SourceData_provenance.json",
+   "sha256": "54bc17f998f477084a1e38ea753d0fe679014f1894e1854628d2be9818d0a74b"
+  },
+  "04_SOURCE_DATA/Supplementary_Figures/FigS6_SourceData.xlsx": {
+   "path": "04_SOURCE_DATA/Supplementary_Figures/FigS6_SourceData.xlsx",
+   "sha256": "864170447a7e4cfbab205aae01a91162d29a2beb247f3bc568c9aa48faae3010"
+  },
+  "04_SOURCE_DATA/Supplementary_Figures/FigS6_SourceData_provenance.json": {
+   "path": "04_SOURCE_DATA/Supplementary_Figures/FigS6_SourceData_provenance.json",
+   "sha256": "2a88a00a1d6b0459046cb314c74721a22e82138df3d4d1fa357954c222ad382b"
+  },
+  "04_SOURCE_DATA/Supplementary_Figures/FigS7_SourceData.xlsx": {
+   "path": "04_SOURCE_DATA/Supplementary_Figures/FigS7_SourceData.xlsx",
+   "sha256": "72be945021b07cbbdb470b8bcfeccc9998295b1265e87ffa16500b9038ab8396"
+  },
+  "04_SOURCE_DATA/Supplementary_Figures/FigS7_SourceData_provenance.json": {
+   "path": "04_SOURCE_DATA/Supplementary_Figures/FigS7_SourceData_provenance.json",
+   "sha256": "00c666b7a57d21c5d303e121c6991e5bca201f8b229a98408252f78283247a53"
+  },
+  "04_SOURCE_DATA/Supplementary_Figures/FigS7_depth_interval_draws.csv": {
+   "path": "04_SOURCE_DATA/Supplementary_Figures/FigS7_depth_interval_draws.csv",
+   "sha256": "c93768aabdf5b2cbd4b260b8fd2735cb4904637de3971b082eab213ae318be69"
+  },
+  "04_SOURCE_DATA/Supplementary_Figures/FigS8_SourceData.xlsx": {
+   "path": "04_SOURCE_DATA/Supplementary_Figures/FigS8_SourceData.xlsx",
+   "sha256": "711e4b85b328d0c3c8dbc7192e87789a9601d8b1f2bf21ef56cdf149c52f5f68"
+  },
+  "04_SOURCE_DATA/Supplementary_Figures/FigS8_SourceData_provenance.json": {
+   "path": "04_SOURCE_DATA/Supplementary_Figures/FigS8_SourceData_provenance.json",
+   "sha256": "cd70d6c34e798c7a3db6f60550b529a5d5cb6655866a9b774bc1e0076bb713c2"
+  },
+  "04_SOURCE_DATA/Supplementary_Figures/FigS8_transfer_folds.csv": {
+   "path": "04_SOURCE_DATA/Supplementary_Figures/FigS8_transfer_folds.csv",
+   "sha256": "791b10a9980ac68cbe5155cddbe80efd2a791782038cb6eb356c0b1baf1dbcfe"
+  },
+  "04_SOURCE_DATA/Supplementary_Figures/FigS9_SourceData.xlsx": {
+   "path": "04_SOURCE_DATA/Supplementary_Figures/FigS9_SourceData.xlsx",
+   "sha256": "16b21b96e7a25430cd8071829e63398009307cc98524cbb42307d51bea1323fc"
+  },
+  "04_SOURCE_DATA/Supplementary_Figures/FigS9_SourceData_provenance.json": {
+   "path": "04_SOURCE_DATA/Supplementary_Figures/FigS9_SourceData_provenance.json",
+   "sha256": "7debd607515d3e066bb8aba8a8df23973f3e14d3b6011e781abab06dbccb8e4f"
+  }
+ }
+}

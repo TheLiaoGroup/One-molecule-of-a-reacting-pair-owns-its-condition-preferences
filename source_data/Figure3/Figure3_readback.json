@@ -11,16 +11,16 @@
   },
   "texts": [
     {
-      "text": "A",
-      "fontsize": 9.0,
+      "text": "a",
+      "fontsize": 8.0,
       "family": [
         "Arial"
       ],
       "bbox": [
         6.299212598425197,
-        1319.6338582677165,
-        14.5,
-        19.0
+        1320.1338582677165,
+        9.875,
+        18.0
       ],
       "gid": "panel_A",
       "axes_gid": null
@@ -41,16 +41,16 @@
       "axes_gid": null
     },
     {
-      "text": "B",
-      "fontsize": 9.0,
+      "text": "b",
+      "fontsize": 8.0,
       "family": [
         "Arial"
       ],
       "bbox": [
         585.8267716535433,
-        1319.6338582677165,
-        14.5,
-        19.0
+        1320.1338582677165,
+        10.75,
+        18.0
       ],
       "gid": "panel_B",
       "axes_gid": null
@@ -2632,6 +2632,7 @@
       0.0597065796734981
     ]
   },
+  "journal": "natcatal",
   "d21": {
     "status": "PASS",
     "figure": 3,
@@ -2976,7 +2977,7 @@
   },
   "text_styles": [
     {
-      "text": "A",
+      "text": "a",
       "gid": "panel_A",
       "weight": "bold",
       "color": "black"
@@ -2988,7 +2989,7 @@
       "color": "black"
     },
     {
-      "text": "B",
+      "text": "b",
       "gid": "panel_B",
       "weight": "bold",
       "color": "black"

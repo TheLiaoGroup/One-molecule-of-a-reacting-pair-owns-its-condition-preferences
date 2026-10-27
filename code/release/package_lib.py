@@ -5,6 +5,7 @@ Everything here reads this package alone: the released measurements (data/), the
 """
 import gzip
 import hashlib
+import importlib.util
 import io
 import json
 import re
@@ -44,6 +45,52 @@ def sha256(path):
 
 def sha_bytes(b):
     return hashlib.sha256(b).hexdigest()
+
+
+def journal_profile(package=None):
+    package = Path(package) if package is not None else PKG
+    path = package / "JOURNAL_PROFILE.json"
+    if not path.exists():
+        return None
+    profile = json.loads(path.read_text(encoding="utf-8"))
+    assert profile.get("schema_version") == 1 and profile.get("journal") == "natcatal", "invalid journal profile"
+    source = profile.get("format_labels_source", {})
+    assert source.get("path") == "code/release/journal_model.py" and set(source) == {"path", "sha256"}, "invalid label mapping source"
+    assert (package / source["path"]).is_file() and sha256(package / source["path"]) == source["sha256"], "label mapping source hash changed"
+    canonical = profile.get("canonical_locked_sha256", {})
+    selected = profile.get("selected_files", {})
+    assert canonical and set(canonical) == set(selected), "journal selected-file coverage differs from canonical locked sources"
+    for relative, entry in selected.items():
+        target = delivered(relative)
+        assert target is not None and isinstance(entry, dict) and set(entry) == {"path", "sha256"}, "invalid journal selected source"
+        assert re.fullmatch(r"[0-9a-f]{64}", canonical[relative]) and re.fullmatch(r"[0-9a-f]{64}", entry["sha256"]), "invalid locked source hash"
+        if entry["path"] != relative:
+            suffix = "Main/" + relative.removeprefix("02_FIGURES/Main/") if relative.startswith("02_FIGURES/Main/") else relative.removeprefix("04_SOURCE_DATA/")
+            assert relative.startswith("02_FIGURES/Main/") or re.fullmatch(r"04_SOURCE_DATA/Figure[1-4]/[^/]+", relative), "invalid selected variant source"
+            assert entry["path"] == "02_FIGURES/Journal_Formats/natcatal/" + suffix, "selected variant path differs from fixed journal tree"
+            assert entry["sha256"] != canonical[relative], "redundant selected journal variant"
+        else:
+            assert entry["sha256"] == canonical[relative], "shared selected source differs from canonical lock"
+        assert (package / target).is_file() and sha256(package / target) == entry["sha256"], f"{target}: selected locked file changed"
+    main = {f"02_FIGURES/Main/Figure{n}.{extension}" for n in range(1, 5) for extension in ("pdf", "svg", "png")}
+    assert main <= set(selected) and all(selected[f]["path"] != f for f in main), "missing selected main figure variants"
+    return profile
+
+
+def journal(package=None):
+    profile = journal_profile(package)
+    return profile["journal"] if profile is not None else "science"
+
+
+def journal_formatter(package=None):
+    package = Path(package) if package is not None else PKG
+    profile = journal_profile(package)
+    if profile is None:
+        return lambda text: text
+    spec = importlib.util.spec_from_file_location("p2_package_journal_labels", package / profile["format_labels_source"]["path"])
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return lambda text: module.format_labels(text, profile["journal"])
 
 
 def read_text_table(rel, **kw):
@@ -456,6 +503,7 @@ def check_text_claims(values):
 def publication_use(U):
     """One row per released pair: the retained results that use its measurements, by the rule each use follows."""
     rows = []
+    format_labels = journal_formatter()
     tt = read_text_table(TRANSFER_TARGETS)
     transfer = set(pair_key(tt))
     decision = set(pair_key(read_text_table(DECISION_TARGETS)))
@@ -476,7 +524,7 @@ def publication_use(U):
                 uses.append("Fig. S5: product-forming amide pair of Set A")
             if u == "SB1" and k in tb:
                 uses.append("Fig. 4A-B: record-transfer target of Set B")
-            rows.append(dict(unit=u, screen=r.screen, subpair=r.subpair, measurements=int(r.n), uses="; ".join(uses)))
+            rows.append(dict(unit=u, screen=r.screen, subpair=r.subpair, measurements=int(r.n), uses=format_labels("; ".join(uses))))
     return pd.DataFrame(rows)
 
 

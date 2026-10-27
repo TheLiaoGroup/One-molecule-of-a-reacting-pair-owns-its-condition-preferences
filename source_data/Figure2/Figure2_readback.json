@@ -10,16 +10,16 @@
   },
   "texts": [
     {
-      "text": "A",
-      "fontsize": 9.0,
+      "text": "a",
+      "fontsize": 8.0,
       "family": [
         "Arial"
       ],
       "bbox": [
         6.299212598425197,
-        1322.7834645669293,
-        14.5,
-        19.0
+        1323.2834645669293,
+        9.875,
+        18.0
       ],
       "gid": "panel_A",
       "axes_gid": null
@@ -1030,16 +1030,16 @@
       "axes_gid": null
     },
     {
-      "text": "B",
-      "fontsize": 9.0,
+      "text": "b",
+      "fontsize": 8.0,
       "family": [
         "Arial"
       ],
       "bbox": [
         787.4015748031496,
-        1322.7834645669293,
-        14.5,
-        19.0
+        1323.2834645669293,
+        10.75,
+        18.0
       ],
       "gid": "panel_B",
       "axes_gid": null
@@ -1060,16 +1060,16 @@
       "axes_gid": null
     },
     {
-      "text": "C",
-      "fontsize": 9.0,
+      "text": "c",
+      "fontsize": 8.0,
       "family": [
         "Arial"
       ],
       "bbox": [
         787.4015748031496,
-        1073.964566929134,
-        14.5,
-        19.0
+        1074.464566929134,
+        9.875,
+        18.0
       ],
       "gid": "panel_C",
       "axes_gid": null
@@ -18840,6 +18840,7 @@
     "sentence titles",
     "median-owner summary"
   ],
+  "journal": "natcatal",
   "d21": {
     "status": "PASS",
     "figure": 2,
@@ -18875,8 +18876,8 @@
           "gid": "A_owner_structure_2|bond6",
           "kind": "patch"
         },
-        "text_gap_pt": 8.8955150252385,
-        "nearest_text": "A",
+        "text_gap_pt": 9.1205150252385,
+        "nearest_text": "a",
         "nearest_text_gid": "panel_A"
       },
       {
@@ -19112,7 +19113,7 @@
   },
   "text_styles": [
     {
-      "text": "A",
+      "text": "a",
       "gid": "panel_A",
       "weight": "bold",
       "color": "black"
@@ -19520,7 +19521,7 @@
       "color": "black"
     },
     {
-      "text": "B",
+      "text": "b",
       "gid": "panel_B",
       "weight": "bold",
       "color": "black"
@@ -19532,7 +19533,7 @@
       "color": "black"
     },
     {
-      "text": "C",
+      "text": "c",
       "gid": "panel_C",
       "weight": "bold",
       "color": "black"

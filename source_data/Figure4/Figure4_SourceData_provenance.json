@@ -78,15 +78,15 @@
  "outputs": {
   "svg": {
    "file": "02_FIGURES/Main/Figure4.svg",
-   "sha256": "262239ddecca5ecaa8f283b795a01680954d7b7951da019e55fbc8ae56c27aaa"
+   "sha256": "70154698bedc78be75861cc677326b02df65c212889ea7510132c4a846a3f374"
   },
   "pdf": {
    "file": "02_FIGURES/Main/Figure4.pdf",
-   "sha256": "bd71b7f3fed1362259f42e2d77d174876c4696b3032bacae0eb4109045fac8bc"
+   "sha256": "5622aa7d72c9d69702ba6f8c71a14f34907d5f1fb2ea86ba1a1dbef649f32df4"
   },
   "png": {
    "file": "02_FIGURES/Main/Figure4.png",
-   "sha256": "ddcb8a352a487bcabc3ea768f6ada6d8d77f19f6c8c8e6c1293923b61bc859a5"
+   "sha256": "d874d3156f3fce3e0ab0b38350886cdd3f81eac44e457cf8d4e0339a4e427557"
   },
   "xlsx": {
    "file": "04_SOURCE_DATA/Figure4/Figure4_SourceData.xlsx",
@@ -94,7 +94,7 @@
   },
   "readback": {
    "file": "04_SOURCE_DATA/Figure4/Figure4_readback.json",
-   "sha256": "cbfc321241439114ed1c2689b1908b1c4eb1de86f6e2e7b14102b5cfdc0e229c"
+   "sha256": "f02c786e28ecaad1dffbd20abefbe5c49fa4bc1525479c5c275bba0df559b13d"
   },
   "selection": {
    "file": "04_SOURCE_DATA/Figure4/figure4_selection.json",

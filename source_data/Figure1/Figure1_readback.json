@@ -13,16 +13,16 @@
   },
   "texts": [
     {
-      "text": "A",
-      "fontsize": 9.0,
+      "text": "a",
+      "fontsize": 8.0,
       "family": [
         "Arial"
       ],
       "bbox": [
         12.598425196850394,
-        1319.6338582677167,
-        14.499999999999998,
-        19.0
+        1320.1338582677167,
+        9.874999999999998,
+        18.0
       ],
       "gid": "panel_A",
       "axes_gid": null
@@ -43,16 +43,16 @@
       "axes_gid": null
     },
     {
-      "text": "B",
-      "fontsize": 9.0,
+      "text": "b",
+      "fontsize": 8.0,
       "family": [
         "Arial"
       ],
       "bbox": [
         881.8897637795276,
-        1319.6338582677167,
-        14.5,
-        19.0
+        1320.1338582677167,
+        10.75,
+        18.0
       ],
       "gid": "panel_B",
       "axes_gid": null
@@ -103,15 +103,15 @@
       "axes_gid": null
     },
     {
-      "text": "kept in C",
+      "text": "kept in c",
       "fontsize": 8.0,
       "family": [
         "Arial"
       ],
       "bbox": [
-        45.6608911968674,
+        47.6608911968674,
         1124.8582677165355,
-        69.875,
+        65.875,
         18.0
       ],
       "gid": "A_halide_kept",
@@ -178,15 +178,15 @@
       "axes_gid": null
     },
     {
-      "text": "kept in D",
+      "text": "kept in d",
       "fontsize": 8.0,
       "family": [
         "Arial"
       ],
       "bbox": [
-        210.0388499527699,
+        211.5388499527699,
         1124.8582677165355,
-        69.875,
+        66.875,
         18.0
       ],
       "gid": "A_amine_kept",
@@ -358,16 +358,16 @@
       "axes_gid": null
     },
     {
-      "text": "C",
-      "fontsize": 9.0,
+      "text": "c",
+      "fontsize": 8.0,
       "family": [
         "Arial"
       ],
       "bbox": [
         6.299212598425197,
-        1048.7677165354332,
-        14.5,
-        19.0
+        1049.2677165354332,
+        9.875,
+        18.0
       ],
       "gid": "panel_C",
       "axes_gid": null
@@ -748,16 +748,16 @@
       "axes_gid": null
     },
     {
-      "text": "D",
-      "fontsize": 9.0,
+      "text": "d",
+      "fontsize": 8.0,
       "family": [
         "Arial"
       ],
       "bbox": [
         579.5275590551181,
-        1048.7677165354332,
-        14.5,
-        19.0
+        1049.2677165354332,
+        10.875,
+        18.0
       ],
       "gid": "panel_D",
       "axes_gid": null
@@ -1198,16 +1198,16 @@
       "axes_gid": null
     },
     {
-      "text": "E",
-      "fontsize": 9.0,
+      "text": "e",
+      "fontsize": 8.0,
       "family": [
         "Arial"
       ],
       "bbox": [
         12.598425196850394,
-        185.77559055118127,
-        13.374999999999998,
-        19.0
+        186.27559055118127,
+        9.749999999999998,
+        18.0
       ],
       "gid": "panel_E",
       "axes_gid": null
@@ -17273,6 +17273,7 @@
   "role_correspondence": "blue halide box to blue plate row; orange amine box to orange plate column",
   "best_condition_marker": "dark-gray downward triangle above each heatmap; shared measured-yield maximum column",
   "numeric_annotation_exceptions": "A library composition and E four group medians explicitly required by v5 workorder",
+  "journal": "natcatal",
   "d21": {
     "status": "PASS",
     "figure": 1,
@@ -17289,19 +17290,19 @@
     "connected_leader_exceptions": [],
     "rows": [
       {
-        "text": "kept in C",
+        "text": "kept in c",
         "gid": "A_halide_kept",
         "graphic_gap_pt": 7.3882063763693155,
         "nearest_graphic": {
           "gid": "A_halide_box",
           "kind": "patch"
         },
-        "text_gap_pt": 11.160994148563296,
+        "text_gap_pt": 11.631654408371134,
         "nearest_text": "Cl",
         "nearest_text_gid": "structure_A_halide|label2"
       },
       {
-        "text": "kept in D",
+        "text": "kept in d",
         "gid": "A_amine_kept",
         "graphic_gap_pt": 4.057502214949772,
         "nearest_graphic": {
@@ -17488,9 +17489,9 @@
           "gid": null,
           "kind": "axis spine"
         },
-        "text_gap_pt": 14.35216535433077,
-        "nearest_text": "E",
-        "nearest_text_gid": "panel_E"
+        "text_gap_pt": 14.577165354330667,
+        "nearest_text": "Amide",
+        "nearest_text_gid": "E_amide"
       },
       {
         "text": "Amide",
@@ -17581,7 +17582,7 @@
   },
   "text_styles": [
     {
-      "text": "A",
+      "text": "a",
       "gid": "panel_A",
       "weight": "bold",
       "color": "black"
@@ -17593,7 +17594,7 @@
       "color": "black"
     },
     {
-      "text": "B",
+      "text": "b",
       "gid": "panel_B",
       "weight": "bold",
       "color": "black"
@@ -17617,7 +17618,7 @@
       "color": "black"
     },
     {
-      "text": "kept in C",
+      "text": "kept in c",
       "gid": "A_halide_kept",
       "weight": "normal",
       "color": "black"
@@ -17647,7 +17648,7 @@
       "color": "black"
     },
     {
-      "text": "kept in D",
+      "text": "kept in d",
       "gid": "A_amine_kept",
       "weight": "normal",
       "color": "black"
@@ -17719,7 +17720,7 @@
       "color": "black"
     },
     {
-      "text": "C",
+      "text": "c",
       "gid": "panel_C",
       "weight": "bold",
       "color": "black"
@@ -17875,7 +17876,7 @@
       "color": "black"
     },
     {
-      "text": "D",
+      "text": "d",
       "gid": "panel_D",
       "weight": "bold",
       "color": "black"
@@ -18055,7 +18056,7 @@
       "color": "black"
     },
     {
-      "text": "E",
+      "text": "e",
       "gid": "panel_E",
       "weight": "bold",
       "color": "black"

@@ -24,6 +24,23 @@ PANELS = {1: list("ABCDE"), 2: list("ABC"), 3: list("AB"), 4: list("ABC")}
 HEIGHTS = {1: 215., 2: 215., 3: 214., 4: 198.}
 
 
+def check_journal(number, readback, journal="science"):
+    assert journal in {"science", "natcatal"}, f"Figure {number}: unknown journal"
+    marker = readback.get("journal")
+    assert marker == "natcatal" if journal == "natcatal" else marker in (None, "science"), \
+        f"Figure {number}: journal readback identity differs"
+    panels = [item for item in readback["texts"] if (item.get("gid") or "").startswith("panel_")]
+    expected = [letter.lower() for letter in PANELS[number]] if journal == "natcatal" else PANELS[number]
+    assert [item["text"] for item in panels] == expected, f"Figure {number}: journal panel inventory/order/case"
+    if journal == "natcatal":
+        styles = [item for item in readback.get("text_styles", []) if (item.get("gid") or "").startswith("panel_")]
+        assert [(item.get("gid"), item["text"]) for item in styles] == [(item.get("gid"), item["text"]) for item in panels], \
+            f"Figure {number}: missing journal panel style evidence"
+        assert all(item["fontsize"] == 8 for item in panels), f"Figure {number}: journal panels must be 8 pt"
+        assert all(item.get("weight") in ("bold", 700) for item in styles), f"Figure {number}: journal panels must be bold"
+    return dict(journal=journal, panels=expected)
+
+
 def read_source_tables(path):
     return values.read_stored_workbook(path)
 
@@ -116,7 +133,7 @@ def check_provenance(number, root, fresh, trace):
     return result
 
 
-def self_tests(number, root, tables, readback, manuscript=None):
+def self_tests(number, root, tables, readback, manuscript=None, journal="science"):
     tests = []
     if manuscript is not None:
         changed = manuscript.replace(f"**Fig. {number}.", f"**Fig. {number + 10}.", 1)
@@ -136,6 +153,11 @@ def self_tests(number, root, tables, readback, manuscript=None):
     corrupted_d21["d21"]["rows"][0]["graphic_gap_pt"] = 0.
     tests.append(previous.must_fail("annotation too near data", f"Figure {number}: D21 minimum clearance failed",
                                    lambda: check_d21(number, corrupted_d21)))
+    corrupted_panels = copy.deepcopy(readback)
+    first = next(item for item in corrupted_panels["texts"] if (item.get("gid") or "").startswith("panel_"))
+    first["text"] = first["text"].swapcase()
+    tests.append(previous.must_fail("wrong journal panel case", f"Figure {number}: journal panel inventory/order/case",
+                                   lambda: check_journal(number, corrupted_panels, journal)))
     tests.extend(values.fault_tests(number, root, tables, readback))
     assert len(tests) >= 4 and all(test["rejected"] for test in tests), "A targeted control lacks rejection evidence"
     return tests
@@ -148,6 +170,7 @@ def run(number):
     parser.add_argument("--artifact-dir", type=Path)
     parser.add_argument("--self-test", action="store_true")
     parser.add_argument("--values-only", action="store_true")
+    parser.add_argument("--journal", choices=("science", "natcatal"), default=os.environ.get("P2_FIGURE_JOURNAL", "science"))
     args = parser.parse_args()
     root = args.root.resolve()
     qc = (args.qc_dir or root / "08_REVIEW_AND_QC/codex_formal_v5_20261022").resolve()
@@ -160,6 +183,7 @@ def run(number):
             fresh = Path(tempfile.mkdtemp(prefix=f"figure{number}_fresh_", dir=qc))
             trace = fresh / "audit_open_trace.json"
             env = dict(os.environ, PYTHONDONTWRITEBYTECODE="1", PYTHONUTF8="1", OPENBLAS_NUM_THREADS="1", MKL_NUM_THREADS="1", OMP_NUM_THREADS="1")
+            env["P2_FIGURE_JOURNAL"] = args.journal
             process = subprocess.run([sys.executable, "-B", "-X", "utf8", "-c", previous.TRACE_CHILD,
                                       str(root / f"06_CODE/Figures/figure{number}.py"), str(fresh), str(trace)],
                                      cwd=root, env=env, capture_output=True, text=True, encoding="utf-8")
@@ -168,6 +192,7 @@ def run(number):
             assert process.returncode == 0, f"Fresh generator exit {process.returncode}: {process.stderr[-4000:]}"
             report["checks"]["provenance"] = check_provenance(number, root, fresh, trace)
         rb = json.loads((source / f"Figure{number}_readback.json").read_text(encoding="utf-8"))
+        report["checks"]["journal"] = check_journal(number, rb, args.journal)
         tables = read_source_tables(source / f"Figure{number}_SourceData.xlsx")
         report["checks"]["excel_reading"] = previous.check_excel_reading()
         report["checks"]["independent_values"] = values.audit_tables(number, root, tables, source)
@@ -184,7 +209,7 @@ def run(number):
         report["baseline"] = "PASS"
         if args.self_test or args.values_only:
             report["phase"] = "fault controls after passing baseline"
-            report["fault_injections"] = self_tests(number, root, tables, rb, manuscript)
+            report["fault_injections"] = self_tests(number, root, tables, rb, manuscript, args.journal)
         report.update(status="PASS", result="PASS", phase="complete")
     except Exception as error:
         report["error"] = f"{type(error).__name__}: {error}"

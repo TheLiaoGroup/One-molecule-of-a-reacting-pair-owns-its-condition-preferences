@@ -26,6 +26,7 @@ code/Core/00_common/ctb/preference.py,code,CD1,,8241,7f1f46c55d280c6b6919f0aeb9e
 code/Core/00_common/ctb/regimes.py,code,CD1,,9418,c4ad3af122080f08ee2affb3350efd54ce4f92d1a0a6139ad06b8926e87aa109,
 code/Core/00_common/ctb/roles.py,code,CD1,,9091,4add1d593bccacab1176c7e7a334867f8c060c4eda9e5db23114c88921e97279,
 code/Core/00_common/ctb/structure.py,code,CD1,,21785,14800ca214ea763fd475d567cef9c3a33899112830d265a9d7915e5ee2364fdf,
+code/External/replicate_public_screens.py,code,CD1,,49389,dca10663b871ba93198a32c9122a6a4c06be521c037debd548008c98ed6b6cb5,
 code/Figures/array_diagnostics_data.py,code,CD1,,19977,f0d5d9e2565d173d9166e9adc9a3248084538f938940222fda61052305b1bd53,
 code/Figures/array_shares_data.py,code,CD1,,5434,b3b53950d2be6385e165bd3093937c7327959d13b60423db7825c261f4e80c30,
 code/Figures/chemdraw_structures.py,code,CD1,,9003,57cd4362ec3e1ffcfd76dd9fa4e4d3d992f42938bf5c86954281f91319508471,
@@ -60,7 +61,7 @@ code/Figures/preference_data.py,code,CD1,,11188,499cb2ac827da7065065aa1048609921
 code/Figures/structure_art.py,code,CD1,,3893,b9c92e645fd3df607854e9e1325ed6a7f4146a62257c3abcfec203cf6855822a,
 code/Figures/transfer_data.py,code,CD1,,8855,1a80dbe785424d99a77cdd0160eac0b8df1ed56a2ca6c36eed69bc698f3301ab,
 code/release/guard/sitecustomize.py,code,CD1,,5526,024b9be1a68e356567e8b676772252fd951f3c21bdb737737b3e451b0606a8e2,
-code/release/journal_model.py,code,CD1,,25174,43368262104c1217af28a11203b391479956d99c98193211c5b8b045db58a098,
+code/release/journal_model.py,code,CD1,,26550,dc01efae736e3b4748e2d06bdd705c95ac9a9d7450587936cf9b65a5ca19ae0d,
 code/release/package_lib.py,code,CD1,,31933,a7393207df700226f9e59c8c91270fe0b33271d6593c895b31e32bc8e70d3515,
 code/Validation/06_validation/analysis_config.json,code,CD1,,949,44db94208d0b37247f357dee4763ff781245a3a9a63e5349c186d06c6e331170,
 code/Validation/06_validation/matched_control.py,code,CD1,,19139,c79903769db89fab834184166169fdd73cd79c14597e12cf5a28f1aac5ab227a,
@@ -296,7 +297,7 @@ frozen_plans/reserve_validation/reserve_validation.py,frozen analysis plan,FP1,,
 frozen_plans/SET_B_DOCUMENTED_PRIOR_SCORING.csv,provenance correction: per-pair Set B flags,FP1,535,33705,689d8898eada980e4fb9056e2c29e8d2dfbad16f1fc03095593067d32441d82a,
 frozen_plans/structure_in_place_of_record_15/RULE.md,frozen analysis plan,FP1,,3931,2baccbbea130ce72a92a0568b3e952ff3aae33888bf465c5ee2c469c363a5137,
 frozen_plans/structure_in_place_of_record_15/RULE.sha256,frozen analysis plan,FP1,,125,67ff4a5949d46f994fe75a6818e2a0aec2e63018db28f68d5e70c3d6e2d61cbf,
-JOURNAL_PROFILE.json,journal presentation and locked source mapping,,,28422,7e4841e547daedccd3f85dd5e8fd333e15a2c4ff59daeece2b395229047600c5,
+JOURNAL_PROFILE.json,journal presentation and locked source mapping,,,28422,02dbf892e62f0fcf2d3b1f21c7c4aabdacd8c754ff0582e569ed132fbc4c9e52,
 LICENSE_CODE_MIT.txt,licence,,,1071,8b578a7d72b06ff3641539f8e9a7ae88096919688939e622c7c38c46249176fb,
 LICENSE_DATA_CC-BY-4.0.txt,licence,,,1126,7eea5000378f65f132d92dff1b465420b7bbeccdac782fd180f242ca577c0578,
 metadata/DESIGN_COUNTS.csv,metadata,DC1,200,21467,707ec422fd493e7a95653d08b57536f9b76e036ea3938509996e11e98b647187,
@@ -309,7 +310,7 @@ provenance/P2_RECORD_PROVENANCE.csv,provenance,PV1,244179,19687449,4c4a1c560da41
 provenance/P2_ZHANG_OVERLAP_COUNTS_PUBLIC.json,provenance,PV2,,2224,a2f0403293cd220c831fdace833ad857e2bb1328e557c49c373eef19dea8575d,
 provenance/PROV-1+A2_PUBLIC_RULE.md,provenance,PV2,,7874,61aef94c6b812b2e5dd20962185572d714ebe1f686ccbf4551c018140ba055f1,
 provenance/provenance_overlap_public.py,provenance,PV2,,14443,c50638ee8be0fed86132c44b5faac550751550e7e6374e7d5623e02b7607b309,
-README.md,documentation,,,14814,240b7b05b0f7c0e6a50beee23a612e128cbb31e36117e55dad383131c528b314,
+README.md,documentation,,,16978,485d63aff3f291e8f61e125936d8c7ec6a345a022e9247fd0e8e95a207ce4635,
 rebuild_all.py,entry point,CD1,,24789,e9526a8b8c43aa9aa2086a54b19e74e9f4ea8732a6243237a299c788166a1ec8,
 results/cross_library/cross_library.json,retained result,RS1,,1091,b02caa606a8dd11f069a1473b046614218e661d63d256e86eab315ca105402e0,Fig. 4a: Set B
 results/cross_library/target_losses.csv,retained result,RS1,535,66108,150c00c83a8000ab56f670d20ead14381719c52b33ba749a5f7be786a58362e1,"Fig. 4a-b and the post hoc Set B provenance sensitivity (Methods; claim T12): Set B, every target"
@@ -349,7 +350,7 @@ results/reserve_validation/decision_targets.csv,retained result,RS1,396,50163,25
 results/reserve_validation/record_transfer_losses.csv,retained result,RS1,309,37947,6feaced7740bf28296625b62c61ec799de0f3204c64276d41a73214fc214d64d,"Fig. 4a-b: Set A, every record-transfer target; the SA1 release rule"
 results/reserve_validation/reserve_validation.json,retained result,RS1,,2337,42adbed68f50ba9d559afa91b1035a009a9d6e91ee32a2d6038c578bc5af1641,"Fig. 4a (Set A), Extended Data Fig. 5 (ownership on 217 amide pairs) and the three-condition decision on Set A (Results; e3)"
 results/RESULTS_MANIFEST.csv,retained result,RS1,39,9371,fbf06490ace0586f0bc0f26fd5e1bcbb723407eb31d9f5f27f528b556b6924c4,
-results/TEXT_CLAIMS.csv,retained result,RS1,11,2354,297bd459e40a1316b88903eefea57660b75b2009225640b4e449c09c0fe2bfb6,
+results/TEXT_CLAIMS.csv,retained result,RS1,11,2354,bd409c409d54f4d992b53299de5e5249aadf8d86d5aaa7ff7e45bf0f9d48fc45,
 results/validation/matched/fold_effects.csv,retained result,RS1,14532,1331085,d85404616c6a21b32bae434613d929a583c05422c00dd537efe3c22281847874,"Extended Data Fig. 8B: substituted histories, every fold"
 results/validation/matched/pooled_effects.csv,retained result,RS1,24,4778,659315f9de54c27a852362363fcd9e0d1709ca4ec9c70e4a01dcc45874064dab,Extended Data Fig. 8B: pooled substituted-history effects
 source_data/Figure1/figure1_payload.json,Source Data,,,232373,df616e83ec5d461bc3863bda9f8dabef93ce0f63131ad11c956f5f2d71aa0bbe,

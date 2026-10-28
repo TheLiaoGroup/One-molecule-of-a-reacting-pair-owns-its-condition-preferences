@@ -7,6 +7,6 @@ T05,Methods,"The release contains 244,179 numeric yield measurements: 177,039 fr
 T06,Methods,Every well of these units is listed with its measurement status: quantified (a numeric yield); zero by rule (the screen found no product and the well was not chromatographed; yield 0); product detected but not quantified (the product peak overlapped another peak or the internal standard integrated abnormally; no yield); or no screen record (no yield).
 T07,Methods,"The 1,192 conditions named by these records are given with their full recorded compositions, and the 401 reagent entries referenced in their reagent slots with their identities; solvent identities are provided directly in the condition table."
 T08,Methods,"It also lists all 442 pairs, without yields, with the eligibility of each."
-T09,Data availability,"Of the released measurements, 42,671 also occur in the amide-coupling collection of Zhang *et al.* (33), and parts also appear in other public releases of the same corpus by our group."
+T09,Data availability,"Of the released measurements, 42,671 also occur in the amide-coupling collection of Zhang *et al.* (34), and parts also appear in other public releases of the same corpus by our group."
 T12,Methods,| Excluding documented prior pair-level scoring | 411 | 0.098 | 0.061 to 0.134 | 0.079 to 0.110 | 11/13 |
 T13,Methods,"In Set B, 124 of the 535 pairs (4,917 measurements) had prior pair-level scoring, 84 with single-role losses; Supplementary Table 3 compares the full set with these two parts."

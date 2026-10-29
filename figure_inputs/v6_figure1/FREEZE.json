@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-28T02:18:19.6439048Z",
+  "rule_sha256": "50e5a7d1003d5d795cdf034f244d25a8324230a5ee00d3d6479763fce3c226c9",
+  "source_sha256": "754bcee276a3447bed972e5ec329c54cca15d8417a8109e15533840407c45f85",
+  "new_aggregate_calculated_before_freeze": false,
+  "prior_access": "Existing residuals, prior analyses and single-pair displays were already viewed. This is a retrospective display revision.",
+  "authority": "CODEX_PROMPT_20261028_fig1_draft3.md"
+}

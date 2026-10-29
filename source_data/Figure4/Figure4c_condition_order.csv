@@ -1,0 +1,48 @@
+note_en,reaction_type,condition_id,Reagent1_HTE_CAS,Reagent1_HTE_Equiv,Reagent1_Standardized Name,Reagent1_id,Reagent2_HTE_CAS,Reagent2_HTE_Equiv,Reagent2_Standardized Name,Reagent2_id,Reagent3_HTE_CAS,Reagent3_HTE_Equiv,Reagent3_Standardized Name,Reagent3_id,Reagent4_HTE_CAS,Reagent4_HTE_Equiv,Reagent4_Standardized Name,Reagent4_id,Reagent5_HTE_CAS,Reagent5_HTE_Equiv,Reagent5_Standardized Name,Reagent5_id,Reagent6_HTE_CAS,Reagent6_HTE_Equiv,Reagent6_Standardized Name,Reagent6_id,Standardized Name,solvent_id,temp_id,time_id,rxn_class,base_or_acid,matrix_column,matrix_row,additive_class,additive_display_name
+,snar,C34,,,,,,,,,108-48-5,2.0,"2,6-lutidine",CMP0157,,,,,,,,,,,,,CPME,CMP0547,100,16,SNAr,"2,6-lutidine",8,5,Amine bases,"2,6-lutidine"
+,snar,C44,,,,,,,,,108-48-5,2.0,"2,6-lutidine",CMP0157,,,,,,,,,,,,,MeCN,CMP0558,100,16,SNAr,"2,6-lutidine",8,6,Amine bases,"2,6-lutidine"
+,snar,C32,,,,,,,,,108-48-5,2.0,"2,6-lutidine",CMP0157,,,,,,,,,,,,,NMP,CMP0316,100,16,SNAr,"2,6-lutidine",8,4,Amine bases,"2,6-lutidine"
+,snar,C30,,,,,,,,,108-48-5,2.0,"2,6-lutidine",CMP0157,,,,,,,,,,,,,THF,CMP0569,100,16,SNAr,"2,6-lutidine",8,2,Amine bases,"2,6-lutidine"
+,snar,C47,,,,,,,,,108-48-5,2.0,"2,6-lutidine",CMP0157,,,,,,,,,,,,,t-AmOH,CMP0566,100,16,SNAr,"2,6-lutidine",8,3,Amine bases,"2,6-lutidine"
+,snar,C24,,,,,,,,,64-19-7,1.5,AcOH,CMP0361,,,,,,,,,,,,,NMP,CMP0316,100,16,SNAr,AcOH,1,4,Acids,AcOH
+,snar,C4,,,,,,,,,534-17-8,2.0,Cs2CO3,CMP0333,,,,,,,,,,,,,DMSO,CMP0527,100,16,SNAr,Cs2CO3,11,1,"Carbonates, bicarbonate and acetate",Cs$_2$CO$_3$
+,snar,C43,,,,,,,,,534-17-8,2.0,Cs2CO3,CMP0333,,,,,,,,,,,,,MeCN,CMP0558,100,16,SNAr,Cs2CO3,11,6,"Carbonates, bicarbonate and acetate",Cs$_2$CO$_3$
+,snar,C26,,,,,,,,,534-17-8,2.0,Cs2CO3,CMP0333,,,,,,,,,,,,,NMP,CMP0316,100,16,SNAr,Cs2CO3,11,4,"Carbonates, bicarbonate and acetate",Cs$_2$CO$_3$
+,snar,C14,,,,,,,,,534-17-8,2.0,Cs2CO3,CMP0333,,,,,,,,,,,,,t-AmOH,CMP0566,100,16,SNAr,Cs2CO3,11,3,"Carbonates, bicarbonate and acetate",Cs$_2$CO$_3$
+,snar,C36,,,,,,,,,6674-22-2,2.0,DBU,CMP0372,,,,,,,,,,,,,CPME,CMP0547,100,16,SNAr,DBU,10,5,Amine bases,DBU
+,snar,C17,,,,,,,,,6674-22-2,2.0,DBU,CMP0372,,,,,,,,,,,,,DMSO,CMP0527,100,16,SNAr,DBU,10,1,Amine bases,DBU
+,snar,C46,,,,,,,,,6674-22-2,2.0,DBU,CMP0372,,,,,,,,,,,,,t-AmOH,CMP0566,100,16,SNAr,DBU,10,3,Amine bases,DBU
+,snar,C33,,,,,,,,,7087-68-5,2.0,DIPEA,CMP0369,,,,,,,,,,,,,CPME,CMP0547,100,16,SNAr,DIPEA,6,5,Amine bases,DIPEA
+,snar,C8,,,,,,,,,7087-68-5,2.0,DIPEA,CMP0369,,,,,,,,,,,,,DMSO,CMP0527,100,16,SNAr,DIPEA,6,1,Amine bases,DIPEA
+,snar,C41,,,,,,,,,7087-68-5,2.0,DIPEA,CMP0369,,,,,,,,,,,,,MeCN,CMP0558,100,16,SNAr,DIPEA,6,6,Amine bases,DIPEA
+,snar,C48,,,,,,,,,7087-68-5,2.0,DIPEA,CMP0369,,,,,,,,,,,,,NMP,CMP0316,100,16,SNAr,DIPEA,6,4,Amine bases,DIPEA
+,snar,C9,,,,,,,,,7087-68-5,2.0,DIPEA,CMP0369,,,,,,,,,,,,,t-AmOH,CMP0566,100,16,SNAr,DIPEA,6,3,Amine bases,DIPEA
+,snar,C37,,,,,,,,,584-08-7,2.0,K2CO3,CMP0334,,,,,,,,,,,,,CPME,CMP0547,100,16,SNAr,K2CO3,12,5,"Carbonates, bicarbonate and acetate",K$_2$CO$_3$
+,snar,C53,,,,,,,,,298-14-6,2.0,KHCO3,CMP0336,,,,,,,,,,,,,CPME,CMP0547,100,16,SNAr,KHCO3,13,5,"Carbonates, bicarbonate and acetate",KHCO$_3$
+,snar,C49,,,,,,,,,298-14-6,2.0,KHCO3,CMP0336,,,,,,,,,,,,,DMSO,CMP0527,100,16,SNAr,KHCO3,13,1,"Carbonates, bicarbonate and acetate",KHCO$_3$
+,snar,C52,,,,,,,,,298-14-6,2.0,KHCO3,CMP0336,,,,,,,,,,,,,NMP,CMP0316,100,16,SNAr,KHCO3,13,4,"Carbonates, bicarbonate and acetate",KHCO$_3$
+,snar,C50,,,,,,,,,298-14-6,2.0,KHCO3,CMP0336,,,,,,,,,,,,,THF,CMP0569,100,16,SNAr,KHCO3,13,2,"Carbonates, bicarbonate and acetate",KHCO$_3$
+,snar,C51,,,,,,,,,298-14-6,2.0,KHCO3,CMP0336,,,,,,,,,,,,,t-AmOH,CMP0566,100,16,SNAr,KHCO3,13,3,"Carbonates, bicarbonate and acetate",KHCO$_3$
+,snar,C39,,,,,,,,,127-08-2,2.0,KOAc,CMP0354,,,,,,,,,,,,,CPME,CMP0547,100,16,SNAr,KOAc,14,5,"Carbonates, bicarbonate and acetate",KOAc
+,snar,C7,,,,,,,,,1310-58-3,2.0,KOH,CMP0342,,,,,,,,,,,,,DMSO,CMP0527,100,16,SNAr,KOH,15,1,Hydroxide and alkoxides,KOH
+,snar,C42,,,,,,,,,1310-58-3,2.0,KOH,CMP0342,,,,,,,,,,,,,MeCN,CMP0558,100,16,SNAr,KOH,15,6,Hydroxide and alkoxides,KOH
+,snar,C6,,,,,,,,,865-47-4,2.0,KOtBu,CMP0347,,,,,,,,,,,,,DMSO,CMP0527,100,16,SNAr,KOtBu,16,1,Hydroxide and alkoxides,KOtBu
+,snar,C27,,,,,,,,,865-47-4,2.0,KOtBu,CMP0347,,,,,,,,,,,,,NMP,CMP0316,100,16,SNAr,KOtBu,16,4,Hydroxide and alkoxides,KOtBu
+,snar,C15,,,,,,,,,865-47-4,2.0,KOtBu,CMP0347,,,,,,,,,,,,,THF,CMP0569,100,16,SNAr,KOtBu,16,2,Hydroxide and alkoxides,KOtBu
+,snar,C12,,,,,,,,,865-47-4,2.0,KOtBu,CMP0347,,,,,,,,,,,,,t-AmOH,CMP0566,100,16,SNAr,KOtBu,16,3,Hydroxide and alkoxides,KOtBu
+,snar,C21,,,,,,,,,75-75-2,1.5,MsOH,CMP0362,,,,,,,,,,,,,NMP,CMP0316,100,16,SNAr,MsOH,2,4,Acids,MsOH
+,snar,C18,,,,,,,,,75-75-2,1.5,MsOH,CMP0362,,,,,,,,,,,,,t-AmOH,CMP0566,100,16,SNAr,MsOH,2,3,Acids,MsOH
+,snar,C31,,,,,,,,,124-41-4,2.0,NaOMe,CMP0346,,,,,,,,,,,,,NMP,CMP0316,100,16,SNAr,NaOMe,17,4,Hydroxide and alkoxides,NaOMe
+,snar,C45,,,,,,,,,124-41-4,2.0,NaOMe,CMP0346,,,,,,,,,,,,,t-AmOH,CMP0566,100,16,SNAr,NaOMe,17,3,Hydroxide and alkoxides,NaOMe
+,snar,C40,,,,,,,,,14593-46-5,2.0,NaOtAm,CMP0357,,,,,,,,,,,,,CPME,CMP0547,100,16,SNAr,NaOtAm,18,5,Hydroxide and alkoxides,NaOtAm
+"on plates DP220901-1 to -12 condition C2 duplicated C8; from DP220901-13 DIPEA was replaced by NaOtAm, and the data are usable from that plate onward",snar,C2,,,,,,,,,14593-46-5,2.0,NaOtAm,CMP0357,,,,,,,,,,,,,DMSO,CMP0527,100,16,SNAr,NaOtAm,18,1,Hydroxide and alkoxides,NaOtAm
+,snar,C28,,,,,,,,,14593-46-5,2.0,NaOtAm,CMP0357,,,,,,,,,,,,,NMP,CMP0316,100,16,SNAr,NaOtAm,18,4,Hydroxide and alkoxides,NaOtAm
+,snar,C11,,,,,,,,,14593-46-5,2.0,NaOtAm,CMP0357,,,,,,,,,,,,,THF,CMP0569,100,16,SNAr,NaOtAm,18,2,Hydroxide and alkoxides,NaOtAm
+,snar,C16,,,,,,,,,14593-46-5,2.0,NaOtAm,CMP0357,,,,,,,,,,,,,t-AmOH,CMP0566,100,16,SNAr,NaOtAm,18,3,Hydroxide and alkoxides,NaOtAm
+,snar,C22,,,,,,,,,104-15-4,1.5,PTSA,CMP0364,,,,,,,,,,,,,NMP,CMP0316,100,16,SNAr,PTSA,3,4,Acids,PTSA
+,snar,C19,,,,,,,,,104-15-4,1.5,PTSA,CMP0364,,,,,,,,,,,,,t-AmOH,CMP0566,100,16,SNAr,PTSA,3,3,Acids,PTSA
+,snar,C35,,,,,,,,,110-86-1,2.0,Py,CMP0141,,,,,,,,,,,,,CPME,CMP0547,100,16,SNAr,Py,9,5,Amine bases,Py
+,snar,C29,,,,,,,,,121-44-8,2.0,TEA,CMP0269,,,,,,,,,,,,,NMP,CMP0316,100,16,SNAr,TEA,7,4,Amine bases,TEA
+,snar,C23,,,,,,,,,76-05-1,1.5,TFA,CMP0363,,,,,,,,,,,,,NMP,CMP0316,100,16,SNAr,TFA,4,4,Acids,TFA
+,snar,C20,,,,,,,,,76-05-1,1.5,TFA,CMP0363,,,,,,,,,,,,,t-AmOH,CMP0566,100,16,SNAr,TFA,4,3,Acids,TFA
+,snar,C5,,,,,,,,,,,,,,,,,,,,,,,,,DMSO,CMP0527,100,16,SNAr,none,5,1,No additive,none

@@ -1,0 +1,229 @@
+{
+  "rule_sha256": "630f46a9377bb38f90cbd93e1fdcaccd0410122b31366f872aecbe633e41317b",
+  "fixed_halide": "Cc1cc(F)ccc1C#N",
+  "fixed_NH": "CC1CCCNC1",
+  "original_illustrated_NH": "c1cc2[nH]ccc2cn1",
+  "original_NH_product_forming_partners": 1,
+  "candidate_counts": [
+    {
+      "smiles": "CC1CCCNC1",
+      "product_forming_partners": 8
+    },
+    {
+      "smiles": "Cc1ccc2[nH]cnc2c1",
+      "product_forming_partners": 5
+    },
+    {
+      "smiles": "CCCCN1CCNCC1",
+      "product_forming_partners": 3
+    },
+    {
+      "smiles": "CN1CCNCC1",
+      "product_forming_partners": 3
+    },
+    {
+      "smiles": "c1cnc2cc[nH]c2c1",
+      "product_forming_partners": 3
+    },
+    {
+      "smiles": "CC(C)(C)OC(=O)N1CCNCC1",
+      "product_forming_partners": 2
+    },
+    {
+      "smiles": "CNC1CCCCC1",
+      "product_forming_partners": 2
+    },
+    {
+      "smiles": "COC(=O)[C@@H]1CCCN1",
+      "product_forming_partners": 2
+    },
+    {
+      "smiles": "Cc1ccc(=O)[nH]c1",
+      "product_forming_partners": 2
+    },
+    {
+      "smiles": "C1CCNC1",
+      "product_forming_partners": 1
+    },
+    {
+      "smiles": "CCc1ccc(N)cc1",
+      "product_forming_partners": 1
+    },
+    {
+      "smiles": "CCc1cccc(N)c1",
+      "product_forming_partners": 1
+    },
+    {
+      "smiles": "COC(=O)[C@H]1CCCN1",
+      "product_forming_partners": 1
+    },
+    {
+      "smiles": "COCCN1CCNCC1",
+      "product_forming_partners": 1
+    },
+    {
+      "smiles": "NC1CCCCC1",
+      "product_forming_partners": 1
+    },
+    {
+      "smiles": "c1cc2[nH]ccc2cn1",
+      "product_forming_partners": 1
+    },
+    {
+      "smiles": "c1ccc2[nH]cnc2c1",
+      "product_forming_partners": 1
+    }
+  ],
+  "blocks": [
+    {
+      "block": "halide",
+      "row_id": "H1",
+      "fixed_smiles": "Cc1cc(F)ccc1C#N",
+      "partner_smiles": "Cc1ccc2[nH]cnc2c1",
+      "source_subpair": "Cc1ccc2[nH]cnc2c1 >> Cc1cc(F)ccc1C#N",
+      "measured_conditions": 47
+    },
+    {
+      "block": "halide",
+      "row_id": "H2",
+      "fixed_smiles": "Cc1cc(F)ccc1C#N",
+      "partner_smiles": "c1cc2[nH]ccc2cn1",
+      "source_subpair": "c1cc2[nH]ccc2cn1 >> Cc1cc(F)ccc1C#N",
+      "measured_conditions": 47
+    },
+    {
+      "block": "halide",
+      "row_id": "H3",
+      "fixed_smiles": "Cc1cc(F)ccc1C#N",
+      "partner_smiles": "c1ccc2[nH]cnc2c1",
+      "source_subpair": "c1ccc2[nH]cnc2c1 >> Cc1cc(F)ccc1C#N",
+      "measured_conditions": 47
+    },
+    {
+      "block": "halide",
+      "row_id": "H4",
+      "fixed_smiles": "Cc1cc(F)ccc1C#N",
+      "partner_smiles": "c1cnc2cc[nH]c2c1",
+      "source_subpair": "c1cnc2cc[nH]c2c1 >> Cc1cc(F)ccc1C#N",
+      "measured_conditions": 47
+    },
+    {
+      "block": "NH",
+      "row_id": "N1",
+      "fixed_smiles": "CC1CCCNC1",
+      "partner_smiles": "CCOC(=O)c1cnc(Cl)nc1",
+      "source_subpair": "CC1CCCNC1 >> CCOC(=O)c1cnc(Cl)nc1",
+      "measured_conditions": 45
+    },
+    {
+      "block": "NH",
+      "row_id": "N2",
+      "fixed_smiles": "CC1CCCNC1",
+      "partner_smiles": "COc1cncc(Br)c1",
+      "source_subpair": "CC1CCCNC1 >> COc1cncc(Br)c1",
+      "measured_conditions": 47
+    },
+    {
+      "block": "NH",
+      "row_id": "N3",
+      "fixed_smiles": "CC1CCCNC1",
+      "partner_smiles": "COc1ncc(Br)c(OC)n1",
+      "source_subpair": "CC1CCCNC1 >> COc1ncc(Br)c(OC)n1",
+      "measured_conditions": 47
+    },
+    {
+      "block": "NH",
+      "row_id": "N4",
+      "fixed_smiles": "CC1CCCNC1",
+      "partner_smiles": "Cc1cnc(Cl)nc1",
+      "source_subpair": "CC1CCCNC1 >> Cc1cnc(Cl)nc1",
+      "measured_conditions": 44
+    },
+    {
+      "block": "NH",
+      "row_id": "N5",
+      "fixed_smiles": "CC1CCCNC1",
+      "partner_smiles": "N#Cc1ccc(Br)nc1",
+      "source_subpair": "CC1CCCNC1 >> N#Cc1ccc(Br)nc1",
+      "measured_conditions": 47
+    },
+    {
+      "block": "NH",
+      "row_id": "N6",
+      "fixed_smiles": "CC1CCCNC1",
+      "partner_smiles": "N#Cc1ccnc(Cl)c1",
+      "source_subpair": "CC1CCCNC1 >> N#Cc1ccnc(Cl)c1",
+      "measured_conditions": 47
+    },
+    {
+      "block": "NH",
+      "row_id": "N7",
+      "fixed_smiles": "CC1CCCNC1",
+      "partner_smiles": "O=[N+]([O-])c1ccccc1F",
+      "source_subpair": "CC1CCCNC1 >> O=[N+]([O-])c1ccccc1F",
+      "measured_conditions": 46
+    },
+    {
+      "block": "NH",
+      "row_id": "N8",
+      "fixed_smiles": "CC1CCCNC1",
+      "partner_smiles": "O=[N+]([O-])c1cccnc1F",
+      "source_subpair": "CC1CCCNC1 >> O=[N+]([O-])c1cccnc1F",
+      "measured_conditions": 47
+    }
+  ],
+  "condition_order": [
+    "C34",
+    "C44",
+    "C32",
+    "C30",
+    "C47",
+    "C24",
+    "C4",
+    "C43",
+    "C26",
+    "C14",
+    "C36",
+    "C17",
+    "C46",
+    "C33",
+    "C8",
+    "C41",
+    "C48",
+    "C9",
+    "C37",
+    "C53",
+    "C49",
+    "C52",
+    "C50",
+    "C51",
+    "C39",
+    "C7",
+    "C42",
+    "C6",
+    "C27",
+    "C15",
+    "C12",
+    "C21",
+    "C18",
+    "C31",
+    "C45",
+    "C40",
+    "C2",
+    "C28",
+    "C11",
+    "C16",
+    "C22",
+    "C19",
+    "C35",
+    "C29",
+    "C23",
+    "C20",
+    "C5"
+  ],
+  "two_independent_focal_experiments": true,
+  "screen_role_shares": {
+    "halide": 0.4556489916535027,
+    "NH": 0.0034367170037956
+  }
+}

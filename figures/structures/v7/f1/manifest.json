@@ -1,0 +1,52 @@
+[
+  {
+    "name": "recurring_halide",
+    "smiles": "O=C(c1ccccc1)c1ccccc1Br",
+    "source": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner02",
+    "svg_sha256": "95c7dfd7f32e990c7773f623f0280cdefa189c92825e68b834ff8e02ad4ed741",
+    "cdxml_sha256": "b9ba38766811093118778508f8e9313d85ab596eb87114daba37d16cbdf5390f",
+    "native_width_px": 106.0,
+    "native_height_px": 69.0,
+    "atom_label_px": 13.33334
+  },
+  {
+    "name": "recurring_amine1",
+    "smiles": "COc1ccc(N)cc1",
+    "source": "02_FIGURES/ChemDraw/Fig2_b_M4",
+    "svg_sha256": "1afa0f4770515a755cb941509970346d8d7b546da62934f3cc0a07b530dbe56a",
+    "cdxml_sha256": "2ee29e885bffdd9a9d434e59ca644c9a92d45b36a9e021cd05797fd283cbb448",
+    "native_width_px": 43.0,
+    "native_height_px": 99.0,
+    "atom_label_px": 13.33334
+  },
+  {
+    "name": "recurring_amine2",
+    "smiles": "Cc1ccccc1N",
+    "source": "02_FIGURES/ChemDraw/Fig2_b_M3",
+    "svg_sha256": "a6a98ec3fa354060276c98885aa5104783d4b101c8966b4a11a5587b35ccdb2d",
+    "cdxml_sha256": "420296a1f7f1a095e867baafd932aa89dc6236cafd7215cf416e47337ab1ebd9",
+    "native_width_px": 59.0,
+    "native_height_px": 71.0,
+    "atom_label_px": 13.33334
+  },
+  {
+    "name": "recurring_amine3",
+    "smiles": "Cc1cc(C)nc(N)n1",
+    "source": "ChemDraw22.ChemDrawControl22; ACS1996; existing oriented_molblock helper",
+    "svg_sha256": "4a7107f527e549cfe231cf02d74ded626b7d3561479bec910564a8a6688dd737",
+    "cdxml_sha256": "ce7f7b0e6286a91e4253eb9938bc5c8a299b0c3fb5b4056cb2bc6841393979e9",
+    "native_width_px": 74.0,
+    "native_height_px": 71.0,
+    "atom_label_px": 13.33334
+  },
+  {
+    "name": "role_switch",
+    "smiles": "Cc1ccc(N)cc1",
+    "source": "02_FIGURES/ChemDraw/Fig2_b_M1",
+    "svg_sha256": "f9519ec2eb59e8fdd3bc3e11d756fa39ce09fcec4ec487d4c2805ac91a4e3553",
+    "cdxml_sha256": "3447eb31df2adbc7d8e4d1f2d5ca1e64d24e13ae4c92c3efa98309c40d2cbe93",
+    "native_width_px": 43.0,
+    "native_height_px": 89.0,
+    "atom_label_px": 13.33334
+  }
+]

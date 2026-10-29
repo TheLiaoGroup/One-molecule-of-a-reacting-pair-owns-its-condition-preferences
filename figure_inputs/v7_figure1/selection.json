@@ -1,0 +1,129 @@
+{
+  "schema": "v7_identity_only_recurrence_selection",
+  "rule_path": "05_DATA/Analysis/figure_display/v7_figure1/Figure1_DISPLAY_RULE.md",
+  "rule_sha256": "a80f9af18ddbbcf1a25099592d5530d892e4a3dba3299267922528645f3247cf",
+  "source": "data/measurements_A1_analysis_arrays.csv.gz",
+  "source_sha256": "b6d7278fa6346d9c5631ac35421ca4e0c68c9ea7e2f7b3e2898e392885f00a34",
+  "read_columns": [
+    "screen",
+    "sub_1_smiles",
+    "sub_2_smiles"
+  ],
+  "screens": [
+    "Buchwald-Hartwig|1",
+    "Buchwald-Hartwig|2"
+  ],
+  "bromide_heavy_atom_boundary_used": 18,
+  "outcome_fields_used": [],
+  "halide_rank": [
+    {
+      "smiles": "O=C(c1ccccc1)c1ccccc1Br",
+      "eligible_amine_partners": 5,
+      "heavy_atoms": 15,
+      "partners": [
+        "COc1ccc(N)cc1",
+        "Cc1cc(C)nc(N)n1",
+        "Cc1ccccc1N",
+        "Nc1ccc([N+](=O)[O-])cn1",
+        "Nc1ccccc1C=O"
+      ]
+    },
+    {
+      "smiles": "CC(C)c1ccc(Br)cc1",
+      "eligible_amine_partners": 3,
+      "heavy_atoms": 10,
+      "partners": [
+        "CSc1ccc(N)cc1",
+        "Cc1ccc(N)cc1",
+        "Cc1ncncc1N"
+      ]
+    },
+    {
+      "smiles": "Brc1ccc2c(c1)OCCO2",
+      "eligible_amine_partners": 3,
+      "heavy_atoms": 11,
+      "partners": [
+        "COc1ccc(N)cc1",
+        "CSc1cccc(N)c1",
+        "Cc1ccc(N)nc1"
+      ]
+    },
+    {
+      "smiles": "Brc1cccc2cnccc12",
+      "eligible_amine_partners": 3,
+      "heavy_atoms": 11,
+      "partners": [
+        "C#Cc1cccc(N)c1",
+        "CSc1cccc(N)c1",
+        "Cc1ccc(N)cc1"
+      ]
+    },
+    {
+      "smiles": "Brc1ccnc2ccccc12",
+      "eligible_amine_partners": 3,
+      "heavy_atoms": 11,
+      "partners": [
+        "CCc1ccc(N)cc1",
+        "CSc1ccc(N)cc1",
+        "Cc1ccc(N)cc1"
+      ]
+    },
+    {
+      "smiles": "COC(=O)c1ccccc1Br",
+      "eligible_amine_partners": 3,
+      "heavy_atoms": 11,
+      "partners": [
+        "CC(=O)c1cccc(N)c1",
+        "Cc1ccc(N)c(C)c1",
+        "Nc1ccccc1C=O"
+      ]
+    }
+  ],
+  "amine_rank": [
+    {
+      "smiles": "COc1ccc(N)cc1",
+      "recorded_halide_partners": 8,
+      "heavy_atoms": 9
+    },
+    {
+      "smiles": "Cc1ccccc1N",
+      "recorded_halide_partners": 6,
+      "heavy_atoms": 8
+    },
+    {
+      "smiles": "Cc1cc(C)nc(N)n1",
+      "recorded_halide_partners": 6,
+      "heavy_atoms": 9
+    },
+    {
+      "smiles": "Nc1ccccc1C=O",
+      "recorded_halide_partners": 2,
+      "heavy_atoms": 9
+    },
+    {
+      "smiles": "Nc1ccc([N+](=O)[O-])cn1",
+      "recorded_halide_partners": 2,
+      "heavy_atoms": 10
+    }
+  ],
+  "selected_halide": "O=C(c1ccccc1)c1ccccc1Br",
+  "selected_amines": [
+    "COc1ccc(N)cc1",
+    "Cc1ccccc1N",
+    "Cc1cc(C)nc(N)n1"
+  ],
+  "selected_pairs": [
+    {
+      "halide": "O=C(c1ccccc1)c1ccccc1Br",
+      "amine": "COc1ccc(N)cc1"
+    },
+    {
+      "halide": "O=C(c1ccccc1)c1ccccc1Br",
+      "amine": "Cc1ccccc1N"
+    },
+    {
+      "halide": "O=C(c1ccccc1)c1ccccc1Br",
+      "amine": "Cc1cc(C)nc(N)n1"
+    }
+  ]
+}

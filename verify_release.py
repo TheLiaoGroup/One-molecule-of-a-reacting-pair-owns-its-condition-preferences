@@ -69,17 +69,17 @@ def c2_manifest():
         if expected not in present:
             bad.append(f"{expected}: required reaction structures missing")
     main = [(name, script) for name, script in L.GENERATORS if name.startswith("figure")]
-    if [name for name, _ in main] != [f"figure{n}" for n in range(1, 5)]:
-        bad.append("exactly four consecutive main-figure generators required")
+    if [name for name, _ in main] != [f"figure{n}" for n in range(1, 6)]:
+        bad.append("exactly five consecutive main-figure generators required")
     if {name for name in present if re.fullmatch(r"code/Figures/figure\d+\.py", name)} != {
-            f"code/Figures/figure{n}.py" for n in range(1, 5)}:
-        bad.append("main-figure code inventory differs from four canonical entry points")
-    expected_main = {f"figures/Main/Figure{n}.{ext}" for n in range(1, 5) for ext in ("pdf", "svg", "png")}
+            f"code/Figures/figure{n}.py" for n in range(1, 6)}:
+        bad.append("main-figure code inventory differs from five canonical entry points")
+    expected_main = {f"figures/Main/Figure{n}.{ext}" for n in range(1, 6) for ext in ("pdf", "svg", "png")}
     if {name for name in present if name.startswith("figures/Main/")} != expected_main:
-        bad.append("main-figure inventory differs from the four PDF, SVG and PNG sets")
+        bad.append("main-figure inventory differs from the five PDF, SVG and PNG sets")
     source_main = {Path(name).parts[1] for name in present if re.match(r"source_data/Figure\d+/", name)}
-    if source_main != {f"Figure{n}" for n in range(1, 5)}:
-        bad.append("main-figure Source Data inventory differs from four figures")
+    if source_main != {f"Figure{n}" for n in range(1, 6)}:
+        bad.append("main-figure Source Data inventory differs from five figures")
     for name, script in main:
         number = int(name.removeprefix("figure"))
         required = {f"figures/Main/Figure{number}.{ext}" for ext in ("pdf", "svg", "png")} | {
@@ -220,7 +220,7 @@ def c9_results():
 def c11_claims(U):
     values = L.text_claim_values(U, L.read_text_table(L.MASK), L.read_text_table(L.CONDITIONS), L.read_text_table(L.REAGENTS),
                                  L.read_text_table(L.PROVENANCE_FLAGS),
-                                 json.loads((PKG / "source_data/Figure2/Figure2_SourceData_provenance.json").read_text(encoding="utf-8")))
+                                 json.loads((PKG / "source_data/Figure3/Figure3_SourceData_provenance.json").read_text(encoding="utf-8")))
     return L.check_text_claims(values)
 
 

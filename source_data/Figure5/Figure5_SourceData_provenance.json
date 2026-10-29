@@ -1,0 +1,208 @@
+{
+ "figure": "Figure 5",
+ "generated_by": "06_CODE/Figures/figure5.py",
+ "inputs": {
+  "released": {
+   "05_DATA/Analysis/figure_display/Fig4a_folds.csv": {
+    "file": "05_DATA/Analysis/figure_display/Fig4a_folds.csv",
+    "sha256": "dbcc9fe28abbd31329faebe6f9b0c76b23e5627ef1d38405396212a169245991"
+   }
+  },
+  "files": {
+   "05_DATA/Analysis/figure_display/v5_reference_tables/MANIFEST.json": {
+    "file": "05_DATA/Analysis/figure_display/v5_reference_tables/MANIFEST.json",
+    "sha256": "e5d3baa73d123bbb89d85b287026ffa9c482f826174ff31bba42ca6780470717"
+   },
+   "05_DATA/Analysis/figure_display/v5_reference_tables/transfer.xlsx": {
+    "file": "05_DATA/Analysis/figure_display/v5_reference_tables/transfer.xlsx",
+    "sha256": "088057a1309dac76fc1f4c8ab79b7ba96c83a9617abd748918f771d676485821"
+   },
+   "05_DATA/Release/00_RAW_IMMUTABLE/DATASET_analysis.csv.gz": {
+    "file": "05_DATA/Release/00_RAW_IMMUTABLE/DATASET_analysis.csv.gz",
+    "sha256": "98e6da9f16a4adebba15ed84f49635741c38e80a15cf0fffb40d94e63f6bbbff"
+   },
+   "05_DATA/Results/directional/nested_owner_results.json": {
+    "file": "05_DATA/Results/directional/nested_owner_results.json",
+    "sha256": "220278fceb1696cb34d6325b9cff3e28b1b88e80e5aaf2cfda2690c0a6aa9974"
+   },
+   "05_DATA/Results/directional/phase2_summary.json": {
+    "file": "05_DATA/Results/directional/phase2_summary.json",
+    "sha256": "16b577e7d6042f681f6b5fc7a4c44b2d8390e2dfee4d79f936092edfc9c82aaa"
+   },
+   "05_DATA/Results/display_inputs/Anatomy_arrays.csv": {
+    "file": "05_DATA/Results/display_inputs/Anatomy_arrays.csv",
+    "sha256": "cfe3de1982d721c37241e3da95f670f3f9faa98bc73e709c9a7590878466ee1e"
+   },
+   "05_DATA/Results/reserve_validation/record_transfer_losses.csv": {
+    "file": "05_DATA/Results/reserve_validation/record_transfer_losses.csv",
+    "sha256": "6feaced7740bf28296625b62c61ec799de0f3204c64276d41a73214fc214d64d"
+   },
+   "05_DATA/Results/reserve_validation/reserve_validation.json": {
+    "file": "05_DATA/Results/reserve_validation/reserve_validation.json",
+    "sha256": "16a3521c1aa494006c0762983e4750745676a8aae6ab11ce175c4627fee62962"
+   },
+   "05_DATA/Validation_Set_A/never_analysed_reserve.csv.gz": {
+    "file": "05_DATA/Validation_Set_A/never_analysed_reserve.csv.gz",
+    "sha256": "180ab88e532e7e7675f67cb2caf4baffa87292b3c0ce62489420bb40c03a3218"
+   },
+   "05_DATA/Validation_Set_B/never_opened_cross_library.csv.gz": {
+    "file": "05_DATA/Validation_Set_B/never_opened_cross_library.csv.gz",
+    "sha256": "b69eeb05fc829124004803891e0dc01146e71ffe2632d6e9c2ba24ec4ab87cc8"
+   },
+   "06_CODE/Core/00_common/boundaries.py": {
+    "file": "06_CODE/Core/00_common/boundaries.py",
+    "sha256": "5677b1d3cbc85dd54777f738dc44924e6d7095805eeab0c6a4ec4041b1f13dc1"
+   },
+   "06_CODE/Core/00_common/ctb/anatomy.py": {
+    "file": "06_CODE/Core/00_common/ctb/anatomy.py",
+    "sha256": "05718eee9ec360379d532a8ddc441b65afd09bc9a1ba7a1e9adb25fc4d314adc"
+   },
+   "06_CODE/Core/00_common/ctb/common.py": {
+    "file": "06_CODE/Core/00_common/ctb/common.py",
+    "sha256": "37720a8da4dc57a30e888a0ca40a3601719463a7dfe22283e8ea4662af48f4f0"
+   },
+   "06_CODE/Core/00_common/ctb/history.py": {
+    "file": "06_CODE/Core/00_common/ctb/history.py",
+    "sha256": "998abd201a8dfcf97a3716feb13279b8962ca8e212f97b67ca3693ac71beab86"
+   },
+   "06_CODE/Figures/fig_style.py": {
+    "file": "06_CODE/Figures/fig_style.py",
+    "sha256": "ec425e30f36c414f78f0e7ac6c37b727f4330d831fa15216ff79dac378da82ba"
+   },
+   "06_CODE/Figures/figure1_data.py": {
+    "file": "06_CODE/Figures/figure1_data.py",
+    "sha256": "334185afc0cb504e3bdee7a2de33b14ae73448d9ea5f500f9bf1e7ce9a107935"
+   },
+   "06_CODE/Figures/figure3_selection.py": {
+    "file": "06_CODE/Figures/figure3_selection.py",
+    "sha256": "0365f0e02b7ebe25d98cca94f5531a31885c2d69416f047befe6841e8b96a49c"
+   },
+   "06_CODE/Figures/figure4.py": {
+    "file": "06_CODE/Figures/figure4.py",
+    "sha256": "3798b8b0b22ddfc740c7ce9e0f923503a13a873f8cedea1f7962960396d584e5"
+   },
+   "06_CODE/Figures/figure4_bootstrap_data.py": {
+    "file": "06_CODE/Figures/figure4_bootstrap_data.py",
+    "sha256": "e9a53d96a7684e8c798fe32d83aae651ba86bc76b51ecf3e6daa6ff7149969c6"
+   },
+   "06_CODE/Figures/figure5.py": {
+    "file": "06_CODE/Figures/figure5.py",
+    "sha256": "a19cde4f2cc624d8726289a2dd9a2e5b81da24b2451d9294bb1c961f9e80f438"
+   },
+   "06_CODE/Figures/figure_common.py": {
+    "file": "06_CODE/Figures/figure_common.py",
+    "sha256": "d310517e2b42f6d6d683bb6defb8796713db778c6581c13bfc5406a281e62b48"
+   },
+   "06_CODE/Figures/figure_export.py": {
+    "file": "06_CODE/Figures/figure_export.py",
+    "sha256": "79ca2c5fe62cbc6874aea0131c6aa99b30e28e754d1514c59274e3c52e59cae8"
+   },
+   "06_CODE/Figures/main_figure_common.py": {
+    "file": "06_CODE/Figures/main_figure_common.py",
+    "sha256": "844e57ca9133b120b46a1fb99414b4727fb8d17f6914d30caeb6963e14155b56"
+   },
+   "06_CODE/Figures/structure_art.py": {
+    "file": "06_CODE/Figures/structure_art.py",
+    "sha256": "b9c92e645fd3df607854e9e1325ed6a7f4146a62257c3abcfec203cf6855822a"
+   },
+   "06_CODE/Figures/v6_core.py": {
+    "file": "06_CODE/Figures/v6_core.py",
+    "sha256": "ff1d6f7339f13359936eccb09574289638c85ad80899835598c324b7dc1bd511"
+   },
+   "06_CODE/Validation/06_validation/validation_core.py": {
+    "file": "06_CODE/Validation/06_validation/validation_core.py",
+    "sha256": "a738ff500792741bef50dc55f2de7c4ce705eecb139b1075c489add1181054b8"
+   },
+   "06_CODE/Validation/11_partner_asymmetry/partner_external.py": {
+    "file": "06_CODE/Validation/11_partner_asymmetry/partner_external.py",
+    "sha256": "20d8e4143b495e7ca272912112b2a0996ff06b17f2605a57939374c6d1a227b1"
+   },
+   "07_METHODS_AND_PROVENANCE/frozen_analysis_plans/figure_selection_v3/RULE.md": {
+    "file": "07_METHODS_AND_PROVENANCE/frozen_analysis_plans/figure_selection_v3/RULE.md",
+    "sha256": "1eef02cbdb55db159135883820e4a83e353e7da0f057a2fd258f96082143c02d"
+   }
+  }
+ },
+ "outputs": {
+  "svg": {
+   "file": "02_FIGURES/Main/Figure5.svg",
+   "sha256": "99687dc45736666d73f74488f366e76f990bc665fd2c950ab2730efc7de42666"
+  },
+  "pdf": {
+   "file": "02_FIGURES/Main/Figure5.pdf",
+   "sha256": "eaf0f622401c475e7eb4cfa265efd2a6f66fd94832c4dd4b5a6202a60ef01823"
+  },
+  "png": {
+   "file": "02_FIGURES/Main/Figure5.png",
+   "sha256": "0b5d7f17b280895fdf48bf50bb50930b0ec5e6ccda843299df33363d4016eb2c"
+  },
+  "xlsx": {
+   "file": "04_SOURCE_DATA/Figure5/Figure5_SourceData.xlsx",
+   "sha256": "009c72dad307e8768a7070112cac7e9d07d5c3acb5aba1a57afdebcb445f6f7c"
+  },
+  "readback": {
+   "file": "04_SOURCE_DATA/Figure5/Figure5_readback.json",
+   "sha256": "ffaf02cbc3b712e16c16a0ba30c6a87fc6bcfe7af81ed727dc47cc1e7bfd095f"
+  },
+  "Figure5b_equal_depth_intervals.csv": {
+   "file": "04_SOURCE_DATA/Figure5/Figure5b_equal_depth_intervals.csv",
+   "sha256": "df3024c108e7df7e18535bd1c5e0f60a166404508fdbc38d7995f6a20beacec9"
+  },
+  "Figure5_PDF_2x.png": {
+   "file": "04_SOURCE_DATA/Figure5/Figure5_PDF_2x.png",
+   "sha256": "4b64ffbe9e667a0b64da014c5874542f889aac1517d83cea92ac8f2924cb2197"
+  },
+  "SetA_whole_array_bootstrap_draws.csv": {
+   "file": "04_SOURCE_DATA/Figure5/SetA_whole_array_bootstrap_draws.csv",
+   "sha256": "9e7520f98b24bf5890587825e5fea8fc5d08d7f19f24f39a97e67c4b4a572a24"
+  },
+  "SetA_owner_block_bootstrap_draws.csv": {
+   "file": "04_SOURCE_DATA/Figure5/SetA_owner_block_bootstrap_draws.csv",
+   "sha256": "a3adff0757a94f036695173c302c42925f941ab6a630529316d9c0db7010536f"
+  },
+  "figure5_selection.json": {
+   "file": "04_SOURCE_DATA/Figure5/figure5_selection.json",
+   "sha256": "367186455c20abfe6e76cac1d185e123d98078fa35b268dc04a8f0439a2eed1c"
+  }
+ },
+ "panels": {
+  "A": {
+   "Set_A_pairs": 309,
+   "Set_B_pairs": 535
+  },
+  "B": {
+   "equal_depth_intervals": [
+    {
+     "set": "Set A",
+     "owner": 12.42340261261978,
+     "partner": 2.406534271371308,
+     "difference_unrounded": 10.01686834124848,
+     "approved_display_difference": 10.0,
+     "ci_low": 5.118622821941742,
+     "ci_high": 13.07739169094851
+    },
+    {
+     "set": "Set B",
+     "owner": 7.836264770129864,
+     "partner": 0.4788621010186844,
+     "difference_unrounded": 7.357402669111179,
+     "approved_display_difference": 7.3,
+     "ci_low": 6.131047798558234,
+     "ci_high": 9.484207618772682
+    },
+    {
+     "set": "Analysis arrays",
+     "owner": 12.11656425546183,
+     "partner": 0.4863824782501025,
+     "difference_unrounded": 11.63018177721172,
+     "approved_display_difference": 11.6,
+     "ci_low": 10.625776817103977,
+     "ci_high": 12.544782190058756
+    }
+   ]
+  },
+  "C": {
+   "fixed_common_targets": 310
+  }
+ }
+}

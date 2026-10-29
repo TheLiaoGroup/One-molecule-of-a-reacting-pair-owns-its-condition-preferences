@@ -45,7 +45,7 @@
   "a": "default_rng(20261003): depth subsets, then 2,000 share resamples with 1167 redraws, then the 2,000 depth-interval resamples (released)"
  },
  "transformation": {
-  "a": "The full set of 1,247 target-role records (both roles; common-target curves in Fig. 4C): additive residual of the held-out pair against the profile of k randomly drawn training pairings of its molecule, five draws averaged (Fig4a_folds.csv, Fig4a_history_draws.csv). Explained = 1 - sum SSE_k / sum SST. Interval of R2(6) - R2(1): 2,000 resamples of the 150 array-role-molecule groups within arrays (exact resamples in FigS7_depth_interval_draws.csv); value of a resample = sum over its groups of (SSE_1 - SSE_6) / sum of SST; 2.5th and 97.5th percentiles (linear interpolation)."
+  "a": "The full set of 1,247 target-role records (both roles; common-target curves in Fig. 5c): additive residual of the held-out pair against the profile of k randomly drawn training pairings of its molecule, five draws averaged (Fig4a_folds.csv, Fig4a_history_draws.csv). Explained = 1 - sum SSE_k / sum SST. Interval of R2(6) - R2(1): 2,000 resamples of the 150 array-role-molecule groups within arrays (exact resamples in FigS7_depth_interval_draws.csv); value of a resample = sum over its groups of (SSE_1 - SSE_6) / sum of SST; 2.5th and 97.5th percentiles (linear interpolation)."
  },
  "curve_pct": {
   "1": 3.913001973361141,
@@ -67,19 +67,19 @@
  "outputs": {
   "pdf": {
    "file": "02_FIGURES/Supplementary_Figures/FigS7.pdf",
-   "sha256": "7ae76d3a1bdac103f6c8fcb46e9bd67720372cd2695fee9dfed1e68b51c69c24"
+   "sha256": "506b21cbe69b2ac5340d950ef6982e618ca05763f13273691875287213f672be"
   },
   "svg": {
    "file": "02_FIGURES/Supplementary_Figures/FigS7.svg",
-   "sha256": "36eb981a73c752eaa7f474bccb7e969393c7da5b8ab5fd8209a736790721063b"
+   "sha256": "5536c6c35cc62732eb8588ba74a240fb6a29c1097516e108f68b4a18d09b3fcd"
   },
   "png": {
    "file": "02_FIGURES/Supplementary_Figures/FigS7.png",
-   "sha256": "b400422c43baf6cf6d15be0436f9a87f0ebdac4566c04e136532bf3606ef5196"
+   "sha256": "ca1b7310312509f8b6b0cf81447970d9a41a72d9ee257805a8624878f09aa6d9"
   },
   "xlsx": {
    "file": "04_SOURCE_DATA/Supplementary_Figures/FigS7_SourceData.xlsx",
-   "sha256": "72be945021b07cbbdb470b8bcfeccc9998295b1265e87ffa16500b9038ab8396"
+   "sha256": "3686a1f7a5a5204617fe7dbee9e8e46ae927c32cda2249ea775a2b7e7ef2c21c"
   },
   "draws": {
    "file": "04_SOURCE_DATA/Supplementary_Figures/FigS7_depth_interval_draws.csv",
@@ -87,7 +87,7 @@
   },
   "readback": {
    "file": "08_REVIEW_AND_QC/extended_data/ed7_plot_readback.json",
-   "sha256": "4bc9068aa8137027e89cea02920c75829c2ac80534bdc42fe6d5e33f53ed09da"
+   "sha256": "d04a372c33ec7685b81d432199d7da7853698dcbb9080b71ca21aeac09ee9655"
   }
  }
 }

@@ -1,0 +1,16 @@
+{
+  "schema": "v6-figure1-frozen-display-inputs-1",
+  "records": {
+    "file": "records.json",
+    "sha256": "9bf9a633f784eaba08e468b161951476d3152a28235f986b15ad4e8936e0bdfa",
+    "source": "02_FIGURES/Main_v6_draft/Figure1_draft3_records.json",
+    "frozen_original_sha256": "1b97e9c409e1f6344dbe2be8c653664542a397b843c4d42bc8c6ee5f3f04eda6"
+  },
+  "rule": {
+    "file": "RULE.md",
+    "sha256": "50e5a7d1003d5d795cdf034f244d25a8324230a5ee00d3d6479763fce3c226c9"
+  },
+  "freeze": "FREEZE.json",
+  "scientific_values_recalculated": false,
+  "use": "Read the exact saved records and one saved common permutation. Do not open the historical raw payload or recalculate scientific summaries."
+}

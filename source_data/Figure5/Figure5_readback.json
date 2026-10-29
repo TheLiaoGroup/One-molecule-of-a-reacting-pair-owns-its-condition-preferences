@@ -1,0 +1,2513 @@
+{
+  "figure": 5,
+  "width_mm": 180.0,
+  "height_mm": 202.0,
+  "width_px": 1275.5905511811025,
+  "height_px": 1431.496062992126,
+  "dpi": 180,
+  "panel_titles": {
+    "panel_title_a": "New pairs: owner > partner",
+    "panel_title_b": "Equal depth: owner advantage",
+    "panel_title_c": "Owner histories strengthen with partners"
+  },
+  "texts": [
+    {
+      "text": "a",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        7.086614173228347,
+        1400.7362204724411,
+        11.125,
+        19.0
+      ],
+      "gid": "panel_a",
+      "axes_gid": null
+    },
+    {
+      "text": "New pairs: owner > partner",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        42.51968503937008,
+        1401.2362204724411,
+        210.875,
+        18.0
+      ],
+      "gid": "panel_title_a",
+      "axes_gid": null
+    },
+    {
+      "text": "b",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        857.48031496063,
+        1400.7362204724411,
+        12.25,
+        19.0
+      ],
+      "gid": "panel_b",
+      "axes_gid": null
+    },
+    {
+      "text": "Equal depth: owner advantage",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        892.9133858267718,
+        1401.2362204724411,
+        237.8750000000001,
+        18.0
+      ],
+      "gid": "panel_title_b",
+      "axes_gid": null
+    },
+    {
+      "text": "Two partners per molecule",
+      "fontsize": 6.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        892.9133858267718,
+        1360.716535433071,
+        176.7500000000001,
+        14.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "Partner",
+      "fontsize": 6.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        1027.5590551181103,
+        1247.3307086614175,
+        49.125,
+        14.0
+      ],
+      "gid": "5b_key_Partner",
+      "axes_gid": null
+    },
+    {
+      "text": "Owner",
+      "fontsize": 6.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        1148.0314960629923,
+        1247.3307086614175,
+        44.25,
+        14.0
+      ],
+      "gid": "5b_key_Owner",
+      "axes_gid": null
+    },
+    {
+      "text": "Set A",
+      "fontsize": 6.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        878.740157480315,
+        1184.9685039370079,
+        35.75,
+        14.0
+      ],
+      "gid": "5b_set_0",
+      "axes_gid": null
+    },
+    {
+      "text": "Set B",
+      "fontsize": 6.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        878.740157480315,
+        1064.496062992126,
+        36.625,
+        14.0
+      ],
+      "gid": "5b_set_1",
+      "axes_gid": null
+    },
+    {
+      "text": "Within-screen",
+      "fontsize": 6.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        878.740157480315,
+        944.0236220472442,
+        91.875,
+        14.0
+      ],
+      "gid": "5b_set_2",
+      "axes_gid": null
+    },
+    {
+      "text": "Preference explained (%); difference (pp)",
+      "fontsize": 6.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        936.2470472440946,
+        779.6141732283465,
+        274.75,
+        14.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "c",
+      "fontsize": 8.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        7.086614173228347,
+        635.3818897637796,
+        11.125,
+        19.0
+      ],
+      "gid": "panel_c",
+      "axes_gid": null
+    },
+    {
+      "text": "Owner histories strengthen with partners",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        42.51968503937008,
+        635.8818897637796,
+        314.25,
+        18.0
+      ],
+      "gid": "panel_title_c",
+      "axes_gid": null
+    },
+    {
+      "text": "Yield profile; amplitude included",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        42.51968503937008,
+        593.3622047244095,
+        246.625,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "Same 310 held-out pairs",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        840.0580708661419,
+        593.3622047244095,
+        190.75,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "Set A",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        501.6779294677346,
+        1194.9546217600007,
+        71.75000000000006,
+        23.0048828125
+      ],
+      "gid": "5a_pooled_label_Set A",
+      "axes_gid": null
+    },
+    {
+      "text": "partner record longer:\n167 vs 121 (Set A)",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        521.6779294677347,
+        1242.4595045725007,
+        168.75,
+        36.0
+      ],
+      "gid": "5a_history_depth_SetA",
+      "axes_gid": null
+    },
+    {
+      "text": "Set B",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        455.564859860988,
+        1044.3272906643488,
+        97.751220703125,
+        58.0
+      ],
+      "gid": "5a_pooled_label_Set B",
+      "axes_gid": null
+    },
+    {
+      "text": "Partner: preference explained (%)",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        329.00492125984255,
+        686.8444881889765,
+        263.25000000000006,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "−20",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        105.59744094488184,
+        712.3444881889765,
+        29.75,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "0",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        393.27701671219666,
+        712.3444881889765,
+        9.75,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "20",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        666.0815924795115,
+        712.3444881889765,
+        19.5,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "Owner: preference explained (%)",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        61.72244094488189,
+        906.0206692913387,
+        18.000000000000007,
+        257.25
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "0",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        96.9724409448819,
+        849.3149606299214,
+        9.75,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "10",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        87.2224409448819,
+        994.5905511811026,
+        19.5,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "20",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        87.2224409448819,
+        1139.8661417322837,
+        19.5,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "30",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        87.2224409448819,
+        1285.1417322834648,
+        19.5,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "Halide",
+      "fontsize": 6.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        159.98031496062993,
+        1133.8661417322837,
+        42.625,
+        14.0
+      ],
+      "gid": "5a_role_Halide",
+      "axes_gid": null
+    },
+    {
+      "text": "Amine / N–H",
+      "fontsize": 6.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        234.10531496062993,
+        1133.8661417322837,
+        85.375,
+        14.0
+      ],
+      "gid": "5a_role_Amine / N–H",
+      "axes_gid": null
+    },
+    {
+      "text": "Other",
+      "fontsize": 6.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        350.9803149606299,
+        1133.8661417322837,
+        37.5,
+        14.0
+      ],
+      "gid": "5a_role_Other",
+      "axes_gid": null
+    },
+    {
+      "text": "Set A",
+      "fontsize": 6.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        419.9803149606299,
+        1133.8661417322837,
+        35.75,
+        14.0
+      ],
+      "gid": "5a_set_Set A",
+      "axes_gid": null
+    },
+    {
+      "text": "Set B",
+      "fontsize": 6.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        487.2303149606299,
+        1133.8661417322837,
+        36.625,
+        14.0
+      ],
+      "gid": "5a_set_Set B",
+      "axes_gid": null
+    },
+    {
+      "text": "+10.0",
+      "fontsize": 6.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        1176.7873378645345,
+        1184.968503937008,
+        38.125,
+        14.0
+      ],
+      "gid": "5b_difference_0",
+      "axes_gid": null
+    },
+    {
+      "text": "+7.3",
+      "fontsize": 6.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        1115.836195272395,
+        1064.496062992126,
+        29.625,
+        14.0
+      ],
+      "gid": "5b_difference_1",
+      "axes_gid": null
+    },
+    {
+      "text": "+11.6",
+      "fontsize": 6.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        1172.710253394424,
+        944.0236220472442,
+        37.0,
+        14.0
+      ],
+      "gid": "5b_difference_2",
+      "axes_gid": null
+    },
+    {
+      "text": "0",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        994.3375984251969,
+        846.990157480315,
+        9.75,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "8",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        1100.6368110236222,
+        846.990157480315,
+        9.75,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "16",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        1202.1235236220473,
+        846.990157480315,
+        19.375,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "dashed: partner",
+      "fontsize": 6.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        166.99760356042452,
+        104.29527559055111,
+        105.0,
+        14.0
+      ],
+      "gid": "5c_partner_style_key",
+      "axes_gid": null
+    },
+    {
+      "text": "Amide coupling",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        946.9085929476207,
+        481.00994423948373,
+        119.75,
+        18.0
+      ],
+      "gid": "5c_screen_label_Acylation|1_owner",
+      "axes_gid": null
+    },
+    {
+      "text": "Amide coupling",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        946.9085929476207,
+        243.376626610215,
+        119.75,
+        18.0
+      ],
+      "gid": "5c_screen_label_Acylation|1_partner",
+      "axes_gid": null
+    },
+    {
+      "text": "Suzuki",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        946.9085929476207,
+        389.8395982148736,
+        52.5,
+        18.0
+      ],
+      "gid": "5c_screen_label_Suzuki|1_owner",
+      "axes_gid": null
+    },
+    {
+      "text": "Suzuki",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        946.9085929476207,
+        113.50119406357689,
+        52.5,
+        18.0
+      ],
+      "gid": "5c_screen_label_Suzuki|1_partner",
+      "axes_gid": null
+    },
+    {
+      "text": "Owner",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        946.9085929476207,
+        442.04721289016527,
+        51.625,
+        18.0
+      ],
+      "gid": "5c_endpoint_owner",
+      "axes_gid": null
+    },
+    {
+      "text": "Partner",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        946.9085929476207,
+        215.94353999096973,
+        57.625,
+        18.0
+      ],
+      "gid": "5c_endpoint_partner",
+      "axes_gid": null
+    },
+    {
+      "text": "Earlier partners",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        595.574311023622,
+        41.96259842519679,
+        119.875,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "1",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        146.6142160219103,
+        67.46259842519679,
+        9.75,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "2",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        301.6980914070524,
+        67.46259842519679,
+        9.75,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "3",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        456.78196679219445,
+        67.46259842519679,
+        9.75,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "4",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        611.8658421773365,
+        67.46259842519679,
+        9.75,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "6",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        922.0960929476207,
+        67.46259842519679,
+        9.625,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "Yield profile explained (%)",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        61.72244094488189,
+        217.46013779527556,
+        18.000000000000007,
+        202.875
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "0",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        96.9724409448819,
+        165.10236220472436,
+        9.75,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "10",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        87.2224409448819,
+        274.94488188976374,
+        19.5,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "20",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        87.2224409448819,
+        384.78740157480314,
+        19.5,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "30",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        87.2224409448819,
+        494.6299212598425,
+        19.5,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    }
+  ],
+  "axes": [
+    {
+      "gid": null,
+      "xlim": [
+        0.0,
+        180.0
+      ],
+      "ylim": [
+        202.0,
+        0.0
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        1275.5905511811025,
+        1431.496062992126
+      ],
+      "lines": [
+        {
+          "gid": "5b_key_handle_Partner",
+          "x": [
+            143
+          ],
+          "y": [
+            25
+          ],
+          "marker": "o",
+          "color": "#1f77b4",
+          "markersize": 3.8,
+          "linestyle": "None"
+        },
+        {
+          "gid": "5b_key_handle_Owner",
+          "x": [
+            160
+          ],
+          "y": [
+            25
+          ],
+          "marker": "o",
+          "color": "#ff7f0e",
+          "markersize": 3.8,
+          "linestyle": "None"
+        }
+      ],
+      "meshes": [],
+      "collections": [],
+      "patches": [],
+      "images": []
+    },
+    {
+      "gid": null,
+      "xlim": [
+        -20.0,
+        29.0
+      ],
+      "ylim": [
+        -8.0,
+        32.0
+      ],
+      "bbox": [
+        120.4724409448819,
+        744.0944881889765,
+        680.3149606299213,
+        581.1023622047245
+      ],
+      "lines": [
+        {
+          "gid": "5a_reference_diagonal",
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            0,
+            1
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "--"
+        },
+        {
+          "gid": "5a_reference_zero_y",
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            0,
+            0
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "5a_reference_zero_x",
+          "x": [
+            0,
+            0
+          ],
+          "y": [
+            0,
+            1
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "5a_screen_Set A_Acylation|1",
+          "x": [
+            8.575462085745878
+          ],
+          "y": [
+            24.94311585099272
+          ],
+          "marker": "o",
+          "color": "#D55E00",
+          "markersize": 3.8,
+          "linestyle": "None"
+        },
+        {
+          "gid": "5a_screen_Set A_C-O competitive reactions|1",
+          "x": [
+            -1.926089226433114
+          ],
+          "y": [
+            -3.878557104177349
+          ],
+          "marker": "o",
+          "color": "#0072B2",
+          "markersize": 3.8,
+          "linestyle": "None"
+        },
+        {
+          "gid": "5a_screen_Set A_Heck|1",
+          "x": [
+            2.299944534468223
+          ],
+          "y": [
+            6.229717974613369
+          ],
+          "marker": "o",
+          "color": "#0072B2",
+          "markersize": 3.8,
+          "linestyle": "None"
+        },
+        {
+          "gid": "5a_screen_Set A_Hiyama|1",
+          "x": [
+            3.270139484191903
+          ],
+          "y": [
+            -3.293818846616925
+          ],
+          "marker": "o",
+          "color": "#0072B2",
+          "markersize": 3.8,
+          "linestyle": "None"
+        },
+        {
+          "gid": "5a_screen_Set A_Reductive-amination|1",
+          "x": [
+            -16.98579298653449
+          ],
+          "y": [
+            9.54388639471665
+          ],
+          "marker": "o",
+          "color": "#D55E00",
+          "markersize": 3.8,
+          "linestyle": "None"
+        },
+        {
+          "gid": "5a_screen_Set A_Ullmann|1",
+          "x": [
+            -2.775738572292097
+          ],
+          "y": [
+            9.941750521482218
+          ],
+          "marker": "o",
+          "color": "#0072B2",
+          "markersize": 3.8,
+          "linestyle": "None"
+        },
+        {
+          "gid": "5a_screen_Set B_Acylation|1",
+          "x": [
+            7.873245541463058
+          ],
+          "y": [
+            17.74021804514364
+          ],
+          "marker": "s",
+          "color": "#D55E00",
+          "markersize": 3.8,
+          "linestyle": "None"
+        },
+        {
+          "gid": "5a_screen_Set B_Buchwald-Hartwig|1",
+          "x": [
+            3.832607934420229
+          ],
+          "y": [
+            15.88361110513731
+          ],
+          "marker": "s",
+          "color": "#0072B2",
+          "markersize": 3.8,
+          "linestyle": "None"
+        },
+        {
+          "gid": "5a_screen_Set B_Chan-Lam|1",
+          "x": [
+            5.202126521811989
+          ],
+          "y": [
+            4.621428570831288
+          ],
+          "marker": "s",
+          "color": "#4D4D4D",
+          "markersize": 3.8,
+          "linestyle": "None"
+        },
+        {
+          "gid": "5a_screen_Set B_Esterification|1",
+          "x": [
+            -9.385358840498693
+          ],
+          "y": [
+            12.27291603804867
+          ],
+          "marker": "s",
+          "color": "#4D4D4D",
+          "markersize": 3.8,
+          "linestyle": "None"
+        },
+        {
+          "gid": "5a_screen_Set B_Grignard|1",
+          "x": [
+            -2.038547450787087
+          ],
+          "y": [
+            3.080652433142494
+          ],
+          "marker": "s",
+          "color": "#4D4D4D",
+          "markersize": 3.8,
+          "linestyle": "None"
+        },
+        {
+          "gid": "5a_screen_Set B_Heck|1",
+          "x": [
+            -1.295891345714217
+          ],
+          "y": [
+            10.32677756360719
+          ],
+          "marker": "s",
+          "color": "#0072B2",
+          "markersize": 3.8,
+          "linestyle": "None"
+        },
+        {
+          "gid": "5a_screen_Set B_Hiyama|1",
+          "x": [
+            -4.7470687526735
+          ],
+          "y": [
+            1.440380617910275
+          ],
+          "marker": "s",
+          "color": "#0072B2",
+          "markersize": 3.8,
+          "linestyle": "None"
+        },
+        {
+          "gid": "5a_screen_Set B_Kumada|1",
+          "x": [
+            3.272778014698363
+          ],
+          "y": [
+            9.240187953326028
+          ],
+          "marker": "s",
+          "color": "#0072B2",
+          "markersize": 3.8,
+          "linestyle": "None"
+        },
+        {
+          "gid": "5a_screen_Set B_Reductive-amination|1",
+          "x": [
+            -7.315580555028056
+          ],
+          "y": [
+            16.58930985264367
+          ],
+          "marker": "s",
+          "color": "#D55E00",
+          "markersize": 3.8,
+          "linestyle": "None"
+        },
+        {
+          "gid": "5a_screen_Set B_SNAr|1",
+          "x": [
+            -1.589479391613091
+          ],
+          "y": [
+            -3.797657286458533
+          ],
+          "marker": "s",
+          "color": "#0072B2",
+          "markersize": 3.8,
+          "linestyle": "None"
+        },
+        {
+          "gid": "5a_screen_Set B_Sonogashira|1",
+          "x": [
+            -3.320973450799136
+          ],
+          "y": [
+            15.59511496710291
+          ],
+          "marker": "s",
+          "color": "#0072B2",
+          "markersize": 3.8,
+          "linestyle": "None"
+        },
+        {
+          "gid": "5a_screen_Set B_Suzuki|1",
+          "x": [
+            1.977652582755585
+          ],
+          "y": [
+            7.424655208755937
+          ],
+          "marker": "s",
+          "color": "#0072B2",
+          "markersize": 3.8,
+          "linestyle": "None"
+        },
+        {
+          "gid": "5a_screen_Set B_Ullmann|1",
+          "x": [
+            2.253486971078256
+          ],
+          "y": [
+            6.386585356806973
+          ],
+          "marker": "s",
+          "color": "#0072B2",
+          "markersize": 3.8,
+          "linestyle": "None"
+        },
+        {
+          "gid": "5a_pooled_Set A",
+          "x": [
+            7.456501794880932
+          ],
+          "y": [
+            22.69097944753797
+          ],
+          "marker": "o",
+          "color": "#4D4D4D",
+          "markersize": 6.0,
+          "linestyle": "None"
+        },
+        {
+          "gid": "5a_pooled_Set B",
+          "x": [
+            3.775147214704577
+          ],
+          "y": [
+            12.66643138990366
+          ],
+          "marker": "s",
+          "color": "#4D4D4D",
+          "markersize": 6.0,
+          "linestyle": "None"
+        },
+        {
+          "gid": null,
+          "x": [],
+          "y": [],
+          "marker": "o",
+          "color": "#0072B2",
+          "markersize": 3.0,
+          "linestyle": "None"
+        },
+        {
+          "gid": null,
+          "x": [],
+          "y": [],
+          "marker": "o",
+          "color": "#D55E00",
+          "markersize": 3.0,
+          "linestyle": "None"
+        },
+        {
+          "gid": null,
+          "x": [],
+          "y": [],
+          "marker": "o",
+          "color": "#4D4D4D",
+          "markersize": 3.0,
+          "linestyle": "None"
+        },
+        {
+          "gid": null,
+          "x": [],
+          "y": [],
+          "marker": "o",
+          "color": "#4D4D4D",
+          "markersize": 3.8,
+          "linestyle": "None"
+        },
+        {
+          "gid": null,
+          "x": [],
+          "y": [],
+          "marker": "s",
+          "color": "#4D4D4D",
+          "markersize": 3.8,
+          "linestyle": "None"
+        }
+      ],
+      "meshes": [],
+      "collections": [],
+      "patches": [],
+      "images": []
+    },
+    {
+      "gid": null,
+      "xlim": [
+        0.0,
+        16.0
+      ],
+      "ylim": [
+        3.0,
+        0.0
+      ],
+      "bbox": [
+        999.2125984251969,
+        878.740157480315,
+        212.59842519685037,
+        361.4173228346458
+      ],
+      "lines": [
+        {
+          "gid": null,
+          "x": [
+            2.406534271371308,
+            12.42340261261978
+          ],
+          "y": [
+            0.4,
+            0.4
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "5b_partner_Set A",
+          "x": [
+            2.406534271371308
+          ],
+          "y": [
+            0.4
+          ],
+          "marker": "o",
+          "color": "#1f77b4",
+          "markersize": 3.8,
+          "linestyle": "None"
+        },
+        {
+          "gid": "5b_owner_Set A",
+          "x": [
+            12.42340261261978
+          ],
+          "y": [
+            0.4
+          ],
+          "marker": "o",
+          "color": "#4D4D4D",
+          "markersize": 3.8,
+          "linestyle": "None"
+        },
+        {
+          "gid": null,
+          "x": [
+            0.4788621010186844,
+            7.836264770129864
+          ],
+          "y": [
+            1.4,
+            1.4
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "5b_partner_Set B",
+          "x": [
+            0.4788621010186844
+          ],
+          "y": [
+            1.4
+          ],
+          "marker": "o",
+          "color": "#ff7f0e",
+          "markersize": 3.8,
+          "linestyle": "None"
+        },
+        {
+          "gid": "5b_owner_Set B",
+          "x": [
+            7.836264770129864
+          ],
+          "y": [
+            1.4
+          ],
+          "marker": "o",
+          "color": "#4D4D4D",
+          "markersize": 3.8,
+          "linestyle": "None"
+        },
+        {
+          "gid": null,
+          "x": [
+            0.4863824782501025,
+            12.11656425546183
+          ],
+          "y": [
+            2.4,
+            2.4
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "5b_partner_Analysis arrays",
+          "x": [
+            0.4863824782501025
+          ],
+          "y": [
+            2.4
+          ],
+          "marker": "o",
+          "color": "#2ca02c",
+          "markersize": 3.8,
+          "linestyle": "None"
+        },
+        {
+          "gid": "5b_owner_Analysis arrays",
+          "x": [
+            12.11656425546183
+          ],
+          "y": [
+            2.4
+          ],
+          "marker": "o",
+          "color": "#4D4D4D",
+          "markersize": 3.8,
+          "linestyle": "None"
+        }
+      ],
+      "meshes": [],
+      "collections": [],
+      "patches": [],
+      "images": []
+    },
+    {
+      "gid": null,
+      "xlim": [
+        0.8,
+        7.7
+      ],
+      "ylim": [
+        -7.0,
+        33.0
+      ],
+      "bbox": [
+        120.4724409448819,
+        99.21259842519679,
+        1070.0787401574803,
+        439.3700787401575
+      ],
+      "lines": [
+        {
+          "gid": null,
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            0,
+            0
+          ],
+          "marker": "None",
+          "color": "#B3B3B3",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "5c_thin_Acylation|1_owner",
+          "x": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "y": [
+            9.684687951660042,
+            16.58893471553902,
+            20.55218201577132,
+            22.75668552620116,
+            26.30198058667702
+          ],
+          "marker": "None",
+          "color": "#D55E00",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "5c_thin_Acylation|1_partner",
+          "x": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "y": [
+            1.982783267082822,
+            2.728071635512441,
+            4.478952246164736,
+            5.379493460397223,
+            6.943965289962229
+          ],
+          "marker": "None",
+          "color": "#D55E00",
+          "markersize": 6.0,
+          "linestyle": "--"
+        },
+        {
+          "gid": "5c_thin_Suzuki|1_owner",
+          "x": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "y": [
+            6.766246564732425,
+            11.83675844819476,
+            14.89422825354954,
+            17.15698034804501,
+            20.27787023174835
+          ],
+          "marker": "None",
+          "color": "#0072B2",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "5c_thin_Suzuki|1_partner",
+          "x": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "y": [
+            -3.423865824577255,
+            -4.401179175988612,
+            -4.698363475006384,
+            -4.540146326680716,
+            -4.879819608548908
+          ],
+          "marker": "None",
+          "color": "#0072B2",
+          "markersize": 6.0,
+          "linestyle": "--"
+        },
+        {
+          "gid": "5c_pooled_owner",
+          "x": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "y": [
+            9.007885422312189,
+            15.53055119672504,
+            19.31447295744128,
+            21.55538279481579,
+            25.03082153193619
+          ],
+          "marker": "o",
+          "color": "#4D4D4D",
+          "markersize": 2.8,
+          "linestyle": "-"
+        },
+        {
+          "gid": "5c_pooled_partner",
+          "x": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "y": [
+            0.8015218933068446,
+            1.191518132012614,
+            2.563195890461145,
+            3.271749166440918,
+            4.446472816382196
+          ],
+          "marker": "o",
+          "color": "#B3B3B3",
+          "markersize": 2.8,
+          "linestyle": "--"
+        }
+      ],
+      "meshes": [],
+      "collections": [],
+      "patches": [],
+      "images": []
+    }
+  ],
+  "journal": "natcatal",
+  "metadata": {
+    "figure": 5,
+    "Set_A_pairs": 309,
+    "Set_B_pairs": 535,
+    "common_targets": 310,
+    "SetA_history_depth_scope_only": true,
+    "SetA_partner_longer": 167,
+    "SetA_owner_longer": 121,
+    "a_b_metric": "condition preference with amplitude removed",
+    "c_metric": "yield profile including response amplitude",
+    "equal_depth_intervals": [
+      {
+        "set": "Set A",
+        "owner": 12.42340261261978,
+        "partner": 2.406534271371308,
+        "difference_unrounded": 10.01686834124848,
+        "approved_display_difference": 10.0,
+        "ci_low": 5.118622821941742,
+        "ci_high": 13.07739169094851
+      },
+      {
+        "set": "Set B",
+        "owner": 7.836264770129864,
+        "partner": 0.4788621010186844,
+        "difference_unrounded": 7.357402669111179,
+        "approved_display_difference": 7.3,
+        "ci_low": 6.131047798558234,
+        "ci_high": 9.484207618772682
+      },
+      {
+        "set": "Analysis arrays",
+        "owner": 12.11656425546183,
+        "partner": 0.4863824782501025,
+        "difference_unrounded": 11.63018177721172,
+        "approved_display_difference": 11.6,
+        "ci_low": 10.625776817103977,
+        "ci_high": 12.544782190058756
+      }
+    ]
+  },
+  "pdf_font_sizes": [
+    6.0,
+    7.0,
+    8.0
+  ],
+  "labels": [
+    {
+      "text": "a",
+      "gid": "panel_a",
+      "fontsize": 8.0,
+      "weight": "bold",
+      "bbox_pt": [
+        2.834645669291339,
+        560.2944881889764,
+        7.28464566929134,
+        567.8944881889764
+      ]
+    },
+    {
+      "text": "New pairs: owner > partner",
+      "gid": "panel_title_a",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        17.007874015748033,
+        560.4944881889764,
+        101.35787401574802,
+        567.6944881889765
+      ]
+    },
+    {
+      "text": "b",
+      "gid": "panel_b",
+      "fontsize": 8.0,
+      "weight": "bold",
+      "bbox_pt": [
+        342.992125984252,
+        560.2944881889764,
+        347.89212598425206,
+        567.8944881889764
+      ]
+    },
+    {
+      "text": "Equal depth: owner advantage",
+      "gid": "panel_title_b",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        357.1653543307087,
+        560.4944881889764,
+        452.3153543307088,
+        567.6944881889765
+      ]
+    },
+    {
+      "text": "Two partners per molecule",
+      "gid": null,
+      "fontsize": 6.0,
+      "weight": "normal",
+      "bbox_pt": [
+        357.1653543307087,
+        544.2866141732284,
+        427.8653543307088,
+        549.8866141732284
+      ]
+    },
+    {
+      "text": "Partner",
+      "gid": "5b_key_Partner",
+      "fontsize": 6.0,
+      "weight": "normal",
+      "bbox_pt": [
+        411.02362204724415,
+        498.932283464567,
+        430.6736220472441,
+        504.53228346456694
+      ]
+    },
+    {
+      "text": "Owner",
+      "gid": "5b_key_Owner",
+      "fontsize": 6.0,
+      "weight": "normal",
+      "bbox_pt": [
+        459.212598425197,
+        498.932283464567,
+        476.91259842519696,
+        504.53228346456694
+      ]
+    },
+    {
+      "text": "Set A",
+      "gid": "5b_set_0",
+      "fontsize": 6.0,
+      "weight": "normal",
+      "bbox_pt": [
+        351.49606299212604,
+        473.9874015748032,
+        365.796062992126,
+        479.5874015748032
+      ]
+    },
+    {
+      "text": "Set B",
+      "gid": "5b_set_1",
+      "fontsize": 6.0,
+      "weight": "normal",
+      "bbox_pt": [
+        351.49606299212604,
+        425.7984251968504,
+        366.146062992126,
+        431.39842519685044
+      ]
+    },
+    {
+      "text": "Within-screen",
+      "gid": "5b_set_2",
+      "fontsize": 6.0,
+      "weight": "normal",
+      "bbox_pt": [
+        351.49606299212604,
+        377.6094488188977,
+        388.24606299212604,
+        383.20944881889767
+      ]
+    },
+    {
+      "text": "Preference explained (%); difference (pp)",
+      "gid": null,
+      "fontsize": 6.0,
+      "weight": "normal",
+      "bbox_pt": [
+        374.4988188976378,
+        311.84566929133865,
+        484.39881889763785,
+        317.4456692913386
+      ]
+    },
+    {
+      "text": "c",
+      "gid": "panel_c",
+      "fontsize": 8.0,
+      "weight": "bold",
+      "bbox_pt": [
+        2.834645669291339,
+        254.1527559055118,
+        7.28464566929134,
+        261.75275590551183
+      ]
+    },
+    {
+      "text": "Owner histories strengthen with partners",
+      "gid": "panel_title_c",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        17.007874015748033,
+        254.3527559055118,
+        142.70787401574802,
+        261.5527559055118
+      ]
+    },
+    {
+      "text": "Yield profile; amplitude included",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        17.007874015748033,
+        237.3448818897638,
+        115.65787401574802,
+        244.54488188976381
+      ]
+    },
+    {
+      "text": "Same 310 held-out pairs",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        336.02322834645673,
+        237.3448818897638,
+        412.32322834645674,
+        244.54488188976381
+      ]
+    },
+    {
+      "text": "Set A",
+      "gid": "5a_pooled_label_Set A",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        200.67117178709384,
+        477.98184870400024,
+        229.37117178709386,
+        487.18380182900023
+      ]
+    },
+    {
+      "text": "partner record longer:\n167 vs 121 (Set A)",
+      "gid": "5a_history_depth_SetA",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        208.67117178709384,
+        496.98380182900024,
+        276.17117178709384,
+        511.3838018290002
+      ]
+    },
+    {
+      "text": "Set B",
+      "gid": "5a_pooled_label_Set B",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        182.2259439443952,
+        417.7309162657395,
+        221.3264322256452,
+        440.9309162657395
+      ]
+    },
+    {
+      "text": "Partner: preference explained (%)",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        131.601968503937,
+        274.7377952755906,
+        236.90196850393704,
+        281.9377952755906
+      ]
+    },
+    {
+      "text": "−20",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        42.23897637795273,
+        284.9377952755906,
+        54.13897637795273,
+        292.1377952755906
+      ]
+    },
+    {
+      "text": "0",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        157.31080668487866,
+        284.9377952755906,
+        161.21080668487866,
+        292.1377952755906
+      ]
+    },
+    {
+      "text": "20",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        266.4326369918046,
+        284.9377952755906,
+        274.2326369918046,
+        292.1377952755906
+      ]
+    },
+    {
+      "text": "Owner: preference explained (%)",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        24.688976377952752,
+        362.4082677165355,
+        31.88897637795276,
+        465.30826771653545
+      ]
+    },
+    {
+      "text": "0",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        38.78897637795276,
+        339.72598425196855,
+        42.688976377952756,
+        346.92598425196854
+      ]
+    },
+    {
+      "text": "10",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        34.88897637795276,
+        397.836220472441,
+        42.688976377952756,
+        405.036220472441
+      ]
+    },
+    {
+      "text": "20",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        34.88897637795276,
+        455.9464566929135,
+        42.688976377952756,
+        463.1464566929135
+      ]
+    },
+    {
+      "text": "30",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        34.88897637795276,
+        514.0566929133859,
+        42.688976377952756,
+        521.2566929133859
+      ]
+    },
+    {
+      "text": "Halide",
+      "gid": "5a_role_Halide",
+      "fontsize": 6.0,
+      "weight": "normal",
+      "bbox_pt": [
+        63.99212598425198,
+        453.54645669291347,
+        81.04212598425198,
+        459.1464566929135
+      ]
+    },
+    {
+      "text": "Amine / N–H",
+      "gid": "5a_role_Amine / N–H",
+      "fontsize": 6.0,
+      "weight": "normal",
+      "bbox_pt": [
+        93.64212598425198,
+        453.54645669291347,
+        127.79212598425198,
+        459.1464566929135
+      ]
+    },
+    {
+      "text": "Other",
+      "gid": "5a_role_Other",
+      "fontsize": 6.0,
+      "weight": "normal",
+      "bbox_pt": [
+        140.39212598425198,
+        453.54645669291347,
+        155.39212598425198,
+        459.1464566929135
+      ]
+    },
+    {
+      "text": "Set A",
+      "gid": "5a_set_Set A",
+      "fontsize": 6.0,
+      "weight": "normal",
+      "bbox_pt": [
+        167.99212598425197,
+        453.54645669291347,
+        182.29212598425195,
+        459.1464566929135
+      ]
+    },
+    {
+      "text": "Set B",
+      "gid": "5a_set_Set B",
+      "fontsize": 6.0,
+      "weight": "normal",
+      "bbox_pt": [
+        194.89212598425195,
+        453.54645669291347,
+        209.54212598425195,
+        459.1464566929135
+      ]
+    },
+    {
+      "text": "+10.0",
+      "gid": "5b_difference_0",
+      "fontsize": 6.0,
+      "weight": "normal",
+      "bbox_pt": [
+        470.7149351458138,
+        473.9874015748033,
+        485.9649351458138,
+        479.58740157480327
+      ]
+    },
+    {
+      "text": "+7.3",
+      "gid": "5b_difference_1",
+      "fontsize": 6.0,
+      "weight": "normal",
+      "bbox_pt": [
+        446.33447810895797,
+        425.7984251968504,
+        458.184478108958,
+        431.39842519685044
+      ]
+    },
+    {
+      "text": "+11.6",
+      "gid": "5b_difference_2",
+      "fontsize": 6.0,
+      "weight": "normal",
+      "bbox_pt": [
+        469.08410135776955,
+        377.6094488188977,
+        483.88410135776957,
+        383.20944881889767
+      ]
+    },
+    {
+      "text": "0",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        397.73503937007877,
+        338.796062992126,
+        401.63503937007874,
+        345.99606299212604
+      ]
+    },
+    {
+      "text": "8",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        440.25472440944884,
+        338.796062992126,
+        444.1547244094488,
+        345.99606299212604
+      ]
+    },
+    {
+      "text": "16",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        480.8494094488189,
+        338.796062992126,
+        488.5994094488189,
+        345.99606299212604
+      ]
+    },
+    {
+      "text": "dashed: partner",
+      "gid": "5c_partner_style_key",
+      "fontsize": 6.0,
+      "weight": "normal",
+      "bbox_pt": [
+        66.79904142416981,
+        41.71811023622045,
+        108.79904142416981,
+        47.31811023622045
+      ]
+    },
+    {
+      "text": "Amide coupling",
+      "gid": "5c_screen_label_Acylation|1_owner",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        378.76343717904825,
+        192.40397769579351,
+        426.6634371790483,
+        199.6039776957935
+      ]
+    },
+    {
+      "text": "Amide coupling",
+      "gid": "5c_screen_label_Acylation|1_partner",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        378.76343717904825,
+        97.35065064408599,
+        426.6634371790483,
+        104.55065064408599
+      ]
+    },
+    {
+      "text": "Suzuki",
+      "gid": "5c_screen_label_Suzuki|1_owner",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        378.76343717904825,
+        155.93583928594944,
+        399.76343717904825,
+        163.13583928594943
+      ]
+    },
+    {
+      "text": "Suzuki",
+      "gid": "5c_screen_label_Suzuki|1_partner",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        378.76343717904825,
+        45.40047762543076,
+        399.76343717904825,
+        52.60047762543075
+      ]
+    },
+    {
+      "text": "Owner",
+      "gid": "5c_endpoint_owner",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        378.76343717904825,
+        176.8188851560661,
+        399.4134371790483,
+        184.01888515606612
+      ]
+    },
+    {
+      "text": "Partner",
+      "gid": "5c_endpoint_partner",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        378.76343717904825,
+        86.3774159963879,
+        401.81343717904826,
+        93.5774159963879
+      ]
+    },
+    {
+      "text": "Earlier partners",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        238.2297244094488,
+        16.785039370078717,
+        286.1797244094488,
+        23.985039370078717
+      ]
+    },
+    {
+      "text": "1",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        58.64568640876412,
+        26.985039370078717,
+        62.54568640876412,
+        34.18503937007871
+      ]
+    },
+    {
+      "text": "2",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        120.67923656282096,
+        26.985039370078717,
+        124.57923656282095,
+        34.18503937007871
+      ]
+    },
+    {
+      "text": "3",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        182.71278671687776,
+        26.985039370078717,
+        186.61278671687776,
+        34.18503937007871
+      ]
+    },
+    {
+      "text": "4",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        244.74633687093458,
+        26.985039370078717,
+        248.6463368709346,
+        34.18503937007871
+      ]
+    },
+    {
+      "text": "6",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        368.8384371790483,
+        26.985039370078717,
+        372.68843717904826,
+        34.18503937007871
+      ]
+    },
+    {
+      "text": "Yield profile explained (%)",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        24.688976377952752,
+        86.98405511811022,
+        31.88897637795276,
+        168.1340551181102
+      ]
+    },
+    {
+      "text": "0",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        38.78897637795276,
+        66.04094488188974,
+        42.688976377952756,
+        73.24094488188975
+      ]
+    },
+    {
+      "text": "10",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        34.88897637795276,
+        109.97795275590549,
+        42.688976377952756,
+        117.17795275590548
+      ]
+    },
+    {
+      "text": "20",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        34.88897637795276,
+        153.91496062992124,
+        42.688976377952756,
+        161.11496062992126
+      ]
+    },
+    {
+      "text": "30",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        34.88897637795276,
+        197.851968503937,
+        42.688976377952756,
+        205.051968503937
+      ]
+    }
+  ],
+  "pdf_raster_images": 0,
+  "annotation_to_marker_clearance": [
+    {
+      "gid": "5a_pooled_label_Set A",
+      "text": "Set A",
+      "nearest_marker_clearance_pt": 3.935763141677436
+    },
+    {
+      "gid": "5a_history_depth_SetA",
+      "text": "partner record longer:\n167 vs 121 (Set A)",
+      "nearest_marker_clearance_pt": 5.9617834266401175
+    },
+    {
+      "gid": "5a_pooled_label_Set B",
+      "text": "Set B",
+      "nearest_marker_clearance_pt": 4.255232149199266
+    },
+    {
+      "gid": "5b_difference_0",
+      "text": "+10.0",
+      "nearest_marker_clearance_pt": 2.85
+    },
+    {
+      "gid": "5b_difference_1",
+      "text": "+7.3",
+      "nearest_marker_clearance_pt": 2.85
+    },
+    {
+      "gid": "5b_difference_2",
+      "text": "+11.6",
+      "nearest_marker_clearance_pt": 2.85
+    },
+    {
+      "gid": "5c_partner_style_key",
+      "text": "dashed: partner",
+      "nearest_marker_clearance_pt": 25.707083827226267
+    },
+    {
+      "gid": "5c_screen_label_Acylation|1_owner",
+      "text": "Amide coupling",
+      "nearest_marker_clearance_pt": 12.759803717810627
+    },
+    {
+      "gid": "5c_screen_label_Acylation|1_partner",
+      "text": "Amide coupling",
+      "nearest_marker_clearance_pt": 9.229549125309186
+    },
+    {
+      "gid": "5c_screen_label_Suzuki|1_owner",
+      "text": "Suzuki",
+      "nearest_marker_clearance_pt": 17.394780769243756
+    },
+    {
+      "gid": "5c_screen_label_Suzuki|1_partner",
+      "text": "Suzuki",
+      "nearest_marker_clearance_pt": 36.57349437173853
+    },
+    {
+      "gid": "5c_endpoint_owner",
+      "text": "Owner",
+      "nearest_marker_clearance_pt": 6.35
+    },
+    {
+      "gid": "5c_endpoint_partner",
+      "text": "Partner",
+      "nearest_marker_clearance_pt": 6.35
+    }
+  ],
+  "local_label_clearance": [
+    {
+      "gid": "5a_history_depth_SetA",
+      "text": "partner record longer:\n167 vs 121 (Set A)",
+      "nearest_data_marker_gap_pt": 5.9617834266401175,
+      "nearest_text_gap_pt": 9.8,
+      "nearest_same_role_marker_gap_pt": null,
+      "pooled_SetA_marker_gap_pt": 19.17220505424424
+    },
+    {
+      "gid": "5a_role_Halide",
+      "text": "Halide",
+      "nearest_data_marker_gap_pt": 37.631759321184326,
+      "nearest_text_gap_pt": 12.6,
+      "nearest_same_role_marker_gap_pt": null,
+      "legend_group_to_scatter_gap_pt": 10.869601013771444
+    },
+    {
+      "gid": "5a_role_Amine / N–H",
+      "text": "Amine / N–H",
+      "nearest_data_marker_gap_pt": 10.869601013771444,
+      "nearest_text_gap_pt": 12.6,
+      "nearest_same_role_marker_gap_pt": null,
+      "legend_group_to_scatter_gap_pt": 10.869601013771444
+    },
+    {
+      "gid": "5a_role_Other",
+      "text": "Other",
+      "nearest_data_marker_gap_pt": 16.646890978567356,
+      "nearest_text_gap_pt": 12.6,
+      "nearest_same_role_marker_gap_pt": null,
+      "legend_group_to_scatter_gap_pt": 10.869601013771444
+    },
+    {
+      "gid": "5a_set_Set A",
+      "text": "Set A",
+      "nearest_data_marker_gap_pt": 14.970433105580012,
+      "nearest_text_gap_pt": 12.6,
+      "nearest_same_role_marker_gap_pt": null
+    },
+    {
+      "gid": "5a_set_Set B",
+      "text": "Set B",
+      "nearest_data_marker_gap_pt": 4.181646320346408,
+      "nearest_text_gap_pt": 12.6,
+      "nearest_same_role_marker_gap_pt": null
+    }
+  ],
+  "annotation_line_clearance": [
+    {
+      "gid": "5a_pooled_label_Set A",
+      "text": "Set A",
+      "line_gaps": [
+        {
+          "line": "5a_reference_diagonal",
+          "gap_pt": 42.930310595054365
+        },
+        {
+          "line": "5a_reference_zero_y",
+          "gap_pt": 135.6078175770317
+        },
+        {
+          "line": "5a_reference_zero_x",
+          "gap_pt": 53.1603651022152
+        },
+        {
+          "line": "5a_pooled_label_Set B",
+          "gap_pt": 50.70704643418693
+        }
+      ],
+      "nearest_independent_line_gap_pt": 42.930310595054365
+    },
+    {
+      "gid": "5a_history_depth_SetA",
+      "text": "partner record longer:\n167 vs 121 (Set A)",
+      "line_gaps": [
+        {
+          "line": "5a_reference_diagonal",
+          "gap_pt": 20.842282278605587
+        },
+        {
+          "line": "5a_reference_zero_y",
+          "gap_pt": 152.6078175770317
+        },
+        {
+          "line": "5a_reference_zero_x",
+          "gap_pt": 49.1603651022152
+        },
+        {
+          "line": "5a_pooled_label_Set A",
+          "gap_pt": 16.75000000343675
+        },
+        {
+          "line": "5a_pooled_label_Set B",
+          "gap_pt": 67.14914957926932
+        }
+      ],
+      "nearest_independent_line_gap_pt": 16.75000000343675
+    },
+    {
+      "gid": "5a_pooled_label_Set B",
+      "text": "Set B",
+      "line_gaps": [
+        {
+          "line": "5a_reference_diagonal",
+          "gap_pt": 16.789485944935336
+        },
+        {
+          "line": "5a_reference_zero_y",
+          "gap_pt": 89.35493201377093
+        },
+        {
+          "line": "5a_reference_zero_x",
+          "gap_pt": 44.71562554076654
+        },
+        {
+          "line": "5a_pooled_label_Set A",
+          "gap_pt": 36.97111593343881
+        }
+      ],
+      "nearest_independent_line_gap_pt": 16.789485944935336
+    }
+  ]
+}

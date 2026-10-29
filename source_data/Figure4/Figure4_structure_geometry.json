@@ -1,0 +1,1229 @@
+[
+  {
+    "cdxml": "02_FIGURES/ChemDraw/Fig2_B_halide.cdxml",
+    "sha256": "9df673579e87915e46f2e7b787dda2b5ec9b3b303ef8339c0703463605b55673",
+    "master_BondLength": "14.40",
+    "master_LabelSize": "10",
+    "median_measured_bond_pt": 14.39966839514154,
+    "all_bond_lengths_pt": [
+      14.399336790283103,
+      14.400000000000034,
+      14.399336790283055,
+      14.399999999999977,
+      14.399336790283103,
+      14.400000000000034,
+      14.399336790283103,
+      14.399999999999977,
+      14.40000347222181,
+      14.399336790283055
+    ],
+    "all_atom_angles": [
+      {
+        "node": "3",
+        "neighbors": [
+          "2",
+          "4"
+        ],
+        "angle_deg": 120.00152360970326,
+        "degree": 3
+      },
+      {
+        "node": "3",
+        "neighbors": [
+          "2",
+          "9"
+        ],
+        "angle_deg": 119.99695278059339,
+        "degree": 3
+      },
+      {
+        "node": "3",
+        "neighbors": [
+          "4",
+          "9"
+        ],
+        "angle_deg": 120.00152360970338,
+        "degree": 3
+      },
+      {
+        "node": "4",
+        "neighbors": [
+          "3",
+          "5"
+        ],
+        "angle_deg": 120.00152360970338,
+        "degree": 2
+      },
+      {
+        "node": "5",
+        "neighbors": [
+          "4",
+          "6"
+        ],
+        "angle_deg": 120.00152360970338,
+        "degree": 3
+      },
+      {
+        "node": "5",
+        "neighbors": [
+          "4",
+          "7"
+        ],
+        "angle_deg": 119.99695278059339,
+        "degree": 3
+      },
+      {
+        "node": "5",
+        "neighbors": [
+          "6",
+          "7"
+        ],
+        "angle_deg": 120.00152360970326,
+        "degree": 3
+      },
+      {
+        "node": "7",
+        "neighbors": [
+          "5",
+          "8"
+        ],
+        "angle_deg": 120.00152360970326,
+        "degree": 2
+      },
+      {
+        "node": "8",
+        "neighbors": [
+          "7",
+          "9"
+        ],
+        "angle_deg": 120.00152360970328,
+        "degree": 2
+      },
+      {
+        "node": "9",
+        "neighbors": [
+          "8",
+          "10"
+        ],
+        "angle_deg": 120.00152360970326,
+        "degree": 3
+      },
+      {
+        "node": "9",
+        "neighbors": [
+          "8",
+          "3"
+        ],
+        "angle_deg": 119.99695278059339,
+        "degree": 3
+      },
+      {
+        "node": "9",
+        "neighbors": [
+          "10",
+          "3"
+        ],
+        "angle_deg": 120.00152360970338,
+        "degree": 3
+      },
+      {
+        "node": "10",
+        "neighbors": [
+          "9",
+          "11"
+        ],
+        "angle_deg": 179.96021127062085,
+        "degree": 2
+      }
+    ],
+    "source_geometry_unmodified": true,
+    "uniform_print_factor": 0.7
+  },
+  {
+    "cdxml": "02_FIGURES/ChemDraw/Fig2_b_M1.cdxml",
+    "sha256": "3447eb31df2adbc7d8e4d1f2d5ca1e64d24e13ae4c92c3efa98309c40d2cbe93",
+    "master_BondLength": "14.40",
+    "master_LabelSize": "10",
+    "median_measured_bond_pt": 14.39966839514154,
+    "all_bond_lengths_pt": [
+      14.399999999999977,
+      14.399336790283055,
+      14.410000000000025,
+      14.394339165102343,
+      14.399999999999977,
+      14.399336790283103,
+      14.400000000000034,
+      14.399336790283103
+    ],
+    "all_atom_angles": [
+      {
+        "node": "3",
+        "neighbors": [
+          "2",
+          "4"
+        ],
+        "angle_deg": 120.00152360970338,
+        "degree": 3
+      },
+      {
+        "node": "3",
+        "neighbors": [
+          "2",
+          "9"
+        ],
+        "angle_deg": 120.00152360970326,
+        "degree": 3
+      },
+      {
+        "node": "3",
+        "neighbors": [
+          "4",
+          "9"
+        ],
+        "angle_deg": 119.99695278059339,
+        "degree": 3
+      },
+      {
+        "node": "4",
+        "neighbors": [
+          "3",
+          "5"
+        ],
+        "angle_deg": 120.00152360970338,
+        "degree": 2
+      },
+      {
+        "node": "5",
+        "neighbors": [
+          "4",
+          "6"
+        ],
+        "angle_deg": 119.96705252965603,
+        "degree": 2
+      },
+      {
+        "node": "6",
+        "neighbors": [
+          "5",
+          "7"
+        ],
+        "angle_deg": 119.96705252965603,
+        "degree": 3
+      },
+      {
+        "node": "6",
+        "neighbors": [
+          "5",
+          "8"
+        ],
+        "angle_deg": 120.03142386064071,
+        "degree": 3
+      },
+      {
+        "node": "6",
+        "neighbors": [
+          "7",
+          "8"
+        ],
+        "angle_deg": 120.00152360970326,
+        "degree": 3
+      },
+      {
+        "node": "8",
+        "neighbors": [
+          "6",
+          "9"
+        ],
+        "angle_deg": 120.00152360970326,
+        "degree": 2
+      },
+      {
+        "node": "9",
+        "neighbors": [
+          "8",
+          "3"
+        ],
+        "angle_deg": 120.00152360970328,
+        "degree": 2
+      }
+    ],
+    "source_geometry_unmodified": true,
+    "uniform_print_factor": 0.7
+  },
+  {
+    "cdxml": "02_FIGURES/ChemDraw/Fig2_b_M2.cdxml",
+    "sha256": "65a5f698b9bec88021d18f45b6bb0df19ebee42dc4f866482deefed04ab1efea",
+    "master_BondLength": "14.40",
+    "master_LabelSize": "10",
+    "median_measured_bond_pt": 14.39966839514154,
+    "all_bond_lengths_pt": [
+      14.399999999999977,
+      14.399336790283103,
+      14.410000000000025,
+      14.394339165102393,
+      14.399999999999977,
+      14.399336790283055,
+      14.400000000000034,
+      14.399336790283055
+    ],
+    "all_atom_angles": [
+      {
+        "node": "3",
+        "neighbors": [
+          "2",
+          "4"
+        ],
+        "angle_deg": 120.00152360970326,
+        "degree": 3
+      },
+      {
+        "node": "3",
+        "neighbors": [
+          "2",
+          "9"
+        ],
+        "angle_deg": 120.00152360970338,
+        "degree": 3
+      },
+      {
+        "node": "3",
+        "neighbors": [
+          "4",
+          "9"
+        ],
+        "angle_deg": 119.99695278059339,
+        "degree": 3
+      },
+      {
+        "node": "4",
+        "neighbors": [
+          "3",
+          "5"
+        ],
+        "angle_deg": 120.00152360970326,
+        "degree": 2
+      },
+      {
+        "node": "5",
+        "neighbors": [
+          "4",
+          "6"
+        ],
+        "angle_deg": 119.96705252965593,
+        "degree": 2
+      },
+      {
+        "node": "6",
+        "neighbors": [
+          "5",
+          "7"
+        ],
+        "angle_deg": 119.96705252965593,
+        "degree": 3
+      },
+      {
+        "node": "6",
+        "neighbors": [
+          "5",
+          "8"
+        ],
+        "angle_deg": 120.03142386064071,
+        "degree": 3
+      },
+      {
+        "node": "6",
+        "neighbors": [
+          "7",
+          "8"
+        ],
+        "angle_deg": 120.00152360970338,
+        "degree": 3
+      },
+      {
+        "node": "8",
+        "neighbors": [
+          "6",
+          "9"
+        ],
+        "angle_deg": 120.00152360970338,
+        "degree": 2
+      },
+      {
+        "node": "9",
+        "neighbors": [
+          "8",
+          "3"
+        ],
+        "angle_deg": 120.00152360970338,
+        "degree": 2
+      }
+    ],
+    "source_geometry_unmodified": true,
+    "uniform_print_factor": 0.7
+  },
+  {
+    "cdxml": "02_FIGURES/ChemDraw/Fig2_b_M3.cdxml",
+    "sha256": "420296a1f7f1a095e867baafd932aa89dc6236cafd7215cf416e47337ab1ebd9",
+    "master_BondLength": "14.40",
+    "master_LabelSize": "10",
+    "median_measured_bond_pt": 14.399336790283103,
+    "all_bond_lengths_pt": [
+      14.399336790283055,
+      14.399999999999977,
+      14.399336790283103,
+      14.399336790283055,
+      14.399999999999977,
+      14.399336790283055,
+      14.400000000000034,
+      14.399336790283103
+    ],
+    "all_atom_angles": [
+      {
+        "node": "3",
+        "neighbors": [
+          "2",
+          "4"
+        ],
+        "angle_deg": 120.00152360970338,
+        "degree": 3
+      },
+      {
+        "node": "3",
+        "neighbors": [
+          "2",
+          "8"
+        ],
+        "angle_deg": 119.99695278059339,
+        "degree": 3
+      },
+      {
+        "node": "3",
+        "neighbors": [
+          "4",
+          "8"
+        ],
+        "angle_deg": 120.00152360970326,
+        "degree": 3
+      },
+      {
+        "node": "4",
+        "neighbors": [
+          "3",
+          "5"
+        ],
+        "angle_deg": 120.00152360970326,
+        "degree": 2
+      },
+      {
+        "node": "5",
+        "neighbors": [
+          "4",
+          "6"
+        ],
+        "angle_deg": 119.99695278059339,
+        "degree": 2
+      },
+      {
+        "node": "6",
+        "neighbors": [
+          "5",
+          "7"
+        ],
+        "angle_deg": 120.00152360970338,
+        "degree": 2
+      },
+      {
+        "node": "7",
+        "neighbors": [
+          "6",
+          "8"
+        ],
+        "angle_deg": 120.00152360970338,
+        "degree": 2
+      },
+      {
+        "node": "8",
+        "neighbors": [
+          "7",
+          "9"
+        ],
+        "angle_deg": 120.00152360970338,
+        "degree": 3
+      },
+      {
+        "node": "8",
+        "neighbors": [
+          "7",
+          "3"
+        ],
+        "angle_deg": 119.99695278059339,
+        "degree": 3
+      },
+      {
+        "node": "8",
+        "neighbors": [
+          "9",
+          "3"
+        ],
+        "angle_deg": 120.00152360970328,
+        "degree": 3
+      }
+    ],
+    "source_geometry_unmodified": true,
+    "uniform_print_factor": 0.7
+  },
+  {
+    "cdxml": "02_FIGURES/ChemDraw/Fig2_b_M4.cdxml",
+    "sha256": "2ee29e885bffdd9a9d434e59ca644c9a92d45b36a9e021cd05797fd283cbb448",
+    "master_BondLength": "14.40",
+    "master_LabelSize": "10",
+    "median_measured_bond_pt": 14.399336790283103,
+    "all_bond_lengths_pt": [
+      14.399336790283103,
+      14.400000000000034,
+      14.404339623877208,
+      14.389999999999986,
+      14.399336790283055,
+      14.400000000000034,
+      14.399336790283103,
+      14.399999999999977,
+      14.399336790283103
+    ],
+    "all_atom_angles": [
+      {
+        "node": "3",
+        "neighbors": [
+          "2",
+          "4"
+        ],
+        "angle_deg": 120.00152360970326,
+        "degree": 2
+      },
+      {
+        "node": "4",
+        "neighbors": [
+          "3",
+          "5"
+        ],
+        "angle_deg": 120.03597075761185,
+        "degree": 3
+      },
+      {
+        "node": "4",
+        "neighbors": [
+          "3",
+          "10"
+        ],
+        "angle_deg": 120.00152360970328,
+        "degree": 3
+      },
+      {
+        "node": "4",
+        "neighbors": [
+          "5",
+          "10"
+        ],
+        "angle_deg": 119.96250563268492,
+        "degree": 3
+      },
+      {
+        "node": "5",
+        "neighbors": [
+          "4",
+          "6"
+        ],
+        "angle_deg": 120.03597075761185,
+        "degree": 2
+      },
+      {
+        "node": "6",
+        "neighbors": [
+          "5",
+          "7"
+        ],
+        "angle_deg": 120.00152360970338,
+        "degree": 2
+      },
+      {
+        "node": "7",
+        "neighbors": [
+          "6",
+          "8"
+        ],
+        "angle_deg": 120.00152360970338,
+        "degree": 3
+      },
+      {
+        "node": "7",
+        "neighbors": [
+          "6",
+          "9"
+        ],
+        "angle_deg": 119.99695278059339,
+        "degree": 3
+      },
+      {
+        "node": "7",
+        "neighbors": [
+          "8",
+          "9"
+        ],
+        "angle_deg": 120.00152360970328,
+        "degree": 3
+      },
+      {
+        "node": "9",
+        "neighbors": [
+          "7",
+          "10"
+        ],
+        "angle_deg": 120.00152360970326,
+        "degree": 2
+      },
+      {
+        "node": "10",
+        "neighbors": [
+          "9",
+          "4"
+        ],
+        "angle_deg": 120.00152360970326,
+        "degree": 2
+      }
+    ],
+    "source_geometry_unmodified": true,
+    "uniform_print_factor": 0.7
+  },
+  {
+    "cdxml": "02_FIGURES/ChemDraw/Fig2_b_M5.cdxml",
+    "sha256": "0d8f151d31e2223c6633d647d33291b72eb122d1a219e87d293dbffe02fdbcbe",
+    "master_BondLength": "14.40",
+    "master_LabelSize": "10",
+    "median_measured_bond_pt": 14.399336790283103,
+    "all_bond_lengths_pt": [
+      14.399336790283103,
+      14.400000000000034,
+      14.404339623877208,
+      14.389999999999986,
+      14.399336790283055,
+      14.400000000000034,
+      14.399336790283103,
+      14.399999999999977,
+      14.399336790283103
+    ],
+    "all_atom_angles": [
+      {
+        "node": "3",
+        "neighbors": [
+          "2",
+          "4"
+        ],
+        "angle_deg": 120.00152360970326,
+        "degree": 2
+      },
+      {
+        "node": "4",
+        "neighbors": [
+          "3",
+          "5"
+        ],
+        "angle_deg": 120.03597075761185,
+        "degree": 3
+      },
+      {
+        "node": "4",
+        "neighbors": [
+          "3",
+          "10"
+        ],
+        "angle_deg": 120.00152360970328,
+        "degree": 3
+      },
+      {
+        "node": "4",
+        "neighbors": [
+          "5",
+          "10"
+        ],
+        "angle_deg": 119.96250563268492,
+        "degree": 3
+      },
+      {
+        "node": "5",
+        "neighbors": [
+          "4",
+          "6"
+        ],
+        "angle_deg": 120.03597075761185,
+        "degree": 2
+      },
+      {
+        "node": "6",
+        "neighbors": [
+          "5",
+          "7"
+        ],
+        "angle_deg": 120.00152360970338,
+        "degree": 2
+      },
+      {
+        "node": "7",
+        "neighbors": [
+          "6",
+          "8"
+        ],
+        "angle_deg": 120.00152360970338,
+        "degree": 3
+      },
+      {
+        "node": "7",
+        "neighbors": [
+          "6",
+          "9"
+        ],
+        "angle_deg": 119.99695278059339,
+        "degree": 3
+      },
+      {
+        "node": "7",
+        "neighbors": [
+          "8",
+          "9"
+        ],
+        "angle_deg": 120.00152360970328,
+        "degree": 3
+      },
+      {
+        "node": "9",
+        "neighbors": [
+          "7",
+          "10"
+        ],
+        "angle_deg": 120.00152360970326,
+        "degree": 2
+      },
+      {
+        "node": "10",
+        "neighbors": [
+          "9",
+          "4"
+        ],
+        "angle_deg": 120.00152360970326,
+        "degree": 2
+      }
+    ],
+    "source_geometry_unmodified": true,
+    "uniform_print_factor": 0.7
+  },
+  {
+    "cdxml": "02_FIGURES/ChemDraw/Fig2_b_M6.cdxml",
+    "sha256": "1484c447c0bc369674d3b083a0591c964855a1d91365337252892f62b26d694a",
+    "master_BondLength": "14.40",
+    "master_LabelSize": "10",
+    "median_measured_bond_pt": 14.399999999999977,
+    "all_bond_lengths_pt": [
+      14.399999999999977,
+      14.399336790283055,
+      14.407997779011499,
+      14.39568338079159,
+      14.400000000000034,
+      14.399336790283055,
+      14.399999999999977,
+      14.404339623877256,
+      14.400000000000034
+    ],
+    "all_atom_angles": [
+      {
+        "node": "3",
+        "neighbors": [
+          "2",
+          "4"
+        ],
+        "angle_deg": 120.00152360970338,
+        "degree": 2
+      },
+      {
+        "node": "4",
+        "neighbors": [
+          "3",
+          "5"
+        ],
+        "angle_deg": 120.01683702144737,
+        "degree": 3
+      },
+      {
+        "node": "4",
+        "neighbors": [
+          "3",
+          "10"
+        ],
+        "angle_deg": 120.00152360970338,
+        "degree": 3
+      },
+      {
+        "node": "4",
+        "neighbors": [
+          "5",
+          "10"
+        ],
+        "angle_deg": 119.98163936884927,
+        "degree": 3
+      },
+      {
+        "node": "5",
+        "neighbors": [
+          "4",
+          "6"
+        ],
+        "angle_deg": 119.96246790421107,
+        "degree": 2
+      },
+      {
+        "node": "6",
+        "neighbors": [
+          "5",
+          "7"
+        ],
+        "angle_deg": 120.05589272693969,
+        "degree": 2
+      },
+      {
+        "node": "7",
+        "neighbors": [
+          "6",
+          "8"
+        ],
+        "angle_deg": 120.00152360970338,
+        "degree": 2
+      },
+      {
+        "node": "8",
+        "neighbors": [
+          "7",
+          "9"
+        ],
+        "angle_deg": 120.00152360970338,
+        "degree": 3
+      },
+      {
+        "node": "8",
+        "neighbors": [
+          "7",
+          "10"
+        ],
+        "angle_deg": 119.96250563268492,
+        "degree": 3
+      },
+      {
+        "node": "8",
+        "neighbors": [
+          "9",
+          "10"
+        ],
+        "angle_deg": 120.03597075761172,
+        "degree": 3
+      },
+      {
+        "node": "10",
+        "neighbors": [
+          "8",
+          "4"
+        ],
+        "angle_deg": 120.03597075761172,
+        "degree": 2
+      }
+    ],
+    "source_geometry_unmodified": true,
+    "uniform_print_factor": 0.7
+  },
+  {
+    "cdxml": "02_FIGURES/ChemDraw/Fig2_b_M7.cdxml",
+    "sha256": "6fb64563fb20514cd7976fdb247b91cc6684e22ffc0af3a8e4d95402c051f23d",
+    "master_BondLength": "14.40",
+    "master_LabelSize": "10",
+    "median_measured_bond_pt": 14.399336790283103,
+    "all_bond_lengths_pt": [
+      14.399999999999977,
+      14.399336790283103,
+      14.400000000000034,
+      14.399336790283103,
+      14.399999999999977,
+      14.399336790283055,
+      14.399336790283103,
+      14.400000000000034,
+      14.399336790283055
+    ],
+    "all_atom_angles": [
+      {
+        "node": "3",
+        "neighbors": [
+          "2",
+          "4"
+        ],
+        "angle_deg": 120.00152360970326,
+        "degree": 3
+      },
+      {
+        "node": "3",
+        "neighbors": [
+          "2",
+          "10"
+        ],
+        "angle_deg": 120.00152360970338,
+        "degree": 3
+      },
+      {
+        "node": "3",
+        "neighbors": [
+          "4",
+          "10"
+        ],
+        "angle_deg": 119.99695278059339,
+        "degree": 3
+      },
+      {
+        "node": "4",
+        "neighbors": [
+          "3",
+          "5"
+        ],
+        "angle_deg": 120.00152360970326,
+        "degree": 2
+      },
+      {
+        "node": "5",
+        "neighbors": [
+          "4",
+          "6"
+        ],
+        "angle_deg": 120.00152360970328,
+        "degree": 2
+      },
+      {
+        "node": "6",
+        "neighbors": [
+          "5",
+          "7"
+        ],
+        "angle_deg": 120.00152360970326,
+        "degree": 3
+      },
+      {
+        "node": "6",
+        "neighbors": [
+          "5",
+          "8"
+        ],
+        "angle_deg": 119.99695278059339,
+        "degree": 3
+      },
+      {
+        "node": "6",
+        "neighbors": [
+          "7",
+          "8"
+        ],
+        "angle_deg": 120.00152360970338,
+        "degree": 3
+      },
+      {
+        "node": "8",
+        "neighbors": [
+          "6",
+          "9"
+        ],
+        "angle_deg": 119.99695278059339,
+        "degree": 3
+      },
+      {
+        "node": "8",
+        "neighbors": [
+          "6",
+          "10"
+        ],
+        "angle_deg": 120.00152360970338,
+        "degree": 3
+      },
+      {
+        "node": "8",
+        "neighbors": [
+          "9",
+          "10"
+        ],
+        "angle_deg": 120.00152360970326,
+        "degree": 3
+      },
+      {
+        "node": "10",
+        "neighbors": [
+          "8",
+          "3"
+        ],
+        "angle_deg": 120.00152360970338,
+        "degree": 2
+      }
+    ],
+    "source_geometry_unmodified": true,
+    "uniform_print_factor": 0.7
+  },
+  {
+    "cdxml": "02_FIGURES/ChemDraw/Fig2_b_M8.cdxml",
+    "sha256": "0f25422863e0995e1a71b6b826b6cbc2a11405df45586e3e6b62782253c7b930",
+    "master_BondLength": "14.40",
+    "master_LabelSize": "10",
+    "median_measured_bond_pt": 14.399668395141555,
+    "all_bond_lengths_pt": [
+      14.400000000000034,
+      14.399336790283103,
+      14.399999999999977,
+      14.399336790283133,
+      14.399999999999977,
+      14.399336790283055,
+      14.404339623877256,
+      14.400000000000034,
+      14.394339165102393,
+      14.399999999999977,
+      14.399336790283055,
+      14.399336790283083
+    ],
+    "all_atom_angles": [
+      {
+        "node": "3",
+        "neighbors": [
+          "2",
+          "4"
+        ],
+        "angle_deg": 120.00152360970328,
+        "degree": 3
+      },
+      {
+        "node": "3",
+        "neighbors": [
+          "2",
+          "12"
+        ],
+        "angle_deg": 120.00152360970338,
+        "degree": 3
+      },
+      {
+        "node": "3",
+        "neighbors": [
+          "4",
+          "12"
+        ],
+        "angle_deg": 119.99695278059339,
+        "degree": 3
+      },
+      {
+        "node": "4",
+        "neighbors": [
+          "3",
+          "5"
+        ],
+        "angle_deg": 120.00152360970326,
+        "degree": 2
+      },
+      {
+        "node": "5",
+        "neighbors": [
+          "4",
+          "6"
+        ],
+        "angle_deg": 120.00152360970345,
+        "degree": 2
+      },
+      {
+        "node": "6",
+        "neighbors": [
+          "5",
+          "7"
+        ],
+        "angle_deg": 120.00152360970345,
+        "degree": 3
+      },
+      {
+        "node": "6",
+        "neighbors": [
+          "5",
+          "11"
+        ],
+        "angle_deg": 119.99695278059298,
+        "degree": 3
+      },
+      {
+        "node": "6",
+        "neighbors": [
+          "7",
+          "11"
+        ],
+        "angle_deg": 120.00152360970358,
+        "degree": 3
+      },
+      {
+        "node": "7",
+        "neighbors": [
+          "6",
+          "8"
+        ],
+        "angle_deg": 120.00152360970338,
+        "degree": 2
+      },
+      {
+        "node": "8",
+        "neighbors": [
+          "7",
+          "9"
+        ],
+        "angle_deg": 119.96250563268492,
+        "degree": 2
+      },
+      {
+        "node": "9",
+        "neighbors": [
+          "8",
+          "10"
+        ],
+        "angle_deg": 120.03597075761172,
+        "degree": 2
+      },
+      {
+        "node": "10",
+        "neighbors": [
+          "9",
+          "11"
+        ],
+        "angle_deg": 119.96705252965593,
+        "degree": 2
+      },
+      {
+        "node": "11",
+        "neighbors": [
+          "10",
+          "12"
+        ],
+        "angle_deg": 119.96705252965593,
+        "degree": 3
+      },
+      {
+        "node": "11",
+        "neighbors": [
+          "10",
+          "6"
+        ],
+        "angle_deg": 120.0314238606405,
+        "degree": 3
+      },
+      {
+        "node": "11",
+        "neighbors": [
+          "12",
+          "6"
+        ],
+        "angle_deg": 120.00152360970358,
+        "degree": 3
+      },
+      {
+        "node": "12",
+        "neighbors": [
+          "11",
+          "3"
+        ],
+        "angle_deg": 120.00152360970338,
+        "degree": 2
+      }
+    ],
+    "source_geometry_unmodified": true,
+    "uniform_print_factor": 0.7
+  },
+  {
+    "cdxml": "05_DATA/Analysis/figure_display/v6_figure4/structures/Fig2_c_aliphatic2.cdxml",
+    "sha256": "2c37bd5e497bf34730b72b7bfc7a80346d1554831eeef5a778348ab59ef124dd",
+    "master_BondLength": "14.40",
+    "master_LabelSize": "10",
+    "median_measured_bond_pt": 14.398753418265096,
+    "all_bond_lengths_pt": [
+      14.392515416006978,
+      14.398753418265096,
+      14.406640829839525,
+      14.396784363183324,
+      14.398753418265043,
+      14.39992361090848,
+      14.406557534678479
+    ],
+    "all_atom_angles": [
+      {
+        "node": "3",
+        "neighbors": [
+          "2",
+          "4"
+        ],
+        "angle_deg": 119.99471966480361,
+        "degree": 3
+      },
+      {
+        "node": "3",
+        "neighbors": [
+          "2",
+          "8"
+        ],
+        "angle_deg": 119.98956651574836,
+        "degree": 3
+      },
+      {
+        "node": "3",
+        "neighbors": [
+          "4",
+          "8"
+        ],
+        "angle_deg": 120.01571381944801,
+        "degree": 3
+      },
+      {
+        "node": "4",
+        "neighbors": [
+          "3",
+          "5"
+        ],
+        "angle_deg": 119.9919840282703,
+        "degree": 2
+      },
+      {
+        "node": "5",
+        "neighbors": [
+          "4",
+          "6"
+        ],
+        "angle_deg": 119.98387663147244,
+        "degree": 2
+      },
+      {
+        "node": "6",
+        "neighbors": [
+          "5",
+          "7"
+        ],
+        "angle_deg": 120.02413934025734,
+        "degree": 2
+      },
+      {
+        "node": "7",
+        "neighbors": [
+          "6",
+          "8"
+        ],
+        "angle_deg": 120.02145294379159,
+        "degree": 2
+      },
+      {
+        "node": "8",
+        "neighbors": [
+          "7",
+          "3"
+        ],
+        "angle_deg": 119.96283323676032,
+        "degree": 2
+      }
+    ],
+    "source_geometry_unmodified": true,
+    "uniform_print_factor": 0.7
+  }
+]

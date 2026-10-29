@@ -1,13 +1,15 @@
 {
+  "schema": "p2-v7-figure3-native-vector-readback-1",
   "figure": 3,
+  "journal": "natcatal",
   "width_mm": 180.0,
-  "height_mm": 214.0,
-  "width_px": 1133.8582677165355,
-  "height_px": 1348.0314960629923,
-  "dpi": 160,
+  "height_mm": 222.0,
   "panel_titles": {
-    "A": "Aromatic amines",
-    "B": "Molecular contexts"
+    "a": "Pd-catalysed amination",
+    "b": "Halide record follows preference",
+    "c": "Halide retention preserves preference",
+    "d": "Agreement across molecules",
+    "e": "Amine class versus random"
   },
   "texts": [
     {
@@ -16,29 +18,377 @@
       "family": [
         "Arial"
       ],
-      "bbox": [
-        6.299212598425197,
-        1320.1338582677165,
-        9.875,
-        18.0
+      "bbox_pt": [
+        8.503937721252441,
+        7.967194557189941,
+        12.95193862915039,
+        15.967194557189941
       ],
-      "gid": "panel_A",
-      "axes_gid": null
+      "font": "Arial-BoldMT"
     },
     {
-      "text": "Aromatic amines",
-      "fontsize": 8.0,
+      "text": "Pd-catalysed amination",
+      "fontsize": 6.999999523162842,
       "family": [
         "Arial"
       ],
-      "bbox": [
-        37.795275590551185,
-        1320.1338582677165,
-        131.75,
-        18.0
+      "bbox_pt": [
+        22.677167892456055,
+        8.742950439453125,
+        95.42816162109375,
+        15.742949485778809
       ],
-      "gid": "tag_A",
-      "axes_gid": null
+      "font": "ArialMT"
+    },
+    {
+      "text": "+",
+      "fontsize": 7.000004768371582,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        73.70084381103516,
+        55.90692901611328,
+        77.78884887695312,
+        62.90693664550781
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "Pd(OAc)",
+      "fontsize": 7.000004768371582,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        153.07101440429688,
+        31.420133590698242,
+        179.90904235839844,
+        38.42013931274414
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "2",
+      "fontsize": 5.000003814697266,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        179.9210205078125,
+        34.95589828491211,
+        182.70101928710938,
+        39.955902099609375
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": ", BrettPhos",
+      "fontsize": 7.000004768371582,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        182.821044921875,
+        31.420133590698242,
+        217.45005798339844,
+        38.42013931274414
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "K",
+      "fontsize": 7.000004768371582,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        161.57492065429688,
+        45.59337615966797,
+        166.24392700195312,
+        52.593379974365234
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "2",
+      "fontsize": 5.000003814697266,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        166.22491455078125,
+        49.12913131713867,
+        169.00491333007812,
+        54.12913513183594
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "CO",
+      "fontsize": 7.000004768371582,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        169.1249237060547,
+        45.59337615966797,
+        179.6249237060547,
+        52.593379974365234
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "3",
+      "fontsize": 5.000003814697266,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        179.6249237060547,
+        49.12913131713867,
+        182.40492248535156,
+        54.12913513183594
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": ", t-AmOH",
+      "fontsize": 7.000004768371582,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        182.52493286132812,
+        45.59337615966797,
+        211.69393920898438,
+        52.593379974365234
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "91%: best for this pair",
+      "fontsize": 5.000003814697266,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        174.246826171875,
+        81.16065216064453,
+        222.6018524169922,
+        86.16065979003906
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "amines",
+      "fontsize": 5.000003814697266,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        432.1617126464844,
+        98.16850280761719,
+        448.2767028808594,
+        103.16851043701172
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "aryl halides",
+      "fontsize": 5.000003814697266,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        385.98388671875,
+        46.581382751464844,
+        390.98388671875,
+        71.86640167236328
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "Partner replacement",
+      "fontsize": 7.000004768371582,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        411.0238952636719,
+        5.908304214477539,
+        474.4369201660156,
+        12.908308982849121
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "N",
+      "fontsize": 7.000004768371582,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        13.23250961303711,
+        56.383697509765625,
+        18.286514282226562,
+        63.383705139160156
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "N",
+      "fontsize": 7.000004768371582,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        52.17220687866211,
+        45.9447021484375,
+        57.22621154785156,
+        52.94470977783203
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "Cl",
+      "fontsize": 7.000004768371582,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        56.69130325317383,
+        62.808494567871094,
+        63.29930877685547,
+        69.8084945678711
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "N",
+      "fontsize": 7.000004768371582,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        112.52748107910156,
+        64.8797836303711,
+        117.58148193359375,
+        71.8797836303711
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "H",
+      "fontsize": 7.000004768371582,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        89.43251037597656,
+        56.143768310546875,
+        94.48651123046875,
+        63.143775939941406
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "2",
+      "fontsize": 5.000003814697266,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        94.48771667480469,
+        59.23530960083008,
+        97.26771545410156,
+        64.23531341552734
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "N",
+      "fontsize": 7.000004768371582,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        97.40750122070312,
+        56.143768310546875,
+        102.46150207519531,
+        63.143775939941406
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "N",
+      "fontsize": 7.000004768371582,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        259.6183776855469,
+        68.45047760009766,
+        264.6723937988281,
+        75.45047760009766
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "N",
+      "fontsize": 7.000004768371582,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        294.534423828125,
+        48.29047393798828,
+        299.58843994140625,
+        55.29047775268555
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "N",
+      "fontsize": 7.000004768371582,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        303.2633056640625,
+        63.41047668457031,
+        308.31732177734375,
+        70.41047668457031
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "H",
+      "fontsize": 7.000004768371582,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        303.2633056640625,
+        69.24964141845703,
+        308.31732177734375,
+        76.24964141845703
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "N",
+      "fontsize": 7.000004768371582,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        320.721435546875,
+        63.41047668457031,
+        325.77545166015625,
+        70.41047668457031
+      ],
+      "font": "ArialMT"
     },
     {
       "text": "b",
@@ -46,1094 +396,825 @@
       "family": [
         "Arial"
       ],
-      "bbox": [
-        585.8267716535433,
-        1320.1338582677165,
-        10.75,
-        18.0
+      "bbox_pt": [
+        8.503937721252441,
+        95.84121704101562,
+        13.391937255859375,
+        103.84122467041016
       ],
-      "gid": "panel_B",
-      "axes_gid": null
+      "font": "Arial-BoldMT"
     },
     {
-      "text": "Molecular contexts",
+      "text": "Halide record follows preference",
+      "fontsize": 6.999999523162842,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        22.677167892456055,
+        96.61697387695312,
+        123.04318237304688,
+        103.61697387695312
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "Ordered by measured preference",
+      "fontsize": 5.000000953674316,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        96.37796020507812,
+        118.86138916015625,
+        170.29788208007812,
+        123.86139678955078
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "New pair, measured",
+      "fontsize": 6.999999523162842,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        8.503937721252441,
+        132.33351135253906,
+        71.13292694091797,
+        139.33351135253906
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "Halide record",
+      "fontsize": 6.999999523162842,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        8.503937721252441,
+        172.0185546875,
+        50.125938415527344,
+        179.0185546875
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "6 other amines",
+      "fontsize": 5.000000953674316,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        8.503937721252441,
+        182.6409454345703,
+        41.573944091796875,
+        187.6409454345703
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "−13",
+      "fontsize": 5.000000953674316,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        83.64453887939453,
+        230.2629852294922,
+        92.1245346069336,
+        235.2629852294922
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "0",
+      "fontsize": 5.000000953674316,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        89.3452377319336,
+        207.5858154296875,
+        92.12523651123047,
+        212.5858154296875
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "+13",
+      "fontsize": 5.000000953674316,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        83.64453887939453,
+        184.9086456298828,
+        92.1245346069336,
+        189.9086456298828
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "r = 0.30",
+      "fontsize": 6.999999523162842,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        428.03155517578125,
+        207.1681671142578,
+        451.964599609375,
+        214.1681671142578
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "Amine record",
+      "fontsize": 6.999999523162842,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        8.503937721252441,
+        257.0579528808594,
+        50.12593078613281,
+        264.0579528808594
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "9 other halides",
+      "fontsize": 5.000000953674316,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        8.503937721252441,
+        267.6802978515625,
+        41.298946380615234,
+        272.6802978515625
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "−13",
+      "fontsize": 5.000000953674316,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        83.64453887939453,
+        315.3023681640625,
+        92.1245346069336,
+        320.3023681640625
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "0",
+      "fontsize": 5.000000953674316,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        89.3452377319336,
+        292.62518310546875,
+        92.12523651123047,
+        297.62518310546875
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "+13",
+      "fontsize": 5.000000953674316,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        83.64453887939453,
+        269.947998046875,
+        92.1245346069336,
+        274.947998046875
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "r = −0.10",
+      "fontsize": 6.999999523162842,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        428.03155517578125,
+        292.2075500488281,
+        456.0525817871094,
+        299.2075500488281
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "Preference (pp)",
+      "fontsize": 5.000000953674316,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        447.51263427734375,
+        115.17635345458984,
+        482.2477111816406,
+        120.17636108398438
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "−30",
+      "fontsize": 5.000000953674316,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        425.1968994140625,
+        128.21572875976562,
+        433.6769104003906,
+        133.21572875976562
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "0",
+      "fontsize": 5.000000953674316,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        463.4915771484375,
+        128.21572875976562,
+        466.2715759277344,
+        133.21572875976562
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "+30",
+      "fontsize": 5.000000953674316,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        496.08544921875,
+        128.21572875976562,
+        504.5654602050781,
+        133.21572875976562
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "c",
       "fontsize": 8.0,
       "family": [
         "Arial"
       ],
-      "bbox": [
-        617.3228346456693,
-        1320.1338582677165,
-        147.875,
-        18.0
+      "bbox_pt": [
+        8.503937721252441,
+        331.1168518066406,
+        12.95193862915039,
+        339.1168518066406
       ],
-      "gid": "tag_B",
-      "axes_gid": null
+      "font": "Arial-BoldMT"
     },
     {
-      "text": "O",
+      "text": "Halide retention preserves preference",
+      "fontsize": 6.999999523162842,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        22.677167892456055,
+        331.8926086425781,
+        139.7801971435547,
+        338.8926086425781
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "Halide retained",
+      "fontsize": 6.999999523162842,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        104.0160903930664,
+        346.0658264160156,
+        151.09112548828125,
+        353.0658264160156
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "7 amines",
+      "fontsize": 5.000000953674316,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        117.41503143310547,
+        356.68817138671875,
+        137.70001220703125,
+        361.68817138671875
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "mean r 0.27",
+      "fontsize": 5.000000953674316,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        114.21800994873047,
+        431.8063049316406,
+        140.89797973632812,
+        436.8063049316406
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "Amine retained",
+      "fontsize": 6.999999523162842,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        336.4588623046875,
+        346.0658264160156,
+        383.5339050292969,
+        353.0658264160156
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "10 halides",
+      "fontsize": 5.000000953674316,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        348.60223388671875,
+        356.68817138671875,
+        371.39227294921875,
+        361.68817138671875
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "mean r 0.07",
+      "fontsize": 5.000000953674316,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        346.6590576171875,
+        431.8063049316406,
+        373.3390808105469,
+        436.8063049316406
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "r",
+      "fontsize": 5.000000953674316,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        254.28561401367188,
+        387.3023681640625,
+        255.9506072998047,
+        392.3023681640625
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "−1",
+      "fontsize": 5.000000953674316,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        226.7716827392578,
+        400.34173583984375,
+        232.4716796875,
+        405.34173583984375
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "0",
+      "fontsize": 5.000000953674316,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        253.7277374267578,
+        400.34173583984375,
+        256.50775146484375,
+        405.34173583984375
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "+1",
+      "fontsize": 5.000000953674316,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        277.763916015625,
+        400.34173583984375,
+        283.46392822265625,
+        405.34173583984375
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "d",
       "fontsize": 8.0,
       "family": [
         "Arial"
       ],
-      "bbox": [
-        161.18247793894477,
-        1127.943869198669,
-        13.75,
-        18.0
+      "bbox_pt": [
+        8.503937721252441,
+        450.1719665527344,
+        13.391937255859375,
+        458.1719665527344
       ],
-      "gid": "A|structure|M4|label0",
-      "axes_gid": null
+      "font": "Arial-BoldMT"
     },
     {
-      "text": "NH",
-      "fontsize": 8.0,
+      "text": "Agreement across molecules",
+      "fontsize": 6.999999523162842,
       "family": [
         "Arial"
       ],
-      "bbox": [
-        161.6772776915449,
-        1230.3438179986947,
-        25.625,
-        18.0
+      "bbox_pt": [
+        22.677167892456055,
+        450.9477233886719,
+        112.92818450927734,
+        457.9477233886719
       ],
-      "gid": "A|structure|M4|label1",
-      "axes_gid": null
+      "font": "ArialMT"
     },
     {
-      "text": "2",
-      "fontsize": 6.0,
+      "text": "−0.5",
+      "fontsize": 7.000004768371582,
       "family": [
         "Arial"
       ],
-      "bbox": [
-        187.35433151968465,
-        1227.4326199542936,
-        7.375,
-        12.0
-      ],
-      "gid": "A|structure|M4|label2",
-      "axes_gid": null
-    },
-    {
-      "text": "NH",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        452.8692916755903,
-        1230.4326179542948,
-        25.625,
-        18.0
-      ],
-      "gid": "A|structure|M8|label0",
-      "axes_gid": null
-    },
-    {
-      "text": "2",
-      "fontsize": 6.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        478.54634550373015,
-        1227.5215532431603,
-        7.375,
-        12.0
-      ],
-      "gid": "A|structure|M8|label1",
-      "axes_gid": null
-    },
-    {
-      "text": "N",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        452.8692916755903,
-        1128.0326691542691,
-        12.875,
-        18.0
-      ],
-      "gid": "A|structure|M8|label2",
-      "axes_gid": null
-    },
-    {
-      "text": "N",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        408.5315005111526,
-        1153.6505230120088,
-        12.875,
-        18.0
-      ],
-      "gid": "A|structure|M8|label3",
-      "axes_gid": null
-    },
-    {
-      "text": "NH",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        161.6772776915449,
-        927.6496291883088,
-        25.625,
-        18.0
-      ],
-      "gid": "A|structure|M1|label0",
-      "axes_gid": null
-    },
-    {
-      "text": "2",
-      "fontsize": 6.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        187.35433151968465,
-        924.7385644771744,
-        7.375,
-        12.0
-      ],
-      "gid": "A|structure|M1|label1",
-      "axes_gid": null
-    },
-    {
-      "text": "NH",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        437.8826325022534,
-        927.6496291883088,
-        25.625,
-        18.0
-      ],
-      "gid": "A|structure|M2|label0",
-      "axes_gid": null
-    },
-    {
-      "text": "2",
-      "fontsize": 6.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        463.5596863303931,
-        924.7385644771744,
-        7.375,
-        12.0
-      ],
-      "gid": "A|structure|M2|label1",
-      "axes_gid": null
-    },
-    {
-      "text": "N",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        460.05142141785893,
-        889.2496483882992,
-        12.875,
-        18.0
-      ],
-      "gid": "A|structure|M2|label2",
-      "axes_gid": null
-    },
-    {
-      "text": "NH",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        172.62833888268096,
-        619.1066433023213,
-        25.625,
-        18.0
-      ],
-      "gid": "A|structure|M3|label0",
-      "axes_gid": null
-    },
-    {
-      "text": "2",
-      "fontsize": 6.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        198.30539271082074,
-        616.195578591187,
-        7.375,
-        12.0
-      ],
-      "gid": "A|structure|M3|label1",
-      "axes_gid": null
-    },
-    {
-      "text": "S",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        439.33303177705375,
-        535.8178849467006,
-        11.75,
-        18.0
-      ],
-      "gid": "A|structure|M5|label0",
-      "axes_gid": null
-    },
-    {
-      "text": "NH",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        438.8426320222535,
-        638.2178337467261,
-        25.625,
-        18.0
-      ],
-      "gid": "A|structure|M5|label1",
-      "axes_gid": null
-    },
-    {
-      "text": "2",
-      "fontsize": 6.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        464.51968585039333,
-        635.3066357023251,
-        7.375,
-        12.0
-      ],
-      "gid": "A|structure|M5|label2",
-      "axes_gid": null
-    },
-    {
-      "text": "NH",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        152.71728217154265,
-        335.52364493634036,
-        25.625,
-        18.0
-      ],
-      "gid": "A|structure|M7|label0",
-      "axes_gid": null
-    },
-    {
-      "text": "2",
-      "fontsize": 6.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        178.39433599968243,
-        332.612580225206,
-        7.375,
-        12.0
-      ],
-      "gid": "A|structure|M7|label1",
-      "axes_gid": null
-    },
-    {
-      "text": "S",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        471.8840821681951,
-        258.7236833363211,
-        11.75,
-        18.0
-      ],
-      "gid": "A|structure|M6|label0",
-      "axes_gid": null
-    },
-    {
-      "text": "NH",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        427.0559712489173,
-        335.54151159407354,
-        25.625,
-        18.0
-      ],
-      "gid": "A|structure|M6|label1",
-      "axes_gid": null
-    },
-    {
-      "text": "2",
-      "fontsize": 6.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        452.733025077057,
-        332.63031354967256,
-        7.375,
-        12.0
-      ],
-      "gid": "A|structure|M6|label2",
-      "axes_gid": null
-    },
-    {
-      "text": "Preference across partners",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        3.5984251968503873,
-        579.8641732283464,
-        18.000000000000014,
-        213.5
-      ],
-      "gid": null,
-      "axes_gid": null
-    },
-    {
-      "text": "Owner",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        793.7007874015749,
-        1219.3464566929133,
-        52.25,
-        18.0
-      ],
-      "gid": "B|legend_owner",
-      "axes_gid": null
-    },
-    {
-      "text": "Non-owner",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        957.4803149606299,
-        1219.3464566929133,
-        86.75000000000011,
-        18.0
-      ],
-      "gid": "B|legend_nonowner",
-      "axes_gid": null
-    },
-    {
-      "text": "3-(methylthio)aniline",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        592.1259842519686,
-        1157.9291338582677,
-        159.5,
-        18.0
-      ],
-      "gid": "B|name|1",
-      "axes_gid": null
-    },
-    {
-      "text": "3,4-dimethoxyaniline",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        592.1259842519686,
-        1110.6850393700788,
-        162.5,
-        18.0
-      ],
-      "gid": "B|name|2",
-      "axes_gid": null
-    },
-    {
-      "text": "2-ethoxypyridin-4-amine",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        592.1259842519686,
-        1063.4409448818897,
-        189.5,
-        18.0
-      ],
-      "gid": "B|name|3",
-      "axes_gid": null
-    },
-    {
-      "text": "3-(4-methylimidazol-1-yl)-\n5-(trifluoromethyl)aniline",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        592.1259842519686,
-        1007.1968503937007,
-        200.375,
-        36.0
-      ],
-      "gid": "B|name|4",
-      "axes_gid": null
-    },
-    {
-      "text": "2,4-dimethylaniline",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        592.1259842519686,
-        968.9527559055118,
-        147.625,
-        18.0
-      ],
-      "gid": "B|name|5",
-      "axes_gid": null
-    },
-    {
-      "text": "5-methylpyridin-2-amine",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        592.1259842519686,
-        921.7086614173228,
-        189.5,
-        18.0
-      ],
-      "gid": "B|name|6",
-      "axes_gid": null
-    },
-    {
-      "text": "4-methoxyaniline",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        592.1259842519686,
-        874.4645669291338,
-        133.875,
-        18.0
-      ],
-      "gid": "B|name|7",
-      "axes_gid": null
-    },
-    {
-      "text": "4-methoxy-$\\mathit{N}$-methylaniline",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        592.1259842519686,
-        825.2204724409448,
-        212.355224609375,
-        22.0
-      ],
-      "gid": "B|name|8",
-      "axes_gid": null
-    },
-    {
-      "text": "3-ethynylaniline",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        592.1259842519686,
-        779.9763779527559,
-        123.125,
-        18.0
-      ],
-      "gid": "B|name|9",
-      "axes_gid": null
-    },
-    {
-      "text": "4-(methylthio)aniline",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        592.1259842519686,
-        732.7322834645669,
-        159.5,
-        18.0
-      ],
-      "gid": "B|name|10",
-      "axes_gid": null
-    },
-    {
-      "text": "4-methylaniline",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        592.1259842519686,
-        685.488188976378,
-        119.125,
-        18.0
-      ],
-      "gid": "B|name|11",
-      "axes_gid": null
-    },
-    {
-      "text": "6-methoxypyridin-3-amine",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        592.1259842519686,
-        638.2440944881889,
-        204.375,
-        18.0
-      ],
-      "gid": "B|name|12",
-      "axes_gid": null
-    },
-    {
-      "text": "1-butylpiperazine",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        592.1259842519686,
-        591.0,
-        134.875,
-        18.0
-      ],
-      "gid": "B|name|13",
-      "axes_gid": null
-    },
-    {
-      "text": "ethyl 3-aminobenzoate",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        592.1259842519686,
-        543.755905511811,
-        179.25,
-        18.0
-      ],
-      "gid": "B|name|14",
-      "axes_gid": null
-    },
-    {
-      "text": "4-methoxy-3-methylaniline",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        592.1259842519686,
-        496.51181102362204,
-        207.5,
-        18.0
-      ],
-      "gid": "B|name|15",
-      "axes_gid": null
-    },
-    {
-      "text": "$\\mathit{N}$-ethylaniline",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        592.1259842519686,
-        447.267716535433,
-        108.7933349609375,
-        22.0
-      ],
-      "gid": "B|name|16",
-      "axes_gid": null
-    },
-    {
-      "text": "2-methylaniline",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        592.1259842519686,
-        402.0236220472441,
-        119.0,
-        18.0
-      ],
-      "gid": "B|name|17",
-      "axes_gid": null
-    },
-    {
-      "text": "quinoxalin-6-amine",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        592.1259842519686,
-        354.77952755905505,
-        149.5,
-        18.0
-      ],
-      "gid": "B|name|18",
-      "axes_gid": null
-    },
-    {
-      "text": "methyl\n4-amino-2-methoxybenzoate",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        592.1259842519686,
-        298.535433070866,
-        225.125,
-        36.0
-      ],
-      "gid": "B|name|19",
-      "axes_gid": null
-    },
-    {
-      "text": "3,4,5-trimethoxybenzoic acid",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        592.1259842519686,
-        260.2913385826771,
-        225.5,
-        18.0
-      ],
-      "gid": "B|name|20",
-      "axes_gid": null
-    },
-    {
-      "text": "5-(trifluoromethyl)picolinic\nacid",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        592.1259842519686,
-        204.04724409448818,
-        201.875,
-        36.0
-      ],
-      "gid": "B|name|21",
-      "axes_gid": null
-    },
-    {
-      "text": "5-bromo-2-methoxynicotinic\nacid",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        592.1259842519686,
-        156.80314960629903,
-        218.0,
-        36.0
-      ],
-      "gid": "B|name|22",
-      "axes_gid": null
-    },
-    {
-      "text": "5-fluoropicolinic acid",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        592.1259842519686,
-        118.55905511811011,
-        160.5,
-        18.0
-      ],
-      "gid": "B|name|23",
-      "axes_gid": null
-    },
-    {
-      "text": "Preference across partners",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        787.738188976378,
-        28.795275590551,
-        213.5,
-        18.0
-      ],
-      "gid": null,
-      "axes_gid": null
-    },
-    {
-      "text": "−0.4",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        40.223097112860884,
-        997.4078473241693,
-        35.0,
-        18.0
-      ],
-      "gid": null,
-      "axes_gid": null
+      "bbox_pt": [
+        86.63394165039062,
+        600.3561401367188,
+        100.45195007324219,
+        607.3561401367188
+      ],
+      "font": "ArialMT"
     },
     {
       "text": "0.0",
-      "fontsize": 8.0,
+      "fontsize": 7.000004768371582,
       "family": [
         "Arial"
       ],
-      "bbox": [
-        50.598097112860884,
-        1031.573068196984,
-        24.625,
-        18.0
+      "bbox_pt": [
+        136.8668975830078,
+        600.3561401367188,
+        146.59690856933594,
+        607.3561401367188
       ],
-      "gid": null,
-      "axes_gid": null
+      "font": "ArialMT"
     },
     {
-      "text": "0.4",
-      "fontsize": 8.0,
+      "text": "0.5",
+      "fontsize": 7.000004768371582,
       "family": [
         "Arial"
       ],
-      "bbox": [
-        50.598097112860884,
-        1065.7382890697986,
-        24.625,
-        18.0
+      "bbox_pt": [
+        185.05593872070312,
+        600.3561401367188,
+        194.7859344482422,
+        607.3561401367188
       ],
-      "gid": null,
-      "axes_gid": null
+      "font": "ArialMT"
     },
     {
-      "text": "−0.4",
-      "fontsize": 8.0,
+      "text": "1.0",
+      "fontsize": 7.000004768371582,
       "family": [
         "Arial"
       ],
-      "bbox": [
-        40.223097112860884,
-        701.3448551981852,
-        35.0,
-        18.0
+      "bbox_pt": [
+        233.24496459960938,
+        600.3561401367188,
+        242.97496032714844,
+        607.3561401367188
       ],
-      "gid": null,
-      "axes_gid": null
+      "font": "ArialMT"
     },
     {
-      "text": "0.0",
-      "fontsize": 8.0,
+      "text": "Agreement across partners, r",
+      "fontsize": 7.000004768371582,
       "family": [
         "Arial"
       ],
-      "bbox": [
-        50.598097112860884,
-        735.5100760709998,
-        24.625,
-        18.0
+      "bbox_pt": [
+        120.50288391113281,
+        610.7579345703125,
+        211.14590454101562,
+        617.7579345703125
       ],
-      "gid": null,
-      "axes_gid": null
+      "font": "ArialMT"
     },
     {
-      "text": "0.4",
-      "fontsize": 8.0,
+      "text": "C–N halide",
+      "fontsize": 5.000003814697266,
       "family": [
         "Arial"
       ],
-      "bbox": [
-        50.598097112860884,
-        769.6752969438145,
-        24.625,
-        18.0
+      "bbox_pt": [
+        59.86116027832031,
+        481.66705322265625,
+        84.59117889404297,
+        486.66705322265625
       ],
-      "gid": null,
-      "axes_gid": null
+      "font": "ArialMT"
     },
     {
-      "text": "−0.4",
-      "fontsize": 8.0,
+      "text": "n=23; median 0.27",
+      "fontsize": 5.000003814697266,
       "family": [
         "Arial"
       ],
-      "bbox": [
-        40.223097112860884,
-        405.28186307220074,
-        35.0,
-        18.0
+      "bbox_pt": [
+        39.674896240234375,
+        488.0131530761719,
+        81.22992706298828,
+        493.0131530761719
       ],
-      "gid": null,
-      "axes_gid": null
+      "font": "ArialMT"
     },
     {
-      "text": "0.0",
-      "fontsize": 8.0,
+      "text": "C–N amine",
+      "fontsize": 5.000003814697266,
       "family": [
         "Arial"
       ],
-      "bbox": [
-        50.598097112860884,
-        439.4470839450154,
-        24.625,
-        18.0
+      "bbox_pt": [
+        59.53303146362305,
+        512.8482055664062,
+        84.53804779052734,
+        517.8482055664062
       ],
-      "gid": null,
-      "axes_gid": null
+      "font": "ArialMT"
     },
     {
-      "text": "0.4",
-      "fontsize": 8.0,
+      "text": "n=19; median 0.07",
+      "fontsize": 5.000003814697266,
       "family": [
         "Arial"
       ],
-      "bbox": [
-        50.598097112860884,
-        473.61230481783,
-        24.625,
-        18.0
+      "bbox_pt": [
+        39.674896240234375,
+        519.1942749023438,
+        81.22992706298828,
+        524.1942749023438
       ],
-      "gid": null,
-      "axes_gid": null
+      "font": "ArialMT"
     },
     {
-      "text": "Amide",
-      "fontsize": 8.0,
+      "text": "Amide amine",
+      "fontsize": 5.000003814697266,
       "family": [
         "Arial"
       ],
-      "bbox": [
-        65.0682712956335,
-        88.7191601049869,
-        50.25,
-        18.0
+      "bbox_pt": [
+        54.529598236083984,
+        544.029296875,
+        83.70462036132812,
+        549.029296875
       ],
-      "gid": null,
-      "axes_gid": null
+      "font": "ArialMT"
     },
     {
-      "text": "Pd",
-      "fontsize": 8.0,
+      "text": "n=42; median 0.33",
+      "fontsize": 5.000003814697266,
       "family": [
         "Arial"
       ],
-      "bbox": [
-        162.35334645669292,
-        88.7191601049869,
-        21.75,
-        18.0
+      "bbox_pt": [
+        39.674896240234375,
+        550.3754272460938,
+        81.22992706298828,
+        555.3754272460938
       ],
-      "gid": null,
-      "axes_gid": null
+      "font": "ArialMT"
     },
     {
-      "text": "Pd/Cu/Ni",
-      "fontsize": 8.0,
+      "text": "Amide acid",
+      "fontsize": 5.000003814697266,
       "family": [
         "Arial"
       ],
-      "bbox": [
-        220.76342161775233,
-        88.7191601049869,
-        71.0,
-        18.0
+      "bbox_pt": [
+        59.86397171020508,
+        575.2103881835938,
+        84.59398651123047,
+        580.2103881835938
       ],
-      "gid": null,
-      "axes_gid": null
+      "font": "ArialMT"
     },
     {
-      "text": "−0.4",
-      "fontsize": 8.0,
+      "text": "n=47; median 0.10",
+      "fontsize": 5.000003814697266,
       "family": [
         "Arial"
       ],
-      "bbox": [
-        40.223097112860884,
-        109.2188709462165,
-        35.0,
-        18.0
+      "bbox_pt": [
+        39.674896240234375,
+        581.5565185546875,
+        81.22992706298828,
+        586.5565185546875
       ],
-      "gid": null,
-      "axes_gid": null
+      "font": "ArialMT"
     },
     {
-      "text": "0.0",
+      "text": "e",
       "fontsize": 8.0,
       "family": [
         "Arial"
       ],
-      "bbox": [
-        50.598097112860884,
-        143.38409181903114,
-        24.625,
-        18.0
+      "bbox_pt": [
+        272.1260070800781,
+        450.1719665527344,
+        276.5740051269531,
+        458.1719665527344
       ],
-      "gid": null,
-      "axes_gid": null
+      "font": "Arial-BoldMT"
     },
     {
-      "text": "0.4",
-      "fontsize": 8.0,
+      "text": "Amine class versus random",
+      "fontsize": 6.999999523162842,
       "family": [
         "Arial"
       ],
-      "bbox": [
-        50.598097112860884,
-        177.54931269184578,
-        24.625,
-        18.0
+      "bbox_pt": [
+        286.29925537109375,
+        450.9477233886719,
+        372.26617431640625,
+        457.9477233886719
       ],
-      "gid": null,
-      "axes_gid": null
-    },
-    {
-      "text": "Amide",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        342.23362562634213,
-        88.7191601049869,
-        50.25,
-        18.0
-      ],
-      "gid": null,
-      "axes_gid": null
-    },
-    {
-      "text": "Pd",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        439.51870078740154,
-        88.7191601049869,
-        21.75,
-        18.0
-      ],
-      "gid": null,
-      "axes_gid": null
-    },
-    {
-      "text": "Pd/Cu/Ni",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        497.92877594846095,
-        88.7191601049869,
-        71.0,
-        18.0
-      ],
-      "gid": null,
-      "axes_gid": null
-    },
-    {
-      "text": "−0.4",
-      "fontsize": 8.0,
-      "family": [
-        "Arial"
-      ],
-      "bbox": [
-        890.6664791901013,
-        73.71478565179359,
-        35.0,
-        18.0
-      ],
-      "gid": null,
-      "axes_gid": null
+      "font": "ArialMT"
     },
     {
       "text": "0.0",
-      "fontsize": 8.0,
+      "fontsize": 7.000004768371582,
       "family": [
         "Arial"
       ],
-      "bbox": [
-        962.4456552305962,
-        73.71478565179359,
-        24.625,
-        18.0
+      "bbox_pt": [
+        284.26861572265625,
+        600.3561401367188,
+        293.9986267089844,
+        607.3561401367188
       ],
-      "gid": null,
-      "axes_gid": null
+      "font": "ArialMT"
     },
     {
-      "text": "0.4",
-      "fontsize": 8.0,
+      "text": "0.1",
+      "fontsize": 7.000004768371582,
       "family": [
         "Arial"
       ],
-      "bbox": [
-        1029.0373312710913,
-        73.71478565179359,
-        24.625,
-        18.0
+      "bbox_pt": [
+        381.45648193359375,
+        600.3561401367188,
+        391.1864929199219,
+        607.3561401367188
       ],
-      "gid": null,
-      "axes_gid": null
+      "font": "ArialMT"
     },
     {
-      "text": "0.8",
-      "fontsize": 8.0,
+      "text": "0.2",
+      "fontsize": 7.000004768371582,
       "family": [
         "Arial"
       ],
-      "bbox": [
-        1095.629007311586,
-        73.71478565179359,
-        24.625,
-        18.0
+      "bbox_pt": [
+        478.6444396972656,
+        600.3561401367188,
+        488.37445068359375,
+        607.3561401367188
       ],
-      "gid": null,
-      "axes_gid": null
+      "font": "ArialMT"
+    },
+    {
+      "text": "Pattern variance explained by class",
+      "fontsize": 7.000004768371582,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        336.123046875,
+        610.7579345703125,
+        446.2261047363281,
+        617.7579345703125
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "C–N ligand library",
+      "fontsize": 7.000004768371582,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        291.07781982421875,
+        492.9817199707031,
+        346.69976806640625,
+        499.98175048828125
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "observed 0.005",
+      "fontsize": 5.000003814697266,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        371.7437744140625,
+        500.1502685546875,
+        406.20880126953125,
+        505.1502685546875
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "null median 0.007; p=0.93",
+      "fontsize": 5.000003814697266,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        371.7437744140625,
+        507.81146240234375,
+        429.4187927246094,
+        512.8114624023438
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "Amide coupling",
+      "fontsize": 7.000004768371582,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        291.07781982421875,
+        545.6251831054688,
+        338.9298095703125,
+        552.6251831054688
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "observed 0.177",
+      "fontsize": 5.000003814697266,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        371.7437744140625,
+        552.793701171875,
+        406.20880126953125,
+        557.793701171875
+      ],
+      "font": "ArialMT"
+    },
+    {
+      "text": "null median 0.009; p=0.0002",
+      "fontsize": 5.000003814697266,
+      "family": [
+        "Arial"
+      ],
+      "bbox_pt": [
+        371.7437744140625,
+        560.4548950195312,
+        434.97882080078125,
+        565.4548950195312
+      ],
+      "font": "ArialMT"
     }
   ],
   "axes": [
@@ -1141,2290 +1222,3382 @@
       "gid": null,
       "xlim": [
         0.0,
-        180.0
+        7.0
       ],
       "ylim": [
-        214.0,
+        7.0,
         0.0
       ],
       "bbox": [
+        439.3700787401575,
+        758.2677165354331,
+        141.73228346456688,
+        141.732283464567
+      ],
+      "lines": [],
+      "meshes": [
+        {
+          "gid": "3b_correlations_amine",
+          "array": [
+            [
+              null,
+              0.06850003743484956,
+              0.366801387526947,
+              0.3573771195824369,
+              0.5571749263097096,
+              0.5281189063423519,
+              0.3694725213571468
+            ],
+            [
+              0.06850003743484956,
+              null,
+              0.1791364102157643,
+              0.2972891724365515,
+              0.23050813069479156,
+              0.26652216734440104,
+              0.05126267946625837
+            ],
+            [
+              0.366801387526947,
+              0.1791364102157643,
+              null,
+              0.16546052981351955,
+              0.4891683056554313,
+              0.40469143928734325,
+              0.061134472007841965
+            ],
+            [
+              0.3573771195824369,
+              0.2972891724365515,
+              0.16546052981351955,
+              null,
+              0.19339332527439798,
+              0.18646622522707745,
+              0.31491847396415074
+            ],
+            [
+              0.5571749263097096,
+              0.23050813069479156,
+              0.4891683056554313,
+              0.19339332527439798,
+              null,
+              0.5523029467195528,
+              0.06631332536922734
+            ],
+            [
+              0.5281189063423519,
+              0.26652216734440104,
+              0.40469143928734325,
+              0.18646622522707745,
+              0.5523029467195528,
+              null,
+              -0.0058118933220833325
+            ],
+            [
+              0.3694725213571468,
+              0.05126267946625837,
+              0.061134472007841965,
+              0.31491847396415074,
+              0.06631332536922734,
+              -0.0058118933220833325,
+              null
+            ]
+          ],
+          "coordinates": [
+            [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                0
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                6,
+                0
+              ],
+              [
+                7,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                4,
+                1
+              ],
+              [
+                5,
+                1
+              ],
+              [
+                6,
+                1
+              ],
+              [
+                7,
+                1
+              ]
+            ],
+            [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                2
+              ],
+              [
+                3,
+                2
+              ],
+              [
+                4,
+                2
+              ],
+              [
+                5,
+                2
+              ],
+              [
+                6,
+                2
+              ],
+              [
+                7,
+                2
+              ]
+            ],
+            [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                3
+              ],
+              [
+                4,
+                3
+              ],
+              [
+                5,
+                3
+              ],
+              [
+                6,
+                3
+              ],
+              [
+                7,
+                3
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                6,
+                4
+              ],
+              [
+                7,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                5
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                6,
+                5
+              ],
+              [
+                7,
+                5
+              ]
+            ],
+            [
+              [
+                0,
+                6
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                3,
+                6
+              ],
+              [
+                4,
+                6
+              ],
+              [
+                5,
+                6
+              ],
+              [
+                6,
+                6
+              ],
+              [
+                7,
+                6
+              ]
+            ],
+            [
+              [
+                0,
+                7
+              ],
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                7
+              ],
+              [
+                3,
+                7
+              ],
+              [
+                4,
+                7
+              ],
+              [
+                5,
+                7
+              ],
+              [
+                6,
+                7
+              ],
+              [
+                7,
+                7
+              ]
+            ]
+          ],
+          "clim": [
+            -1.0,
+            1.0
+          ]
+        }
+      ],
+      "collections": [],
+      "patches": [],
+      "images": [],
+      "retained_source_axis_index": 3,
+      "placement_transform_mm": [
+        -27,
+        53
+      ]
+    },
+    {
+      "gid": null,
+      "xlim": [
         0.0,
-        0.0,
-        1133.8582677165355,
-        1348.0314960629923
+        10.0
+      ],
+      "ylim": [
+        10.0,
+        0.0
+      ],
+      "bbox": [
+        1084.251968503937,
+        758.2677165354331,
+        141.732283464567,
+        141.732283464567
+      ],
+      "lines": [],
+      "meshes": [
+        {
+          "gid": "3b_correlations_halide",
+          "array": [
+            [
+              null,
+              -0.06882714441327088,
+              -0.09217391093964226,
+              -0.016855123526040988,
+              0.05547385190089119,
+              0.16540007073801535,
+              0.03301349755947555,
+              -0.05718948624843678,
+              0.019371957231436095,
+              0.24228235605605328
+            ],
+            [
+              -0.06882714441327088,
+              null,
+              0.1912853215436013,
+              0.1226777321529068,
+              -0.24321074794656414,
+              -0.3186104373386396,
+              0.004857248425704882,
+              -0.2676060892456215,
+              0.18696668444484368,
+              -0.04136916234395421
+            ],
+            [
+              -0.09217391093964226,
+              0.1912853215436013,
+              null,
+              -0.056343597804388704,
+              -0.15750048471197617,
+              -0.015596636587866728,
+              -0.1523965224768656,
+              -0.04778694696612207,
+              0.207092701806368,
+              -0.1078113582442105
+            ],
+            [
+              -0.016855123526040988,
+              0.1226777321529068,
+              -0.056343597804388704,
+              null,
+              -0.03304118288085387,
+              -0.035616011193103266,
+              0.02535525658728647,
+              -0.12652217785430434,
+              0.17957835181543974,
+              -0.05518482734479168
+            ],
+            [
+              0.05547385190089119,
+              -0.24321074794656414,
+              -0.15750048471197617,
+              -0.03304118288085387,
+              null,
+              0.691397073622899,
+              -0.017111040495398643,
+              0.5516471373474213,
+              0.19439324665651758,
+              0.4284913653848038
+            ],
+            [
+              0.16540007073801535,
+              -0.3186104373386396,
+              -0.015596636587866728,
+              -0.035616011193103266,
+              0.691397073622899,
+              null,
+              -0.06610525781918837,
+              0.6634488581116592,
+              0.30465143692426466,
+              0.4926643175960223
+            ],
+            [
+              0.03301349755947555,
+              0.004857248425704882,
+              -0.1523965224768656,
+              0.02535525658728647,
+              -0.017111040495398643,
+              -0.06610525781918837,
+              null,
+              -0.10677263771145827,
+              -0.03927993890275739,
+              -0.0671686498333791
+            ],
+            [
+              -0.05718948624843678,
+              -0.2676060892456215,
+              -0.04778694696612207,
+              -0.12652217785430434,
+              0.5516471373474213,
+              0.6634488581116592,
+              -0.10677263771145827,
+              null,
+              0.17564740164195983,
+              0.42162217937875757
+            ],
+            [
+              0.019371957231436095,
+              0.18696668444484368,
+              0.207092701806368,
+              0.17957835181543974,
+              0.19439324665651758,
+              0.30465143692426466,
+              -0.03927993890275739,
+              0.17564740164195983,
+              null,
+              0.10173410965333048
+            ],
+            [
+              0.24228235605605328,
+              -0.04136916234395421,
+              -0.1078113582442105,
+              -0.05518482734479168,
+              0.4284913653848038,
+              0.4926643175960223,
+              -0.0671686498333791,
+              0.42162217937875757,
+              0.10173410965333048,
+              null
+            ]
+          ],
+          "coordinates": [
+            [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                0
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                6,
+                0
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                0
+              ],
+              [
+                10,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                4,
+                1
+              ],
+              [
+                5,
+                1
+              ],
+              [
+                6,
+                1
+              ],
+              [
+                7,
+                1
+              ],
+              [
+                8,
+                1
+              ],
+              [
+                9,
+                1
+              ],
+              [
+                10,
+                1
+              ]
+            ],
+            [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                2
+              ],
+              [
+                3,
+                2
+              ],
+              [
+                4,
+                2
+              ],
+              [
+                5,
+                2
+              ],
+              [
+                6,
+                2
+              ],
+              [
+                7,
+                2
+              ],
+              [
+                8,
+                2
+              ],
+              [
+                9,
+                2
+              ],
+              [
+                10,
+                2
+              ]
+            ],
+            [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                3
+              ],
+              [
+                4,
+                3
+              ],
+              [
+                5,
+                3
+              ],
+              [
+                6,
+                3
+              ],
+              [
+                7,
+                3
+              ],
+              [
+                8,
+                3
+              ],
+              [
+                9,
+                3
+              ],
+              [
+                10,
+                3
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                6,
+                4
+              ],
+              [
+                7,
+                4
+              ],
+              [
+                8,
+                4
+              ],
+              [
+                9,
+                4
+              ],
+              [
+                10,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                5
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                6,
+                5
+              ],
+              [
+                7,
+                5
+              ],
+              [
+                8,
+                5
+              ],
+              [
+                9,
+                5
+              ],
+              [
+                10,
+                5
+              ]
+            ],
+            [
+              [
+                0,
+                6
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                3,
+                6
+              ],
+              [
+                4,
+                6
+              ],
+              [
+                5,
+                6
+              ],
+              [
+                6,
+                6
+              ],
+              [
+                7,
+                6
+              ],
+              [
+                8,
+                6
+              ],
+              [
+                9,
+                6
+              ],
+              [
+                10,
+                6
+              ]
+            ],
+            [
+              [
+                0,
+                7
+              ],
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                7
+              ],
+              [
+                3,
+                7
+              ],
+              [
+                4,
+                7
+              ],
+              [
+                5,
+                7
+              ],
+              [
+                6,
+                7
+              ],
+              [
+                7,
+                7
+              ],
+              [
+                8,
+                7
+              ],
+              [
+                9,
+                7
+              ],
+              [
+                10,
+                7
+              ]
+            ],
+            [
+              [
+                0,
+                8
+              ],
+              [
+                1,
+                8
+              ],
+              [
+                2,
+                8
+              ],
+              [
+                3,
+                8
+              ],
+              [
+                4,
+                8
+              ],
+              [
+                5,
+                8
+              ],
+              [
+                6,
+                8
+              ],
+              [
+                7,
+                8
+              ],
+              [
+                8,
+                8
+              ],
+              [
+                9,
+                8
+              ],
+              [
+                10,
+                8
+              ]
+            ],
+            [
+              [
+                0,
+                9
+              ],
+              [
+                1,
+                9
+              ],
+              [
+                2,
+                9
+              ],
+              [
+                3,
+                9
+              ],
+              [
+                4,
+                9
+              ],
+              [
+                5,
+                9
+              ],
+              [
+                6,
+                9
+              ],
+              [
+                7,
+                9
+              ],
+              [
+                8,
+                9
+              ],
+              [
+                9,
+                9
+              ],
+              [
+                10,
+                9
+              ]
+            ],
+            [
+              [
+                0,
+                10
+              ],
+              [
+                1,
+                10
+              ],
+              [
+                2,
+                10
+              ],
+              [
+                3,
+                10
+              ],
+              [
+                4,
+                10
+              ],
+              [
+                5,
+                10
+              ],
+              [
+                6,
+                10
+              ],
+              [
+                7,
+                10
+              ],
+              [
+                8,
+                10
+              ],
+              [
+                9,
+                10
+              ],
+              [
+                10,
+                10
+              ]
+            ]
+          ],
+          "clim": [
+            -1.0,
+            1.0
+          ]
+        }
+      ],
+      "collections": [],
+      "patches": [],
+      "images": [],
+      "retained_source_axis_index": 7,
+      "placement_transform_mm": [
+        -36,
+        53
+      ]
+    },
+    {
+      "gid": null,
+      "xlim": [
+        -0.5,
+        1.0
+      ],
+      "ylim": [
+        -0.5,
+        3.5
+      ],
+      "bbox": [
+        233.85826771653544,
+        85.03937007874018,
+        361.4173228346457,
+        311.8110236220473
       ],
       "lines": [
         {
-          "gid": null,
+          "gid": "3c_median_Buchwald-Hartwig|1_2",
           "x": [
-            123
+            0.2714381242241745,
+            0.2714381242241745
           ],
           "y": [
-            19
+            2.78,
+            3.22
           ],
-          "marker": "o",
+          "marker": "None",
+          "color": "black",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "3c_median_Buchwald-Hartwig|1_1",
+          "x": [
+            0.0726438396389072,
+            0.0726438396389072
+          ],
+          "y": [
+            1.78,
+            2.22
+          ],
+          "marker": "None",
+          "color": "black",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "3c_median_Acylation|1_1",
+          "x": [
+            0.3290359930513674,
+            0.3290359930513674
+          ],
+          "y": [
+            0.78,
+            1.22
+          ],
+          "marker": "None",
+          "color": "black",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": "3c_median_Acylation|1_2",
+          "x": [
+            0.097304966535593,
+            0.097304966535593
+          ],
+          "y": [
+            -0.22,
+            0.22
+          ],
+          "marker": "None",
+          "color": "black",
+          "markersize": 6.0,
+          "linestyle": "-"
+        },
+        {
+          "gid": null,
+          "x": [
+            0,
+            0
+          ],
+          "y": [
+            0,
+            1
+          ],
+          "marker": "None",
+          "color": "#D0D0D0",
+          "markersize": 6.0,
+          "linestyle": "-"
+        }
+      ],
+      "meshes": [],
+      "collections": [
+        {
+          "gid": "3c_points_Buchwald-Hartwig|1_2",
+          "offsets": [
+            [
+              0.2788343063722085,
+              3.0
+            ],
+            [
+              0.2768253259662248,
+              3.0878102134716494
+            ],
+            [
+              0.5399048408373147,
+              2.8704986008513407
+            ],
+            [
+              0.3476213138794419,
+              3.10317682230039
+            ],
+            [
+              0.1167190588207412,
+              2.9773375184410127
+            ],
+            [
+              0.0142015126219583,
+              2.9302455206599434
+            ],
+            [
+              0.308920001094786,
+              3.1255355109514062
+            ],
+            [
+              0.1345015843146905,
+              2.8846162856344044
+            ],
+            [
+              0.1096718329507955,
+              3.0446309407465866
+            ],
+            [
+              0.2709066107821663,
+              3.0495625639151425
+            ],
+            [
+              0.065388758604727,
+              2.882274812939139
+            ],
+            [
+              0.3774721303194892,
+              3.1240570622840504
+            ],
+            [
+              0.2109709817336103,
+              2.934767390867326
+            ],
+            [
+              0.0401484484184226,
+              2.9721471697615347
+            ],
+            [
+              0.3554414250380882,
+              3.1063096130884373
+            ],
+            [
+              0.1375982595319977,
+              2.871068749052395
+            ],
+            [
+              0.4337479294392233,
+              3.0838365752828327
+            ],
+            [
+              0.3071643933084479,
+              3.0052901234554823
+            ],
+            [
+              0.1812003619940295,
+              2.9083616171361473
+            ],
+            [
+              0.1984167011972853,
+              3.1298570117968527
+            ],
+            [
+              0.2714381242241745,
+              2.9001268940279235
+            ],
+            [
+              0.4737119396297706,
+              3.0174345895939356
+            ],
+            [
+              0.4590106130297988,
+              3.0741607923728593
+            ]
+          ],
+          "array": null,
+          "sizes": [
+            8
+          ],
+          "facecolors": [
+            [
+              0.0,
+              0.4470588235294118,
+              0.6980392156862745,
+              0.8
+            ]
+          ]
+        },
+        {
+          "gid": "3c_points_Buchwald-Hartwig|1_1",
+          "offsets": [
+            [
+              0.1901844967364844,
+              2.0
+            ],
+            [
+              0.0392038003472321,
+              2.0878102134716494
+            ],
+            [
+              0.2046288696577499,
+              1.8704986008513407
+            ],
+            [
+              0.0103903829064434,
+              2.10317682230039
+            ],
+            [
+              0.120410874270494,
+              1.9773375184410127
+            ],
+            [
+              0.2074959372358125,
+              1.9302455206599434
+            ],
+            [
+              0.0420945938355152,
+              2.1255355109514062
+            ],
+            [
+              0.0759433845160901,
+              1.8846162856344044
+            ],
+            [
+              -0.012060249443759,
+              2.0446309407465866
+            ],
+            [
+              0.0962928489365482,
+              2.0495625639151425
+            ],
+            [
+              0.1056968290510748,
+              1.882274812939139
+            ],
+            [
+              0.0726438396389072,
+              2.1240570622840504
+            ],
+            [
+              0.0422713410066212,
+              1.9347673908673257
+            ],
+            [
+              0.0896315656694808,
+              1.9721471697615347
+            ],
+            [
+              -0.0024706624530357,
+              2.1063096130884373
+            ],
+            [
+              0.0689500745631014,
+              1.871068749052395
+            ],
+            [
+              0.2085248973163581,
+              2.0838365752828327
+            ],
+            [
+              -0.0036486270614397,
+              2.0052901234554823
+            ],
+            [
+              0.0090472359280178,
+              1.908361617136147
+            ]
+          ],
+          "array": null,
+          "sizes": [
+            8
+          ],
+          "facecolors": [
+            [
+              0.8352941176470589,
+              0.3686274509803922,
+              0.0,
+              0.8
+            ]
+          ]
+        },
+        {
+          "gid": "3c_points_Acylation|1_1",
+          "offsets": [
+            [
+              0.3307071984552863,
+              1.0
+            ],
+            [
+              0.2567440692500792,
+              1.0878102134716496
+            ],
+            [
+              0.4598017480455384,
+              0.8704986008513407
+            ],
+            [
+              0.3614701609409063,
+              1.10317682230039
+            ],
+            [
+              0.1459117123760258,
+              0.9773375184410127
+            ],
+            [
+              0.2690066885493448,
+              0.9302455206599435
+            ],
+            [
+              0.2565239801042346,
+              1.1255355109514062
+            ],
+            [
+              0.267500958379326,
+              0.8846162856344044
+            ],
+            [
+              0.4794246774874094,
+              1.0446309407465864
+            ],
+            [
+              0.4235459801884101,
+              1.0495625639151427
+            ],
+            [
+              0.5026213830610402,
+              0.8822748129391389
+            ],
+            [
+              0.7690699641696305,
+              1.1240570622840507
+            ],
+            [
+              0.0314078274284452,
+              0.9347673908673257
+            ],
+            [
+              0.1266381115308574,
+              0.9721471697615346
+            ],
+            [
+              0.1114729628134158,
+              1.1063096130884373
+            ],
+            [
+              0.1532187650129816,
+              0.871068749052395
+            ],
+            [
+              0.2291581692414374,
+              1.0838365752828327
+            ],
+            [
+              0.5182130093870907,
+              1.0052901234554825
+            ],
+            [
+              0.5055612800350969,
+              0.908361617136147
+            ],
+            [
+              0.6271884689544112,
+              1.1298570117968527
+            ],
+            [
+              0.4270820337630716,
+              0.9001268940279233
+            ],
+            [
+              0.229839407639302,
+              1.0174345895939354
+            ],
+            [
+              0.3020629856533668,
+              1.074160792372859
+            ],
+            [
+              0.175944140630907,
+              0.8731940059354537
+            ],
+            [
+              0.1092423671325305,
+              1.1128510938594545
+            ],
+            [
+              0.2967141099978633,
+              0.9603746192567119
+            ],
+            [
+              0.3499644557880443,
+              0.9455879196126047
+            ],
+            [
+              0.3717445284087091,
+              1.1198716329976688
+            ],
+            [
+              0.2610557200689823,
+              0.8776269026991002
+            ],
+            [
+              0.3964023358998728,
+              1.0606026728043323
+            ],
+            [
+              0.3847402595202834,
+              1.0329970371590647
+            ],
+            [
+              0.289553484751284,
+              0.8907337115305158
+            ],
+            [
+              0.4586038725835902,
+              1.1281475117167634
+            ],
+            [
+              0.3806287537736927,
+              0.9202759488651044
+            ],
+            [
+              0.4128555646897063,
+              0.9894285168519573
+            ],
+            [
+              0.4768311409480175,
+              1.095314741609528
+            ],
+            [
+              0.4628282447428312,
+              0.8700025002254348
+            ],
+            [
+              0.3273647876474485,
+              1.0964039371301495
+            ],
+            [
+              0.1752779386320721,
+              0.9878221849881533
+            ],
+            [
+              0.3185142373243598,
+              0.9215557513873682
+            ],
+            [
+              0.2451145352299644,
+              1.1278664069064648
+            ],
+            [
+              0.7255147301058219,
+              0.889868478849298
+            ]
+          ],
+          "array": null,
+          "sizes": [
+            8
+          ],
+          "facecolors": [
+            [
+              0.8352941176470589,
+              0.3686274509803922,
+              0.0,
+              0.8
+            ]
+          ]
+        },
+        {
+          "gid": "3c_points_Acylation|1_2",
+          "offsets": [
+            [
+              0.0245254924978741,
+              0.0
+            ],
+            [
+              0.1747423598798421,
+              0.08781021347164962
+            ],
+            [
+              0.0858153561996641,
+              -0.1295013991486593
+            ],
+            [
+              -0.0015504002474005,
+              0.10317682230038985
+            ],
+            [
+              0.1015228545761636,
+              -0.022662481558987355
+            ],
+            [
+              0.1325798266058317,
+              -0.06975447934005655
+            ],
+            [
+              -0.0450850029836667,
+              0.12553551095140614
+            ],
+            [
+              0.0869177628826591,
+              -0.1153837143655956
+            ],
+            [
+              0.0903127398252879,
+              0.044630940746586405
+            ],
+            [
+              0.1308052727088275,
+              0.04956256391514265
+            ],
+            [
+              0.3707333428479434,
+              -0.11772518706086109
+            ],
+            [
+              0.0083204156079997,
+              0.12405706228405061
+            ],
+            [
+              0.1502393416512109,
+              -0.06523260913267424
+            ],
+            [
+              0.1637049291453951,
+              -0.027852830238465402
+            ],
+            [
+              0.1167189256204003,
+              0.10630961308843744
+            ],
+            [
+              0.0917423547305797,
+              -0.12893125094760505
+            ],
+            [
+              0.0641591930062956,
+              0.08383657528283277
+            ],
+            [
+              0.1637274544933851,
+              0.005290123455482431
+            ],
+            [
+              0.239002652667572,
+              -0.09163838286385291
+            ],
+            [
+              0.047089770343403,
+              0.12985701179685274
+            ],
+            [
+              0.069328437460953,
+              -0.09987310597207669
+            ],
+            [
+              0.0117625298132161,
+              0.01743458959393543
+            ],
+            [
+              -0.0054525794135126,
+              0.07416079237285916
+            ],
+            [
+              -0.0279805199791457,
+              -0.12680599406454623
+            ],
+            [
+              -0.005860808804177,
+              0.11285109385945435
+            ],
+            [
+              0.2966793852318413,
+              -0.03962538074328817
+            ],
+            [
+              0.0537729679692365,
+              -0.054412080387395305
+            ],
+            [
+              0.3875736686977116,
+              0.11987163299766879
+            ],
+            [
+              0.4773025824527565,
+              -0.12237309730089989
+            ],
+            [
+              0.5353984810217974,
+              0.06060267280433237
+            ],
+            [
+              0.1274380768891286,
+              0.03299703715906471
+            ],
+            [
+              0.097304966535593,
+              -0.10926628846948418
+            ],
+            [
+              0.0615226260144407,
+              0.1281475117167633
+            ],
+            [
+              0.3543983075184417,
+              -0.0797240511348956
+            ],
+            [
+              0.178780544190622,
+              -0.010571483148042725
+            ],
+            [
+              0.0734531085045538,
+              0.09531474160952799
+            ],
+            [
+              0.1672838904137117,
+              -0.1299974997745652
+            ],
+            [
+              0.1294928530224477,
+              0.09640393713014948
+            ],
+            [
+              0.2254198193544145,
+              -0.012177815011846657
+            ],
+            [
+              0.1523779889629699,
+              -0.07844424861263173
+            ],
+            [
+              0.0090568158354768,
+              0.12786640690646484
+            ],
+            [
+              0.0183980989168833,
+              -0.11013152115070203
+            ],
+            [
+              -0.0183721475196135,
+              0.03455417625258654
+            ],
+            [
+              0.0284430297586679,
+              0.059171456321978046
+            ],
+            [
+              0.3406322707264884,
+              -0.12181949631508746
+            ],
+            [
+              0.00286313255961,
+              0.12048640570431206
+            ],
+            [
+              0.2640028076362072,
+              -0.05587234043393697
+            ]
+          ],
+          "array": null,
+          "sizes": [
+            8
+          ],
+          "facecolors": [
+            [
+              0.7019607843137254,
+              0.7019607843137254,
+              0.7019607843137254,
+              0.8
+            ]
+          ]
+        }
+      ],
+      "patches": [],
+      "images": [],
+      "retained_source_axis_index": 9,
+      "placement_transform_mm": [
+        0,
+        18
+      ]
+    },
+    {
+      "gid": null,
+      "xlim": [
+        0.0,
+        0.21
+      ],
+      "ylim": [
+        -0.45,
+        1.65
+      ],
+      "bbox": [
+        722.8346456692914,
+        85.03937007874018,
+        510.2362204724411,
+        276.37795275590554
+      ],
+      "lines": [
+        {
+          "gid": "3d_null_median_cn",
+          "x": [
+            0.007490900594120942,
+            0.007490900594120942
+          ],
+          "y": [
+            0.78,
+            1.22
+          ],
+          "marker": "None",
           "color": "#4D4D4D",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": null,
-          "x": [
-            149
-          ],
-          "y": [
-            19
-          ],
-          "marker": "o",
-          "color": "#1f77b4",
-          "markersize": 3.5,
-          "linestyle": "None"
-        }
-      ],
-      "meshes": [],
-      "collections": [],
-      "patches": [],
-      "images": []
-    },
-    {
-      "gid": null,
-      "xlim": [
-        -0.1,
-        2.1
-      ],
-      "ylim": [
-        -0.48,
-        0.7
-      ],
-      "bbox": [
-        81.88976377952756,
-        1001.5748031496065,
-        182.6771653543307,
-        100.78740157480308
-      ],
-      "lines": [
-        {
-          "gid": null,
-          "x": [
-            0,
-            1
-          ],
-          "y": [
-            0,
-            0
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
           "markersize": 6.0,
           "linestyle": "-"
         },
         {
-          "gid": "A|path|M4",
+          "gid": "3d_null_median_amide",
           "x": [
-            0,
-            1,
-            2
+            0.009086548189310872,
+            0.009086548189310872
           ],
           "y": [
-            0.0013801683441627,
-            0.0199039052302714,
-            -0.4241204507559065
+            -0.22,
+            0.22
           ],
-          "marker": "o",
-          "color": "#D55E00",
-          "markersize": 3.0,
+          "marker": "None",
+          "color": "#4D4D4D",
+          "markersize": 6.0,
           "linestyle": "-"
         }
       ],
       "meshes": [],
-      "collections": [],
-      "patches": [],
-      "images": []
-    },
-    {
-      "gid": null,
-      "xlim": [
-        -0.1,
-        2.1
-      ],
-      "ylim": [
-        -0.48,
-        0.7
-      ],
-      "bbox": [
-        359.0551181102362,
-        1001.5748031496065,
-        182.67716535433067,
-        100.78740157480308
-      ],
-      "lines": [
-        {
-          "gid": null,
-          "x": [
-            0,
-            1
-          ],
-          "y": [
-            0,
-            0
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
-        },
-        {
-          "gid": "A|path|M8",
-          "x": [
-            0,
-            1,
-            2
-          ],
-          "y": [
-            0.1024233954135368,
-            -0.0362270011455398,
-            0.6119380835401191
-          ],
-          "marker": "o",
-          "color": "#B3B3B3",
-          "markersize": 3.0,
-          "linestyle": "-"
-        }
-      ],
-      "meshes": [],
-      "collections": [],
-      "patches": [],
-      "images": []
-    },
-    {
-      "gid": null,
-      "xlim": [
-        -0.1,
-        2.1
-      ],
-      "ylim": [
-        -0.48,
-        0.7
-      ],
-      "bbox": [
-        81.88976377952756,
-        705.5118110236223,
-        182.6771653543307,
-        100.7874015748032
-      ],
-      "lines": [
-        {
-          "gid": null,
-          "x": [
-            0,
-            1
-          ],
-          "y": [
-            0,
-            0
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
-        },
-        {
-          "gid": "A|path|M1",
-          "x": [
-            0,
-            1,
-            2
-          ],
-          "y": [
-            0.167030045563013,
-            0.0899205186496756,
-            -0.0847602587537669
-          ],
-          "marker": "o",
-          "color": "#D55E00",
-          "markersize": 3.0,
-          "linestyle": "-"
-        }
-      ],
-      "meshes": [],
-      "collections": [],
-      "patches": [],
-      "images": []
-    },
-    {
-      "gid": null,
-      "xlim": [
-        -0.1,
-        2.1
-      ],
-      "ylim": [
-        -0.48,
-        0.7
-      ],
-      "bbox": [
-        359.0551181102362,
-        705.5118110236223,
-        182.67716535433067,
-        100.7874015748032
-      ],
-      "lines": [
-        {
-          "gid": null,
-          "x": [
-            0,
-            1
-          ],
-          "y": [
-            0,
-            0
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
-        },
-        {
-          "gid": "A|path|M2",
-          "x": [
-            0,
-            1,
-            2
-          ],
-          "y": [
-            0.2031969730776413,
-            -0.1600328555898975,
-            -0.0092818195845426
-          ],
-          "marker": "o",
-          "color": "#D55E00",
-          "markersize": 3.0,
-          "linestyle": "-"
-        }
-      ],
-      "meshes": [],
-      "collections": [],
-      "patches": [],
-      "images": []
-    },
-    {
-      "gid": null,
-      "xlim": [
-        -0.1,
-        2.1
-      ],
-      "ylim": [
-        -0.48,
-        0.7
-      ],
-      "bbox": [
-        81.88976377952756,
-        409.4488188976378,
-        182.6771653543307,
-        100.7874015748032
-      ],
-      "lines": [
-        {
-          "gid": null,
-          "x": [
-            0,
-            1
-          ],
-          "y": [
-            0,
-            0
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
-        },
-        {
-          "gid": "A|path|M3",
-          "x": [
-            0,
-            1,
-            2
-          ],
-          "y": [
-            0.2608168650220344,
-            0.3300844510789312,
-            0.3809346655236472
-          ],
-          "marker": "o",
-          "color": "#B3B3B3",
-          "markersize": 3.0,
-          "linestyle": "-"
-        }
-      ],
-      "meshes": [],
-      "collections": [],
-      "patches": [],
-      "images": []
-    },
-    {
-      "gid": null,
-      "xlim": [
-        -0.1,
-        2.1
-      ],
-      "ylim": [
-        -0.48,
-        0.7
-      ],
-      "bbox": [
-        359.0551181102362,
-        409.4488188976378,
-        182.67716535433067,
-        100.7874015748032
-      ],
-      "lines": [
-        {
-          "gid": null,
-          "x": [
-            0,
-            1
-          ],
-          "y": [
-            0,
-            0
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
-        },
-        {
-          "gid": "A|path|M5",
-          "x": [
-            0,
-            1,
-            2
-          ],
-          "y": [
-            0.2661943801172103,
-            0.0644626671050054,
-            0.1243654212307799
-          ],
-          "marker": "o",
-          "color": "#D55E00",
-          "markersize": 3.0,
-          "linestyle": "-"
-        }
-      ],
-      "meshes": [],
-      "collections": [],
-      "patches": [],
-      "images": []
-    },
-    {
-      "gid": null,
-      "xlim": [
-        -0.1,
-        2.1
-      ],
-      "ylim": [
-        -0.48,
-        0.7
-      ],
-      "bbox": [
-        81.88976377952756,
-        113.38582677165357,
-        182.6771653543307,
-        100.78740157480317
-      ],
-      "lines": [
-        {
-          "gid": null,
-          "x": [
-            0,
-            1
-          ],
-          "y": [
-            0,
-            0
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
-        },
-        {
-          "gid": "A|path|M7",
-          "x": [
-            0,
-            1,
-            2
-          ],
-          "y": [
-            0.3425676208264127,
-            0.1006713026221817,
-            0.0039082436604011
-          ],
-          "marker": "o",
-          "color": "#D55E00",
-          "markersize": 3.0,
-          "linestyle": "-"
-        }
-      ],
-      "meshes": [],
-      "collections": [],
-      "patches": [],
-      "images": []
-    },
-    {
-      "gid": null,
-      "xlim": [
-        -0.1,
-        2.1
-      ],
-      "ylim": [
-        -0.48,
-        0.7
-      ],
-      "bbox": [
-        359.0551181102362,
-        113.38582677165357,
-        182.67716535433067,
-        100.78740157480317
-      ],
-      "lines": [
-        {
-          "gid": null,
-          "x": [
-            0,
-            1
-          ],
-          "y": [
-            0,
-            0
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
-        },
-        {
-          "gid": "A|path|M6",
-          "x": [
-            0,
-            1,
-            2
-          ],
-          "y": [
-            0.6437947975138275,
-            0.0860813205544275,
-            -0.3792889171847232
-          ],
-          "marker": "o",
-          "color": "#D55E00",
-          "markersize": 3.0,
-          "linestyle": "-"
-        }
-      ],
-      "meshes": [],
-      "collections": [],
-      "patches": [],
-      "images": []
-    },
-    {
-      "gid": null,
-      "xlim": [
-        -0.52,
-        0.88
-      ],
-      "ylim": [
-        23.5,
-        0.5
-      ],
-      "bbox": [
-        888.1889763779528,
-        103.93700787401582,
-        233.07086614173238,
-        1086.6141732283468
-      ],
-      "lines": [
-        {
-          "gid": null,
-          "x": [
-            0,
-            0
-          ],
-          "y": [
-            0,
-            1
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
-        },
-        {
-          "gid": "B|connector|1",
-          "x": [
-            -0.1466037983151478,
-            0.6437947975138275
-          ],
-          "y": [
-            1,
-            1
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
-        },
-        {
-          "gid": "B|nonowner|1",
-          "x": [
-            -0.1466037983151478
-          ],
-          "y": [
-            1
-          ],
-          "marker": "o",
-          "color": "#1f77b4",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|owner|1",
-          "x": [
-            0.6437947975138275
-          ],
-          "y": [
-            1
-          ],
-          "marker": "o",
-          "color": "#ff7f0e",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|connector|2",
-          "x": [
-            -0.4537452517762994,
-            0.1279355878695741
-          ],
-          "y": [
-            2,
-            2
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
-        },
-        {
-          "gid": "B|nonowner|2",
-          "x": [
-            -0.4537452517762994
-          ],
-          "y": [
-            2
-          ],
-          "marker": "o",
-          "color": "#2ca02c",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|owner|2",
-          "x": [
-            0.1279355878695741
-          ],
-          "y": [
-            2
-          ],
-          "marker": "o",
-          "color": "#d62728",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|connector|3",
-          "x": [
-            0.0281820916204597,
-            0.4968223610399608
-          ],
-          "y": [
-            3,
-            3
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
-        },
-        {
-          "gid": "B|nonowner|3",
-          "x": [
-            0.0281820916204597
-          ],
-          "y": [
-            3
-          ],
-          "marker": "o",
-          "color": "#9467bd",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|owner|3",
-          "x": [
-            0.4968223610399608
-          ],
-          "y": [
-            3
-          ],
-          "marker": "o",
-          "color": "#8c564b",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|connector|4",
-          "x": [
-            0.0272539163408376,
-            0.3336384407141529
-          ],
-          "y": [
-            4,
-            4
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
-        },
-        {
-          "gid": "B|nonowner|4",
-          "x": [
-            0.0272539163408376
-          ],
-          "y": [
-            4
-          ],
-          "marker": "o",
-          "color": "#e377c2",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|owner|4",
-          "x": [
-            0.3336384407141529
-          ],
-          "y": [
-            4
-          ],
-          "marker": "o",
-          "color": "#7f7f7f",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|connector|5",
-          "x": [
-            0.0522897731412914,
-            0.3425676208264127
-          ],
-          "y": [
-            5,
-            5
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
-        },
-        {
-          "gid": "B|nonowner|5",
-          "x": [
-            0.0522897731412914
-          ],
-          "y": [
-            5
-          ],
-          "marker": "o",
-          "color": "#bcbd22",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|owner|5",
-          "x": [
-            0.3425676208264127
-          ],
-          "y": [
-            5
-          ],
-          "marker": "o",
-          "color": "#17becf",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|connector|6",
-          "x": [
-            -0.08465733758722,
-            0.2031969730776413
-          ],
-          "y": [
-            6,
-            6
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
-        },
-        {
-          "gid": "B|nonowner|6",
-          "x": [
-            -0.08465733758722
-          ],
-          "y": [
-            6
-          ],
-          "marker": "o",
-          "color": "#1f77b4",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|owner|6",
-          "x": [
-            0.2031969730776413
-          ],
-          "y": [
-            6
-          ],
-          "marker": "o",
-          "color": "#ff7f0e",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|connector|7",
-          "x": [
-            -0.2021082727628175,
-            0.0013801683441627
-          ],
-          "y": [
-            7,
-            7
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
-        },
-        {
-          "gid": "B|nonowner|7",
-          "x": [
-            -0.2021082727628175
-          ],
-          "y": [
-            7
-          ],
-          "marker": "o",
-          "color": "#2ca02c",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|owner|7",
-          "x": [
-            0.0013801683441627
-          ],
-          "y": [
-            7
-          ],
-          "marker": "o",
-          "color": "#d62728",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|connector|8",
-          "x": [
-            0.0892277407507614,
-            0.2825662003873914
-          ],
-          "y": [
-            8,
-            8
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
-        },
-        {
-          "gid": "B|nonowner|8",
-          "x": [
-            0.0892277407507614
-          ],
-          "y": [
-            8
-          ],
-          "marker": "o",
-          "color": "#9467bd",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|owner|8",
-          "x": [
-            0.2825662003873914
-          ],
-          "y": [
-            8
-          ],
-          "marker": "o",
-          "color": "#8c564b",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|connector|9",
-          "x": [
-            0.1532106095557529,
-            0.3445474061486761
-          ],
-          "y": [
-            9,
-            9
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
-        },
-        {
-          "gid": "B|nonowner|9",
-          "x": [
-            0.1532106095557529
-          ],
-          "y": [
-            9
-          ],
-          "marker": "o",
-          "color": "#e377c2",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|owner|9",
-          "x": [
-            0.3445474061486761
-          ],
-          "y": [
-            9
-          ],
-          "marker": "o",
-          "color": "#7f7f7f",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|connector|10",
-          "x": [
-            0.0944140441678926,
-            0.2661943801172103
-          ],
-          "y": [
-            10,
-            10
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
-        },
-        {
-          "gid": "B|nonowner|10",
-          "x": [
-            0.0944140441678926
-          ],
-          "y": [
-            10
-          ],
-          "marker": "o",
-          "color": "#bcbd22",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|owner|10",
-          "x": [
-            0.2661943801172103
-          ],
-          "y": [
-            10
-          ],
-          "marker": "o",
-          "color": "#17becf",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|connector|11",
-          "x": [
-            0.0025801299479543,
-            0.167030045563013
-          ],
-          "y": [
-            11,
-            11
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
-        },
-        {
-          "gid": "B|nonowner|11",
-          "x": [
-            0.0025801299479543
-          ],
-          "y": [
-            11
-          ],
-          "marker": "o",
-          "color": "#1f77b4",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|owner|11",
-          "x": [
-            0.167030045563013
-          ],
-          "y": [
-            11
-          ],
-          "marker": "o",
-          "color": "#ff7f0e",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|connector|12",
-          "x": [
-            -0.0337516036147025,
-            0.1300262160587283
-          ],
-          "y": [
-            12,
-            12
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
-        },
-        {
-          "gid": "B|nonowner|12",
-          "x": [
-            -0.0337516036147025
-          ],
-          "y": [
-            12
-          ],
-          "marker": "o",
-          "color": "#2ca02c",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|owner|12",
-          "x": [
-            0.1300262160587283
-          ],
-          "y": [
-            12
-          ],
-          "marker": "o",
-          "color": "#d62728",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|connector|13",
-          "x": [
-            0.0522471212281526,
-            0.1323555805059597
-          ],
-          "y": [
-            13,
-            13
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
-        },
-        {
-          "gid": "B|nonowner|13",
-          "x": [
-            0.0522471212281526
-          ],
-          "y": [
-            13
-          ],
-          "marker": "o",
-          "color": "#9467bd",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|owner|13",
-          "x": [
-            0.1323555805059597
-          ],
-          "y": [
-            13
-          ],
-          "marker": "o",
-          "color": "#8c564b",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|connector|14",
-          "x": [
-            0.1644906840794105,
-            0.2210193381734084
-          ],
-          "y": [
-            14,
-            14
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
-        },
-        {
-          "gid": "B|nonowner|14",
-          "x": [
-            0.1644906840794105
-          ],
-          "y": [
-            14
-          ],
-          "marker": "o",
-          "color": "#e377c2",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|owner|14",
-          "x": [
-            0.2210193381734084
-          ],
-          "y": [
-            14
-          ],
-          "marker": "o",
-          "color": "#7f7f7f",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|connector|15",
-          "x": [
-            0.1068761292276681,
-            0.0784425950172717
-          ],
-          "y": [
-            15,
-            15
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
-        },
-        {
-          "gid": "B|nonowner|15",
-          "x": [
-            0.1068761292276681
-          ],
-          "y": [
-            15
-          ],
-          "marker": "o",
-          "color": "#bcbd22",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|owner|15",
-          "x": [
-            0.0784425950172717
-          ],
-          "y": [
-            15
-          ],
-          "marker": "o",
-          "color": "#17becf",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|connector|16",
-          "x": [
-            0.0304688879475037,
-            -0.0628015325316655
-          ],
-          "y": [
-            16,
-            16
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
-        },
-        {
-          "gid": "B|nonowner|16",
-          "x": [
-            0.0304688879475037
-          ],
-          "y": [
-            16
-          ],
-          "marker": "o",
-          "color": "#1f77b4",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|owner|16",
-          "x": [
-            -0.0628015325316655
-          ],
-          "y": [
-            16
-          ],
-          "marker": "o",
-          "color": "#ff7f0e",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|connector|17",
-          "x": [
-            0.3555095583012893,
-            0.2608168650220344
-          ],
-          "y": [
-            17,
-            17
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
-        },
-        {
-          "gid": "B|nonowner|17",
-          "x": [
-            0.3555095583012893
-          ],
-          "y": [
-            17
-          ],
-          "marker": "o",
-          "color": "#2ca02c",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|owner|17",
-          "x": [
-            0.2608168650220344
-          ],
-          "y": [
-            17
-          ],
-          "marker": "o",
-          "color": "#d62728",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|connector|18",
-          "x": [
-            0.2878555411972896,
-            0.1024233954135368
-          ],
-          "y": [
-            18,
-            18
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
-        },
-        {
-          "gid": "B|nonowner|18",
-          "x": [
-            0.2878555411972896
-          ],
-          "y": [
-            18
-          ],
-          "marker": "o",
-          "color": "#9467bd",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|owner|18",
-          "x": [
-            0.1024233954135368
-          ],
-          "y": [
-            18
-          ],
-          "marker": "o",
-          "color": "#8c564b",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|connector|19",
-          "x": [
-            0.368472542905755,
-            0.1718325099102086
-          ],
-          "y": [
-            19,
-            19
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
-        },
-        {
-          "gid": "B|nonowner|19",
-          "x": [
-            0.368472542905755
-          ],
-          "y": [
-            19
-          ],
-          "marker": "o",
-          "color": "#e377c2",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|owner|19",
-          "x": [
-            0.1718325099102086
-          ],
-          "y": [
-            19
-          ],
-          "marker": "o",
-          "color": "#7f7f7f",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|connector|20",
-          "x": [
-            0.0347492407335758,
-            0.6197175402954037
-          ],
-          "y": [
-            20,
+      "collections": [
+        {
+          "gid": "3d_observed_cn",
+          "offsets": [
+            [
+              0.00476786361268422,
+              1.0
+            ]
+          ],
+          "array": null,
+          "sizes": [
             20
           ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
+          "facecolors": [
+            [
+              0.8352941176470589,
+              0.3686274509803922,
+              0.0,
+              1.0
+            ]
+          ]
         },
         {
-          "gid": "B|nonowner|20",
-          "x": [
-            0.0347492407335758
+          "gid": "3d_observed_amide",
+          "offsets": [
+            [
+              0.17694306278326333,
+              0.0
+            ]
           ],
-          "y": [
+          "array": null,
+          "sizes": [
             20
           ],
-          "marker": "o",
-          "color": "#bcbd22",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|owner|20",
-          "x": [
-            0.6197175402954037
-          ],
-          "y": [
-            20
-          ],
-          "marker": "o",
-          "color": "#17becf",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|connector|21",
-          "x": [
-            0.155250285511908,
-            0.7222795523340279
-          ],
-          "y": [
-            21,
-            21
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
-        },
-        {
-          "gid": "B|nonowner|21",
-          "x": [
-            0.155250285511908
-          ],
-          "y": [
-            21
-          ],
-          "marker": "o",
-          "color": "#1f77b4",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|owner|21",
-          "x": [
-            0.7222795523340279
-          ],
-          "y": [
-            21
-          ],
-          "marker": "o",
-          "color": "#ff7f0e",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|connector|22",
-          "x": [
-            0.072185026534602,
-            0.1172160033027056
-          ],
-          "y": [
-            22,
-            22
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
-        },
-        {
-          "gid": "B|nonowner|22",
-          "x": [
-            0.072185026534602
-          ],
-          "y": [
-            22
-          ],
-          "marker": "o",
-          "color": "#2ca02c",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|owner|22",
-          "x": [
-            0.1172160033027056
-          ],
-          "y": [
-            22
-          ],
-          "marker": "o",
-          "color": "#d62728",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|connector|23",
-          "x": [
-            0.218854273354539,
-            0.1742936085898659
-          ],
-          "y": [
-            23,
-            23
-          ],
-          "marker": "None",
-          "color": "#B3B3B3",
-          "markersize": 6.0,
-          "linestyle": "-"
-        },
-        {
-          "gid": "B|nonowner|23",
-          "x": [
-            0.218854273354539
-          ],
-          "y": [
-            23
-          ],
-          "marker": "o",
-          "color": "#9467bd",
-          "markersize": 3.5,
-          "linestyle": "None"
-        },
-        {
-          "gid": "B|owner|23",
-          "x": [
-            0.1742936085898659
-          ],
-          "y": [
-            23
-          ],
-          "marker": "o",
-          "color": "#8c564b",
-          "markersize": 3.5,
-          "linestyle": "None"
+          "facecolors": [
+            [
+              0.8352941176470589,
+              0.3686274509803922,
+              0.0,
+              1.0
+            ]
+          ]
         }
       ],
-      "meshes": [],
-      "collections": [],
       "patches": [],
-      "images": []
+      "images": [],
+      "retained_source_axis_index": 10,
+      "placement_transform_mm": [
+        0,
+        18
+      ]
     }
   ],
-  "panel_tags": {
-    "A": "Aromatic amines",
-    "B": "Molecular contexts"
-  },
-  "frozen_amine_order": [
-    "M4",
-    "M8",
-    "M1",
-    "M2",
-    "M3",
-    "M5",
-    "M7",
-    "M6"
+  "labels": [
+    {
+      "gid": "panel_a",
+      "text": "a",
+      "fontsize": 8,
+      "weight": "bold"
+    },
+    {
+      "gid": "panel_b",
+      "text": "b",
+      "fontsize": 8,
+      "weight": "bold"
+    },
+    {
+      "gid": "panel_c",
+      "text": "c",
+      "fontsize": 8,
+      "weight": "bold"
+    },
+    {
+      "gid": "panel_d",
+      "text": "d",
+      "fontsize": 8,
+      "weight": "bold"
+    },
+    {
+      "gid": "panel_e",
+      "text": "e",
+      "fontsize": 8,
+      "weight": "bold"
+    }
   ],
-  "displayed_summaries": {
-    "A": [
-      0.1865674921715979,
-      0.2204636597752288
-    ],
-    "B": [
-      0.2555345936388482,
-      0.0597065796734981
-    ]
-  },
-  "journal": "natcatal",
-  "d21": {
-    "status": "PASS",
-    "figure": 3,
-    "measurement_version": 3,
-    "criterion_pt": 2.0,
-    "measurement_dpi": 160,
-    "method": "Rendered text bboxes versus transformed visible marker edges, line strokes, patch paths, and all other visible text bboxes; Euclidean minimum clearance in print points.",
-    "scope": "All ordinary non-tick text except panel letters and panel tags; tick labels, axis titles and native chemical labels remain text obstacles.",
-    "annotations": 27,
-    "geometry_primitives": 227,
-    "minimum_graphic_gap_pt": 6.503937007873963,
-    "minimum_text_gap_pt": 5.059842519685117,
-    "annotation_text_bbox_corrections": [],
-    "connected_leader_exceptions": [],
-    "rows": [
+  "pdf_font_sizes": [
+    5.0,
+    7.0,
+    8.0
+  ],
+  "pdf_raster_images": 0,
+  "pdf_vector_drawings": 988,
+  "metadata": {
+    "blocks": [
       {
-        "text": "Preference across partners",
-        "gid": null,
-        "graphic_gap_pt": 26.881102362204718,
-        "nearest_graphic": {
-          "gid": null,
-          "kind": "line"
-        },
-        "text_gap_pt": 8.381102362204718,
-        "nearest_text": "−0.4",
-        "nearest_text_gid": null
+        "role": "amine",
+        "ids": [
+          "a1",
+          "a2",
+          "a3",
+          "a4",
+          "a5",
+          "a6",
+          "a7"
+        ],
+        "shape": [
+          7,
+          95
+        ],
+        "mean_r": 0.2714381242241747,
+        "correlation_matrix": [
+          [
+            null,
+            0.06850003743484956,
+            0.366801387526947,
+            0.3573771195824369,
+            0.5571749263097096,
+            0.5281189063423519,
+            0.3694725213571468
+          ],
+          [
+            0.06850003743484956,
+            null,
+            0.1791364102157643,
+            0.2972891724365515,
+            0.23050813069479156,
+            0.26652216734440104,
+            0.05126267946625837
+          ],
+          [
+            0.366801387526947,
+            0.1791364102157643,
+            null,
+            0.16546052981351955,
+            0.4891683056554313,
+            0.40469143928734325,
+            0.061134472007841965
+          ],
+          [
+            0.3573771195824369,
+            0.2972891724365515,
+            0.16546052981351955,
+            null,
+            0.19339332527439798,
+            0.18646622522707745,
+            0.31491847396415074
+          ],
+          [
+            0.5571749263097096,
+            0.23050813069479156,
+            0.4891683056554313,
+            0.19339332527439798,
+            null,
+            0.5523029467195528,
+            0.06631332536922734
+          ],
+          [
+            0.5281189063423519,
+            0.26652216734440104,
+            0.40469143928734325,
+            0.18646622522707745,
+            0.5523029467195528,
+            null,
+            -0.0058118933220833325
+          ],
+          [
+            0.3694725213571468,
+            0.05126267946625837,
+            0.061134472007841965,
+            0.31491847396415074,
+            0.06631332536922734,
+            -0.0058118933220833325,
+            null
+          ]
+        ]
       },
       {
-        "text": "Owner",
-        "gid": "B|legend_owner",
-        "graphic_gap_pt": 6.503937007874015,
-        "nearest_graphic": {
-          "gid": null,
-          "kind": "marker"
-        },
-        "text_gap_pt": 27.20678185483733,
-        "nearest_text": "3-(methylthio)aniline",
-        "nearest_text_gid": "B|name|1"
-      },
-      {
-        "text": "Non-owner",
-        "gid": "B|legend_nonowner",
-        "graphic_gap_pt": 6.503937007873963,
-        "nearest_graphic": {
-          "gid": null,
-          "kind": "marker"
-        },
-        "text_gap_pt": 50.18828740157477,
-        "nearest_text": "Owner",
-        "nearest_text_gid": "B|legend_owner"
-      },
-      {
-        "text": "3-(methylthio)aniline",
-        "gid": "B|name|1",
-        "graphic_gap_pt": 23.746902118502646,
-        "nearest_graphic": {
-          "gid": null,
-          "kind": "marker"
-        },
-        "text_gap_pt": 13.159842519685014,
-        "nearest_text": "3,4-dimethoxyaniline",
-        "nearest_text_gid": "B|name|2"
-      },
-      {
-        "text": "3,4-dimethoxyaniline",
-        "gid": "B|name|2",
-        "graphic_gap_pt": 25.584641806510394,
-        "nearest_graphic": {
-          "gid": "A|path|M8",
-          "kind": "marker"
-        },
-        "text_gap_pt": 13.159842519685014,
-        "nearest_text": "3-(methylthio)aniline",
-        "nearest_text_gid": "B|name|1"
-      },
-      {
-        "text": "2-ethoxypyridin-4-amine",
-        "gid": "B|name|3",
-        "graphic_gap_pt": 24.294574852058183,
-        "nearest_graphic": {
-          "gid": null,
-          "kind": "line"
-        },
-        "text_gap_pt": 9.109842519685014,
-        "nearest_text": "3-(4-methylimidazol-1-yl)-\n5-(trifluoromethyl)aniline",
-        "nearest_text_gid": "B|name|4"
-      },
-      {
-        "text": "3-(4-methylimidazol-1-yl)-\n5-(trifluoromethyl)aniline",
-        "gid": "B|name|4",
-        "graphic_gap_pt": 22.427165354330768,
-        "nearest_graphic": {
-          "gid": null,
-          "kind": "line"
-        },
-        "text_gap_pt": 9.109842519685014,
-        "nearest_text": "2-ethoxypyridin-4-amine",
-        "nearest_text_gid": "B|name|3"
-      },
-      {
-        "text": "2,4-dimethylaniline",
-        "gid": "B|name|5",
-        "graphic_gap_pt": 23.362479587993054,
-        "nearest_graphic": {
-          "gid": null,
-          "kind": "axis spine"
-        },
-        "text_gap_pt": 9.109842519685014,
-        "nearest_text": "3-(4-methylimidazol-1-yl)-\n5-(trifluoromethyl)aniline",
-        "nearest_text_gid": "B|name|4"
-      },
-      {
-        "text": "5-methylpyridin-2-amine",
-        "gid": "B|name|6",
-        "graphic_gap_pt": 35.65691125406863,
-        "nearest_graphic": {
-          "gid": null,
-          "kind": "axis spine"
-        },
-        "text_gap_pt": 13.159842519685064,
-        "nearest_text": "2,4-dimethylaniline",
-        "nearest_text_gid": "B|name|5"
-      },
-      {
-        "text": "4-methoxyaniline",
-        "gid": "B|name|7",
-        "graphic_gap_pt": 53.83350180272493,
-        "nearest_graphic": {
-          "gid": null,
-          "kind": "axis spine"
-        },
-        "text_gap_pt": 12.259842519685014,
-        "nearest_text": "4-methoxy-$\\mathit{N}$-methylaniline",
-        "nearest_text_gid": "B|name|8"
-      },
-      {
-        "text": "4-methoxy-$\\mathit{N}$-methylaniline",
-        "gid": "B|name|8",
-        "graphic_gap_pt": 41.807192536975336,
-        "nearest_graphic": {
-          "gid": null,
-          "kind": "line"
-        },
-        "text_gap_pt": 12.259842519685014,
-        "nearest_text": "4-methoxyaniline",
-        "nearest_text_gid": "B|name|7"
-      },
-      {
-        "text": "3-ethynylaniline",
-        "gid": "B|name|9",
-        "graphic_gap_pt": 26.97227918892773,
-        "nearest_graphic": {
-          "gid": null,
-          "kind": "line"
-        },
-        "text_gap_pt": 12.259842519685014,
-        "nearest_text": "4-methoxy-$\\mathit{N}$-methylaniline",
-        "nearest_text_gid": "B|name|8"
-      },
-      {
-        "text": "4-(methylthio)aniline",
-        "gid": "B|name|10",
-        "graphic_gap_pt": 22.427165354330768,
-        "nearest_graphic": {
-          "gid": null,
-          "kind": "line"
-        },
-        "text_gap_pt": 13.159842519685014,
-        "nearest_text": "4-methylaniline",
-        "nearest_text_gid": "B|name|11"
-      },
-      {
-        "text": "4-methylaniline",
-        "gid": "B|name|11",
-        "graphic_gap_pt": 22.445441730910495,
-        "nearest_graphic": {
-          "gid": null,
-          "kind": "axis spine"
-        },
-        "text_gap_pt": 13.159842519685014,
-        "nearest_text": "4-(methylthio)aniline",
-        "nearest_text_gid": "B|name|10"
-      },
-      {
-        "text": "6-methoxypyridin-3-amine",
-        "gid": "B|name|12",
-        "graphic_gap_pt": 31.464092715421668,
-        "nearest_graphic": {
-          "gid": null,
-          "kind": "axis spine"
-        },
-        "text_gap_pt": 13.159842519685014,
-        "nearest_text": "1-butylpiperazine",
-        "nearest_text_gid": "B|name|13"
-      },
-      {
-        "text": "1-butylpiperazine",
-        "gid": "B|name|13",
-        "graphic_gap_pt": 48.74434749118702,
-        "nearest_graphic": {
-          "gid": null,
-          "kind": "axis spine"
-        },
-        "text_gap_pt": 13.159842519685014,
-        "nearest_text": "6-methoxypyridin-3-amine",
-        "nearest_text_gid": "B|name|12"
-      },
-      {
-        "text": "ethyl 3-aminobenzoate",
-        "gid": "B|name|14",
-        "graphic_gap_pt": 43.882896520072094,
-        "nearest_graphic": {
-          "gid": "A|path|M5",
-          "kind": "marker"
-        },
-        "text_gap_pt": 13.159842519685014,
-        "nearest_text": "4-methoxy-3-methylaniline",
-        "nearest_text_gid": "B|name|15"
-      },
-      {
-        "text": "4-methoxy-3-methylaniline",
-        "gid": "B|name|15",
-        "graphic_gap_pt": 29.085674325108016,
-        "nearest_graphic": {
-          "gid": "A|path|M5",
-          "kind": "marker"
-        },
-        "text_gap_pt": 12.259842519685066,
-        "nearest_text": "$\\mathit{N}$-ethylaniline",
-        "nearest_text_gid": "B|name|16"
-      },
-      {
-        "text": "$\\mathit{N}$-ethylaniline",
-        "gid": "B|name|16",
-        "graphic_gap_pt": 22.427165354330768,
-        "nearest_graphic": {
-          "gid": null,
-          "kind": "line"
-        },
-        "text_gap_pt": 12.259842519685014,
-        "nearest_text": "2-methylaniline",
-        "nearest_text_gid": "B|name|17"
-      },
-      {
-        "text": "2-methylaniline",
-        "gid": "B|name|17",
-        "graphic_gap_pt": 22.427165354330768,
-        "nearest_graphic": {
-          "gid": null,
-          "kind": "axis spine"
-        },
-        "text_gap_pt": 12.259842519685014,
-        "nearest_text": "$\\mathit{N}$-ethylaniline",
-        "nearest_text_gid": "B|name|16"
-      },
-      {
-        "text": "quinoxalin-6-amine",
-        "gid": "B|name|18",
-        "graphic_gap_pt": 27.795370496404864,
-        "nearest_graphic": {
-          "gid": null,
-          "kind": "axis spine"
-        },
-        "text_gap_pt": 9.109842519685065,
-        "nearest_text": "methyl\n4-amino-2-methoxybenzoate",
-        "nearest_text_gid": "B|name|19"
-      },
-      {
-        "text": "methyl\n4-amino-2-methoxybenzoate",
-        "gid": "B|name|19",
-        "graphic_gap_pt": 40.37864681667224,
-        "nearest_graphic": {
-          "gid": null,
-          "kind": "axis spine"
-        },
-        "text_gap_pt": 9.109842519685014,
-        "nearest_text": "3,4,5-trimethoxybenzoic acid",
-        "nearest_text_gid": "B|name|20"
-      },
-      {
-        "text": "3,4,5-trimethoxybenzoic acid",
-        "gid": "B|name|20",
-        "graphic_gap_pt": 51.19139380368598,
-        "nearest_graphic": {
-          "gid": "A|structure|M6|bond0",
-          "kind": "patch"
-        },
-        "text_gap_pt": 9.109842519685014,
-        "nearest_text": "methyl\n4-amino-2-methoxybenzoate",
-        "nearest_text_gid": "B|name|19"
-      },
-      {
-        "text": "5-(trifluoromethyl)picolinic\nacid",
-        "gid": "B|name|21",
-        "graphic_gap_pt": 31.588744306733336,
-        "nearest_graphic": {
-          "gid": null,
-          "kind": "line"
-        },
-        "text_gap_pt": 5.059842519685117,
-        "nearest_text": "5-bromo-2-methoxynicotinic\nacid",
-        "nearest_text_gid": "B|name|22"
-      },
-      {
-        "text": "5-bromo-2-methoxynicotinic\nacid",
-        "gid": "B|name|22",
-        "graphic_gap_pt": 22.453277874014873,
-        "nearest_graphic": {
-          "gid": null,
-          "kind": "line"
-        },
-        "text_gap_pt": 5.059842519685117,
-        "nearest_text": "5-(trifluoromethyl)picolinic\nacid",
-        "nearest_text_gid": "B|name|21"
-      },
-      {
-        "text": "5-fluoropicolinic acid",
-        "gid": "B|name|23",
-        "graphic_gap_pt": 22.546341648198457,
-        "nearest_graphic": {
-          "gid": null,
-          "kind": "axis spine"
-        },
-        "text_gap_pt": 9.109842519685014,
-        "nearest_text": "5-bromo-2-methoxynicotinic\nacid",
-        "nearest_text_gid": "B|name|22"
-      },
-      {
-        "text": "Preference across partners",
-        "gid": null,
-        "graphic_gap_pt": 25.463779527559165,
-        "nearest_graphic": {
-          "gid": null,
-          "kind": "line"
-        },
-        "text_gap_pt": 12.113779527559165,
-        "nearest_text": "−0.4",
-        "nearest_text_gid": null
+        "role": "halide",
+        "ids": [
+          "h1",
+          "h2",
+          "h3",
+          "h4",
+          "h5",
+          "h6",
+          "h7",
+          "h8",
+          "h9",
+          "h10"
+        ],
+        "shape": [
+          10,
+          95
+        ],
+        "mean_r": 0.07264383963890718,
+        "correlation_matrix": [
+          [
+            null,
+            -0.06882714441327088,
+            -0.09217391093964226,
+            -0.016855123526040988,
+            0.05547385190089119,
+            0.16540007073801535,
+            0.03301349755947555,
+            -0.05718948624843678,
+            0.019371957231436095,
+            0.24228235605605328
+          ],
+          [
+            -0.06882714441327088,
+            null,
+            0.1912853215436013,
+            0.1226777321529068,
+            -0.24321074794656414,
+            -0.3186104373386396,
+            0.004857248425704882,
+            -0.2676060892456215,
+            0.18696668444484368,
+            -0.04136916234395421
+          ],
+          [
+            -0.09217391093964226,
+            0.1912853215436013,
+            null,
+            -0.056343597804388704,
+            -0.15750048471197617,
+            -0.015596636587866728,
+            -0.1523965224768656,
+            -0.04778694696612207,
+            0.207092701806368,
+            -0.1078113582442105
+          ],
+          [
+            -0.016855123526040988,
+            0.1226777321529068,
+            -0.056343597804388704,
+            null,
+            -0.03304118288085387,
+            -0.035616011193103266,
+            0.02535525658728647,
+            -0.12652217785430434,
+            0.17957835181543974,
+            -0.05518482734479168
+          ],
+          [
+            0.05547385190089119,
+            -0.24321074794656414,
+            -0.15750048471197617,
+            -0.03304118288085387,
+            null,
+            0.691397073622899,
+            -0.017111040495398643,
+            0.5516471373474213,
+            0.19439324665651758,
+            0.4284913653848038
+          ],
+          [
+            0.16540007073801535,
+            -0.3186104373386396,
+            -0.015596636587866728,
+            -0.035616011193103266,
+            0.691397073622899,
+            null,
+            -0.06610525781918837,
+            0.6634488581116592,
+            0.30465143692426466,
+            0.4926643175960223
+          ],
+          [
+            0.03301349755947555,
+            0.004857248425704882,
+            -0.1523965224768656,
+            0.02535525658728647,
+            -0.017111040495398643,
+            -0.06610525781918837,
+            null,
+            -0.10677263771145827,
+            -0.03927993890275739,
+            -0.0671686498333791
+          ],
+          [
+            -0.05718948624843678,
+            -0.2676060892456215,
+            -0.04778694696612207,
+            -0.12652217785430434,
+            0.5516471373474213,
+            0.6634488581116592,
+            -0.10677263771145827,
+            null,
+            0.17564740164195983,
+            0.42162217937875757
+          ],
+          [
+            0.019371957231436095,
+            0.18696668444484368,
+            0.207092701806368,
+            0.17957835181543974,
+            0.19439324665651758,
+            0.30465143692426466,
+            -0.03927993890275739,
+            0.17564740164195983,
+            null,
+            0.10173410965333048
+          ],
+          [
+            0.24228235605605328,
+            -0.04136916234395421,
+            -0.1078113582442105,
+            -0.05518482734479168,
+            0.4284913653848038,
+            0.4926643175960223,
+            -0.0671686498333791,
+            0.42162217937875757,
+            0.10173410965333048,
+            null
+          ]
+        ]
       }
     ],
-    "failures": []
+    "groups": [
+      {
+        "screen": "Buchwald-Hartwig|1",
+        "role": 2,
+        "n": 23,
+        "median": 0.2714381242241745
+      },
+      {
+        "screen": "Buchwald-Hartwig|1",
+        "role": 1,
+        "n": 19,
+        "median": 0.0726438396389072
+      },
+      {
+        "screen": "Acylation|1",
+        "role": 1,
+        "n": 42,
+        "median": 0.3290359930513674
+      },
+      {
+        "screen": "Acylation|1",
+        "role": 2,
+        "n": 47,
+        "median": 0.097304966535593
+      }
+    ],
+    "class_nulls": [
+      {
+        "screen": "Buchwald-Hartwig|1",
+        "seed": 20261008,
+        "draws": 4999,
+        "explained": 0.00476786361268422,
+        "null_median": 0.007490900594120942,
+        "null_p95": 0.01317825054194907,
+        "p": 0.9288,
+        "pairs": 166,
+        "molecules": {
+          "N-aryl secondary amine": 10,
+          "primary (hetero)aryl amine": 47
+        }
+      },
+      {
+        "screen": "Acylation|1",
+        "seed": 20261008,
+        "draws": 4999,
+        "explained": 0.17694306278326333,
+        "null_median": 0.009086548189310872,
+        "null_p95": 0.031958844890134154,
+        "p": 0.0002,
+        "pairs": 384,
+        "molecules": {
+          "primary (hetero)aryl amine": 34,
+          "primary alkyl amine": 17
+        }
+      }
+    ],
+    "frozen_order": [
+      "C81",
+      "C74",
+      "C43",
+      "C15",
+      "C42",
+      "C82",
+      "C64",
+      "C86",
+      "C10",
+      "C40",
+      "C3",
+      "C85",
+      "C2",
+      "C4",
+      "C5",
+      "C6",
+      "C60",
+      "C7",
+      "C75",
+      "C61",
+      "C62",
+      "C12",
+      "C63",
+      "C76",
+      "C51",
+      "C58",
+      "C11",
+      "C13",
+      "C27",
+      "C39",
+      "C14",
+      "C41",
+      "C16",
+      "C44",
+      "C17",
+      "C65",
+      "C45",
+      "C18",
+      "C19",
+      "C46",
+      "C89",
+      "C67",
+      "C59",
+      "C84",
+      "C20",
+      "C66",
+      "C47",
+      "C95",
+      "C1",
+      "C52",
+      "C83",
+      "C50",
+      "C87",
+      "C23",
+      "C73",
+      "C94",
+      "C48",
+      "C22",
+      "C8",
+      "C21",
+      "C37",
+      "C56",
+      "C49",
+      "C24",
+      "C38",
+      "C53",
+      "C68",
+      "C25",
+      "C26",
+      "C70",
+      "C69",
+      "C54",
+      "C77",
+      "C9",
+      "C57",
+      "C80",
+      "C90",
+      "C78",
+      "C28",
+      "C88",
+      "C72",
+      "C29",
+      "C79",
+      "C31",
+      "C92",
+      "C30",
+      "C32",
+      "C33",
+      "C55",
+      "C34",
+      "C35",
+      "C36",
+      "C93",
+      "C71",
+      "C91"
+    ],
+    "master_bond_pt": 14.4,
+    "global_structure_scale": 0.7,
+    "best_scope": "example pair only"
   },
-  "text_styles": [
-    {
-      "text": "a",
-      "gid": "panel_A",
-      "weight": "bold",
-      "color": "black"
-    },
-    {
-      "text": "Aromatic amines",
-      "gid": "tag_A",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "b",
-      "gid": "panel_B",
-      "weight": "bold",
-      "color": "black"
-    },
-    {
-      "text": "Molecular contexts",
-      "gid": "tag_B",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "O",
-      "gid": "A|structure|M4|label0",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "NH",
-      "gid": "A|structure|M4|label1",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "2",
-      "gid": "A|structure|M4|label2",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "NH",
-      "gid": "A|structure|M8|label0",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "2",
-      "gid": "A|structure|M8|label1",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "N",
-      "gid": "A|structure|M8|label2",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "N",
-      "gid": "A|structure|M8|label3",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "NH",
-      "gid": "A|structure|M1|label0",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "2",
-      "gid": "A|structure|M1|label1",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "NH",
-      "gid": "A|structure|M2|label0",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "2",
-      "gid": "A|structure|M2|label1",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "N",
-      "gid": "A|structure|M2|label2",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "NH",
-      "gid": "A|structure|M3|label0",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "2",
-      "gid": "A|structure|M3|label1",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "S",
-      "gid": "A|structure|M5|label0",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "NH",
-      "gid": "A|structure|M5|label1",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "2",
-      "gid": "A|structure|M5|label2",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "NH",
-      "gid": "A|structure|M7|label0",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "2",
-      "gid": "A|structure|M7|label1",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "S",
-      "gid": "A|structure|M6|label0",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "NH",
-      "gid": "A|structure|M6|label1",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "2",
-      "gid": "A|structure|M6|label2",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "Preference across partners",
-      "gid": null,
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "Owner",
-      "gid": "B|legend_owner",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "Non-owner",
-      "gid": "B|legend_nonowner",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "3-(methylthio)aniline",
-      "gid": "B|name|1",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "3,4-dimethoxyaniline",
-      "gid": "B|name|2",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "2-ethoxypyridin-4-amine",
-      "gid": "B|name|3",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "3-(4-methylimidazol-1-yl)-\n5-(trifluoromethyl)aniline",
-      "gid": "B|name|4",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "2,4-dimethylaniline",
-      "gid": "B|name|5",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "5-methylpyridin-2-amine",
-      "gid": "B|name|6",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "4-methoxyaniline",
-      "gid": "B|name|7",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "4-methoxy-$\\mathit{N}$-methylaniline",
-      "gid": "B|name|8",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "3-ethynylaniline",
-      "gid": "B|name|9",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "4-(methylthio)aniline",
-      "gid": "B|name|10",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "4-methylaniline",
-      "gid": "B|name|11",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "6-methoxypyridin-3-amine",
-      "gid": "B|name|12",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "1-butylpiperazine",
-      "gid": "B|name|13",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "ethyl 3-aminobenzoate",
-      "gid": "B|name|14",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "4-methoxy-3-methylaniline",
-      "gid": "B|name|15",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "$\\mathit{N}$-ethylaniline",
-      "gid": "B|name|16",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "2-methylaniline",
-      "gid": "B|name|17",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "quinoxalin-6-amine",
-      "gid": "B|name|18",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "methyl\n4-amino-2-methoxybenzoate",
-      "gid": "B|name|19",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "3,4,5-trimethoxybenzoic acid",
-      "gid": "B|name|20",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "5-(trifluoromethyl)picolinic\nacid",
-      "gid": "B|name|21",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "5-bromo-2-methoxynicotinic\nacid",
-      "gid": "B|name|22",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "5-fluoropicolinic acid",
-      "gid": "B|name|23",
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "Preference across partners",
-      "gid": null,
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "−0.4",
-      "gid": null,
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "0.0",
-      "gid": null,
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "0.4",
-      "gid": null,
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "−0.4",
-      "gid": null,
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "0.0",
-      "gid": null,
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "0.4",
-      "gid": null,
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "−0.4",
-      "gid": null,
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "0.0",
-      "gid": null,
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "0.4",
-      "gid": null,
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "Amide",
-      "gid": null,
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "Pd",
-      "gid": null,
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "Pd/Cu/Ni",
-      "gid": null,
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "−0.4",
-      "gid": null,
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "0.0",
-      "gid": null,
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "0.4",
-      "gid": null,
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "Amide",
-      "gid": null,
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "Pd",
-      "gid": null,
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "Pd/Cu/Ni",
-      "gid": null,
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "−0.4",
-      "gid": null,
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "0.0",
-      "gid": null,
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "0.4",
-      "gid": null,
-      "weight": "normal",
-      "color": "black"
-    },
-    {
-      "text": "0.8",
-      "gid": null,
-      "weight": "normal",
-      "color": "black"
+  "records": {
+    "schema": "v6_frozen_histories",
+    "source_records_sha256": "1b97e9c409e1f6344dbe2be8c653664542a397b843c4d42bc8c6ee5f3f04eda6",
+    "scientific_values_recalculated": false,
+    "reference": {
+      "pair": "Cc1cc(C)nc(N)c1 >> N#Cc1ccnc(Cl)c1",
+      "pattern_points": [
+        -9.692796147206355,
+        -9.004998455250956,
+        -8.252482419137174,
+        -7.973575363731113,
+        -9.436336258432753,
+        -9.02988910120573,
+        -8.162760175037038,
+        11.706270489261723,
+        -10.699131969769105,
+        5.109143431021113,
+        2.093323257829921,
+        5.175494539299496,
+        10.23364362900328,
+        8.264639151540127,
+        -13.275258824205766,
+        35.88217849987886,
+        19.69616526465396,
+        12.504736294486213,
+        -37.51336396063909,
+        18.3867617887029,
+        5.652765830985162,
+        -31.064798953786294,
+        5.631581501559757,
+        -25.912963437406766,
+        11.114468933834177,
+        -28.13007352653961,
+        2.463900852882106,
+        6.285961664253136,
+        null,
+        0.7552394863872602,
+        -14.932539427919833,
+        29.76091490168922,
+        -3.6846965035247035,
+        43.59630963000682,
+        23.11770840105631,
+        27.699454018433904,
+        4.565260677658934,
+        10.657539272405508,
+        -16.296273479896406,
+        null,
+        -2.1562202327424256,
+        -9.182239971093425,
+        -15.477933874218774,
+        -20.563917107990374,
+        16.278160036849076,
+        17.45739784408628,
+        4.906913633157628,
+        -1.2905168657727117,
+        30.476537344469367,
+        4.682408747609398,
+        1.0189233262513864,
+        -7.395963945989716,
+        -10.085469562644192,
+        -19.48539632136414,
+        -1.069622358402783,
+        -0.17974742425867496,
+        -1.825783018962246,
+        12.30694059785138,
+        -10.578981911288288,
+        14.597418370018323,
+        13.598313919885918,
+        -7.339036457742824,
+        16.164732875836464,
+        -11.197170514057127,
+        1.903160628034839,
+        -17.229041197760214,
+        9.561279281941848,
+        -24.19024514179673,
+        17.569517124622223,
+        -20.145514371021157,
+        9.32346453319849,
+        13.692986360593762,
+        -24.324009521197056,
+        0.4632194699396963,
+        -18.63018924466665,
+        -27.209275838011827,
+        -10.440561362088602,
+        -29.693436534879815,
+        8.958716284506597,
+        -12.510886225323702,
+        -4.50166577698298,
+        -5.3486758115743935,
+        -23.200021431095262,
+        -21.337692372586524,
+        -13.691798367052034,
+        -3.2778122260750777,
+        -2.9278106681150162,
+        28.259482498592213,
+        14.963112996497275,
+        33.78416600035732,
+        6.3525957818205026,
+        15.245295676768556,
+        3.46727769809575,
+        0.6905585979019024,
+        23.472532514731636
+      ]
+    },
+    "records": [
+      {
+        "key": "halide_record",
+        "member_pairs": [
+          "Cc1ccc(N)c(C)c1 >> N#Cc1ccnc(Cl)c1",
+          "COc1ccc(N)cc1OC >> N#Cc1ccnc(Cl)c1",
+          "Cc1nccn1-c1ccc(N)cc1 >> N#Cc1ccnc(Cl)c1",
+          "COc1ccc(N)cc1 >> N#Cc1ccnc(Cl)c1",
+          "COc1ccc(N)cn1 >> N#Cc1ccnc(Cl)c1",
+          "CNc1cccc(C)c1 >> N#Cc1ccnc(Cl)c1"
+        ],
+        "member_ids": [
+          "a1",
+          "a3",
+          "a4",
+          "a5",
+          "a6",
+          "a7"
+        ],
+        "n_pairs": 6,
+        "pattern_points": [
+          -0.12540794056770205,
+          -0.6119631667660435,
+          0.15685201384901004,
+          0.4240284983965107,
+          0.6267815341847919,
+          -0.5342952695443374,
+          0.8154619379845759,
+          8.823459045944377,
+          16.334064794794404,
+          -3.7077870564329225,
+          -13.156724903062976,
+          18.95264808868261,
+          12.647485797435012,
+          8.523823485328807,
+          0.8851578842223304,
+          0.883868131084208,
+          9.094821603469528,
+          13.923156565052333,
+          -16.26476741536502,
+          -7.938612789871363,
+          -4.771736061248498,
+          -18.076424164232126,
+          -8.030062935337154,
+          -13.281072597714088,
+          17.9938522486956,
+          10.810333481679015,
+          3.57237447555752,
+          3.7489421941982055,
+          -24.9504981962788,
+          3.7064798176417137,
+          2.3962565299377303,
+          10.21751117058058,
+          1.4042875994601207,
+          3.086532379491356,
+          0.7843171035313724,
+          2.847558827278616,
+          16.435639114952775,
+          0.5493146075544295,
+          1.3348318290003414,
+          -2.1007988308425314,
+          2.683530426077451,
+          1.485636850499623,
+          13.033699247768253,
+          -3.028200910030693,
+          -9.079393054660168,
+          -3.0841285762125046,
+          9.786307160984341,
+          -2.523467347053472,
+          18.72532074448437,
+          -2.5472836519070694,
+          8.956341699965819,
+          -0.6505783107974841,
+          -0.9569272953283341,
+          -7.060286884905809,
+          -1.0317096686450282,
+          -0.7563213670010844,
+          1.4954140901162614,
+          -0.8693808947441769,
+          -14.045338407718353,
+          -9.28729727843647,
+          17.620196369455666,
+          0.03271942870511,
+          20.627315403440246,
+          -1.0514436042784467,
+          -0.8046715891203627,
+          2.5887540908940125,
+          17.414145576975333,
+          -8.642115936899442,
+          3.625659087552735,
+          4.495463832290068,
+          8.354564569321374,
+          9.44776448763341,
+          -16.80971184787143,
+          7.97918231080408,
+          14.740209490159193,
+          -14.973195993266506,
+          15.207406367995157,
+          -20.2551822917458,
+          -9.326149354243688,
+          -5.890588053606823,
+          -3.5812138301731964,
+          3.1016302493773336,
+          -14.151147509037772,
+          -15.894457597932918,
+          15.193033587137696,
+          -3.4598872580225617,
+          -12.563750685475016,
+          6.596416911849286,
+          3.224986472974283,
+          -9.597143254742223,
+          -19.883039449923142,
+          -20.550221590251507,
+          -13.629167395759103,
+          -5.425374833921164,
+          -4.60686015926661
+        ],
+        "contributor_counts": [
+          5,
+          5,
+          6,
+          5,
+          6,
+          5,
+          6,
+          6,
+          6,
+          6,
+          5,
+          5,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          5,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          4,
+          6,
+          5,
+          6,
+          6,
+          5,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "r": 0.3025779035389302,
+        "n_common": 93,
+        "segments": [
+          {
+            "positions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "mean": 3.8032343457760485,
+            "finite_conditions": 10
+          },
+          {
+            "positions": [
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19
+            ],
+            "mean": 0.4606268531624327,
+            "finite_conditions": 10
+          },
+          {
+            "positions": [
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29
+            ],
+            "mean": 7.80342716473194,
+            "finite_conditions": 10
+          },
+          {
+            "positions": [
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39
+            ],
+            "mean": -0.3645539991789958,
+            "finite_conditions": 10
+          },
+          {
+            "positions": [
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49
+            ],
+            "mean": 0.05161085951650457,
+            "finite_conditions": 10
+          },
+          {
+            "positions": [
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58
+            ],
+            "mean": -1.2819831434146645,
+            "finite_conditions": 9
+          },
+          {
+            "positions": [
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67
+            ],
+            "mean": 0.1422407958564549,
+            "finite_conditions": 9
+          },
+          {
+            "positions": [
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76
+            ],
+            "mean": 4.67358314958355,
+            "finite_conditions": 9
+          },
+          {
+            "positions": [
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85
+            ],
+            "mean": -2.846327732940335,
+            "finite_conditions": 9
+          },
+          {
+            "positions": [
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94
+            ],
+            "mean": -12.877924206181923,
+            "finite_conditions": 9
+          }
+        ],
+        "step_axis_range_pp": [
+          -30,
+          30
+        ],
+        "step_axis_height_mm": 16
+      },
+      {
+        "key": "amine_record",
+        "member_pairs": [
+          "Cc1cc(C)nc(N)c1 >> C[Si](C)(C)c1ccccc1OS(=O)(=O)C(F)(F)F",
+          "Cc1cc(C)nc(N)c1 >> FC(F)(F)c1cnc(Cl)nc1",
+          "Cc1cc(C)nc(N)c1 >> COc1cnc(Cl)nc1",
+          "Cc1cc(C)nc(N)c1 >> COc1ccccc1OS(=O)(=O)C(F)(F)F",
+          "Cc1cc(C)nc(N)c1 >> Cc1ccccc1OS(=O)(=O)C(F)(F)F",
+          "Cc1cc(C)nc(N)c1 >> CC(=O)c1ccc(Cl)c(C)c1",
+          "Cc1cc(C)nc(N)c1 >> Cc1ccc(OS(=O)(=O)C(F)(F)F)cc1",
+          "Cc1cc(C)nc(N)c1 >> Cc1ccnc(OS(=O)(=O)C(F)(F)F)c1",
+          "Cc1cc(C)nc(N)c1 >> N#Cc1cc(Br)ccc1F"
+        ],
+        "member_ids": [
+          "h1",
+          "h3",
+          "h4",
+          "h5",
+          "h6",
+          "h7",
+          "h8",
+          "h9",
+          "h10"
+        ],
+        "n_pairs": 9,
+        "pattern_points": [
+          -0.9342663377729122,
+          -0.6405804138143341,
+          0.08939318417493342,
+          0.6094588574040805,
+          -0.45872667415174795,
+          -0.7761731966557264,
+          -0.3289161404028883,
+          -2.617594691499061,
+          -5.1512744355995235,
+          11.847791633484597,
+          11.911627995728429,
+          -9.984839652736857,
+          -6.354639991556951,
+          2.861180476558419,
+          -2.788414437271332,
+          2.2044173740365816,
+          -4.455928857870137,
+          -4.548089890821893,
+          -0.007978153759798564,
+          5.442176153023535,
+          -1.9758776835926117,
+          20.356134426260567,
+          -2.937574361197325,
+          5.25274864700794,
+          -9.427291820471554,
+          -14.306127009326998,
+          -6.646319061870735,
+          -7.909667030993578,
+          24.1797535324787,
+          -2.275387707905446,
+          -2.028198371376395,
+          -4.176373657118475,
+          -5.6456549723651275,
+          -6.313340061289397,
+          -5.297189329625079,
+          -2.327791610228855,
+          1.8433537936381512,
+          -4.8631565913374075,
+          -5.297169763351694,
+          -2.093435102636782,
+          -0.6880708548667316,
+          0.9186847828386289,
+          -13.788956193879187,
+          1.2374154961415242,
+          -0.19505324002660362,
+          1.7219623164358018,
+          1.9601216221312083,
+          -6.458575880929383,
+          -9.177083253682728,
+          -1.4328966327602266,
+          -7.671196451813324,
+          2.5328811572877874,
+          2.036856300577416,
+          3.774705211061976,
+          3.2332377519514335,
+          -7.031909983905027,
+          -3.0182436428154236,
+          7.543899938386399,
+          17.322651474864685,
+          22.514827311822998,
+          -6.3726844918562415,
+          4.602509639032215,
+          1.5166290731313246,
+          -6.0755934902099265,
+          -11.441031322736603,
+          -2.555218847059022,
+          -3.5934007161603696,
+          15.69416977257773,
+          -10.554838351108385,
+          -15.195587244435368,
+          -3.22891587745043,
+          -3.451962503787162,
+          -4.832516516730626,
+          -8.57838958845973,
+          -8.354235264923128,
+          -5.654944069882189,
+          -8.070586640253321,
+          -11.946006503560056,
+          -8.12931809696045,
+          -5.763045051267888,
+          4.866607521590286,
+          8.198235523779111,
+          2.4242396330692872,
+          25.282454121845475,
+          22.615569895791715,
+          13.733999466640286,
+          17.749443973861965,
+          4.84890868173725,
+          3.087137114588147,
+          -0.23277548777639565,
+          5.909293101491589,
+          -1.9504109194875936,
+          2.2836048410045553,
+          1.8484269470442252,
+          -0.9656270867463306
+        ],
+        "contributor_counts": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          8,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          9,
+          9,
+          9,
+          8,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          8,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          7,
+          9,
+          9,
+          8,
+          9,
+          8,
+          9,
+          9,
+          9,
+          5,
+          9,
+          9,
+          8,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          8,
+          9,
+          9,
+          9,
+          9,
+          9,
+          8,
+          9,
+          9,
+          8,
+          8,
+          9,
+          9,
+          9,
+          4,
+          9,
+          8,
+          8,
+          9,
+          8,
+          9,
+          9,
+          8,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "r": -0.10458708553363207,
+        "n_common": 93,
+        "segments": [
+          {
+            "positions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "mean": -2.5892783288563566,
+            "finite_conditions": 10
+          },
+          {
+            "positions": [
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19
+            ],
+            "mean": 1.1757782462735822,
+            "finite_conditions": 10
+          },
+          {
+            "positions": [
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29
+            ],
+            "mean": -3.2357327261313302,
+            "finite_conditions": 10
+          },
+          {
+            "positions": [
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39
+            ],
+            "mean": -0.03966903695304973,
+            "finite_conditions": 10
+          },
+          {
+            "positions": [
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49
+            ],
+            "mean": -3.3109517302896156,
+            "finite_conditions": 10
+          },
+          {
+            "positions": [
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58
+            ],
+            "mean": 4.703523090238264,
+            "finite_conditions": 9
+          },
+          {
+            "positions": [
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67
+            ],
+            "mean": 0.057303373577494425,
+            "finite_conditions": 9
+          },
+          {
+            "positions": [
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76
+            ],
+            "mean": -0.41420524991124136,
+            "finite_conditions": 9
+          },
+          {
+            "positions": [
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85
+            ],
+            "mean": 1.8900859016585312,
+            "finite_conditions": 9
+          },
+          {
+            "positions": [
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94
+            ],
+            "mean": 1.2164032499834176,
+            "finite_conditions": 9
+          }
+        ],
+        "step_axis_range_pp": [
+          -30,
+          30
+        ],
+        "step_axis_height_mm": 16
+      }
+    ],
+    "condition_permutation": [
+      33,
+      15,
+      89,
+      48,
+      31,
+      87,
+      35,
+      94,
+      34,
+      16,
+      19,
+      68,
+      45,
+      44,
+      62,
+      91,
+      88,
+      59,
+      71,
+      60,
+      17,
+      57,
+      7,
+      24,
+      37,
+      12,
+      66,
+      70,
+      78,
+      13,
+      90,
+      27,
+      20,
+      22,
+      11,
+      9,
+      46,
+      49,
+      36,
+      92,
+      26,
+      10,
+      64,
+      50,
+      29,
+      93,
+      73,
+      55,
+      54,
+      47,
+      56,
+      40,
+      86,
+      85,
+      32,
+      80,
+      81,
+      61,
+      51,
+      3,
+      6,
+      2,
+      1,
+      5,
+      41,
+      4,
+      0,
+      52,
+      76,
+      58,
+      8,
+      63,
+      79,
+      14,
+      84,
+      30,
+      42,
+      38,
+      65,
+      74,
+      53,
+      69,
+      43,
+      83,
+      82,
+      67,
+      72,
+      23,
+      75,
+      25,
+      77,
+      21,
+      18,
+      28,
+      39
+    ],
+    "sorted_condition_order": [
+      "C44",
+      "C6",
+      "C34",
+      "C1",
+      "C41",
+      "C33",
+      "C65",
+      "C91",
+      "C17",
+      "C60",
+      "C61",
+      "C26",
+      "C66",
+      "C20",
+      "C49",
+      "C36",
+      "C55",
+      "C21",
+      "C54",
+      "C37",
+      "C7",
+      "C22",
+      "C86",
+      "C51",
+      "C18",
+      "C2",
+      "C68",
+      "C69",
+      "C28",
+      "C4",
+      "C35",
+      "C13",
+      "C62",
+      "C63",
+      "C85",
+      "C40",
+      "C47",
+      "C52",
+      "C45",
+      "C93",
+      "C11",
+      "C3",
+      "C38",
+      "C83",
+      "C39",
+      "C71",
+      "C9",
+      "C94",
+      "C73",
+      "C95",
+      "C48",
+      "C89",
+      "C32",
+      "C30",
+      "C16",
+      "C72",
+      "C29",
+      "C56",
+      "C50",
+      "C15",
+      "C64",
+      "C43",
+      "C74",
+      "C82",
+      "C67",
+      "C42",
+      "C81",
+      "C87",
+      "C90",
+      "C8",
+      "C10",
+      "C24",
+      "C88",
+      "C5",
+      "C92",
+      "C14",
+      "C59",
+      "C19",
+      "C53",
+      "C57",
+      "C23",
+      "C70",
+      "C84",
+      "C31",
+      "C79",
+      "C25",
+      "C77",
+      "C76",
+      "C80",
+      "C58",
+      "C78",
+      "C12",
+      "C75",
+      "C27",
+      "C46"
+    ]
+  },
+  "source_identity": {
+    "schema": "p2-v7-figure3-approved-display-binding-1",
+    "templates": {
+      "FigS29_approved.svg": "5332e62175da3c75daa37981da84372acbb59bee50c36faa0a393f675257c200",
+      "Figure3_approved.svg": "f6eae1bb009ac7da9284ea549aa1326c03e919dff24c1eb5a98c1a1943792331"
+    },
+    "frozen_files": {
+      "FigS27_approved.pdf": "22df775ae663c3a6ea744b6e0003615b60fd1576e038b0bcb4e6d55ec61e814f",
+      "FigS27_approved.png": "6108fcd8068b0572ff33d4b0af60a57dc12f20c6c81227978dec5199721d3362",
+      "FigS27_approved.svg": "18db8fa1180f11b3f4db4846e61c796e42e35f3928359b95ab532054f1a63ea0",
+      "FigS27_readback.json": "60383aaac2b5a3d3d1be8e2c0eaff3ca099b27bff54009eb14c503b6003234d1",
+      "FigS29_approved.svg": "5332e62175da3c75daa37981da84372acbb59bee50c36faa0a393f675257c200",
+      "Figure3_approved.svg": "f6eae1bb009ac7da9284ea549aa1326c03e919dff24c1eb5a98c1a1943792331",
+      "records.json": "4019fedee351217ec330fd4edf3a2c0651082dacb843fd735b27cc976f42c9a5",
+      "retained_artist_readback.json": "ecbf5feeaf267a5103262303cac8b11ec85c8e96d656802b71510983ec72df06",
+      "native_display_groups.json": "1bca3bc27477c5a5e3d1172739236429ac0c808cf66794530d2f2c55c319ee1a",
+      "retained_scientific_metadata.json": "0d49b946e761f4758c84556927f7bd1a7733c8a63a48c243a2bb1d238f8e24fd"
+    },
+    "approved_v6_native_groups_sha256": {
+      "3b_preference_amine": "d430fa55ebcc50077b2513575fe100638dccd5b1a73e593b0e1b503fa46e29f3",
+      "axes_4": "ee86bf079670a26385029eb5e9a33781c8433127744e93de9fe5fe1d2ab88443",
+      "3b_correlations_amine": "d1ab0693dd0a6fe23a50ccead183f67396831e866b7f10072b817e7dfe85ea28",
+      "3b_preference_halide": "13693937bb882d5fc9427ac3cbdca5e22874acac579d03126d82fe81d8167a81",
+      "axes_8": "334ca9fac6db467ca9129df9abfe2f2da729c9eefcf077d7ca950947e8c0478d",
+      "3b_correlations_halide": "8b32788606388c972c25fd8de14b1f09658ceb92f35ffce4e936855142b1e369"
+    },
+    "retained_source_svg_sha256": "814caf85bf1a41d0211ad45a336d8c199e1de7086eaa0062443721d4d5012676",
+    "scientific_values_recalculated": false,
+    "scope": "Exact authorized v7 layout; approved vector panels and saved scientific arrays only.",
+    "scientific_inputs": {
+      "Analysis/figure_display/v6_figure3/aminations_payload.json": "754bcee276a3447bed972e5ec329c54cca15d8417a8109e15533840407c45f85",
+      "Analysis/figure_display/v6_figure3/all_molecule_agreement.csv": "246b465a04038ba088304bea6456eb683b663cba9e8744b2a529f5826c70af8c",
+      "Analysis/figure_display/v6_figure3/class_null/summary.json": "2d05961f0ef4141df6d9c2d9baff793f43f88ee2b3fba57922ffefd38239c305",
+      "Analysis/figure_display/v6_figure3/class_null/cn_draws.csv": "94cfffa8af91c7a65e7604f2af9ca5dc2d8f3996162939c49d92661863c514ab",
+      "Analysis/figure_display/v6_figure3/class_null/amide_draws.csv": "bb04e0796d124c257fc81bbb90ed62fde0249372e32ead84c2b44552da13aad4",
+      "Analysis/figure_display/v5_reference_tables/preference.xlsx": "b0e602d46001b3a0fc7cff805bb21ae6123ae7e743a49c28d43eda0cb89e8fe0",
+      "Analysis/figure_display/v5_reference_tables/MANIFEST.json": "e5d3baa73d123bbb89d85b287026ffa9c482f826174ff31bba42ca6780470717"
     }
-  ]
+  },
+  "native_group_identity": {
+    "3b_preference_amine": "d430fa55ebcc50077b2513575fe100638dccd5b1a73e593b0e1b503fa46e29f3",
+    "axes_4": "ee86bf079670a26385029eb5e9a33781c8433127744e93de9fe5fe1d2ab88443",
+    "3b_correlations_amine": "d1ab0693dd0a6fe23a50ccead183f67396831e866b7f10072b817e7dfe85ea28",
+    "3b_preference_halide": "13693937bb882d5fc9427ac3cbdca5e22874acac579d03126d82fe81d8167a81",
+    "axes_8": "334ca9fac6db467ca9129df9abfe2f2da729c9eefcf077d7ca950947e8c0478d",
+    "3b_correlations_halide": "8b32788606388c972c25fd8de14b1f09658ceb92f35ffce4e936855142b1e369"
+  },
+  "panel_mapping": {
+    "a": "retained reaction",
+    "b": "frozen Figure1 record comparison",
+    "c": [
+      "axes_4",
+      "axes_8"
+    ],
+    "d": "retained axes_10 +18 mm y",
+    "e": "retained axes_11 +18 mm y",
+    "FigS29": "retained old heatblocks -40 mm y"
+  },
+  "scientific_values_recalculated": false
 }

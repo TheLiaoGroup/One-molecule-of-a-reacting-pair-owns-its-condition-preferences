@@ -1,0 +1,2308 @@
+{
+  "figure": 3,
+  "width_mm": 180.0,
+  "height_mm": 193.0,
+  "width_px": 1275.5905511811025,
+  "height_px": 1367.716535433071,
+  "dpi": 180,
+  "panel_titles": {},
+  "texts": [
+    {
+      "text": "Structure key for Fig. 3B",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        28.34645669291339,
+        1321.1968503937007,
+        188.875,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "a1",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        28.34645669291339,
+        1250.3307086614175,
+        19.500000000000004,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "NH",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        98.26880199748877,
+        1245.7789026203914,
+        25.125,
+        18.0
+      ],
+      "gid": "key_a1|label0",
+      "axes_gid": null
+    },
+    {
+      "text": "2",
+      "fontsize": 5.25,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        123.54465185956384,
+        1242.9289482953684,
+        7.249999999999986,
+        12.0
+      ],
+      "gid": "key_a1|label1",
+      "axes_gid": null
+    },
+    {
+      "text": "2,4-dimethylaniline",
+      "fontsize": 5.5,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        28.34645669291339,
+        1109.2283464566929,
+        114.75,
+        14.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "a2",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        446.4566929133859,
+        1250.3307086614175,
+        19.625,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "N",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        557.6965175592215,
+        1187.941519039083,
+        12.625,
+        18.0
+      ],
+      "gid": "key_a2|label0",
+      "axes_gid": null
+    },
+    {
+      "text": "H",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        499.95906767794656,
+        1209.7815081190886,
+        12.5,
+        18.0
+      ],
+      "gid": "key_a2|label1",
+      "axes_gid": null
+    },
+    {
+      "text": "2",
+      "fontsize": 5.25,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        512.5970713589447,
+        1206.9314225441312,
+        7.25,
+        12.0
+      ],
+      "gid": "key_a2|label2",
+      "axes_gid": null
+    },
+    {
+      "text": "N",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        519.8965364592121,
+        1209.7815081190886,
+        12.625,
+        18.0
+      ],
+      "gid": "key_a2|label3",
+      "axes_gid": null
+    },
+    {
+      "text": "2-amino-4,6-dimethylpyridine",
+      "fontsize": 5.5,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        446.4566929133859,
+        1109.2283464566929,
+        177.25000000000006,
+        14.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "a3",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        864.5669291338584,
+        1250.3307086614175,
+        19.5,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "O",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        925.182184091979,
+        1201.6965121615865,
+        13.625,
+        18.0
+      ],
+      "gid": "key_a3|label0",
+      "axes_gid": null
+    },
+    {
+      "text": "NH",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        1026.4692284484568,
+        1201.7139684028584,
+        25.125,
+        18.0
+      ],
+      "gid": "key_a3|label1",
+      "axes_gid": null
+    },
+    {
+      "text": "2",
+      "fontsize": 5.25,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        1051.7454720603348,
+        1198.8640140778355,
+        7.25,
+        12.0
+      ],
+      "gid": "key_a3|label2",
+      "axes_gid": null
+    },
+    {
+      "text": "O",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        950.382197741972,
+        1245.3589028303911,
+        13.625,
+        18.0
+      ],
+      "gid": "key_a3|label3",
+      "axes_gid": null
+    },
+    {
+      "text": "3,4-dimethoxyaniline",
+      "fontsize": 5.5,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        864.5669291338584,
+        1109.2283464566929,
+        126.125,
+        14.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "a4",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        28.34645669291339,
+        1044.8188976377953,
+        19.500000000000004,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "N",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        82.44877490750233,
+        1016.2921910842194,
+        12.625,
+        18.0
+      ],
+      "gid": "key_a4|label0",
+      "axes_gid": null
+    },
+    {
+      "text": "N",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        121.2112905262445,
+        1003.6921973842163,
+        12.625000000000014,
+        18.0
+      ],
+      "gid": "key_a4|label1",
+      "axes_gid": null
+    },
+    {
+      "text": "NH",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        222.0113713762041,
+        1003.67460989301,
+        25.125,
+        18.0
+      ],
+      "gid": "key_a4|label2",
+      "axes_gid": null
+    },
+    {
+      "text": "2",
+      "fontsize": 5.25,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        247.28748373814787,
+        1000.8246555679872,
+        7.25,
+        12.0
+      ],
+      "gid": "key_a4|label3",
+      "axes_gid": null
+    },
+    {
+      "text": "4-(2-methylimidazol-1-yl)aniline",
+      "fontsize": 5.5,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        28.34645669291339,
+        903.7165354330709,
+        191.0,
+        14.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "a5",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        446.4566929133859,
+        1044.8188976377953,
+        19.5,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "O",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        515.5244698952454,
+        939.4322295142002,
+        13.625,
+        18.0
+      ],
+      "gid": "key_a5|label0",
+      "axes_gid": null
+    },
+    {
+      "text": "NH",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        516.0115384017112,
+        1040.2321791142253,
+        25.125,
+        18.0
+      ],
+      "gid": "key_a5|label1",
+      "axes_gid": null
+    },
+    {
+      "text": "2",
+      "fontsize": 5.25,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        541.2873882637863,
+        1037.3820935392682,
+        7.25,
+        12.0
+      ],
+      "gid": "key_a5|label2",
+      "axes_gid": null
+    },
+    {
+      "text": "4-methoxyaniline",
+      "fontsize": 5.5,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        446.4566929133859,
+        903.7165354330709,
+        103.87500000000006,
+        14.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "a6",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        864.5669291338584,
+        1044.8188976377953,
+        19.5,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "O",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        925.182184091979,
+        1019.0046022280139,
+        13.625,
+        18.0
+      ],
+      "gid": "key_a6|label0",
+      "axes_gid": null
+    },
+    {
+      "text": "NH",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        1026.4692284484568,
+        1019.0221897192201,
+        25.125,
+        17.999999999999886
+      ],
+      "gid": "key_a6|label1",
+      "axes_gid": null
+    },
+    {
+      "text": "2",
+      "fontsize": 5.25,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        1051.7454720603348,
+        1016.1722353941973,
+        7.25,
+        12.0
+      ],
+      "gid": "key_a6|label2",
+      "axes_gid": null
+    },
+    {
+      "text": "N",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        963.4692599484409,
+        1040.8447225579537,
+        12.625,
+        18.0
+      ],
+      "gid": "key_a6|label3",
+      "axes_gid": null
+    },
+    {
+      "text": "5-amino-2-methoxypyridine",
+      "fontsize": 5.5,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        864.5669291338584,
+        903.7165354330709,
+        166.5,
+        14.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "a7",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        28.34645669291339,
+        839.3070866141733,
+        19.500000000000004,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "NH",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        151.45127540625208,
+        798.4603424706162,
+        25.125,
+        18.0
+      ],
+      "gid": "key_a7|label0",
+      "axes_gid": null
+    },
+    {
+      "text": "N,3-dimethylaniline",
+      "fontsize": 5.5,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        28.34645669291339,
+        698.2047244094488,
+        117.125,
+        14.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "h1",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        446.4566929133859,
+        839.3070866141733,
+        20.375,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "TfO",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        509.33196674149696,
+        783.7008936003407,
+        29.124999999999943,
+        18.0
+      ],
+      "gid": "key_h1|label0",
+      "axes_gid": null
+    },
+    {
+      "text": "TMS",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        500.58763673866196,
+        834.0986371514688,
+        36.75000000000006,
+        18.0
+      ],
+      "gid": "key_h1|label1",
+      "axes_gid": null
+    },
+    {
+      "text": "2-(trimethylsilyl)phenyl triflate",
+      "fontsize": 5.5,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        446.4566929133859,
+        698.2047244094488,
+        178.25000000000006,
+        14.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "h2",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        864.5669291338584,
+        839.3070866141733,
+        20.5,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "N",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        918.9080303540558,
+        798.1580738717505,
+        12.625,
+        18.0
+      ],
+      "gid": "key_h2|label0",
+      "axes_gid": null
+    },
+    {
+      "text": "N",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        1016.2571960544728,
+        824.2555483230133,
+        12.625,
+        18.0
+      ],
+      "gid": "key_h2|label1",
+      "axes_gid": null
+    },
+    {
+      "text": "Cl",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        1027.5549279056072,
+        782.096100652737,
+        16.5,
+        18.0
+      ],
+      "gid": "key_h2|label2",
+      "axes_gid": null
+    },
+    {
+      "text": "2-chloro-4-cyanopyridine",
+      "fontsize": 5.5,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        864.5669291338584,
+        698.2047244094488,
+        151.25,
+        14.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "h3",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        28.34645669291339,
+        633.7952755905511,
+        20.375000000000004,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "F",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        104.19539278419339,
+        582.3785804819696,
+        10.625,
+        18.0
+      ],
+      "gid": "key_h3|label0",
+      "axes_gid": null
+    },
+    {
+      "text": "F",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        82.37288619544667,
+        594.9785741819728,
+        10.625,
+        18.0
+      ],
+      "gid": "key_h3|label1",
+      "axes_gid": null
+    },
+    {
+      "text": "F",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        91.59539908419022,
+        629.4009694707752,
+        10.625,
+        18.0
+      ],
+      "gid": "key_h3|label2",
+      "axes_gid": null
+    },
+    {
+      "text": "N",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        166.22122427127763,
+        629.4009694707752,
+        12.625,
+        18.0
+      ],
+      "gid": "key_h3|label3",
+      "axes_gid": null
+    },
+    {
+      "text": "Cl",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        204.0212053712871,
+        607.5785678819759,
+        16.5,
+        18.0
+      ],
+      "gid": "key_h3|label4",
+      "axes_gid": null
+    },
+    {
+      "text": "N",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        166.20376803000576,
+        585.7560350432423,
+        12.625,
+        18.0
+      ],
+      "gid": "key_h3|label5",
+      "axes_gid": null
+    },
+    {
+      "text": "2-chloro-5-\n(trifluoromethyl)pyrimidine",
+      "fontsize": 5.5,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        28.34645669291339,
+        476.49291338582674,
+        158.375,
+        30.19999999999999
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "h4",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        446.4566929133859,
+        633.7952755905511,
+        20.375,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "O",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        507.02074727210675,
+        607.6822553301322,
+        13.625,
+        18.0
+      ],
+      "gid": "key_h4|label0",
+      "axes_gid": null
+    },
+    {
+      "text": "N",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        570.5078236535686,
+        629.5047881688657,
+        12.625,
+        18.0
+      ],
+      "gid": "key_h4|label1",
+      "axes_gid": null
+    },
+    {
+      "text": "Cl",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        608.3076735036436,
+        607.6822553301322,
+        16.5,
+        18.0
+      ],
+      "gid": "key_h4|label2",
+      "axes_gid": null
+    },
+    {
+      "text": "N",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        570.5078236535686,
+        585.8597224913985,
+        12.625,
+        18.0
+      ],
+      "gid": "key_h4|label3",
+      "axes_gid": null
+    },
+    {
+      "text": "2-chloro-5-methoxypyrimidine",
+      "fontsize": 5.5,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        446.4566929133859,
+        492.6929133858267,
+        180.87500000000006,
+        14.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "h5",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        864.5669291338584,
+        633.7952755905511,
+        20.375,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "TfO",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        917.8829946165736,
+        629.4986194219501,
+        29.125,
+        18.0
+      ],
+      "gid": "key_h5|label0",
+      "axes_gid": null
+    },
+    {
+      "text": "O",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        983.8522435069492,
+        629.4986194219501,
+        13.625,
+        18.0
+      ],
+      "gid": "key_h5|label1",
+      "axes_gid": null
+    },
+    {
+      "text": "2-methoxyphenyl triflate",
+      "fontsize": 5.5,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        864.5669291338584,
+        492.6929133858267,
+        146.0,
+        14.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "h6",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        28.34645669291339,
+        428.28346456692907,
+        20.375000000000004,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "TfO",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        82.15390880493537,
+        380.43335517505454,
+        29.125,
+        18.0
+      ],
+      "gid": "key_h6|label0",
+      "axes_gid": null
+    },
+    {
+      "text": "2-methylphenyl triflate",
+      "fontsize": 5.5,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        28.34645669291339,
+        287.1811023622047,
+        134.625,
+        14.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "h7",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        446.4566929133859,
+        428.28346456692907,
+        20.375,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "O",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        500.42194682150694,
+        409.27670950337745,
+        13.625,
+        18.0
+      ],
+      "gid": "key_h7|label0",
+      "axes_gid": null
+    },
+    {
+      "text": "Cl",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        614.3089455030076,
+        387.4541766646439,
+        16.5,
+        18.0
+      ],
+      "gid": "key_h7|label1",
+      "axes_gid": null
+    },
+    {
+      "text": "4-chloro-3-methylacetophenone",
+      "fontsize": 5.5,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        446.4566929133859,
+        287.1811023622047,
+        193.87500000000006,
+        14.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "h8",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        864.5669291338584,
+        428.28346456692907,
+        20.375,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "TfO",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        918.0201376730022,
+        408.5770161032242,
+        29.125,
+        18.0
+      ],
+      "gid": "key_h8|label0",
+      "axes_gid": null
+    },
+    {
+      "text": "4-methylphenyl triflate",
+      "fontsize": 5.5,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        864.5669291338584,
+        287.1811023622047,
+        134.5,
+        14.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "h9",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        28.34645669291339,
+        222.77165354330714,
+        20.250000000000004,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "OTf",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        163.4332131652832,
+        174.44103814168557,
+        29.125,
+        18.0
+      ],
+      "gid": "key_h9|label0",
+      "axes_gid": null
+    },
+    {
+      "text": "N",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        142.09774883301534,
+        212.24101924169508,
+        12.625,
+        18.0
+      ],
+      "gid": "key_h9|label1",
+      "axes_gid": null
+    },
+    {
+      "text": "4-methylpyridin-2-yl triflate",
+      "fontsize": 5.5,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        28.34645669291339,
+        81.66929133858252,
+        161.125,
+        14.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "h10",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        446.4566929133859,
+        222.77165354330714,
+        30.125,
+        18.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    },
+    {
+      "text": "N",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        500.5284692682457,
+        155.56204758118088,
+        12.625000000000057,
+        18.0
+      ],
+      "gid": "key_h10|label0",
+      "axes_gid": null
+    },
+    {
+      "text": "Br",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        610.1283725932941,
+        168.15862878289045,
+        17.5,
+        18.0
+      ],
+      "gid": "key_h10|label1",
+      "axes_gid": null
+    },
+    {
+      "text": "F",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        523.3396159876723,
+        218.5498098372998,
+        10.625,
+        18.0
+      ],
+      "gid": "key_h10|label2",
+      "axes_gid": null
+    },
+    {
+      "text": "5-bromo-2-fluorobenzonitrile",
+      "fontsize": 5.5,
+      "family": [
+        "Arial"
+      ],
+      "bbox": [
+        446.4566929133859,
+        81.66929133858252,
+        172.50000000000006,
+        14.0
+      ],
+      "gid": null,
+      "axes_gid": null
+    }
+  ],
+  "axes": [
+    {
+      "gid": null,
+      "xlim": [
+        0.0,
+        180.0
+      ],
+      "ylim": [
+        193.0,
+        0.0
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        1275.5905511811025,
+        1367.716535433071
+      ],
+      "lines": [],
+      "meshes": [],
+      "collections": [],
+      "patches": [],
+      "images": []
+    }
+  ],
+  "journal": "science",
+  "metadata": {
+    "ids": [
+      "a1",
+      "a2",
+      "a3",
+      "a4",
+      "a5",
+      "a6",
+      "a7",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "h7",
+      "h8",
+      "h9",
+      "h10"
+    ],
+    "master_bond_pt": 14.4,
+    "global_scale": 0.7
+  },
+  "pdf_font_sizes": [
+    5.25,
+    5.5,
+    7.0
+  ],
+  "labels": [
+    {
+      "text": "Structure key for Fig. 3B",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        11.338582677165356,
+        528.4787401574803,
+        86.88858267716536,
+        535.6787401574803
+      ]
+    },
+    {
+      "text": "a1",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "bold",
+      "bbox_pt": [
+        11.338582677165356,
+        500.13228346456697,
+        19.13858267716536,
+        507.33228346456696
+      ]
+    },
+    {
+      "text": "NH",
+      "gid": "key_a1|label0",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        39.307520798995505,
+        498.3115610481566,
+        49.3575207989955,
+        505.5115610481566
+      ]
+    },
+    {
+      "text": "2",
+      "gid": "key_a1|label1",
+      "fontsize": 5.25,
+      "weight": "normal",
+      "bbox_pt": [
+        49.41786074382554,
+        497.17157931814734,
+        52.317860743825534,
+        501.97157931814735
+      ]
+    },
+    {
+      "text": "2,4-dimethylaniline",
+      "gid": null,
+      "fontsize": 5.5,
+      "weight": "normal",
+      "bbox_pt": [
+        11.338582677165356,
+        443.6913385826772,
+        57.238582677165354,
+        449.29133858267716
+      ]
+    },
+    {
+      "text": "a2",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "bold",
+      "bbox_pt": [
+        178.58267716535434,
+        500.13228346456697,
+        186.43267716535436,
+        507.33228346456696
+      ]
+    },
+    {
+      "text": "N",
+      "gid": "key_a2|label0",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        223.07860702368862,
+        475.1766076156332,
+        228.1286070236886,
+        482.3766076156332
+      ]
+    },
+    {
+      "text": "H",
+      "gid": "key_a2|label1",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        199.9836270711786,
+        483.91260324763545,
+        204.9836270711786,
+        491.1126032476355
+      ]
+    },
+    {
+      "text": "2",
+      "gid": "key_a2|label2",
+      "fontsize": 5.25,
+      "weight": "normal",
+      "bbox_pt": [
+        205.0388285435779,
+        482.7725690176525,
+        207.9388285435779,
+        487.5725690176524
+      ]
+    },
+    {
+      "text": "N",
+      "gid": "key_a2|label3",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        207.95861458368486,
+        483.91260324763545,
+        213.00861458368487,
+        491.1126032476355
+      ]
+    },
+    {
+      "text": "2-amino-4,6-dimethylpyridine",
+      "gid": null,
+      "fontsize": 5.5,
+      "weight": "normal",
+      "bbox_pt": [
+        178.58267716535434,
+        443.6913385826772,
+        249.4826771653544,
+        449.29133858267716
+      ]
+    },
+    {
+      "text": "a3",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "bold",
+      "bbox_pt": [
+        345.82677165354335,
+        500.13228346456697,
+        353.62677165354336,
+        507.33228346456696
+      ]
+    },
+    {
+      "text": "O",
+      "gid": "key_a3|label0",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        370.0728736367916,
+        480.6786048646346,
+        375.5228736367916,
+        487.8786048646346
+      ]
+    },
+    {
+      "text": "NH",
+      "gid": "key_a3|label1",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        410.5876913793827,
+        480.6855873611434,
+        420.6376913793827,
+        487.8855873611434
+      ]
+    },
+    {
+      "text": "2",
+      "gid": "key_a3|label2",
+      "fontsize": 5.25,
+      "weight": "normal",
+      "bbox_pt": [
+        420.6981888241339,
+        479.54560563113415,
+        423.5981888241339,
+        484.34560563113416
+      ]
+    },
+    {
+      "text": "O",
+      "gid": "key_a3|label3",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        380.1528790967888,
+        498.14356113215644,
+        385.6028790967888,
+        505.3435611321564
+      ]
+    },
+    {
+      "text": "3,4-dimethoxyaniline",
+      "gid": null,
+      "fontsize": 5.5,
+      "weight": "normal",
+      "bbox_pt": [
+        345.82677165354335,
+        443.6913385826772,
+        396.27677165354334,
+        449.29133858267716
+      ]
+    },
+    {
+      "text": "a4",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "bold",
+      "bbox_pt": [
+        11.338582677165356,
+        417.92755905511814,
+        19.13858267716536,
+        425.1275590551181
+      ]
+    },
+    {
+      "text": "N",
+      "gid": "key_a4|label0",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        32.97950996300093,
+        406.5168764336878,
+        38.029509963000926,
+        413.7168764336878
+      ]
+    },
+    {
+      "text": "N",
+      "gid": "key_a4|label1",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        48.484516210497794,
+        401.47687895368654,
+        53.534516210497806,
+        408.6768789536865
+      ]
+    },
+    {
+      "text": "NH",
+      "gid": "key_a4|label2",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        88.80454855048164,
+        401.46984395720403,
+        98.85454855048164,
+        408.669843957204
+      ]
+    },
+    {
+      "text": "2",
+      "gid": "key_a4|label3",
+      "fontsize": 5.25,
+      "weight": "normal",
+      "bbox_pt": [
+        98.91499349525915,
+        400.3298622271949,
+        101.81499349525916,
+        405.1298622271949
+      ]
+    },
+    {
+      "text": "4-(2-methylimidazol-1-yl)aniline",
+      "gid": null,
+      "fontsize": 5.5,
+      "weight": "normal",
+      "bbox_pt": [
+        11.338582677165356,
+        361.48661417322836,
+        87.73858267716535,
+        367.08661417322844
+      ]
+    },
+    {
+      "text": "a5",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "bold",
+      "bbox_pt": [
+        178.58267716535434,
+        417.92755905511814,
+        186.38267716535435,
+        425.1275590551181
+      ]
+    },
+    {
+      "text": "O",
+      "gid": "key_a5|label0",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        206.20978795809816,
+        375.7728918056801,
+        211.65978795809815,
+        382.9728918056801
+      ]
+    },
+    {
+      "text": "NH",
+      "gid": "key_a5|label1",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        206.40461536068446,
+        416.09287164569014,
+        216.45461536068444,
+        423.2928716456902
+      ]
+    },
+    {
+      "text": "2",
+      "gid": "key_a5|label2",
+      "fontsize": 5.25,
+      "weight": "normal",
+      "bbox_pt": [
+        216.5149553055145,
+        414.95283741570734,
+        219.4149553055145,
+        419.7528374157073
+      ]
+    },
+    {
+      "text": "4-methoxyaniline",
+      "gid": null,
+      "fontsize": 5.5,
+      "weight": "normal",
+      "bbox_pt": [
+        178.58267716535434,
+        361.48661417322836,
+        220.13267716535438,
+        367.08661417322844
+      ]
+    },
+    {
+      "text": "a6",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "bold",
+      "bbox_pt": [
+        345.82677165354335,
+        417.92755905511814,
+        353.62677165354336,
+        425.1275590551181
+      ]
+    },
+    {
+      "text": "O",
+      "gid": "key_a6|label0",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        370.0728736367916,
+        407.6018408912056,
+        375.5228736367916,
+        414.80184089120564
+      ]
+    },
+    {
+      "text": "NH",
+      "gid": "key_a6|label1",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        410.5876913793827,
+        407.60887588768804,
+        420.6376913793827,
+        414.80887588768803
+      ]
+    },
+    {
+      "text": "2",
+      "gid": "key_a6|label2",
+      "fontsize": 5.25,
+      "weight": "normal",
+      "bbox_pt": [
+        420.6981888241339,
+        406.4688941576789,
+        423.5981888241339,
+        411.2688941576789
+      ]
+    },
+    {
+      "text": "N",
+      "gid": "key_a6|label3",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        385.3877039793764,
+        416.33788902318145,
+        390.4377039793764,
+        423.53788902318144
+      ]
+    },
+    {
+      "text": "5-amino-2-methoxypyridine",
+      "gid": null,
+      "fontsize": 5.5,
+      "weight": "normal",
+      "bbox_pt": [
+        345.82677165354335,
+        361.48661417322836,
+        412.4267716535433,
+        367.08661417322844
+      ]
+    },
+    {
+      "text": "a7",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "bold",
+      "bbox_pt": [
+        11.338582677165356,
+        335.7228346456693,
+        19.13858267716536,
+        342.9228346456693
+      ]
+    },
+    {
+      "text": "NH",
+      "gid": "key_a7|label0",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        60.58051016250083,
+        319.3841369882465,
+        70.63051016250083,
+        326.5841369882465
+      ]
+    },
+    {
+      "text": "N,3-dimethylaniline",
+      "gid": null,
+      "fontsize": 5.5,
+      "weight": "normal",
+      "bbox_pt": [
+        11.338582677165356,
+        279.2818897637795,
+        58.18858267716535,
+        284.8818897637795
+      ]
+    },
+    {
+      "text": "h1",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "bold",
+      "bbox_pt": [
+        178.58267716535434,
+        335.7228346456693,
+        186.73267716535435,
+        342.9228346456693
+      ]
+    },
+    {
+      "text": "TfO",
+      "gid": "key_h1|label0",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        203.73278669659877,
+        313.4803574401363,
+        215.38278669659877,
+        320.6803574401363
+      ]
+    },
+    {
+      "text": "TMS",
+      "gid": "key_h1|label1",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        200.23505469546478,
+        333.63945486058753,
+        214.9350546954648,
+        340.8394548605875
+      ]
+    },
+    {
+      "text": "2-(trimethylsilyl)phenyl triflate",
+      "gid": null,
+      "fontsize": 5.5,
+      "weight": "normal",
+      "bbox_pt": [
+        178.58267716535434,
+        279.2818897637795,
+        249.88267716535438,
+        284.8818897637795
+      ]
+    },
+    {
+      "text": "h2",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "bold",
+      "bbox_pt": [
+        345.82677165354335,
+        335.7228346456693,
+        354.02677165354334,
+        342.9228346456693
+      ]
+    },
+    {
+      "text": "N",
+      "gid": "key_h2|label0",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        367.5632121416223,
+        319.26322954870017,
+        372.6132121416223,
+        326.4632295487002
+      ]
+    },
+    {
+      "text": "N",
+      "gid": "key_h2|label1",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        406.5028784217892,
+        329.7022193292053,
+        411.55287842178916,
+        336.9022193292053
+      ]
+    },
+    {
+      "text": "Cl",
+      "gid": "key_h2|label2",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        411.02197116224283,
+        312.83844026109483,
+        417.62197116224286,
+        320.0384402610948
+      ]
+    },
+    {
+      "text": "2-chloro-4-cyanopyridine",
+      "gid": null,
+      "fontsize": 5.5,
+      "weight": "normal",
+      "bbox_pt": [
+        345.82677165354335,
+        279.2818897637795,
+        406.32677165354335,
+        284.8818897637795
+      ]
+    },
+    {
+      "text": "h3",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "bold",
+      "bbox_pt": [
+        11.338582677165356,
+        253.51811023622042,
+        19.488582677165358,
+        260.7181102362204
+      ]
+    },
+    {
+      "text": "F",
+      "gid": "key_h3|label0",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        41.67815711367735,
+        232.95143219278785,
+        45.92815711367736,
+        240.15143219278787
+      ]
+    },
+    {
+      "text": "F",
+      "gid": "key_h3|label1",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        32.94915447817867,
+        237.9914296727891,
+        37.19915447817867,
+        245.1914296727891
+      ]
+    },
+    {
+      "text": "F",
+      "gid": "key_h3|label2",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        36.63815963367609,
+        251.76038778831006,
+        40.88815963367609,
+        258.9603877883101
+      ]
+    },
+    {
+      "text": "N",
+      "gid": "key_h3|label3",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        66.48848970851105,
+        251.76038778831006,
+        71.53848970851105,
+        258.9603877883101
+      ]
+    },
+    {
+      "text": "Cl",
+      "gid": "key_h3|label4",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        81.60848214851484,
+        243.03142715279034,
+        88.20848214851483,
+        250.23142715279036
+      ]
+    },
+    {
+      "text": "N",
+      "gid": "key_h3|label5",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        66.4815072120023,
+        234.3024140172969,
+        71.5315072120023,
+        241.5024140172969
+      ]
+    },
+    {
+      "text": "2-chloro-5-\n(trifluoromethyl)pyrimidine",
+      "gid": null,
+      "fontsize": 5.5,
+      "weight": "normal",
+      "bbox_pt": [
+        11.338582677165356,
+        190.59716535433068,
+        74.68858267716536,
+        202.6771653543307
+      ]
+    },
+    {
+      "text": "h4",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "bold",
+      "bbox_pt": [
+        178.58267716535434,
+        253.51811023622042,
+        186.73267716535435,
+        260.7181102362204
+      ]
+    },
+    {
+      "text": "O",
+      "gid": "key_h4|label0",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        202.8082989088427,
+        243.07290213205286,
+        208.2582989088427,
+        250.27290213205285
+      ]
+    },
+    {
+      "text": "N",
+      "gid": "key_h4|label1",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        228.20312946142744,
+        251.80191526754632,
+        233.25312946142742,
+        259.0019152675463
+      ]
+    },
+    {
+      "text": "Cl",
+      "gid": "key_h4|label2",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        243.32306940145747,
+        243.07290213205286,
+        249.92306940145747,
+        250.27290213205285
+      ]
+    },
+    {
+      "text": "N",
+      "gid": "key_h4|label3",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        228.20312946142744,
+        234.3438889965594,
+        233.25312946142742,
+        241.54388899655942
+      ]
+    },
+    {
+      "text": "2-chloro-5-methoxypyrimidine",
+      "gid": null,
+      "fontsize": 5.5,
+      "weight": "normal",
+      "bbox_pt": [
+        178.58267716535434,
+        197.07716535433067,
+        250.9326771653544,
+        202.6771653543307
+      ]
+    },
+    {
+      "text": "h5",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "bold",
+      "bbox_pt": [
+        345.82677165354335,
+        253.51811023622042,
+        353.9767716535433,
+        260.7181102362204
+      ]
+    },
+    {
+      "text": "TfO",
+      "gid": "key_h5|label0",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        367.15319784662944,
+        251.79944776878006,
+        378.8031978466294,
+        258.99944776878004
+      ]
+    },
+    {
+      "text": "O",
+      "gid": "key_h5|label1",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        393.5408974027797,
+        251.79944776878006,
+        398.9908974027797,
+        258.99944776878004
+      ]
+    },
+    {
+      "text": "2-methoxyphenyl triflate",
+      "gid": null,
+      "fontsize": 5.5,
+      "weight": "normal",
+      "bbox_pt": [
+        345.82677165354335,
+        197.07716535433067,
+        404.2267716535433,
+        202.6771653543307
+      ]
+    },
+    {
+      "text": "h6",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "bold",
+      "bbox_pt": [
+        11.338582677165356,
+        171.31338582677162,
+        19.488582677165358,
+        178.51338582677164
+      ]
+    },
+    {
+      "text": "TfO",
+      "gid": "key_h6|label0",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        32.86156352197415,
+        152.17334207002182,
+        44.511563521974146,
+        159.37334207002183
+      ]
+    },
+    {
+      "text": "2-methylphenyl triflate",
+      "gid": null,
+      "fontsize": 5.5,
+      "weight": "normal",
+      "bbox_pt": [
+        11.338582677165356,
+        114.87244094488189,
+        65.18858267716536,
+        120.47244094488188
+      ]
+    },
+    {
+      "text": "h7",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "bold",
+      "bbox_pt": [
+        178.58267716535434,
+        171.31338582677162,
+        186.73267716535435,
+        178.51338582677164
+      ]
+    },
+    {
+      "text": "O",
+      "gid": "key_h7|label0",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        200.16877872860277,
+        163.71068380135097,
+        205.61877872860276,
+        170.91068380135098
+      ]
+    },
+    {
+      "text": "Cl",
+      "gid": "key_h7|label1",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        245.72357820120305,
+        154.98167066585756,
+        252.32357820120305,
+        162.18167066585755
+      ]
+    },
+    {
+      "text": "4-chloro-3-methylacetophenone",
+      "gid": null,
+      "fontsize": 5.5,
+      "weight": "normal",
+      "bbox_pt": [
+        178.58267716535434,
+        114.87244094488189,
+        256.1326771653544,
+        120.47244094488188
+      ]
+    },
+    {
+      "text": "h8",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "bold",
+      "bbox_pt": [
+        345.82677165354335,
+        171.31338582677162,
+        353.9767716535433,
+        178.51338582677164
+      ]
+    },
+    {
+      "text": "TfO",
+      "gid": "key_h8|label0",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        367.20805506920084,
+        163.4308064412897,
+        378.8580550692009,
+        170.63080644128968
+      ]
+    },
+    {
+      "text": "4-methylphenyl triflate",
+      "gid": null,
+      "fontsize": 5.5,
+      "weight": "normal",
+      "bbox_pt": [
+        345.82677165354335,
+        114.87244094488189,
+        399.62677165354336,
+        120.47244094488188
+      ]
+    },
+    {
+      "text": "h9",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "bold",
+      "bbox_pt": [
+        11.338582677165356,
+        89.10866141732285,
+        19.438582677165357,
+        96.30866141732287
+      ]
+    },
+    {
+      "text": "OTf",
+      "gid": "key_h9|label0",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        65.37328526611329,
+        69.77641525667423,
+        77.02328526611328,
+        76.97641525667423
+      ]
+    },
+    {
+      "text": "N",
+      "gid": "key_h9|label1",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        56.839099533206145,
+        84.89640769667804,
+        61.88909953320614,
+        92.09640769667803
+      ]
+    },
+    {
+      "text": "4-methylpyridin-2-yl triflate",
+      "gid": null,
+      "fontsize": 5.5,
+      "weight": "normal",
+      "bbox_pt": [
+        11.338582677165356,
+        32.66771653543301,
+        75.78858267716535,
+        38.26771653543301
+      ]
+    },
+    {
+      "text": "h10",
+      "gid": null,
+      "fontsize": 7.0,
+      "weight": "bold",
+      "bbox_pt": [
+        178.58267716535434,
+        89.10866141732285,
+        190.63267716535435,
+        96.30866141732287
+      ]
+    },
+    {
+      "text": "N",
+      "gid": "key_h10|label0",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        200.2113877072983,
+        62.224819032472354,
+        205.2613877072983,
+        69.42481903247236
+      ]
+    },
+    {
+      "text": "Br",
+      "gid": "key_h10|label1",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        244.05134903731766,
+        67.26345151315618,
+        251.05134903731766,
+        74.46345151315617
+      ]
+    },
+    {
+      "text": "F",
+      "gid": "key_h10|label2",
+      "fontsize": 7.0,
+      "weight": "normal",
+      "bbox_pt": [
+        209.33584639506893,
+        87.41992393491992,
+        213.58584639506893,
+        94.61992393491992
+      ]
+    },
+    {
+      "text": "5-bromo-2-fluorobenzonitrile",
+      "gid": null,
+      "fontsize": 5.5,
+      "weight": "normal",
+      "bbox_pt": [
+        178.58267716535434,
+        32.66771653543301,
+        247.5826771653544,
+        38.26771653543301
+      ]
+    }
+  ],
+  "pdf_raster_images": 0
+}

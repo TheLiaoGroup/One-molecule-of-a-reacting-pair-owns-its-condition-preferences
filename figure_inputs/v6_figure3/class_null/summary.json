@@ -1,0 +1,30 @@
+[
+  {
+    "screen": "Buchwald-Hartwig|1",
+    "seed": 20261008,
+    "draws": 4999,
+    "explained": 0.00476786361268422,
+    "null_median": 0.007490900594120942,
+    "null_p95": 0.01317825054194907,
+    "p": 0.9288,
+    "pairs": 166,
+    "molecules": {
+      "N-aryl secondary amine": 10,
+      "primary (hetero)aryl amine": 47
+    }
+  },
+  {
+    "screen": "Acylation|1",
+    "seed": 20261008,
+    "draws": 4999,
+    "explained": 0.17694306278326333,
+    "null_median": 0.009086548189310872,
+    "null_p95": 0.031958844890134154,
+    "p": 0.0002,
+    "pairs": 384,
+    "molecules": {
+      "primary (hetero)aryl amine": 34,
+      "primary alkyl amine": 17
+    }
+  }
+]

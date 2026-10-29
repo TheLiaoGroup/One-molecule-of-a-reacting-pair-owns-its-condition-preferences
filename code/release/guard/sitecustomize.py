@@ -16,6 +16,7 @@ def install(cfg):
     import json
     norm = lambda p: os.path.normcase(os.path.abspath(os.fsdecode(p)))
     read_roots = tuple(norm(p).rstrip("\\/") + os.sep for p in cfg["read"])
+    read_files = frozenset(norm(p) for p in cfg.get("read_files", []))
     write_roots = tuple(norm(p).rstrip("\\/") + os.sep for p in cfg["write"])
     devices = {os.path.normcase(x) for x in (os.devnull, "nul", "NUL", "CONIN$", "CONOUT$", "/dev/null")}
     exe = norm(sys.executable)
@@ -28,7 +29,7 @@ def install(cfg):
         if os.path.normcase(p) in devices:
             return True
         q = norm(p) + os.sep
-        return q.startswith(write_roots) or (not write and q.startswith(read_roots))
+        return q.startswith(write_roots) or (not write and (q.startswith(read_roots) or norm(p) in read_files))
 
     def refuse(what, path):
         raise PermissionError(f"public rebuild: {what} outside this package and the Python and font directories: {os.fsdecode(path)}")

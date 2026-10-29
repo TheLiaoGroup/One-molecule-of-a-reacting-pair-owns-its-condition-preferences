@@ -36,9 +36,9 @@ APPROVED = dict(depth=E.DATA / "Results/primary/anatomy_depth.csv", anatomy=E.DA
                 curve=E.DATA / "Results/display_inputs/Figure4a_history_depth.csv")
 KS, NBOOT, SHRINK = (1, 2, 3, 4, 6), 2000, 4.0
 TITLE = "A record grows with its partners"
-NOTE = "Full history-depth record set; common-target curves in Fig. 4C"
+NOTE = "Full history-depth record set; common-target curves in Fig. 5c"
 TRANSFORM = dict(
-    a="The full set of 1,247 target-role records (both roles; common-target curves in Fig. 4C): additive residual of the held-out pair against the profile of k "
+    a="The full set of 1,247 target-role records (both roles; common-target curves in Fig. 5c): additive residual of the held-out pair against the profile of k "
       "randomly drawn training pairings of its molecule, five draws averaged (Fig4a_folds.csv, Fig4a_history_draws.csv). Explained "
       "= 1 - sum SSE_k / sum SST. Interval of R2(6) - R2(1): 2,000 resamples of the 150 array-role-molecule groups within arrays "
       "(exact resamples in FigS7_depth_interval_draws.csv); value of a resample = sum over its groups of (SSE_1 - SSE_6) "

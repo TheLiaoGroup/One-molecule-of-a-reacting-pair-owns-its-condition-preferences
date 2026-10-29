@@ -1,8 +1,8 @@
-# Cross-coupling conditions follow the halide, not the amine: data and code
+# One molecule of a reacting pair owns its condition preferences: data and code
 
 This package holds the measurements analysed in the article, the files that fix how they were analysed (frozen analysis plans,
 and the folds, draws and groups the analyses used), the code that produced the figures, and the figures and Source Data
-themselves. The figures, the supplementary figures (Extended Data Figs. 1 to 10) and their Source Data can be rebuilt from this package alone.
+themselves. Figures 1–5, Extended Data Figs. 1 to 10 and Supplementary Figs. 17 to 19 and their Source Data can be rebuilt from this package plus the explicitly supplied external-screen result described below.
 
 ## Contents
 
@@ -15,12 +15,13 @@ themselves. The figures, the supplementary figures (Extended Data Figs. 1 to 10)
 | `derived/` | the analysis tables made from `data/` (task construction), with `DERIVED_FILES.json` |
 | `figure_inputs/` | three structures per depicted reaction, with the source screen and pair; products checked by a C-X/N-H substitution using the released reactants; `selection_v3/RULE.md`, the unchanged rules for the three new illustrations; retained computed inputs in `v5_reference_tables/` |
 | `results/` | the retained results the figures are checked against, with `RESULTS_MANIFEST.csv`; `TEXT_CLAIMS.csv`, the statements of the text recomputed by the rebuild |
-| `source_data/` | the Source Data of Figures 1-4 and Extended Data Figs. 1 to 10, with the released supplementary folds, draws and groups |
-| `figures/` | Figures 1-4 and Extended Data Figs. 1 to 10 (PDF, SVG, main PNGs at 600 dpi); `structures/`, their ChemDraw structures and inventories |
+| `source_data/` | the Source Data of Figures 1–5 and Extended Data Figs. 1 to 10 and Supplementary Figs. 17 to 19, with the released supplementary folds, draws and groups |
+| `figures/` | Figures 1–5 and Extended Data Figs. 1 to 10 and Supplementary Figs. 17 to 19 (PDF, SVG, main PNGs at 600 dpi); `structures/`, their ChemDraw structures and inventories |
 | `code/` | the analysis and figure code; `code/release/`, the code of the two entry points below |
 | `environment/` | the Python and package versions |
 | `rebuild_all.py`, `verify_release.py` | the two entry points |
 | `DATA_MANIFEST.csv`, `CHECKSUMS.sha256` | every file of the package with its size, SHA-256 and role |
+| `CITATION.cff` | the title, author and DOI to cite for this data-and-code archive |
 | `LICENSE_DATA_CC-BY-4.0.txt`, `LICENSE_CODE_MIT.txt` | the licences: CC BY 4.0 for the data and documents, MIT for the code |
 | `.gitattributes` | Git settings: no line-ending conversion, so a clone holds the bytes listed in `CHECKSUMS.sha256` |
 
@@ -89,7 +90,8 @@ Install the pinned Python packages:
 
     python -m pip install -r environment/requirements.txt
 
-All four main figures use matplotlib with the released ChemDraw artwork. The reference environment for exact byte
+The five main figures use editable vector artwork and released ChemDraw structures. Figures 1 and 3 use ReportLab for their
+PDFs; Figures 2, 4 and 5 use matplotlib. The reference environment for exact byte
 comparisons is Windows x64 with the listed Python packages and Arial files. Exact released bytes are checked in this
 environment; byte identity on other operating systems has not been established.
 
@@ -100,18 +102,18 @@ their identifiers and statuses, the wells without a yield, the condition and rea
 alignment of the provenance flags, the derived tables, the results manifest, the publication use of every measurement, the
 statements of the text and the frozen-plan records.
 
-    python rebuild_all.py
+    python rebuild_all.py --jobs 1 --external-result ../external_screen_results/RESULT.json
 
-rebuilds everything from this package (about 15 minutes with 6 processes on the computer used for the study; `--jobs` sets the
-number). It makes the derived
-tables again from `data/`, runs the four main and ten supplementary figure generators, the re-fit of Extended Data Fig. 10, the owner labels fixed without the scored pairs
+rebuilds the five main figures and thirteen generated supplementary figures using this package plus the explicitly supplied
+external result (see below). `--jobs` sets the process count. It makes the derived
+tables again from `data/`, runs the five main and eleven supplementary generators (Figures 2 and 3 also own Supplementary Figs. 18 and 17), the re-fit of Extended Data Fig. 10, the owner labels fixed without the scored pairs
 (`code/Checks/nested_owner.py`) the owner margins, equal-role null and SNAr class proxy (`code/Checks/role_null_checks.py`) and the per-screen tables of the
 Supplementary Information (`code/Checks/si_tables_checks.py`), recomputes the
 statements of the text and the publication use of every measurement, and compares every rebuilt figure, Source Data file and
-provenance record with the released one. The four main-figure audits independently recalculate the displayed values and
-check the actual series of the rebuilt figures (`code/Checks/audit_figure1.py` to `audit_figure4.py`, `--values-only`).
+provenance record with the released one. The five main-figure audits independently recalculate the displayed values and
+check the actual series of the rebuilt figures (`code/Checks/audit_figure1.py` to `audit_figure5.py`, `--values-only`).
 Every Python process of the rebuild runs under a file-access guard: it may read this
-package, Python and the system fonts, and write only in `_rebuild/`. Only this Python executable may start child
+package, Python, system fonts and the two explicitly supplied external result files, and write only in `_rebuild/`. Only this Python executable may start child
 processes, and Python network connections are refused. Python file openings are logged. The
 outcome is written to `_rebuild/REBUILD_REPORT.json`; `_rebuild/` is not part of the release.
 
@@ -137,28 +139,36 @@ the main-figure layout and label helpers and the retained scientific helpers are
 `screen_shares.xlsx`, `molecule_context.xlsx`, and `transfer.xlsx`) and `preference_payload.json`, with their source hashes
 in `MANIFEST.json`. These are immutable
 analysis inputs, copied to `05_DATA/Analysis/figure_display/v5_reference_tables/` in the work tree. They are separate from
-the Source Data generated by the four current figures. Figure 1 recalculates its preference payload from the measurements
-and compares it with the retained reference payload. Rebuild step 14 independently checks the displayed scientific values.
+the Source Data generated by the five current figures. Figure 1 reads its map bindings, outcome-free molecule selection and retained scientific tables under
+`figure_inputs/v7_figure1/`. Figure 3 reads the frozen histories under `figure_inputs/v6_figure1/`; those histories exclude the target pair.
+Its approved vector groups and their scientific bindings are under `figure_inputs/v7_figure3/`, and the complete barcodes are regenerated as Supplementary Fig. 19.
+Figures 3 and 4 also have explicit scientific display inputs under `figure_inputs/v6_figure3/` and `figure_inputs/v6_figure4/`.
+Rebuild step 14 independently checks the displayed scientific values.
 Extended Data display numbers follow first citation in the article: Extended Data Fig. 3 uses the condition-halves generator `ed04`
 and stable `FigS4` figure/Source Data files; Extended Data Fig. 4 uses the leave-one-molecule-out generator `ed03` and stable `FigS3`
 files. The remaining Extended Data display numbers match their stable file numbers.
-The Figure 4 generator also regenerates `SetA_whole_array_bootstrap_draws.csv` and
-`SetA_owner_block_bootstrap_draws.csv` under `source_data/Figure4/`. The history folds and history draws are frozen inputs,
+The Figure 5 generator also regenerates `SetA_whole_array_bootstrap_draws.csv` and
+`SetA_owner_block_bootstrap_draws.csv` under `source_data/Figure5/`. The history folds and history draws are frozen inputs,
 copied without changing their bytes from `metadata/figure_display/` to `05_DATA/Analysis/figure_display/` in the work tree.
-They are not outputs regenerated by Figure 4. The Figure 4 workbook retains the established `Fig4a` and `Fig4b` sheet
+They are not outputs regenerated by Figure 5. The Figure 5 workbook retains the established `Fig4a` and `Fig4b` sheet
 identities for the nested-owner comparison; these sheet names identify analyses rather than current panel numbers.
 
 ## Two external public screens
 
-Supplementary Note 21 also analyses the C–H arylation screen of Wang et al., *Nature* **626**, 1025–1033 (2024),
+Figure 2c and Supplementary Notes 21-22 analyse the C–H arylation screen of Wang et al., *Nature* **626**, 1025–1033 (2024),
 DOI `10.1038/s41586-024-07021-y`, and the Suzuki informer screen of Gesmundo et al., *Nature Synthesis* **2**,
 1082–1091 (2023), DOI `10.1038/s44160-023-00351-1`. The Open Reaction Database Project provides the datasets as
-`ord_dataset-675eddcaa6674ce3ae61e79bbc1e1c08` and `ord_dataset-3b8a2ef300e145468579027f206a3ac8`
-(database archive DOI `10.5281/zenodo.4321713`). ORD datasets and their metadata use
+`ord_dataset-675eddcaa6674ce3ae61e79bbc1e1c08` and `ord_dataset-3b8a2ef300e145468579027f206a3ac8`.
+The database is described by Kearnes et al., *The Open Reaction Database*, *J. Am. Chem. Soc.* **143**,
+18820-18826 (2021), DOI `10.1021/jacs.1c09820`. The analysed files are
+`data/67/ord_dataset-675eddcaa6674ce3ae61e79bbc1e1c08.parquet` and
+`data/3b/ord_dataset-3b8a2ef300e145468579027f206a3ac8.parquet`, respectively, in the
+[ORD mirror](https://huggingface.co/datasets/open-reaction-database/ord-data/tree/b6c89761dacf809d4082acbdbebe72042a08db91)
+at revision `b6c89761dacf809d4082acbdbebe72042a08db91`. ORD datasets and their metadata use
 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), separately from the P2 data licence.
 
-Only the external analysis script is distributed here. External raw records, molecule tables, result tables and Supplementary Fig. 17
-are not included. Run the following command from this package, with an output directory outside it:
+The external analysis script and the final plotted artwork are distributed here. External raw records, molecule tables
+and result tables are not included. Run the following command from this package, with an output directory outside it:
 
 ```bash
 python code/External/replicate_public_screens.py --package . --output ../external_screen_results
@@ -172,8 +182,11 @@ packages in addition to the P2 analysis code. `--self-test` runs synthetic contr
 `--input-dir` permits checksum-verified local copies. Downloaded records and generated outputs remain under the
 chosen output directory. Retain ORD and original-author attribution, the source links, the licence notice and a record
 of transformations when sharing these materials; adapted material may require the same licence. This packaging
-choice does not relicense ORD material. The offline `rebuild_all.py` workflow continues to reproduce the four P2 main
-figures and ten P2 supplementary figures; external statistics require the separate command above.
+choice does not relicense ORD material. Pass the resulting `RESULT.json` to `rebuild_all.py --external-result`;
+`molecules.csv` must remain alongside it. The adapter verifies the identities and plotted values against the approved
+canonical hash before staging the display input. Display serialization uses 15 decimal places to remove arithmetic-order
+differences below the existing scientific tolerance; full-precision scientific results are preserved. Rebuild itself has
+no network access. A full rebuild of the external panel requires this explicit separate input, rather than the P2 package alone.
 
 ## Licences
 
@@ -181,8 +194,9 @@ The source code is released under the MIT licence (`LICENSE_CODE_MIT.txt`, Copyr
 `rebuild_all.py`, `verify_release.py`, `provenance/provenance_overlap_public.py` and the frozen scoring code in
 `frozen_plans/` (`reserve_validation/reserve_validation.py`, `cross_library/cross_library_validation.py`). Everything else (the
 measurements, tables, metadata, provenance records, analysis plans and evaluation-set definitions, derived tables, results, Source Data,
-figures, structures and documentation) is released under the Creative Commons Attribution 4.0 International licence
-(`LICENSE_DATA_CC-BY-4.0.txt`). Neither licence covers the amide-coupling collection of Zhang et al., which is not redistributed here.
+figures other than the ORD-derived part of Figure 2c, structures and documentation) is released under the Creative Commons Attribution 4.0 International licence
+(`LICENSE_DATA_CC-BY-4.0.txt`). The ORD-derived part of Figure 2c retains the original-author attribution and CC BY-SA 4.0 terms stated above.
+Neither P2 licence covers the amide-coupling collection of Zhang et al., which is not redistributed here.
 
 ## Fonts
 

@@ -2,112 +2,219 @@
  "figure": "Figure 4",
  "generated_by": "06_CODE/Figures/figure4.py",
  "inputs": {
-  "released": {
-   "05_DATA/Analysis/figure_display/Fig4a_folds.csv": {
-    "file": "05_DATA/Analysis/figure_display/Fig4a_folds.csv",
-    "sha256": "dbcc9fe28abbd31329faebe6f9b0c76b23e5627ef1d38405396212a169245991"
-   }
-  },
   "files": {
+   "02_FIGURES/ChemDraw/Fig2_B_halide.cdxml": {
+    "file": "02_FIGURES/ChemDraw/Fig2_B_halide.cdxml",
+    "sha256": "9df673579e87915e46f2e7b787dda2b5ec9b3b303ef8339c0703463605b55673"
+   },
+   "02_FIGURES/ChemDraw/Fig2_B_halide.svg": {
+    "file": "02_FIGURES/ChemDraw/Fig2_B_halide.svg",
+    "sha256": "12605163ec0c3834b059970e5854742fbdcb4f8692842110fb1aab262ab941e2"
+   },
+   "02_FIGURES/ChemDraw/Fig2_b_M1.cdxml": {
+    "file": "02_FIGURES/ChemDraw/Fig2_b_M1.cdxml",
+    "sha256": "3447eb31df2adbc7d8e4d1f2d5ca1e64d24e13ae4c92c3efa98309c40d2cbe93"
+   },
+   "02_FIGURES/ChemDraw/Fig2_b_M1.svg": {
+    "file": "02_FIGURES/ChemDraw/Fig2_b_M1.svg",
+    "sha256": "f9519ec2eb59e8fdd3bc3e11d756fa39ce09fcec4ec487d4c2805ac91a4e3553"
+   },
+   "02_FIGURES/ChemDraw/Fig2_b_M2.cdxml": {
+    "file": "02_FIGURES/ChemDraw/Fig2_b_M2.cdxml",
+    "sha256": "65a5f698b9bec88021d18f45b6bb0df19ebee42dc4f866482deefed04ab1efea"
+   },
+   "02_FIGURES/ChemDraw/Fig2_b_M2.svg": {
+    "file": "02_FIGURES/ChemDraw/Fig2_b_M2.svg",
+    "sha256": "4debe36196da3b3e1a59b85f1b2d1b4e08c7b9dd39304f9b79cd747d18abf34d"
+   },
+   "02_FIGURES/ChemDraw/Fig2_b_M3.cdxml": {
+    "file": "02_FIGURES/ChemDraw/Fig2_b_M3.cdxml",
+    "sha256": "420296a1f7f1a095e867baafd932aa89dc6236cafd7215cf416e47337ab1ebd9"
+   },
+   "02_FIGURES/ChemDraw/Fig2_b_M3.svg": {
+    "file": "02_FIGURES/ChemDraw/Fig2_b_M3.svg",
+    "sha256": "a6a98ec3fa354060276c98885aa5104783d4b101c8966b4a11a5587b35ccdb2d"
+   },
+   "02_FIGURES/ChemDraw/Fig2_b_M4.cdxml": {
+    "file": "02_FIGURES/ChemDraw/Fig2_b_M4.cdxml",
+    "sha256": "2ee29e885bffdd9a9d434e59ca644c9a92d45b36a9e021cd05797fd283cbb448"
+   },
+   "02_FIGURES/ChemDraw/Fig2_b_M4.svg": {
+    "file": "02_FIGURES/ChemDraw/Fig2_b_M4.svg",
+    "sha256": "1afa0f4770515a755cb941509970346d8d7b546da62934f3cc0a07b530dbe56a"
+   },
+   "02_FIGURES/ChemDraw/Fig2_b_M5.cdxml": {
+    "file": "02_FIGURES/ChemDraw/Fig2_b_M5.cdxml",
+    "sha256": "0d8f151d31e2223c6633d647d33291b72eb122d1a219e87d293dbffe02fdbcbe"
+   },
+   "02_FIGURES/ChemDraw/Fig2_b_M5.svg": {
+    "file": "02_FIGURES/ChemDraw/Fig2_b_M5.svg",
+    "sha256": "965435749854bfc386d9f086d45cf8ad6f3149fa3e31533085e3d0926b3ebdc4"
+   },
+   "02_FIGURES/ChemDraw/Fig2_b_M6.cdxml": {
+    "file": "02_FIGURES/ChemDraw/Fig2_b_M6.cdxml",
+    "sha256": "1484c447c0bc369674d3b083a0591c964855a1d91365337252892f62b26d694a"
+   },
+   "02_FIGURES/ChemDraw/Fig2_b_M6.svg": {
+    "file": "02_FIGURES/ChemDraw/Fig2_b_M6.svg",
+    "sha256": "bfc8ba6e00321eb6ac93f9a4b7f2fad7823786272b4290cab779f567d8b5b870"
+   },
+   "02_FIGURES/ChemDraw/Fig2_b_M7.cdxml": {
+    "file": "02_FIGURES/ChemDraw/Fig2_b_M7.cdxml",
+    "sha256": "6fb64563fb20514cd7976fdb247b91cc6684e22ffc0af3a8e4d95402c051f23d"
+   },
+   "02_FIGURES/ChemDraw/Fig2_b_M7.svg": {
+    "file": "02_FIGURES/ChemDraw/Fig2_b_M7.svg",
+    "sha256": "7fd5e156b1543679f9c37c638b3781458c76e3e46aa4fce0941c96d813713e1b"
+   },
+   "02_FIGURES/ChemDraw/Fig2_b_M8.cdxml": {
+    "file": "02_FIGURES/ChemDraw/Fig2_b_M8.cdxml",
+    "sha256": "0f25422863e0995e1a71b6b826b6cbc2a11405df45586e3e6b62782253c7b930"
+   },
+   "02_FIGURES/ChemDraw/Fig2_b_M8.svg": {
+    "file": "02_FIGURES/ChemDraw/Fig2_b_M8.svg",
+    "sha256": "fc92bae94339fb41862ae9b2e8302e8b2f66d7c1d838d417d9eccfccb1496643"
+   },
    "05_DATA/Analysis/figure_display/v5_reference_tables/MANIFEST.json": {
     "file": "05_DATA/Analysis/figure_display/v5_reference_tables/MANIFEST.json",
     "sha256": "e5d3baa73d123bbb89d85b287026ffa9c482f826174ff31bba42ca6780470717"
    },
-   "05_DATA/Analysis/figure_display/v5_reference_tables/transfer.xlsx": {
-    "file": "05_DATA/Analysis/figure_display/v5_reference_tables/transfer.xlsx",
-    "sha256": "088057a1309dac76fc1f4c8ab79b7ba96c83a9617abd748918f771d676485821"
+   "05_DATA/Analysis/figure_display/v5_reference_tables/molecule_context.xlsx": {
+    "file": "05_DATA/Analysis/figure_display/v5_reference_tables/molecule_context.xlsx",
+    "sha256": "81087e63d31e83b4363121a86b33b19b9ea683ef32ec38b6b4dfdc72663c0da2"
+   },
+   "05_DATA/Analysis/figure_display/v5_reference_tables/screen_shares.xlsx": {
+    "file": "05_DATA/Analysis/figure_display/v5_reference_tables/screen_shares.xlsx",
+    "sha256": "845ccfab160c0c68a8089108fc70a2bb817db99edceb9b1fe80f3b611c5e7d3a"
+   },
+   "05_DATA/Analysis/figure_display/v6_figure4/SNAr_display_rule.md": {
+    "file": "05_DATA/Analysis/figure_display/v6_figure4/SNAr_display_rule.md",
+    "sha256": "630f46a9377bb38f90cbd93e1fdcaccd0410122b31366f872aecbe633e41317b"
+   },
+   "05_DATA/Analysis/figure_display/v6_figure4/structures/Fig2_c_aliphatic2.cdxml": {
+    "file": "05_DATA/Analysis/figure_display/v6_figure4/structures/Fig2_c_aliphatic2.cdxml",
+    "sha256": "2c37bd5e497bf34730b72b7bfc7a80346d1554831eeef5a778348ab59ef124dd"
+   },
+   "05_DATA/Analysis/figure_display/v6_figure4/structures/Fig2_c_aliphatic2.svg": {
+    "file": "05_DATA/Analysis/figure_display/v6_figure4/structures/Fig2_c_aliphatic2.svg",
+    "sha256": "994f4328b313a8bbfa7e672e585e980073ecbcc5d1380d2207892c4dbc2ed136"
    },
    "05_DATA/Release/00_RAW_IMMUTABLE/DATASET_analysis.csv.gz": {
     "file": "05_DATA/Release/00_RAW_IMMUTABLE/DATASET_analysis.csv.gz",
     "sha256": "98e6da9f16a4adebba15ed84f49635741c38e80a15cf0fffb40d94e63f6bbbff"
    },
-   "05_DATA/Results/cross_library/cross_library.json": {
-    "file": "05_DATA/Results/cross_library/cross_library.json",
-    "sha256": "b02caa606a8dd11f069a1473b046614218e661d63d256e86eab315ca105402e0"
+   "06_CODE/Core/00_common/boundaries.py": {
+    "file": "06_CODE/Core/00_common/boundaries.py",
+    "sha256": "5677b1d3cbc85dd54777f738dc44924e6d7095805eeab0c6a4ec4041b1f13dc1"
    },
-   "05_DATA/Results/cross_library/target_losses.csv": {
-    "file": "05_DATA/Results/cross_library/target_losses.csv",
-    "sha256": "150c00c83a8000ab56f670d20ead14381719c52b33ba749a5f7be786a58362e1"
+   "06_CODE/Core/00_common/ctb/anatomy.py": {
+    "file": "06_CODE/Core/00_common/ctb/anatomy.py",
+    "sha256": "05718eee9ec360379d532a8ddc441b65afd09bc9a1ba7a1e9adb25fc4d314adc"
    },
-   "05_DATA/Results/directional/phase2_setAB_k2.csv": {
-    "file": "05_DATA/Results/directional/phase2_setAB_k2.csv",
-    "sha256": "06c691b8a9b5cac98da60c45d558afe099e7aabddc121f13512b21994173c6b1"
+   "06_CODE/Core/00_common/ctb/common.py": {
+    "file": "06_CODE/Core/00_common/ctb/common.py",
+    "sha256": "37720a8da4dc57a30e888a0ca40a3601719463a7dfe22283e8ea4662af48f4f0"
    },
-   "05_DATA/Results/directional/phase2_summary.json": {
-    "file": "05_DATA/Results/directional/phase2_summary.json",
-    "sha256": "16b577e7d6042f681f6b5fc7a4c44b2d8390e2dfee4d79f936092edfc9c82aaa"
+   "06_CODE/Core/00_common/ctb/history.py": {
+    "file": "06_CODE/Core/00_common/ctb/history.py",
+    "sha256": "998abd201a8dfcf97a3716feb13279b8962ca8e212f97b67ca3693ac71beab86"
    },
-   "05_DATA/Results/directional/phase3_summary.json": {
-    "file": "05_DATA/Results/directional/phase3_summary.json",
-    "sha256": "d9d37449d3513f0f55d7b280719442fc63bf9fb339797d3b6703360e2303e492"
+   "06_CODE/Figures/fig_style.py": {
+    "file": "06_CODE/Figures/fig_style.py",
+    "sha256": "ec425e30f36c414f78f0e7ac6c37b727f4330d831fa15216ff79dac378da82ba"
    },
-   "05_DATA/Results/directional/phase3_transport.csv": {
-    "file": "05_DATA/Results/directional/phase3_transport.csv",
-    "sha256": "b4afec29c29669d3f490ad2354c494c37f176a8c0b8240c7e74c7dd5685df874"
+   "06_CODE/Figures/figure1_data.py": {
+    "file": "06_CODE/Figures/figure1_data.py",
+    "sha256": "334185afc0cb504e3bdee7a2de33b14ae73448d9ea5f500f9bf1e7ce9a107935"
    },
-   "05_DATA/Results/display_inputs/Anatomy_arrays.csv": {
-    "file": "05_DATA/Results/display_inputs/Anatomy_arrays.csv",
-    "sha256": "cfe3de1982d721c37241e3da95f670f3f9faa98bc73e709c9a7590878466ee1e"
+   "06_CODE/Figures/figure3_selection.py": {
+    "file": "06_CODE/Figures/figure3_selection.py",
+    "sha256": "0365f0e02b7ebe25d98cca94f5531a31885c2d69416f047befe6841e8b96a49c"
    },
-   "05_DATA/Results/primary/anatomy_depth.csv": {
-    "file": "05_DATA/Results/primary/anatomy_depth.csv",
-    "sha256": "f25942cd794e8adeb6788bdd17597de598ce38a596c967341b6412238b636354"
+   "06_CODE/Figures/figure4.py": {
+    "file": "06_CODE/Figures/figure4.py",
+    "sha256": "3798b8b0b22ddfc740c7ce9e0f923503a13a873f8cedea1f7962960396d584e5"
    },
-   "05_DATA/Results/reserve_validation/record_transfer_losses.csv": {
-    "file": "05_DATA/Results/reserve_validation/record_transfer_losses.csv",
-    "sha256": "6feaced7740bf28296625b62c61ec799de0f3204c64276d41a73214fc214d64d"
+   "06_CODE/Figures/figure_common.py": {
+    "file": "06_CODE/Figures/figure_common.py",
+    "sha256": "d310517e2b42f6d6d683bb6defb8796713db778c6581c13bfc5406a281e62b48"
    },
-   "05_DATA/Results/reserve_validation/reserve_validation.json": {
-    "file": "05_DATA/Results/reserve_validation/reserve_validation.json",
-    "sha256": "16a3521c1aa494006c0762983e4750745676a8aae6ab11ce175c4627fee62962"
+   "06_CODE/Figures/figure_export.py": {
+    "file": "06_CODE/Figures/figure_export.py",
+    "sha256": "79ca2c5fe62cbc6874aea0131c6aa99b30e28e754d1514c59274e3c52e59cae8"
    },
-   "05_DATA/Validation_Set_A/never_analysed_reserve.csv.gz": {
-    "file": "05_DATA/Validation_Set_A/never_analysed_reserve.csv.gz",
-    "sha256": "180ab88e532e7e7675f67cb2caf4baffa87292b3c0ce62489420bb40c03a3218"
+   "06_CODE/Figures/main_figure_common.py": {
+    "file": "06_CODE/Figures/main_figure_common.py",
+    "sha256": "844e57ca9133b120b46a1fb99414b4727fb8d17f6914d30caeb6963e14155b56"
    },
-   "05_DATA/Validation_Set_B/never_opened_cross_library.csv.gz": {
-    "file": "05_DATA/Validation_Set_B/never_opened_cross_library.csv.gz",
-    "sha256": "b69eeb05fc829124004803891e0dc01146e71ffe2632d6e9c2ba24ec4ab87cc8"
+   "06_CODE/Figures/structure_art.py": {
+    "file": "06_CODE/Figures/structure_art.py",
+    "sha256": "b9c92e645fd3df607854e9e1325ed6a7f4146a62257c3abcfec203cf6855822a"
    },
-   "07_METHODS_AND_PROVENANCE/frozen_analysis_plans/figure_selection_v3/RULE.md": {
-    "file": "07_METHODS_AND_PROVENANCE/frozen_analysis_plans/figure_selection_v3/RULE.md",
-    "sha256": "1eef02cbdb55db159135883820e4a83e353e7da0f057a2fd258f96082143c02d"
+   "06_CODE/Figures/v6_core.py": {
+    "file": "06_CODE/Figures/v6_core.py",
+    "sha256": "ff1d6f7339f13359936eccb09574289638c85ad80899835598c324b7dc1bd511"
    }
   }
  },
  "outputs": {
   "svg": {
    "file": "02_FIGURES/Main/Figure4.svg",
-   "sha256": "70154698bedc78be75861cc677326b02df65c212889ea7510132c4a846a3f374"
+   "sha256": "85b2507e19ceccabedbb7ce79e82b759aa15143860bc4eac6f8c129df214582d"
   },
   "pdf": {
    "file": "02_FIGURES/Main/Figure4.pdf",
-   "sha256": "5622aa7d72c9d69702ba6f8c71a14f34907d5f1fb2ea86ba1a1dbef649f32df4"
+   "sha256": "6a01934aabfdc3e561d623c669a20be162540c4c374e494aa3119e6b64c4bd74"
   },
   "png": {
    "file": "02_FIGURES/Main/Figure4.png",
-   "sha256": "d874d3156f3fce3e0ab0b38350886cdd3f81eac44e457cf8d4e0339a4e427557"
+   "sha256": "d690a11398baa6d271afcb1e73e88830f536a7591599a34f4aacc776d381bc04"
   },
   "xlsx": {
    "file": "04_SOURCE_DATA/Figure4/Figure4_SourceData.xlsx",
-   "sha256": "7ec0ab02211c47dabe8890320c42a6cd395ceaff669c6f1d88b2b3198dbc81f2"
+   "sha256": "ee692d5992f7a61109b395b081ef56aefb306965367f8040d3b5dbbb40c9f95a"
   },
   "readback": {
    "file": "04_SOURCE_DATA/Figure4/Figure4_readback.json",
-   "sha256": "f02c786e28ecaad1dffbd20abefbe5c49fa4bc1525479c5c275bba0df559b13d"
+   "sha256": "c59e83ec34912b7f695df4cc664c71300b7268c9cb85babfdae349160e3afd79"
   },
-  "selection": {
-   "file": "04_SOURCE_DATA/Figure4/figure4_selection.json",
-   "sha256": "57e09986ff693c31040a33f786ce7f81959303a0d37a6971e232e5ca6977d624"
+  "Figure4c_fingerprint_cells.csv": {
+   "file": "04_SOURCE_DATA/Figure4/Figure4c_fingerprint_cells.csv",
+   "sha256": "bc8bcd755d67b33b5744194b7f1fb4b5b26c91968b0e07606bd96203f4847487"
   },
-  "SetA_whole_array_bootstrap_draws.csv": {
-   "file": "04_SOURCE_DATA/Figure4/SetA_whole_array_bootstrap_draws.csv",
-   "sha256": "9e7520f98b24bf5890587825e5fea8fc5d08d7f19f24f39a97e67c4b4a572a24"
+  "Figure4c_fingerprint_row_key.csv": {
+   "file": "04_SOURCE_DATA/Figure4/Figure4c_fingerprint_row_key.csv",
+   "sha256": "afc3d24c27424a63c70f60a2f01942f8f27b7d8cb7febc3834fe0ddbd45f3cf8"
   },
-  "SetA_owner_block_bootstrap_draws.csv": {
-   "file": "04_SOURCE_DATA/Figure4/SetA_owner_block_bootstrap_draws.csv",
-   "sha256": "a3adff0757a94f036695173c302c42925f941ab6a630529316d9c0db7010536f"
+  "Figure4c_condition_order.csv": {
+   "file": "04_SOURCE_DATA/Figure4/Figure4c_condition_order.csv",
+   "sha256": "b361e9269bcda47420c497ba911993628500e9170efbbf968b65d740343e9207"
+  },
+  "Figure4c_selection.json": {
+   "file": "04_SOURCE_DATA/Figure4/Figure4c_selection.json",
+   "sha256": "2702596ae56af523bd3b6283f047fe27539a6f243c49ac1e281fcff331a80d46"
+  },
+  "Figure4_PDF_2x.png": {
+   "file": "04_SOURCE_DATA/Figure4/Figure4_PDF_2x.png",
+   "sha256": "0e541ded3306f9dd2f6091f4f69c1df2c9fad0ff19a63f9fd40df6682b4f2f20"
+  },
+  "Figure4_structure_geometry.json": {
+   "file": "04_SOURCE_DATA/Figure4/Figure4_structure_geometry.json",
+   "sha256": "40b0e10b6d4481bc4f5daf6e052f2b963d0671b4f13adca7c4816c6c5addd268"
   }
  },
- "panels": {}
+ "panels": {
+  "A": {
+   "eight_amine_positive": 6
+  },
+  "B": {
+   "owner_higher": 17,
+   "molecules": 23
+  },
+  "C": {
+   "halide_rows": 4,
+   "NH_rows": 8,
+   "conditions": 47
+  }
+ }
 }

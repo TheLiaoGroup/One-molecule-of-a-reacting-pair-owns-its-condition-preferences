@@ -1,4 +1,4 @@
-"""Rebuild the article's figures, supplementary figures (figs. S1 to S10) and Source Data from this package alone, and compare them with the
+"""Rebuild the article's figures, supplementary figures and Source Data from the released P2 package and an explicitly verified external result, and compare them with the
 released ones.
 
     python rebuild_all.py                      everything (about 15 minutes with 6 processes on the computer used for the study)
@@ -13,7 +13,7 @@ Steps:
      derived/ and derived/DERIVED_FILES.json;
   3. a work tree is built in _rebuild/tree: copies (never links) of the package files at the paths the analysis code reads;
   4. one font list is fixed for every process (environment/fonts.json);
-  5. the four main and ten supplementary figure generators run, each in its own Python process, in public mode (P2_RELEASE_MODE=public): the hidden
+  5. the five main and ten supplementary figure generators run, each in its own Python process, in public mode (P2_RELEASE_MODE=public): the hidden
      folds and draws are read from the released Source Data instead of the internal registry of the original analysis;
   6. Fig. S10's models are re-fitted from the measurements and the released folds and groups
      (code/Checks/verify_ed10_refit.py, fold registry blocked);
@@ -36,8 +36,8 @@ Steps:
      the frozen three-condition decision on Set A, planned from the training arrays and scored on the released Set A
      measurements (code/Checks/frozen_reads_recomputed.py, about 1 minute); the result must equal
      results/directional/frozen_reads_recomputed.json.
- 14. four main-figure audits independently recompute the displayed values and check the actual series of this run's outputs
-     (code/Checks/audit_figure1.py to audit_figure4.py, --values-only); retained computed input tables are checked against
+ 14. five main-figure audits independently recompute the displayed values and check the actual series of this run's outputs
+     (code/Checks/audit_figure1.py to audit_figure5.py, --values-only); retained computed input tables are checked against
      measurements rather than accepted solely from their hashes.
 Every Python process of the rebuild runs under a file-access guard (code/release/guard/sitecustomize.py): it may read this
 package, Python and system fonts, and write only under _rebuild/. Only this Python executable may start child processes;
@@ -155,7 +155,7 @@ def generators(names, jobs, env):
         out = OUT / n
         out.mkdir(parents=True, exist_ok=True)
         command = [sys.executable, "-B", str(TREE / s), "--out", str(out)]
-        if n.startswith("figure"):
+        if n.startswith("figure") or n == "figs29":
             command += ["--journal", journal]
         return n, run(command, WORK / "logs" / f"{n}.log", env)
     with ThreadPoolExecutor(max_workers=jobs) as ex:
@@ -175,7 +175,7 @@ def figure_audits(names, env):
         script = TREE / f"06_CODE/Checks/audit_figure{number}.py"
         code = run([sys.executable, "-B", str(script), "--values-only", "--root", str(TREE), "--qc-dir", str(qc),
                     "--artifact-dir", str(OUT / name), "--journal", L.journal()], WORK / "logs" / f"audit_{name}.log", env)
-        path = qc / f"Figure{number}_v5_audit.json"
+        path = qc / f"Figure{number}_v6_audit.json"
         if code != 0:
             bad.append(f"{name} independent audit: exit code {code} (see _rebuild/logs/audit_{name}.log)")
         if not path.is_file():
@@ -199,7 +199,7 @@ def refit(jobs, env):
 
 def nested(env):
     rec = WORK / "nested_owner_results.json"
-    c = run([sys.executable, "-B", str(TREE / L.NESTED), "--source-data", str(OUT / "figure4/Figure4_SourceData.xlsx"),
+    c = run([sys.executable, "-B", str(TREE / L.NESTED), "--source-data", str(OUT / "figure5/Figure5_SourceData.xlsx"),
              "--folds", str(TREE / "05_DATA/Analysis/figure_display/Fig4a_folds.csv"), "--out", str(rec)], WORK / "logs" / "nested_owner.log", env)
     if c != 0 or not rec.is_file():
         return [f"exit code {c} (see _rebuild/logs/nested_owner.log)"], {}
@@ -268,13 +268,13 @@ def provenance(env, zhang):
         mode="released records and Zhang flags checked against the released counts")
 
 
-def claims_and_use(rebuilt_fig2):
+def claims_and_use(rebuilt_fig3):
     U = L.load_units()
-    prov = rebuilt_fig2 if rebuilt_fig2.is_file() else PKG / "source_data/Figure2/Figure2_SourceData_provenance.json"
+    prov = rebuilt_fig3 if rebuilt_fig3.is_file() else PKG / "source_data/Figure3/Figure3_SourceData_provenance.json"
     values = L.text_claim_values(U, L.read_text_table(L.MASK), L.read_text_table(L.CONDITIONS), L.read_text_table(L.REAGENTS),
                                  L.read_text_table(L.PROVENANCE_FLAGS), json.loads(prov.read_text(encoding="utf-8")))
     bad = L.check_text_claims(values) + L.check_publication_use(U)
-    return bad, dict(claims=sorted(values), figure2_provenance="rebuilt" if prov == rebuilt_fig2 else "released")
+    return bad, dict(claims=sorted(values), figure3_provenance="rebuilt" if prov == rebuilt_fig3 else "released")
 
 
 def compare(names):
@@ -315,7 +315,8 @@ def compare(names):
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("--jobs", type=int, default=min(6, os.cpu_count() or 1))
-    ap.add_argument("--only", nargs="*", help="generator names (figure1-4, ed01-ed10)")
+    ap.add_argument("--only", nargs="*", help="generator names (figure1-5, ed01-ed10)")
+    ap.add_argument("--external-result", type=Path, help="RESULT.json from the public ORD reproducer, outside this package; molecules.csv must be alongside it")
     ap.add_argument("--zhang", help="data/all_HTE_with_condition.csv of the pinned Zhang commit, plain or gzip (optional)")
     ap.add_argument("--journal", choices=("science", "natcatal"), help="must match JOURNAL_PROFILE.json; Science when absent")
     a = ap.parse_args()
@@ -326,13 +327,24 @@ def main():
     unknown = names - {n for n, _ in L.GENERATORS}
     if unknown:
         raise SystemExit(f"unknown generators: {sorted(unknown)}")
+    if "figure2" in names:
+        if not a.external_result:
+            ap.error("Figure 2 needs --external-result from code/External/replicate_public_screens.py; external results are not redistributed")
+        a.external_result = a.external_result.resolve()
+        if a.external_result.is_relative_to(PKG.resolve()):
+            ap.error("external results must stay outside the P2 package")
+        if not a.external_result.is_file() or not a.external_result.with_name("molecules.csv").is_file():
+            ap.error("external RESULT.json or its molecules.csv is missing")
     if WORK.exists():                                             # read-only folders (as some synced drives mark them) are made writable
         shutil.rmtree(WORK, onexc=lambda func, path, exc: (os.chmod(path, 0o200 | 0o400), func(path)))
     for d in (TREE, OUT, WORK / "logs", WORK / "access_log", WORK / "tmp", WORK / "mplconfig"):
         d.mkdir(parents=True)
     os.environ["MPLCONFIGDIR"] = str(WORK / "mplconfig")         # before matplotlib is first imported: no font cache from elsewhere
     extra = [a.zhang] if a.zhang else []
-    cfg = dict(read=allowed_read(extra), write=[str(WORK)], log=str(WORK / "access_log"))
+    external_files = []
+    if "figure2" in names:
+        external_files = [str(a.external_result), str(a.external_result.with_name("molecules.csv"))]
+    cfg = dict(read=allowed_read(extra), read_files=external_files, write=[str(WORK)], log=str(WORK / "access_log"))
     guard.install(cfg)                                            # this process too
     env = {k: v for k, v in os.environ.items() if k not in ("PYTHONPATH", "PYTHONHOME", "PYTHONSTARTUP", "PYTHONUSERBASE")}
     env.update(P2_PUBLIC_GUARD=json.dumps(cfg), P2_RELEASE_MODE="public", PYTHONPATH=str(PKG / "code/release/guard"),
@@ -345,21 +357,35 @@ def main():
                                    pandas=pandas.__version__, scipy=scipy.__version__, scikit_learn=sklearn.__version__,
                                    rdkit=rdkit.__version__, matplotlib=matplotlib.__version__, openpyxl=openpyxl.__version__),
                   inputs=dict(checksums_sha256=L.sha256(PKG / L.CHECKSUMS)), generators=sorted(names),
-                  guard=dict(read=cfg["read"], write=cfg["write"],
+                  guard=dict(read=cfg["read"], read_files=cfg["read_files"], write=cfg["write"],
                              monitoring="Python file access logged; only this Python executable may start child processes; Python network connections refused"))
     if journal != "science":
         report["journal"] = journal
+    def stage_inputs():
+        L.stage(TREE, WORK)
+        if "figure2" in names:
+            spec = importlib.util.spec_from_file_location("external_plot_input", PKG / "code/Figures/external_figure_input.py")
+            adapter = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(adapter)
+            raw = adapter.encoded(adapter.public_projection(a.external_result, PKG))
+            adapter.verify(raw)
+            dest = TREE / "05_DATA/Results/external_replication/Figure2_plot_input.json"
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            dest.write_bytes(raw)
+            report["inputs"]["external_plot_sha256"] = adapter.EXPECTED_SHA256
+            report["inputs"]["external_result_sha256"] = L.sha256(a.external_result)
+            report["inputs"]["external_molecules_sha256"] = L.sha256(a.external_result.with_name("molecules.csv"))
+        return [], dict(files=len(L.stage_map(WORK)), explicit_external_input="figure2" in names)
     ok = step("1 checksums of every released file", report, checksums)
     ok &= step("2 task construction: derived tables from the released records", report, task_construction)
-    ok &= step("3 work tree: copies of the package files where the code reads them", report,
-               lambda: ([], dict(files=len(L.stage_map(WORK)))) if L.stage(TREE, WORK) is None else (["staging"], {}))
+    ok &= step("3 work tree: copies of released inputs and verified external display", report, stage_inputs)
     ok &= step("4 font list: the Arial files of the released figures first", report, font_list)
     ok &= step(f"5 figure generators in public mode ({len(names)})", report, lambda: generators(names, a.jobs, env))
     full = names == {n for n, _ in L.GENERATORS}
     if full:
         ok &= step(L.journal_formatter()("6 re-fit of Fig. S10 (fold registry blocked)"), report, lambda: refit(a.jobs, env))
         ok &= step("7 provenance flags", report, lambda: provenance(env, a.zhang))
-        ok &= step("8 text statements and publication use of every measurement", report, lambda: claims_and_use(OUT / "figure2/Figure2_SourceData_provenance.json"))
+        ok &= step("8 text statements and publication use of every measurement", report, lambda: claims_and_use(OUT / "figure3/Figure3_SourceData_provenance.json"))
     ok &= step("9 rebuilt outputs against the released ones", report, lambda: compare(names))
     if full:
         ok &= step("10 owner labels without the scored pairs; largest connected networks", report, lambda: nested(env))

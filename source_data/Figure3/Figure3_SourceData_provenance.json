@@ -1,71 +1,452 @@
 {
- "figure": "Figure 3",
- "generated_by": "06_CODE/Figures/figure3.py",
- "inputs": {
-  "files": {
-   "02_FIGURES/ChemDraw/Fig2_b_M1.svg": {
-    "file": "02_FIGURES/ChemDraw/Fig2_b_M1.svg",
-    "sha256": "f9519ec2eb59e8fdd3bc3e11d756fa39ce09fcec4ec487d4c2805ac91a4e3553"
-   },
-   "02_FIGURES/ChemDraw/Fig2_b_M2.svg": {
-    "file": "02_FIGURES/ChemDraw/Fig2_b_M2.svg",
-    "sha256": "4debe36196da3b3e1a59b85f1b2d1b4e08c7b9dd39304f9b79cd747d18abf34d"
-   },
-   "02_FIGURES/ChemDraw/Fig2_b_M3.svg": {
-    "file": "02_FIGURES/ChemDraw/Fig2_b_M3.svg",
-    "sha256": "a6a98ec3fa354060276c98885aa5104783d4b101c8966b4a11a5587b35ccdb2d"
-   },
-   "02_FIGURES/ChemDraw/Fig2_b_M4.svg": {
-    "file": "02_FIGURES/ChemDraw/Fig2_b_M4.svg",
-    "sha256": "1afa0f4770515a755cb941509970346d8d7b546da62934f3cc0a07b530dbe56a"
-   },
-   "02_FIGURES/ChemDraw/Fig2_b_M5.svg": {
-    "file": "02_FIGURES/ChemDraw/Fig2_b_M5.svg",
-    "sha256": "965435749854bfc386d9f086d45cf8ad6f3149fa3e31533085e3d0926b3ebdc4"
-   },
-   "02_FIGURES/ChemDraw/Fig2_b_M6.svg": {
-    "file": "02_FIGURES/ChemDraw/Fig2_b_M6.svg",
-    "sha256": "bfc8ba6e00321eb6ac93f9a4b7f2fad7823786272b4290cab779f567d8b5b870"
-   },
-   "02_FIGURES/ChemDraw/Fig2_b_M7.svg": {
-    "file": "02_FIGURES/ChemDraw/Fig2_b_M7.svg",
-    "sha256": "7fd5e156b1543679f9c37c638b3781458c76e3e46aa4fce0941c96d813713e1b"
-   },
-   "02_FIGURES/ChemDraw/Fig2_b_M8.svg": {
-    "file": "02_FIGURES/ChemDraw/Fig2_b_M8.svg",
-    "sha256": "fc92bae94339fb41862ae9b2e8302e8b2f66d7c1d838d417d9eccfccb1496643"
-   },
-   "05_DATA/Analysis/figure_display/v5_reference_tables/MANIFEST.json": {
-    "file": "05_DATA/Analysis/figure_display/v5_reference_tables/MANIFEST.json",
-    "sha256": "e5d3baa73d123bbb89d85b287026ffa9c482f826174ff31bba42ca6780470717"
-   },
-   "05_DATA/Analysis/figure_display/v5_reference_tables/molecule_context.xlsx": {
-    "file": "05_DATA/Analysis/figure_display/v5_reference_tables/molecule_context.xlsx",
-    "sha256": "81087e63d31e83b4363121a86b33b19b9ea683ef32ec38b6b4dfdc72663c0da2"
-   }
+  "figure": "Figure 3",
+  "generated_by": "06_CODE/Figures/figure3.py",
+  "inputs": {
+    "files": {
+      "05_DATA/Analysis/figure_display/v7_figure3/FigS27_approved.pdf": {
+        "file": "05_DATA/Analysis/figure_display/v7_figure3/FigS27_approved.pdf",
+        "sha256": "22df775ae663c3a6ea744b6e0003615b60fd1576e038b0bcb4e6d55ec61e814f"
+      },
+      "05_DATA/Analysis/figure_display/v7_figure3/FigS27_approved.png": {
+        "file": "05_DATA/Analysis/figure_display/v7_figure3/FigS27_approved.png",
+        "sha256": "6108fcd8068b0572ff33d4b0af60a57dc12f20c6c81227978dec5199721d3362"
+      },
+      "05_DATA/Analysis/figure_display/v7_figure3/FigS27_approved.svg": {
+        "file": "05_DATA/Analysis/figure_display/v7_figure3/FigS27_approved.svg",
+        "sha256": "18db8fa1180f11b3f4db4846e61c796e42e35f3928359b95ab532054f1a63ea0"
+      },
+      "05_DATA/Analysis/figure_display/v7_figure3/FigS27_readback.json": {
+        "file": "05_DATA/Analysis/figure_display/v7_figure3/FigS27_readback.json",
+        "sha256": "60383aaac2b5a3d3d1be8e2c0eaff3ca099b27bff54009eb14c503b6003234d1"
+      },
+      "05_DATA/Analysis/figure_display/v7_figure3/FigS29_approved.svg": {
+        "file": "05_DATA/Analysis/figure_display/v7_figure3/FigS29_approved.svg",
+        "sha256": "5332e62175da3c75daa37981da84372acbb59bee50c36faa0a393f675257c200"
+      },
+      "05_DATA/Analysis/figure_display/v7_figure3/Figure3_approved.svg": {
+        "file": "05_DATA/Analysis/figure_display/v7_figure3/Figure3_approved.svg",
+        "sha256": "f6eae1bb009ac7da9284ea549aa1326c03e919dff24c1eb5a98c1a1943792331"
+      },
+      "05_DATA/Analysis/figure_display/v7_figure3/records.json": {
+        "file": "05_DATA/Analysis/figure_display/v7_figure3/records.json",
+        "sha256": "4019fedee351217ec330fd4edf3a2c0651082dacb843fd735b27cc976f42c9a5"
+      },
+      "05_DATA/Analysis/figure_display/v7_figure3/retained_artist_readback.json": {
+        "file": "05_DATA/Analysis/figure_display/v7_figure3/retained_artist_readback.json",
+        "sha256": "ecbf5feeaf267a5103262303cac8b11ec85c8e96d656802b71510983ec72df06"
+      },
+      "05_DATA/Analysis/figure_display/v7_figure3/native_display_groups.json": {
+        "file": "05_DATA/Analysis/figure_display/v7_figure3/native_display_groups.json",
+        "sha256": "1bca3bc27477c5a5e3d1172739236429ac0c808cf66794530d2f2c55c319ee1a"
+      },
+      "05_DATA/Analysis/figure_display/v7_figure3/retained_scientific_metadata.json": {
+        "file": "05_DATA/Analysis/figure_display/v7_figure3/retained_scientific_metadata.json",
+        "sha256": "0d49b946e761f4758c84556927f7bd1a7733c8a63a48c243a2bb1d238f8e24fd"
+      },
+      "05_DATA/Analysis/figure_display/v7_figure3/BINDING.json": {
+        "file": "05_DATA/Analysis/figure_display/v7_figure3/BINDING.json",
+        "sha256": "35d931855eed3646dcb91335c05ebc1edd7ac2f804eaf172be55e309191e2bb0"
+      },
+      "05_DATA/Analysis/figure_display/v6_figure3/aminations_payload.json": {
+        "file": "05_DATA/Analysis/figure_display/v6_figure3/aminations_payload.json",
+        "sha256": "754bcee276a3447bed972e5ec329c54cca15d8417a8109e15533840407c45f85"
+      },
+      "05_DATA/Analysis/figure_display/v6_figure3/all_molecule_agreement.csv": {
+        "file": "05_DATA/Analysis/figure_display/v6_figure3/all_molecule_agreement.csv",
+        "sha256": "246b465a04038ba088304bea6456eb683b663cba9e8744b2a529f5826c70af8c"
+      },
+      "05_DATA/Analysis/figure_display/v6_figure3/class_null/summary.json": {
+        "file": "05_DATA/Analysis/figure_display/v6_figure3/class_null/summary.json",
+        "sha256": "2d05961f0ef4141df6d9c2d9baff793f43f88ee2b3fba57922ffefd38239c305"
+      },
+      "05_DATA/Analysis/figure_display/v6_figure3/class_null/cn_draws.csv": {
+        "file": "05_DATA/Analysis/figure_display/v6_figure3/class_null/cn_draws.csv",
+        "sha256": "94cfffa8af91c7a65e7604f2af9ca5dc2d8f3996162939c49d92661863c514ab"
+      },
+      "05_DATA/Analysis/figure_display/v6_figure3/class_null/amide_draws.csv": {
+        "file": "05_DATA/Analysis/figure_display/v6_figure3/class_null/amide_draws.csv",
+        "sha256": "bb04e0796d124c257fc81bbb90ed62fde0249372e32ead84c2b44552da13aad4"
+      },
+      "05_DATA/Analysis/figure_display/v5_reference_tables/preference.xlsx": {
+        "file": "05_DATA/Analysis/figure_display/v5_reference_tables/preference.xlsx",
+        "sha256": "b0e602d46001b3a0fc7cff805bb21ae6123ae7e743a49c28d43eda0cb89e8fe0"
+      },
+      "05_DATA/Analysis/figure_display/v5_reference_tables/MANIFEST.json": {
+        "file": "05_DATA/Analysis/figure_display/v5_reference_tables/MANIFEST.json",
+        "sha256": "e5d3baa73d123bbb89d85b287026ffa9c482f826174ff31bba42ca6780470717"
+      },
+      "06_CODE/Figures/v7_figure3.py": {
+        "file": "06_CODE/Figures/v7_figure3.py",
+        "sha256": "c541f66989d2226dda5bf8df493e49edc4901ae9fcb19c3db557f765683ac17d"
+      },
+      "06_CODE/Figures/figure3.py": {
+        "file": "06_CODE/Figures/figure3.py",
+        "sha256": "1d9e7d89941d6bc639ec1fa616cafba2c1c92d0d23ffcbe4ef1c3856f6871791"
+      },
+      "06_CODE/Figures/figure_export.py": {
+        "file": "06_CODE/Figures/figure_export.py",
+        "sha256": "79ca2c5fe62cbc6874aea0131c6aa99b30e28e754d1514c59274e3c52e59cae8"
+      }
+    }
+  },
+  "outputs": {
+    "svg": {
+      "file": "02_FIGURES/Main/Figure3.svg",
+      "sha256": "f6eae1bb009ac7da9284ea549aa1326c03e919dff24c1eb5a98c1a1943792331"
+    },
+    "pdf": {
+      "file": "02_FIGURES/Main/Figure3.pdf",
+      "sha256": "eecab74223c6b1dc8f4af860d1d0e01bd5d18fb01daf7809dbdb24b31bb76a26"
+    },
+    "png": {
+      "file": "02_FIGURES/Main/Figure3.png",
+      "sha256": "d73dcfaab3b214c4eb7b6e0617fd3f8bf22c3e3daabc478bbe1970531adcd5bd"
+    },
+    "xlsx": {
+      "file": "04_SOURCE_DATA/Figure3/Figure3_SourceData.xlsx",
+      "sha256": "8632e89a462c70a50cf54929dfa85c7718c89c0e3b7f00b125c8d03fc9f6605f"
+    },
+    "readback": {
+      "file": "04_SOURCE_DATA/Figure3/Figure3_readback.json",
+      "sha256": "ce49875bb5ff3fbcd9354d8bdd7e098062499b1ce6c3c0a0826c3915c113644a"
+    },
+    "display_identity.json": {
+      "file": "04_SOURCE_DATA/Figure3/Figure3_display_identity.json",
+      "sha256": "35d931855eed3646dcb91335c05ebc1edd7ac2f804eaf172be55e309191e2bb0"
+    },
+    "PDF_2x.png": {
+      "file": "04_SOURCE_DATA/Figure3/Figure3_PDF_2x.png",
+      "sha256": "b9d895ff2142b83f77f4c065ac0d823f71f48075f2de8ca7257bce83b13fd7f6"
+    },
+    "FigS27_svg": {
+      "file": "02_FIGURES/Supplementary_Figures/FigS27.svg",
+      "sha256": "18db8fa1180f11b3f4db4846e61c796e42e35f3928359b95ab532054f1a63ea0"
+    },
+    "FigS27_pdf": {
+      "file": "02_FIGURES/Supplementary_Figures/FigS27.pdf",
+      "sha256": "22df775ae663c3a6ea744b6e0003615b60fd1576e038b0bcb4e6d55ec61e814f"
+    },
+    "FigS27_png": {
+      "file": "02_FIGURES/Supplementary_Figures/FigS27.png",
+      "sha256": "6108fcd8068b0572ff33d4b0af60a57dc12f20c6c81227978dec5199721d3362"
+    },
+    "FigS27_readback.json": {
+      "file": "04_SOURCE_DATA/Figure3/FigS27_readback.json",
+      "sha256": "60383aaac2b5a3d3d1be8e2c0eaff3ca099b27bff54009eb14c503b6003234d1"
+    },
+    "FigS27_PDF_2x.png": {
+      "file": "04_SOURCE_DATA/Figure3/FigS27_PDF_2x.png",
+      "sha256": "ca6fa25a90676bb244117827533aa23a591aead68b10bc789fd51fecbd5d4383"
+    }
+  },
+  "panels": {
+    "A": {
+      "noise_calibration": {
+        "duplicate_agreement": 0.6690126433556589,
+        "model_scale": 1.0253019555341694,
+        "pairs": 74,
+        "duplicate_pattern_pearson": 0.7192644963706785
+      }
+    },
+    "B": {
+      "blocks": [
+        {
+          "role": "amine",
+          "ids": [
+            "a1",
+            "a2",
+            "a3",
+            "a4",
+            "a5",
+            "a6",
+            "a7"
+          ],
+          "shape": [
+            7,
+            95
+          ],
+          "mean_r": 0.2714381242241747,
+          "correlation_matrix": [
+            [
+              null,
+              0.06850003743484956,
+              0.366801387526947,
+              0.3573771195824369,
+              0.5571749263097096,
+              0.5281189063423519,
+              0.3694725213571468
+            ],
+            [
+              0.06850003743484956,
+              null,
+              0.1791364102157643,
+              0.2972891724365515,
+              0.23050813069479156,
+              0.26652216734440104,
+              0.05126267946625837
+            ],
+            [
+              0.366801387526947,
+              0.1791364102157643,
+              null,
+              0.16546052981351955,
+              0.4891683056554313,
+              0.40469143928734325,
+              0.061134472007841965
+            ],
+            [
+              0.3573771195824369,
+              0.2972891724365515,
+              0.16546052981351955,
+              null,
+              0.19339332527439798,
+              0.18646622522707745,
+              0.31491847396415074
+            ],
+            [
+              0.5571749263097096,
+              0.23050813069479156,
+              0.4891683056554313,
+              0.19339332527439798,
+              null,
+              0.5523029467195528,
+              0.06631332536922734
+            ],
+            [
+              0.5281189063423519,
+              0.26652216734440104,
+              0.40469143928734325,
+              0.18646622522707745,
+              0.5523029467195528,
+              null,
+              -0.0058118933220833325
+            ],
+            [
+              0.3694725213571468,
+              0.05126267946625837,
+              0.061134472007841965,
+              0.31491847396415074,
+              0.06631332536922734,
+              -0.0058118933220833325,
+              null
+            ]
+          ]
+        },
+        {
+          "role": "halide",
+          "ids": [
+            "h1",
+            "h2",
+            "h3",
+            "h4",
+            "h5",
+            "h6",
+            "h7",
+            "h8",
+            "h9",
+            "h10"
+          ],
+          "shape": [
+            10,
+            95
+          ],
+          "mean_r": 0.07264383963890718,
+          "correlation_matrix": [
+            [
+              null,
+              -0.06882714441327088,
+              -0.09217391093964226,
+              -0.016855123526040988,
+              0.05547385190089119,
+              0.16540007073801535,
+              0.03301349755947555,
+              -0.05718948624843678,
+              0.019371957231436095,
+              0.24228235605605328
+            ],
+            [
+              -0.06882714441327088,
+              null,
+              0.1912853215436013,
+              0.1226777321529068,
+              -0.24321074794656414,
+              -0.3186104373386396,
+              0.004857248425704882,
+              -0.2676060892456215,
+              0.18696668444484368,
+              -0.04136916234395421
+            ],
+            [
+              -0.09217391093964226,
+              0.1912853215436013,
+              null,
+              -0.056343597804388704,
+              -0.15750048471197617,
+              -0.015596636587866728,
+              -0.1523965224768656,
+              -0.04778694696612207,
+              0.207092701806368,
+              -0.1078113582442105
+            ],
+            [
+              -0.016855123526040988,
+              0.1226777321529068,
+              -0.056343597804388704,
+              null,
+              -0.03304118288085387,
+              -0.035616011193103266,
+              0.02535525658728647,
+              -0.12652217785430434,
+              0.17957835181543974,
+              -0.05518482734479168
+            ],
+            [
+              0.05547385190089119,
+              -0.24321074794656414,
+              -0.15750048471197617,
+              -0.03304118288085387,
+              null,
+              0.691397073622899,
+              -0.017111040495398643,
+              0.5516471373474213,
+              0.19439324665651758,
+              0.4284913653848038
+            ],
+            [
+              0.16540007073801535,
+              -0.3186104373386396,
+              -0.015596636587866728,
+              -0.035616011193103266,
+              0.691397073622899,
+              null,
+              -0.06610525781918837,
+              0.6634488581116592,
+              0.30465143692426466,
+              0.4926643175960223
+            ],
+            [
+              0.03301349755947555,
+              0.004857248425704882,
+              -0.1523965224768656,
+              0.02535525658728647,
+              -0.017111040495398643,
+              -0.06610525781918837,
+              null,
+              -0.10677263771145827,
+              -0.03927993890275739,
+              -0.0671686498333791
+            ],
+            [
+              -0.05718948624843678,
+              -0.2676060892456215,
+              -0.04778694696612207,
+              -0.12652217785430434,
+              0.5516471373474213,
+              0.6634488581116592,
+              -0.10677263771145827,
+              null,
+              0.17564740164195983,
+              0.42162217937875757
+            ],
+            [
+              0.019371957231436095,
+              0.18696668444484368,
+              0.207092701806368,
+              0.17957835181543974,
+              0.19439324665651758,
+              0.30465143692426466,
+              -0.03927993890275739,
+              0.17564740164195983,
+              null,
+              0.10173410965333048
+            ],
+            [
+              0.24228235605605328,
+              -0.04136916234395421,
+              -0.1078113582442105,
+              -0.05518482734479168,
+              0.4284913653848038,
+              0.4926643175960223,
+              -0.0671686498333791,
+              0.42162217937875757,
+              0.10173410965333048,
+              null
+            ]
+          ]
+        }
+      ]
+    },
+    "C": {
+      "groups": [
+        {
+          "screen": "Buchwald-Hartwig|1",
+          "role": 2,
+          "n": 23,
+          "median": 0.2714381242241745
+        },
+        {
+          "screen": "Buchwald-Hartwig|1",
+          "role": 1,
+          "n": 19,
+          "median": 0.0726438396389072
+        },
+        {
+          "screen": "Acylation|1",
+          "role": 1,
+          "n": 42,
+          "median": 0.3290359930513674
+        },
+        {
+          "screen": "Acylation|1",
+          "role": 2,
+          "n": 47,
+          "median": 0.097304966535593
+        }
+      ]
+    },
+    "D": {
+      "class_scores": [
+        {
+          "screen": "Buchwald-Hartwig|1",
+          "seed": 20261008,
+          "draws": 4999,
+          "explained": 0.00476786361268422,
+          "null_median": 0.007490900594120942,
+          "null_p95": 0.01317825054194907,
+          "p": 0.9288,
+          "pairs": 166,
+          "molecules": {
+            "N-aryl secondary amine": 10,
+            "primary (hetero)aryl amine": 47
+          }
+        },
+        {
+          "screen": "Acylation|1",
+          "seed": 20261008,
+          "draws": 4999,
+          "explained": 0.17694306278326333,
+          "null_median": 0.009086548189310872,
+          "null_p95": 0.031958844890134154,
+          "p": 0.0002,
+          "pairs": 384,
+          "molecules": {
+            "primary (hetero)aryl amine": 34,
+            "primary alkyl amine": 17
+          }
+        }
+      ]
+    }
+  },
+  "panel_metadata_scope": "Archived v6 panel labels and frozen quantitative metadata; current panel placement is declared separately.",
+  "panel_mapping": {
+    "a": "retained reaction",
+    "b": "frozen Figure1 record comparison",
+    "c": [
+      "axes_4",
+      "axes_8"
+    ],
+    "d": "retained axes_10 +18 mm y",
+    "e": "retained axes_11 +18 mm y",
+    "FigS29": "retained old heatblocks -40 mm y"
   }
- },
- "outputs": {
-  "svg": {
-   "file": "02_FIGURES/Main/Figure3.svg",
-   "sha256": "e0a85454330bb46cd783b06407c344094511d1c2151516638ae6e4a9b878905e"
-  },
-  "pdf": {
-   "file": "02_FIGURES/Main/Figure3.pdf",
-   "sha256": "4a3d80d215f43501683531a802198c46fae2e51cfe2b4632a875e1852e1f0c50"
-  },
-  "png": {
-   "file": "02_FIGURES/Main/Figure3.png",
-   "sha256": "c00334a82af212b862a98799312dca85605928774f76c2986f06b213ee9e4508"
-  },
-  "xlsx": {
-   "file": "04_SOURCE_DATA/Figure3/Figure3_SourceData.xlsx",
-   "sha256": "30c8fef449e6b661149d6dbc2e4187897ef84dc694e51df9b6d2423c86378c75"
-  },
-  "readback": {
-   "file": "04_SOURCE_DATA/Figure3/Figure3_readback.json",
-   "sha256": "bef144bc24e542ebf5fa83c9f03fd8f130535841f0f810ea30de9e548e7cc1f5"
-  }
- },
- "panels": {}
 }

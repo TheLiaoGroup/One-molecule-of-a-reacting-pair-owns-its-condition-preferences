@@ -24,6 +24,15 @@
    "postscript_name": "Arial-ItalicMT",
    "version": "Version 7.00",
    "sha256": "79a5742b865cf06891d4ae43e42cac0e5169c7b7b06b5b3c24ef8e0966d27b62"
+  },
+  {
+   "style": "normal",
+   "weight": 400,
+   "file": "arial.ttf",
+   "postscript_name": "ArialMT",
+   "version": "Version 7.00",
+   "sha256": "c9b76220a5be42ead4733611e417cd65c5fd8aeaa33eb56576ac378a37d130a1",
+   "use": "Figure 1 ReportLab export"
   }
  ]
 }

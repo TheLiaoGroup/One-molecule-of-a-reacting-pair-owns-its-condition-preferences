@@ -21,16 +21,16 @@ _S_LABEL = re.compile(
     re.I,
 )
 _MAIN_LABEL = re.compile(
-    r"\b(?P<label>Figs?\.|Figures?)\s+(?P<number>[1-4])"
-    r"(?P<panels>[A-H](?:\s*(?:,\s*(?:and\s+)?|and\s+|to\s+|[\u2013-])\s*[A-H])*)"
+    r"\b(?P<label>Figs?\.|Figures?)\s+(?P<number>[1-5])"
+    r"(?P<panels>[A-H]\b(?:\s*(?:,\s*(?:and\s+)?|and\s+|to\s+|[\u2013-])\s*[A-H]\b)*)"
 )
-_PAREN_REF = re.compile(r"\((?:[1-9]|[12]\d|3[0-8])(?:\s*[,\u2013]\s*(?:[1-9]|[12]\d|3[0-8]))*\)")
+_PAREN_REF = re.compile(r"\((?:[1-9]|[1-4]\d)(?:\s*[,\u2013]\s*(?:[1-9]|[1-4]\d))*\)")
 _SUP_REF = re.compile(r"[\u2070\u00b9\u00b2\u00b3\u2074-\u2079]{2,}")
 _SUP_DIGITS = str.maketrans("\u2070\u00b9\u00b2\u00b3\u2074\u2075\u2076\u2077\u2078\u2079", "0123456789")
 _EXPLICIT_REF = re.compile(r"\brefs?\.?\s+([0-9]+(?:\s*,\s*[0-9]+)*)")
 _MAIN_TEXT_REF = re.compile(r"(?<=main-text ref\. )\d+")
 _FIG_CAPTION = re.compile(r"^\*\*Fig\. S(\d+) \|")
-_MAIN_CAPTION = re.compile(r"^\*\*Fig\. ([1-4])\. ")
+_MAIN_CAPTION = re.compile(r"^\*\*Fig\. ([1-5])\. ")
 _SOURCE_MS = "01_MANUSCRIPT/Manuscript_Nature.md"
 _SOURCE_SI = "03_SUPPLEMENTARY_INFORMATION/Supplementary_Information.md"
 _INITIALS = r"(?:[A-Z]\.(?:-[A-Z]\.)?\s*)+"
@@ -61,6 +61,8 @@ def _map_s_label(match):
     prefix = "Extended Data" if max(numbers) <= 10 else "Supplementary"
     offset = 0 if max(numbers) <= 10 else 10
     converted = re.sub(r"S?(\d+)", lambda m: str(int(m[1]) - offset), body)
+    if prefix == "Supplementary":
+        converted = re.sub(r"(\d+)([A-H])\b", lambda m: m[1] + m[2].lower() if int(m[1]) in {2, 5, 9, 11, 12, 13, 15} else m[0], converted)
     return f"{prefix} {'Figs.' if plural else 'Fig.'} {converted}"
 
 
@@ -72,7 +74,7 @@ def _format_unprotected(text):
         return f"{match['label']} {match['number']}{match['panels'].lower()}"
 
     text = _MAIN_LABEL.sub(main_label, text)
-    text = re.sub(r"\b(Fig\. [1-4]), ([A-H]) (to|and) ([A-H])\b",
+    text = re.sub(r"\b(Fig\. [1-5]), ([A-H]) (to|and) ([A-H])\b",
                   lambda m: f"{m[1]}, {m[2].lower()} {m[3]} {m[4].lower()}", text)
     return _S_LABEL.sub(_map_s_label, text).replace("Materials and Methods", "Methods")
 
@@ -144,9 +146,13 @@ def _citations(text, context, main_map, local_map=None):
 
 
 def _context(record):
+    if _FIG_CAPTION.match(str(record["content"])):
+        return "caption"
     if record["source"] == _SOURCE_MS and record["section"] != "Figure legends":
         return "main"
-    return "caption" if _FIG_CAPTION.match(str(record["content"])) else "supplementary"
+    if record["source"] == _SOURCE_SI and record["section"].startswith("Supplementary Note 22 |"):
+        return "main"
+    return "supplementary"
 
 
 def reference_facts(text):
@@ -195,8 +201,10 @@ def _render(record, main_map, local_map=None):
         content = format_labels(content)
         if out["section"] != "References":
             content = _citations(content, _context(record), main_map, local_map)
-        if _MAIN_CAPTION.match(str(record["content"])) or str(record["content"]).startswith("**Fig. S27 |"):
+        if _MAIN_CAPTION.match(str(record["content"])) or re.match(r"^\*\*Fig\. S(?:27|29) \|", str(record["content"])):
             content = re.sub(r"\(([A-H])\)", lambda m: f"(**{m[1].lower()}**)", content)
+        if re.match('^\\*\\*Fig\\. S(?:12|15|19|21|22|23|25) \\|', str(record["content"])):
+            content = re.sub(r"\*\*([A-H])\*\*", lambda m: f"**{m[1].lower()}**", content)
         out["content"] = content
     return out
 
@@ -224,8 +232,10 @@ def _numbers(text, context):
     return re.findall(r"[0-9]+(?:[.,][0-9]+)*", text)
 
 
-def _scientific_text(text, context, main_caption=False, bibliography=False):
+def _scientific_text(text, context, main_caption=False, bibliography=False, platform_caption=False):
     text = str(text)
+    if platform_caption:
+        text = re.sub(r"\*\*([A-H])\*\*", lambda m: f"**{m[1].lower()}**", text)
     text = text.replace(" (Supplementary Figs. 1\u201316)", "")
     if bibliography:
         return json.dumps(reference_facts(text), ensure_ascii=True, sort_keys=True)
@@ -233,7 +243,7 @@ def _scientific_text(text, context, main_caption=False, bibliography=False):
         text = text[:start] + text[end:]
     text = re.sub(r"<sup>.*?</sup>", "", text)
     text = text.replace("**", "").replace("*", "")
-    text = re.sub(r"\b(Fig\. [1-4]), ([A-Ha-h]) (to|and) ([A-Ha-h])\b",
+    text = re.sub(r"\b(Fig\. [1-5]), ([A-Ha-h]) (to|and) ([A-Ha-h])\b",
                   lambda m: f"{m[1]}, {m[2].lower()} {m[3]} {m[4].lower()}", text)
     text = re.sub(r"(?:Extended Data |Supplementary )?(?:Figs?\.|Figures?|Tables?)\s+S?\d+[A-Ha-h]?"
                   r"(?:\s*(?:[,\u2013-]|to|and)\s*S?\d+[A-Ha-h]?)*", "", text, flags=re.I)
@@ -274,10 +284,11 @@ def _manifest(root, sources, outputs, required, original):
                 before = _numbers(original_content, _context(source))
                 after = _numbers(expected, _context(source))
             if source and kind in {"p", "li", "cell"}:
-                main_caption = bool(_MAIN_CAPTION.match(str(source["content"]))) or str(source["content"]).startswith("**Fig. S27 |")
+                main_caption = bool(_MAIN_CAPTION.match(str(source["content"]))) or bool(re.match(r"^\*\*Fig\. S(?:27|29) \|", str(source["content"])))
                 bibliography = source["section"] == "References"
-                text_before = _scientific_text(original_content, _context(source), main_caption, bibliography)
-                text_after = _scientific_text(expected, _context(source), main_caption, bibliography)
+                platform_caption = bool(re.match('^\\*\\*Fig\\. S(?:12|15|19|21|22|23|25) \\|', str(source["content"]))) and str(expected).startswith("**Supplementary Fig.")
+                text_before = _scientific_text(original_content, _context(source), main_caption, bibliography, platform_caption)
+                text_after = _scientific_text(expected, _context(source), main_caption, bibliography, platform_caption)
             items.append({"id": record["id"] + suffix, "source_file": record["source"],
                           "source_block": record["source_index"], "destination": destination,
                           "kind": kind, "original_content": original_content, "expected_content": deepcopy(expected),
@@ -326,6 +337,10 @@ def documents(root, journal="natcatal"):
     original = {record["id"]: record for record in ms + si}
     reference_records = {int(re.match(r"(\d+)\. ", record["content"])[1]): record
                          for record in ms if record["section"] == "References" and record["kind"] == "p"}
+    source_reference_numbers = [int(re.match(r"(\d+)\. ", record["content"])[1])
+                                for record in ms if record["section"] == "References" and record["kind"] == "p"]
+    if source_reference_numbers != list(range(1, 50)):
+        raise ValueError("The unified source must contain references 1–49 exactly once")
     if journal == "science":
         outputs = {"manuscript": ms, "supplementary": si, "extended_data": []}
         refs = {"main": [{"number": number, "source_number": number, "text": record["content"]} for number, record in reference_records.items()],
@@ -349,8 +364,8 @@ def documents(root, journal="natcatal"):
         figure_records[number] = (record, caption)
         if number <= 10:
             removed.update((record["id"], caption["id"]))
-    if set(figure_records) != set(range(1, 28)):
-        raise ValueError("The current source must contain figures S1-S27 exactly once")
+    if set(figure_records) != set(range(1, 30)):
+        raise ValueError("The current source must contain figures S1-S29 exactly once")
     methods = [record for record in si if record["section"] == "Materials and Methods"
                and record["kind"] != "h2" and record["id"] not in removed]
     note_start = next(index for index, record in enumerate(si) if record["kind"] == "h2" and record["content"].startswith("Supplementary Note 1 |"))
@@ -379,6 +394,8 @@ def documents(root, journal="natcatal"):
     local_map = {number: position + 1 for position, number in enumerate(local_order)}
     if set(main_map) | set(local_map) != set(reference_records):
         raise ValueError("The journal reference views must account for every source reference")
+    if len(main_map) != 47 or len(local_map) != 2:
+        raise ValueError("Nature Catalysis requires 47 main and two SI-only references")
 
     render = lambda record: _render(record, main_map, local_map)
     main = [render(record) for record in main_body]
@@ -433,19 +450,20 @@ def documents(root, journal="natcatal"):
     front_end = next(index for index, record in enumerate(si) if record["content"] == "**This file includes:**")
     supplementary = [deepcopy(record) for record in si[:front_end]]
     supplementary[0]["content"] = "Supplementary Information for"
-    front = ["**This file includes:**", "Supplementary Notes 1\u201321", "Supplementary Figs. 1 to 17",
+    front = ["**This file includes:**", "Supplementary Notes 1\u201322", "Supplementary Figs. 1 to 19",
              "Supplementary Tables 1 to 21", "Supplementary References", "**Contents**"]
     front.extend(record["content"] for record in notes if record["kind"] == "h2")
     front.append("**Figures**")
-    front.extend(format_labels(figure_records[number][1]["content"]).split("**", 2)[1].rstrip(".") for number in range(11, 28))
+    front.extend(format_labels(figure_records[number][1]["content"]).split("**", 2)[1].rstrip(".") for number in range(11, 30))
     front.append("**Tables**")
     front.extend(format_labels(record["content"]).split("**", 2)[1].rstrip(".")
                  for record in notes if record["kind"] == "p" and re.match(r"^\*\*Table S\d+ \|", record["content"]))
     supplementary.extend(_generated("p", text, f"si-front-{index}") for index, text in enumerate(front))
     for record in notes:
         rendered = render(record)
-        if record["kind"] == "img" and record["id"] == figure_records[27][0]["id"]:
-            variant = root / "02_FIGURES/Journal_Formats/natcatal/Supplementary_Figures/FigS27.png"
+        extra_number = next((number for number in (27, 28, 29) if record["id"] == figure_records[number][0]["id"]), None)
+        if record["kind"] == "img" and extra_number is not None:
+            variant = root / f"02_FIGURES/Journal_Formats/natcatal/Supplementary_Figures/FigS{extra_number}.png"
             if not variant.is_file():
                 raise ValueError("The Nature Catalysis supplementary figure variant is missing")
             rendered["content"] = (rendered["content"][0], str(variant))

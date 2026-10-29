@@ -1,0 +1,13 @@
+block,row_id,fixed_smiles,partner_smiles,source_subpair,measured_conditions
+halide,H1,Cc1cc(F)ccc1C#N,Cc1ccc2[nH]cnc2c1,Cc1ccc2[nH]cnc2c1 >> Cc1cc(F)ccc1C#N,47
+halide,H2,Cc1cc(F)ccc1C#N,c1cc2[nH]ccc2cn1,c1cc2[nH]ccc2cn1 >> Cc1cc(F)ccc1C#N,47
+halide,H3,Cc1cc(F)ccc1C#N,c1ccc2[nH]cnc2c1,c1ccc2[nH]cnc2c1 >> Cc1cc(F)ccc1C#N,47
+halide,H4,Cc1cc(F)ccc1C#N,c1cnc2cc[nH]c2c1,c1cnc2cc[nH]c2c1 >> Cc1cc(F)ccc1C#N,47
+NH,N1,CC1CCCNC1,CCOC(=O)c1cnc(Cl)nc1,CC1CCCNC1 >> CCOC(=O)c1cnc(Cl)nc1,45
+NH,N2,CC1CCCNC1,COc1cncc(Br)c1,CC1CCCNC1 >> COc1cncc(Br)c1,47
+NH,N3,CC1CCCNC1,COc1ncc(Br)c(OC)n1,CC1CCCNC1 >> COc1ncc(Br)c(OC)n1,47
+NH,N4,CC1CCCNC1,Cc1cnc(Cl)nc1,CC1CCCNC1 >> Cc1cnc(Cl)nc1,44
+NH,N5,CC1CCCNC1,N#Cc1ccc(Br)nc1,CC1CCCNC1 >> N#Cc1ccc(Br)nc1,47
+NH,N6,CC1CCCNC1,N#Cc1ccnc(Cl)c1,CC1CCCNC1 >> N#Cc1ccnc(Cl)c1,47
+NH,N7,CC1CCCNC1,O=[N+]([O-])c1ccccc1F,CC1CCCNC1 >> O=[N+]([O-])c1ccccc1F,46
+NH,N8,CC1CCCNC1,O=[N+]([O-])c1cccnc1F,CC1CCCNC1 >> O=[N+]([O-])c1cccnc1F,47

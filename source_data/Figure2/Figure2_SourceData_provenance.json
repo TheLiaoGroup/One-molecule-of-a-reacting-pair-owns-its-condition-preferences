@@ -3,77 +3,129 @@
  "generated_by": "06_CODE/Figures/figure2.py",
  "inputs": {
   "files": {
-   "02_FIGURES/ChemDraw/Fig2_B_halide.svg": {
-    "file": "02_FIGURES/ChemDraw/Fig2_B_halide.svg",
-    "sha256": "12605163ec0c3834b059970e5854742fbdcb4f8692842110fb1aab262ab941e2"
-   },
-   "02_FIGURES/ChemDraw/Fig2_B_nucleophile.svg": {
-    "file": "02_FIGURES/ChemDraw/Fig2_B_nucleophile.svg",
-    "sha256": "6b00c70c4cd86576071408d9d7cc89d9fa78dbf6b53f65626d3a2170d25a894d"
-   },
-   "02_FIGURES/ChemDraw/Fig2_B_product.svg": {
-    "file": "02_FIGURES/ChemDraw/Fig2_B_product.svg",
-    "sha256": "bb6bd55c127994c689539426de8e5e259b1ec2543715d12fc2d9c84f64883de3"
+   "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner01.cdxml": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner01.cdxml",
+    "sha256": "211d0b7f279bb5f4ce315ed1afdbf521233b72691fa719215b555f1e686a852f"
    },
    "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner01.svg": {
     "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner01.svg",
     "sha256": "56d91edc5ed0cc919308cf2b14d4d5bf4147f0699018ee9f428335d18d3f9883"
    },
+   "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner02.cdxml": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner02.cdxml",
+    "sha256": "b9ba38766811093118778508f8e9313d85ab596eb87114daba37d16cbdf5390f"
+   },
    "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner02.svg": {
     "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner02.svg",
     "sha256": "95c7dfd7f32e990c7773f623f0280cdefa189c92825e68b834ff8e02ad4ed741"
+   },
+   "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner03.cdxml": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner03.cdxml",
+    "sha256": "996569b43ef7d3ff7c3764807161f8d23ed17fd83809c38723aa779ab27289ec"
    },
    "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner03.svg": {
     "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner03.svg",
     "sha256": "af94114bc906da36846f8527eb997c11a3327b56dcf8fa22b275aff6af65e408"
    },
+   "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner04.cdxml": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner04.cdxml",
+    "sha256": "ad43b1cf827f2eb908e202cb56bf88ce6323d3e87778bc303f92805ca3d05dee"
+   },
    "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner04.svg": {
     "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner04.svg",
     "sha256": "5011c879ba124d3815d8dda21f97fc1be75cb13f7a0bfc8931068753fff8f41b"
+   },
+   "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner05.cdxml": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner05.cdxml",
+    "sha256": "690fe49702e834623e4956785a7d8465bc0eb2e4f23dc0e44e266fe6b2a9382c"
    },
    "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner05.svg": {
     "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner05.svg",
     "sha256": "e49a122923460a8069fdd10c9244c7b2adc2270892f5e3f0f8340f64aa9f950a"
    },
+   "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner06.cdxml": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner06.cdxml",
+    "sha256": "294c161cca2657c97307d9c9c23304738d2f3ebf6784238ebfaef4fb3243e791"
+   },
    "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner06.svg": {
     "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner06.svg",
     "sha256": "c9e0eac6363d3a207da61407d2d1c209d67ec6ed45f994c95c74922bf5d9a7c2"
+   },
+   "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner07.cdxml": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner07.cdxml",
+    "sha256": "76ce8e5f71a562e2e6ae31a11192b8171e3d806cb790ad9257cd0c5213122b3d"
    },
    "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner07.svg": {
     "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner07.svg",
     "sha256": "6ab03e58af6fe489ab10f3bc0055eb60e3154008276b1152fe1f74eb99fab5f4"
    },
+   "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner08.cdxml": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner08.cdxml",
+    "sha256": "f334515c0b00c346f4397c98037622f226c149565903281ba1fc18fe046fa0fe"
+   },
    "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner08.svg": {
     "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner08.svg",
     "sha256": "3aa34ab00c6af70ff357ee71a00addcea61a2d28a6032722cd9fe41ccab878e1"
+   },
+   "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner09.cdxml": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner09.cdxml",
+    "sha256": "79f45be32cb4a1f2fb2f4112d3381349759d5336ed27f1caefbf1041696abd89"
    },
    "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner09.svg": {
     "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner09.svg",
     "sha256": "39d58c10a73c68a49ca674ad9b40e9e136974d720f8510b0c6a0756fb9573b73"
    },
+   "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner10.cdxml": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner10.cdxml",
+    "sha256": "68b6341986933de398e6c9a4896474386cb0ee6a4eebc7d0d22d5f9ec9be2c05"
+   },
    "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner10.svg": {
     "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner10.svg",
     "sha256": "af94114bc906da36846f8527eb997c11a3327b56dcf8fa22b275aff6af65e408"
+   },
+   "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner11.cdxml": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner11.cdxml",
+    "sha256": "5f749b807961ff404a74102f20a662a538d9245f7d2a7dcb581ae10c47b2b622"
    },
    "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner11.svg": {
     "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner11.svg",
     "sha256": "31ae26f4b921367e213e4877a409c21e8b83cb716cbde4693c79657dac1f5017"
    },
+   "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner12.cdxml": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner12.cdxml",
+    "sha256": "d7fd31f74c011bca82a2f46648cdbcaada612db583f0080414d470da30bdbd8b"
+   },
    "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner12.svg": {
     "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner12.svg",
     "sha256": "0b091431239b79c7f7ce56257e31b77ccb0e2d4e19138dad356b216c529acdd9"
+   },
+   "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner13.cdxml": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner13.cdxml",
+    "sha256": "23d84d26cf9736ccbbfc14f16d713bd4dfacfd74d81ed40737c080be4efd290a"
    },
    "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner13.svg": {
     "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner13.svg",
     "sha256": "60ab4fe6995caeba2ef92a26dc0e4967c85d91c9cbfc7b90e7ad15160309e976"
    },
+   "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner14.cdxml": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner14.cdxml",
+    "sha256": "488d11a4be66086f47cf6ff9757d8d95e155c9b738964c35233ab8cb3517854b"
+   },
    "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner14.svg": {
     "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner14.svg",
     "sha256": "7540980764541a4e831907af4459f1f1c8440aca145efecbf9ea05f62d6aa19a"
    },
+   "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner15.cdxml": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner15.cdxml",
+    "sha256": "a52d6ba5d806c58beaf4d912221de2f5492421707617d12a9f16124ceaee343b"
+   },
    "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner15.svg": {
     "file": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner15.svg",
     "sha256": "f9873c06e6bed65f047935719b8034a38c5524a7cbd6485473c1e603b50eb175"
+   },
+   "02_FIGURES/ChemDraw/v3/f3/structures_manifest.csv": {
+    "file": "02_FIGURES/ChemDraw/v3/f3/structures_manifest.csv",
+    "sha256": "eb2bd5dfaf44e9f0dc173c80ed69984c35b749019af4064cdfba8f0a18c25f7f"
    },
    "05_DATA/Analysis/figure_display/v5_reference_tables/MANIFEST.json": {
     "file": "05_DATA/Analysis/figure_display/v5_reference_tables/MANIFEST.json",
@@ -83,17 +135,65 @@
     "file": "05_DATA/Analysis/figure_display/v5_reference_tables/screen_shares.xlsx",
     "sha256": "845ccfab160c0c68a8089108fc70a2bb817db99edceb9b1fe80f3b611c5e7d3a"
    },
-   "05_DATA/Release/00_RAW_IMMUTABLE/DATASET_analysis.csv.gz": {
-    "file": "05_DATA/Release/00_RAW_IMMUTABLE/DATASET_analysis.csv.gz",
-    "sha256": "98e6da9f16a4adebba15ed84f49635741c38e80a15cf0fffb40d94e63f6bbbff"
+   "05_DATA/Results/external_replication/Figure2_plot_input.json": {
+    "file": "05_DATA/Results/external_replication/Figure2_plot_input.json",
+    "sha256": "c18d01ebcab0792ed45db6b521aec5fea11c213ca340693c799adb39363399ae"
    },
-   "05_DATA/Results/display_inputs/Anatomy_arrays.csv": {
-    "file": "05_DATA/Results/display_inputs/Anatomy_arrays.csv",
-    "sha256": "cfe3de1982d721c37241e3da95f670f3f9faa98bc73e709c9a7590878466ee1e"
+   "06_CODE/Core/00_common/boundaries.py": {
+    "file": "06_CODE/Core/00_common/boundaries.py",
+    "sha256": "5677b1d3cbc85dd54777f738dc44924e6d7095805eeab0c6a4ec4041b1f13dc1"
    },
-   "05_DATA/Results/primary/history_roles.csv": {
-    "file": "05_DATA/Results/primary/history_roles.csv",
-    "sha256": "fd26f8d49867f1b1935cdac5a9de91dac6a37970068ec9e7869a76c61a10bac1"
+   "06_CODE/Core/00_common/ctb/anatomy.py": {
+    "file": "06_CODE/Core/00_common/ctb/anatomy.py",
+    "sha256": "05718eee9ec360379d532a8ddc441b65afd09bc9a1ba7a1e9adb25fc4d314adc"
+   },
+   "06_CODE/Core/00_common/ctb/common.py": {
+    "file": "06_CODE/Core/00_common/ctb/common.py",
+    "sha256": "37720a8da4dc57a30e888a0ca40a3601719463a7dfe22283e8ea4662af48f4f0"
+   },
+   "06_CODE/Core/00_common/ctb/history.py": {
+    "file": "06_CODE/Core/00_common/ctb/history.py",
+    "sha256": "998abd201a8dfcf97a3716feb13279b8962ca8e212f97b67ca3693ac71beab86"
+   },
+   "06_CODE/Figures/external_figure_input.py": {
+    "file": "06_CODE/Figures/external_figure_input.py",
+    "sha256": "a48a28cefade44dad974ab12444cd377ab3a74a9376699f110a20d8c0a25b81d"
+   },
+   "06_CODE/Figures/fig_style.py": {
+    "file": "06_CODE/Figures/fig_style.py",
+    "sha256": "ec425e30f36c414f78f0e7ac6c37b727f4330d831fa15216ff79dac378da82ba"
+   },
+   "06_CODE/Figures/figure1_data.py": {
+    "file": "06_CODE/Figures/figure1_data.py",
+    "sha256": "334185afc0cb504e3bdee7a2de33b14ae73448d9ea5f500f9bf1e7ce9a107935"
+   },
+   "06_CODE/Figures/figure2.py": {
+    "file": "06_CODE/Figures/figure2.py",
+    "sha256": "352144968d5d667e41df5e73ec7b3f6df9c5f46980795faa20721e76db40b56e"
+   },
+   "06_CODE/Figures/figure3_selection.py": {
+    "file": "06_CODE/Figures/figure3_selection.py",
+    "sha256": "0365f0e02b7ebe25d98cca94f5531a31885c2d69416f047befe6841e8b96a49c"
+   },
+   "06_CODE/Figures/figure_common.py": {
+    "file": "06_CODE/Figures/figure_common.py",
+    "sha256": "d310517e2b42f6d6d683bb6defb8796713db778c6581c13bfc5406a281e62b48"
+   },
+   "06_CODE/Figures/figure_export.py": {
+    "file": "06_CODE/Figures/figure_export.py",
+    "sha256": "79ca2c5fe62cbc6874aea0131c6aa99b30e28e754d1514c59274e3c52e59cae8"
+   },
+   "06_CODE/Figures/main_figure_common.py": {
+    "file": "06_CODE/Figures/main_figure_common.py",
+    "sha256": "844e57ca9133b120b46a1fb99414b4727fb8d17f6914d30caeb6963e14155b56"
+   },
+   "06_CODE/Figures/structure_art.py": {
+    "file": "06_CODE/Figures/structure_art.py",
+    "sha256": "b9c92e645fd3df607854e9e1325ed6a7f4146a62257c3abcfec203cf6855822a"
+   },
+   "06_CODE/Figures/v6_core.py": {
+    "file": "06_CODE/Figures/v6_core.py",
+    "sha256": "ff1d6f7339f13359936eccb09574289638c85ad80899835598c324b7dc1bd511"
    },
    "07_METHODS_AND_PROVENANCE/frozen_analysis_plans/figure_selection_v3/RULE.md": {
     "file": "07_METHODS_AND_PROVENANCE/frozen_analysis_plans/figure_selection_v3/RULE.md",
@@ -104,37 +204,440 @@
  "outputs": {
   "svg": {
    "file": "02_FIGURES/Main/Figure2.svg",
-   "sha256": "82211a8232d109b5e44e41f207bd6e6951f618fb6a4c770746cf4776d34e7eec"
+   "sha256": "82c8d43b09270aee06cd2f4884b0296768dce96751ad3e019e3e03f997eb3d57"
   },
   "pdf": {
    "file": "02_FIGURES/Main/Figure2.pdf",
-   "sha256": "fc065e385601588491c14a280b14fd926d87c6e43eabaafedb42853cd4fedea9"
+   "sha256": "a29b0599f62b2edc6db2e04d207637d1c87f7761f87f4dbe5cdafe83d7557cf4"
   },
   "png": {
    "file": "02_FIGURES/Main/Figure2.png",
-   "sha256": "b8fd57424bc90d49afcf569f7a61e61c60af3fa9aacf8db8d857fad08bb98332"
+   "sha256": "0d8e6b367d8f0063557ce7754c99a5d47182f7f33a1d826230f9033a5fdcfa90"
   },
   "xlsx": {
    "file": "04_SOURCE_DATA/Figure2/Figure2_SourceData.xlsx",
-   "sha256": "dd9a1b098b75595628836f5dc86bb103292be2274f526b8d233cc48badaae05a"
+   "sha256": "af47be2953909f32aeef420e80562a6bf1220c3619e1722f60d67f31c21bed0c"
   },
   "readback": {
    "file": "04_SOURCE_DATA/Figure2/Figure2_readback.json",
-   "sha256": "68e1daa83583b2d034c7b188679a81a84721bcff1a42770537ed1b3a0e8b1f16"
+   "sha256": "e019d2e00ad81bb2a91fb43962d3055dd9ca586ee5c2d449ed54c8d262812d60"
   },
-  "selection": {
+  "Figure2_PDF_2x.png": {
+   "file": "04_SOURCE_DATA/Figure2/Figure2_PDF_2x.png",
+   "sha256": "cdb56373789cfaa270b5a424d35b3618a1ec7286814a0cef3fe39c006cbe4d93"
+  },
+  "FigS28_svg": {
+   "file": "02_FIGURES/Supplementary_Figures/FigS28.svg",
+   "sha256": "e58b6e89c585ed81ee7dc8ca43e583c1d7aca7060b046a428c854133ac1d2c5d"
+  },
+  "FigS28_pdf": {
+   "file": "02_FIGURES/Supplementary_Figures/FigS28.pdf",
+   "sha256": "4480cfc0a5e1e147f01f16d404b4a5aeb7539387e1a0b66161706b2974c5181a"
+  },
+  "FigS28_png": {
+   "file": "02_FIGURES/Supplementary_Figures/FigS28.png",
+   "sha256": "5e54d3e8a8de6b562bb45afe0690accf6f4d69aa7cd298a31acc057069f57116"
+  },
+  "FigS28_readback.json": {
+   "file": "04_SOURCE_DATA/Figure2/FigS28_readback.json",
+   "sha256": "eabbadcf988227ab7a9162e99917bda75397fa18fb17cbd799d430e914f3c99a"
+  },
+  "FigS28_PDF_2x.png": {
+   "file": "04_SOURCE_DATA/Figure2/FigS28_PDF_2x.png",
+   "sha256": "70a9881e67b616c986c28c7ffd8a5e07ef0be2e4f028c0f71a7d6ef44da05f08"
+  },
+  "figure2_selection.json": {
    "file": "04_SOURCE_DATA/Figure2/figure2_selection.json",
-   "sha256": "152c730b7995d30a4f53d898749ced790c9c2304a40fdde654b3d9e0744a50e4"
+   "sha256": "ea422ed1f49d48860377f589b953665058ba6f660c404e964a6d7d0264f68878"
   }
  },
  "panels": {
   "A": {
-   "noise_calibration": {
-    "duplicate_agreement": 0.6690126433556589,
-    "model_scale": 1.0253019555341694,
-    "pairs": 74,
-    "duplicate_pattern_pearson": 0.7192644963706785
-   }
+   "screen_count": 15,
+   "halide_owner_count": 10
+  },
+  "B": {
+   "summary_points": [
+    {
+     "screen": "Buchwald-Hartwig|1",
+     "quantity": "share",
+     "denominator": "total preference",
+     "value_pct": 32.65108839071612,
+     "display_value_pct": 32.65108839071612,
+     "display_x_offset": -0.15813953488372093,
+     "overflow": false,
+     "display_marker": "circle",
+     "displayed_annotation": null
+    },
+    {
+     "screen": "Buchwald-Hartwig|2",
+     "quantity": "share",
+     "denominator": "total preference",
+     "value_pct": 38.89741053407848,
+     "display_value_pct": 38.89741053407848,
+     "display_x_offset": 0.0,
+     "overflow": false,
+     "display_marker": "circle",
+     "displayed_annotation": null
+    },
+    {
+     "screen": "C-O competitive reactions|1",
+     "quantity": "share",
+     "denominator": "total preference",
+     "value_pct": 4.14178035812805,
+     "display_value_pct": 4.14178035812805,
+     "display_x_offset": 0.0,
+     "overflow": false,
+     "display_marker": "circle",
+     "displayed_annotation": null
+    },
+    {
+     "screen": "Heck|1",
+     "quantity": "share",
+     "denominator": "total preference",
+     "value_pct": 34.61906606519625,
+     "display_value_pct": 34.61906606519625,
+     "display_x_offset": 0.0,
+     "overflow": false,
+     "display_marker": "circle",
+     "displayed_annotation": null
+    },
+    {
+     "screen": "Hiyama|1",
+     "quantity": "share",
+     "denominator": "total preference",
+     "value_pct": 31.93331436940704,
+     "display_value_pct": 31.93331436940704,
+     "display_x_offset": 0.15813953488372093,
+     "overflow": false,
+     "display_marker": "circle",
+     "displayed_annotation": null
+    },
+    {
+     "screen": "Kumada|1",
+     "quantity": "share",
+     "denominator": "total preference",
+     "value_pct": 42.19007464416531,
+     "display_value_pct": 42.19007464416531,
+     "display_x_offset": -0.07906976744186046,
+     "overflow": false,
+     "display_marker": "circle",
+     "displayed_annotation": null
+    },
+    {
+     "screen": "SNAr|1",
+     "quantity": "share",
+     "denominator": "total preference",
+     "value_pct": 45.90857086572984,
+     "display_value_pct": 45.90857086572984,
+     "display_x_offset": 0.07906976744186046,
+     "overflow": false,
+     "display_marker": "circle",
+     "displayed_annotation": null
+    },
+    {
+     "screen": "Sonogashira|1",
+     "quantity": "share",
+     "denominator": "total preference",
+     "value_pct": 35.15508818276449,
+     "display_value_pct": 35.15508818276449,
+     "display_x_offset": 0.07906976744186046,
+     "overflow": false,
+     "display_marker": "circle",
+     "displayed_annotation": null
+    },
+    {
+     "screen": "Suzuki|1",
+     "quantity": "share",
+     "denominator": "total preference",
+     "value_pct": 30.857807703284667,
+     "display_value_pct": 30.857807703284667,
+     "display_x_offset": -0.07906976744186046,
+     "overflow": false,
+     "display_marker": "circle",
+     "displayed_annotation": null
+    },
+    {
+     "screen": "Ullmann|1",
+     "quantity": "share",
+     "denominator": "total preference",
+     "value_pct": 25.15174414836362,
+     "display_value_pct": 25.15174414836362,
+     "display_x_offset": 0.0,
+     "overflow": false,
+     "display_marker": "circle",
+     "displayed_annotation": null
+    },
+    {
+     "screen": "Acylation|1",
+     "quantity": "share",
+     "denominator": "total preference",
+     "value_pct": 42.81144462883166,
+     "display_value_pct": 42.81144462883166,
+     "display_x_offset": 0.0,
+     "overflow": false,
+     "display_marker": "circle",
+     "displayed_annotation": null
+    },
+    {
+     "screen": "Chan-Lam|1",
+     "quantity": "share",
+     "denominator": "total preference",
+     "value_pct": 28.96392438234972,
+     "display_value_pct": 28.96392438234972,
+     "display_x_offset": 0.07906976744186046,
+     "overflow": false,
+     "display_marker": "circle",
+     "displayed_annotation": null
+    },
+    {
+     "screen": "Esterification|1",
+     "quantity": "share",
+     "denominator": "total preference",
+     "value_pct": 39.03384876664993,
+     "display_value_pct": 39.03384876664993,
+     "display_x_offset": 0.07906976744186046,
+     "overflow": false,
+     "display_marker": "circle",
+     "displayed_annotation": null
+    },
+    {
+     "screen": "Grignard|1",
+     "quantity": "share",
+     "denominator": "total preference",
+     "value_pct": 6.88239547619672,
+     "display_value_pct": 6.88239547619672,
+     "display_x_offset": 0.07906976744186046,
+     "overflow": false,
+     "display_marker": "circle",
+     "displayed_annotation": null
+    },
+    {
+     "screen": "Reductive-amination|1",
+     "quantity": "share",
+     "denominator": "total preference",
+     "value_pct": 29.61504560578293,
+     "display_value_pct": 29.61504560578293,
+     "display_x_offset": 0.0,
+     "overflow": false,
+     "display_marker": "circle",
+     "displayed_annotation": null
+    },
+    {
+     "screen": "Buchwald-Hartwig|1",
+     "quantity": "owner_fraction",
+     "denominator": "molecular share",
+     "value_pct": 74.8437316962135,
+     "display_value_pct": 74.8437316962135,
+     "display_x_offset": 0.0,
+     "overflow": false,
+     "display_marker": "circle",
+     "displayed_annotation": null
+    },
+    {
+     "screen": "Buchwald-Hartwig|2",
+     "quantity": "owner_fraction",
+     "denominator": "molecular share",
+     "value_pct": 100.39577785304701,
+     "display_value_pct": 100.39577785304701,
+     "display_x_offset": -0.07906976744186046,
+     "overflow": false,
+     "display_marker": "circle",
+     "displayed_annotation": null
+    },
+    {
+     "screen": "C-O competitive reactions|1",
+     "quantity": "owner_fraction",
+     "denominator": "molecular share",
+     "value_pct": 239.8848051128014,
+     "display_value_pct": 150.0,
+     "display_x_offset": 0.0,
+     "overflow": true,
+     "display_marker": "triangle",
+     "displayed_annotation": "239.9%"
+    },
+    {
+     "screen": "Heck|1",
+     "quantity": "owner_fraction",
+     "denominator": "molecular share",
+     "value_pct": 80.44741992788025,
+     "display_value_pct": 80.44741992788025,
+     "display_x_offset": -0.07906976744186046,
+     "overflow": false,
+     "display_marker": "circle",
+     "displayed_annotation": null
+    },
+    {
+     "screen": "Hiyama|1",
+     "quantity": "owner_fraction",
+     "denominator": "molecular share",
+     "value_pct": 62.69436825875646,
+     "display_value_pct": 62.69436825875646,
+     "display_x_offset": 0.0,
+     "overflow": false,
+     "display_marker": "circle",
+     "displayed_annotation": null
+    },
+    {
+     "screen": "Kumada|1",
+     "quantity": "owner_fraction",
+     "denominator": "molecular share",
+     "value_pct": 80.32449189941124,
+     "display_value_pct": 80.32449189941124,
+     "display_x_offset": 0.0,
+     "overflow": false,
+     "display_marker": "circle",
+     "displayed_annotation": null
+    },
+    {
+     "screen": "SNAr|1",
+     "quantity": "owner_fraction",
+     "denominator": "molecular share",
+     "value_pct": 99.25139969748848,
+     "display_value_pct": 99.25139969748848,
+     "display_x_offset": 0.0,
+     "overflow": false,
+     "display_marker": "circle",
+     "displayed_annotation": null
+    },
+    {
+     "screen": "Sonogashira|1",
+     "quantity": "owner_fraction",
+     "denominator": "molecular share",
+     "value_pct": 68.85048477865664,
+     "display_value_pct": 68.85048477865664,
+     "display_x_offset": 0.0,
+     "overflow": false,
+     "display_marker": "circle",
+     "displayed_annotation": null
+    },
+    {
+     "screen": "Suzuki|1",
+     "quantity": "owner_fraction",
+     "denominator": "molecular share",
+     "value_pct": 80.41471222239403,
+     "display_value_pct": 80.41471222239403,
+     "display_x_offset": 0.07906976744186046,
+     "overflow": false,
+     "display_marker": "circle",
+     "displayed_annotation": null
+    },
+    {
+     "screen": "Ullmann|1",
+     "quantity": "owner_fraction",
+     "denominator": "molecular share",
+     "value_pct": 118.8057468942736,
+     "display_value_pct": 118.8057468942736,
+     "display_x_offset": 0.0,
+     "overflow": false,
+     "display_marker": "circle",
+     "displayed_annotation": null
+    },
+    {
+     "screen": "Acylation|1",
+     "quantity": "owner_fraction",
+     "denominator": "molecular share",
+     "value_pct": 70.035315210085,
+     "display_value_pct": 70.035315210085,
+     "display_x_offset": 0.07906976744186046,
+     "overflow": false,
+     "display_marker": "circle",
+     "displayed_annotation": null
+    },
+    {
+     "screen": "Chan-Lam|1",
+     "quantity": "owner_fraction",
+     "denominator": "molecular share",
+     "value_pct": 54.90935711343201,
+     "display_value_pct": 54.90935711343201,
+     "display_x_offset": 0.0,
+     "overflow": false,
+     "display_marker": "circle",
+     "displayed_annotation": null
+    },
+    {
+     "screen": "Esterification|1",
+     "quantity": "owner_fraction",
+     "denominator": "molecular share",
+     "value_pct": 99.69866231730691,
+     "display_value_pct": 99.69866231730691,
+     "display_x_offset": 0.07906976744186046,
+     "overflow": false,
+     "display_marker": "circle",
+     "displayed_annotation": null
+    },
+    {
+     "screen": "Grignard|1",
+     "quantity": "owner_fraction",
+     "denominator": "molecular share",
+     "value_pct": 80.47104294808555,
+     "display_value_pct": 80.47104294808555,
+     "display_x_offset": 0.15813953488372093,
+     "overflow": false,
+     "display_marker": "circle",
+     "displayed_annotation": null
+    },
+    {
+     "screen": "Reductive-amination|1",
+     "quantity": "owner_fraction",
+     "denominator": "molecular share",
+     "value_pct": 57.229417621942034,
+     "display_value_pct": 57.229417621942034,
+     "display_x_offset": 0.07906976744186046,
+     "overflow": false,
+     "display_marker": "circle",
+     "displayed_annotation": null
+    }
+   ]
+  },
+  "C": {
+   "external_result_sha256": "c18d01ebcab0792ed45db6b521aec5fea11c213ca340693c799adb39363399ae",
+   "statistics": [
+    {
+     "dataset": "CH_arylation",
+     "role": "halide",
+     "median": 0.252960127410594,
+     "eligible_molecules": 7,
+     "p2_reference": 0.271438124224175,
+     "difference_ci95": [
+      -0.220427262246919,
+      0.512360272227395
+     ]
+    },
+    {
+     "dataset": "CH_arylation",
+     "role": "partner",
+     "median": 0.041030961903731,
+     "eligible_molecules": 8,
+     "p2_reference": 0.072643839638907,
+     "difference_ci95": [
+      -0.220427262246919,
+      0.512360272227395
+     ]
+    },
+    {
+     "dataset": "Suzuki",
+     "role": "halide",
+     "median": 0.523164093463289,
+     "eligible_molecules": 10,
+     "p2_reference": 0.208437146588913,
+     "difference_ci95": [
+      -0.07101532648761,
+      0.759619809397654
+     ]
+    },
+    {
+     "dataset": "Suzuki",
+     "role": "partner",
+     "median": 0.015481311861783,
+     "eligible_molecules": 10,
+     "p2_reference": 0.042253804635174,
+     "difference_ci95": [
+      -0.07101532648761,
+      0.759619809397654
+     ]
+    }
+   ]
   }
  }
 }

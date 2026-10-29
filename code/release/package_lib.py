@@ -65,15 +65,21 @@ def journal_profile(package=None):
         assert target is not None and isinstance(entry, dict) and set(entry) == {"path", "sha256"}, "invalid journal selected source"
         assert re.fullmatch(r"[0-9a-f]{64}", canonical[relative]) and re.fullmatch(r"[0-9a-f]{64}", entry["sha256"]), "invalid locked source hash"
         if entry["path"] != relative:
-            suffix = "Main/" + relative.removeprefix("02_FIGURES/Main/") if relative.startswith("02_FIGURES/Main/") else relative.removeprefix("04_SOURCE_DATA/")
-            assert relative.startswith("02_FIGURES/Main/") or re.fullmatch(r"04_SOURCE_DATA/Figure[1-4]/[^/]+", relative), "invalid selected variant source"
+            figure = relative.startswith(("02_FIGURES/Main/", "02_FIGURES/Supplementary_Figures/"))
+            supplementary_source = relative in {"04_SOURCE_DATA/Supplementary_Figures/" + name for name in
+                                                ("FigS29_SourceData.xlsx", "FigS29_SourceData_provenance.json", "FigS29_readback.json",
+                                                 "FigS29_display_identity.json", "FigS29_PDF_2x.png")}
+            suffix = ("Supplementary_SourceData/" + Path(relative).name if supplementary_source else
+                      relative.removeprefix("02_FIGURES/") if figure else relative.removeprefix("04_SOURCE_DATA/"))
+            assert figure or supplementary_source or re.fullmatch(r"04_SOURCE_DATA/Figure[1-5]/[^/]+", relative), "invalid selected variant source"
             assert entry["path"] == "02_FIGURES/Journal_Formats/natcatal/" + suffix, "selected variant path differs from fixed journal tree"
             assert entry["sha256"] != canonical[relative], "redundant selected journal variant"
         else:
             assert entry["sha256"] == canonical[relative], "shared selected source differs from canonical lock"
         assert (package / target).is_file() and sha256(package / target) == entry["sha256"], f"{target}: selected locked file changed"
-    main = {f"02_FIGURES/Main/Figure{n}.{extension}" for n in range(1, 5) for extension in ("pdf", "svg", "png")}
-    assert main <= set(selected) and all(selected[f]["path"] != f for f in main), "missing selected main figure variants"
+    main = {f"02_FIGURES/Main/Figure{n}.{extension}" for n in range(1, 6) for extension in ("pdf", "svg", "png")}
+    panelled = {f for f in main if not Path(f).name.startswith(("Figure1.", "Figure3."))}
+    assert main <= set(selected) and all(selected[f]["path"] != f for f in panelled), "missing selected main figure variants"
     return profile
 
 
@@ -249,6 +255,10 @@ def stage_map(derived_dir):
           for name in ("Fig4a_folds.csv", "Fig4a_history_draws.csv")]
     m += [(PKG / "figure_inputs/v5_reference_tables" / name, DISPLAY_TABLE_ROOT + "/" + name)
           for name in DISPLAY_TABLES]
+    for version, number in ((6, 1), (6, 3), (6, 4), (7, 1), (7, 3)):
+        source = PKG / f"figure_inputs/v{version}_figure{number}"
+        m += [(p, f"05_DATA/Analysis/figure_display/v{version}_figure{number}/" + p.relative_to(source).as_posix())
+              for p in sorted(source.rglob("*")) if p.is_file()]
     m += [(PKG / "figure_inputs/selection_v3/RULE.md", "07_METHODS_AND_PROVENANCE/frozen_analysis_plans/figure_selection_v3/RULE.md")]
     m += [(PKG / CONDITIONS, "10_PUBLIC_RELEASE_CANDIDATE/data/conditions.csv")]
     m += [(PKG / f"figure_inputs/figure{n}_structures.csv",
@@ -282,12 +292,13 @@ def stage(tree, derived_dir):
 
 
 # ====================================================================== the generators and where their outputs are delivered
-GENERATORS = [(f"figure{n}", f"06_CODE/Figures/figure{n}.py") for n in range(1, 5)] + \
-             [(f"ed{n:02d}", f"06_CODE/Figures/ed{n:02d}.py") for n in range(1, 11)]
+GENERATORS = [(f"figure{n}", f"06_CODE/Figures/figure{n}.py") for n in range(1, 6)] + \
+             [(f"ed{n:02d}", f"06_CODE/Figures/ed{n:02d}.py") for n in range(1, 11)] + \
+             [("figs29", "06_CODE/Figures/figs29.py")]
 SUPPORT_OUTPUTS = {
     "figure1": ["source_data/Figure1/figure1_payload.json"],
     "figure2": ["source_data/Figure2/figure2_selection.json"],
-    "figure4": ["source_data/Figure4/figure4_selection.json"] + [f"source_data/Figure4/SetA_{name}_bootstrap_draws.csv"
+    "figure5": ["source_data/Figure5/figure5_selection.json"] + [f"source_data/Figure5/SetA_{name}_bootstrap_draws.csv"
                                for name in ("whole_array", "owner_block")],
 }
 REFIT = "06_CODE/Checks/verify_ed10_refit.py"
@@ -349,6 +360,10 @@ def substitutions():
     for r in read_text_table(RESULTS_MANIFEST).itertuples():
         for h in filter(None, r.locked_provenance_sha256.split(";")):
             sub[("05_DATA/Results/" + r.file[len("results/"):], h)] = (r.file, r.transformation)
+    for name, digest in (("records.json", "1b97e9c409e1f6344dbe2be8c653664542a397b843c4d42bc8c6ee5f3f04eda6"),
+                         ("INPUTS.json", "0838238d88bfd0e792b7fe0a462a35b499179c9cbf4778c399521afcb6848905")):
+        sub[("05_DATA/Analysis/figure_display/v6_figure1/" + name, digest)] = (
+            "figure_inputs/v6_figure1/" + name, "only source-path metadata and its explicit file-hash mapping made portable; all scientific fields unchanged")
     return sub
 
 
@@ -432,7 +447,7 @@ def set_b_summary(L, seed=20261007, n_boot=2000):
                 arrays=int(per.notna().sum()))
 
 
-def text_claim_values(U, mask, K, C, flags, fig2_prov):
+def text_claim_values(U, mask, K, C, flags, fig3_prov):
     """Claim id -> the numbers it states, as printed, recomputed from the package."""
     A1, A3 = U["A1"], U["A3"]
     y1 = numeric(A1["yield"])
@@ -443,8 +458,8 @@ def text_claim_values(U, mask, K, C, flags, fig2_prov):
     hy = A1[(A1.screen == "Hiyama|1") & (A1.condition_id == "C43")].set_index("subpair")["yield"].astype(float)
     dup = A3.set_index("subpair")["yield"].astype(float)
     r_raw = float(np.corrcoef(hy.reindex(dup.index), dup)[0, 1])
-    r_pattern = fig2_prov["panels"]["A"]["noise_calibration"]["duplicate_agreement"]
-    p_pattern = fig2_prov["panels"]["A"]["noise_calibration"]["duplicate_pattern_pearson"]
+    r_pattern = fig3_prov["panels"]["A"]["noise_calibration"]["duplicate_agreement"]
+    p_pattern = fig3_prov["panels"]["A"]["noise_calibration"]["duplicate_pattern_pearson"]
     st = pd.concat([U[u].measurement_status for u in UNITS] + [mask.measurement_status])
     names = dict(quantified="quantified", zero_by_rule="zero by rule", detected_not_quantified="product detected but not quantified",
                  no_screen_record="no screen record")
@@ -515,15 +530,15 @@ def publication_use(U):
             if u == "A1":
                 uses.append("Fig. 2A: the product-forming gate reads every cell of every pair of the fifteen screens")
             if u == "A3":
-                uses.append("Methods repeatability and Fig. 2A noise calibration: the duplicate (C46) of a C43 cell")
+                uses.append("Methods repeatability and Fig. 3D noise calibration: the duplicate (C46) of a C43 cell")
             if u == "SA1" and k in transfer:
-                uses.append("Fig. 4A-B: record-transfer target of Set A")
+                uses.append("Fig. 5A-B: record-transfer target of Set A")
             if u == "SA1" and k in decision:
                 uses.append("Results: target of the three-condition decision on Set A (e3)")
             if u == "SA1" and r.screen == "Acylation|1" and r.best >= FORMS:
                 uses.append("Fig. S5: product-forming amide pair of Set A")
             if u == "SB1" and k in tb:
-                uses.append("Fig. 4A-B: record-transfer target of Set B")
+                uses.append("Fig. 5A-B: record-transfer target of Set B")
             rows.append(dict(unit=u, screen=r.screen, subpair=r.subpair, measurements=int(r.n), uses=format_labels("; ".join(uses))))
     return pd.DataFrame(rows)
 

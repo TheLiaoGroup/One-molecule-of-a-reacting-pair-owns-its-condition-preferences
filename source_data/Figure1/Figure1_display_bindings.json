@@ -1,0 +1,584 @@
+{
+  "records": {
+    "schema": "Figure1_v7_full_paper_map",
+    "scientific_values_recalculated": false,
+    "title": "Condition knowledge belongs to one molecule of a pair, and in cross-coupling it is the halide",
+    "legacy": [
+      {
+        "file": "Figure1_SourceData.xlsx",
+        "path": "05_DATA/Analysis/figure_display/v7_figure1/legacy/Figure1_SourceData.xlsx",
+        "sha256": "8a1d577a52fdc51fba142956a348e8ead5f2211c2c31d894b9178c550176147f"
+      },
+      {
+        "file": "figure1_payload.json",
+        "path": "05_DATA/Analysis/figure_display/v7_figure1/legacy/figure1_payload.json",
+        "sha256": "509ff41c4fc485088bdfb41b3f939f265fd90c70e9e379a02c890f592db660b7"
+      },
+      {
+        "file": "Figure1_readback.json",
+        "path": "05_DATA/Analysis/figure_display/v7_figure1/legacy/Figure1_readback.json",
+        "sha256": "d6212ea5163524e09814d0c26bfda83a50555c521d66a0403f7746de6d80bfc5"
+      }
+    ],
+    "recurrence": {
+      "display": "63%",
+      "value": 63,
+      "definition": "molecules with more than one partner",
+      "source": "05_DATA/Analysis/figure_display/v5_reference_tables/overview.xlsx",
+      "source_record": {
+        "panel": "importance",
+        "display": "63%",
+        "value": 63,
+        "source_file": "01_MANUSCRIPT/Manuscript_Nature.md",
+        "source_field": "Introduction: recurring molecules"
+      }
+    },
+    "scope": {
+      "reactions": 177039,
+      "screens": 15,
+      "transformations": 14,
+      "outside_screen_pairs": 844,
+      "external_screens": 2
+    },
+    "owner_blocks": [
+      {
+        "index": 1,
+        "screen": "Buchwald-Hartwig|1",
+        "owner": "aryl (pseudo)halide",
+        "owner_share": 0.2443729299104108,
+        "partner_share": 0.0821379539967503,
+        "owner_fraction": 0.7484373169621349,
+        "halide_screen": true,
+        "colour": "#0072B2"
+      },
+      {
+        "index": 2,
+        "screen": "Buchwald-Hartwig|2",
+        "owner": "aryl halide",
+        "owner_share": 0.3905135787038115,
+        "partner_share": -0.0015394733630266,
+        "owner_fraction": 1.00395777853047,
+        "halide_screen": true,
+        "colour": "#0072B2"
+      },
+      {
+        "index": 3,
+        "screen": "C-O competitive reactions|1",
+        "owner": "aryl halide",
+        "owner_share": 0.0993550174029577,
+        "partner_share": -0.0579372138216771,
+        "owner_fraction": 2.398848051128014,
+        "halide_screen": true,
+        "colour": "#0072B2"
+      },
+      {
+        "index": 4,
+        "screen": "Heck|1",
+        "owner": "aryl halide",
+        "owner_share": 0.2785014545257872,
+        "partner_share": 0.0676892061261753,
+        "owner_fraction": 0.8044741992788025,
+        "halide_screen": true,
+        "colour": "#0072B2"
+      },
+      {
+        "index": 5,
+        "screen": "Hiyama|1",
+        "owner": "aryl halide",
+        "owner_share": 0.2002038970798244,
+        "partner_share": 0.1191292466142459,
+        "owner_fraction": 0.6269436825875646,
+        "halide_screen": true,
+        "colour": "#0072B2"
+      },
+      {
+        "index": 6,
+        "screen": "Kumada|1",
+        "owner": "aryl or acyl halide",
+        "owner_share": 0.3388896308990812,
+        "partner_share": 0.0830111155425719,
+        "owner_fraction": 0.8032449189941124,
+        "halide_screen": true,
+        "colour": "#0072B2"
+      },
+      {
+        "index": 7,
+        "screen": "SNAr|1",
+        "owner": "aryl halide",
+        "owner_share": 0.4556489916535027,
+        "partner_share": 0.0034367170037956,
+        "owner_fraction": 0.9925139969748848,
+        "halide_screen": true,
+        "colour": "#0072B2"
+      },
+      {
+        "index": 8,
+        "screen": "Sonogashira|1",
+        "owner": "aryl halide",
+        "owner_share": 0.2420444863819758,
+        "partner_share": 0.109506395445669,
+        "owner_fraction": 0.6885048477865664,
+        "halide_screen": true,
+        "colour": "#0072B2"
+      },
+      {
+        "index": 9,
+        "screen": "Suzuki|1",
+        "owner": "aryl halide",
+        "owner_share": 0.248142172627361,
+        "partner_share": 0.0604359044054856,
+        "owner_fraction": 0.8041471222239404,
+        "halide_screen": true,
+        "colour": "#0072B2"
+      },
+      {
+        "index": 10,
+        "screen": "Ullmann|1",
+        "owner": "aryl halide",
+        "owner_share": 0.2988171749240014,
+        "partner_share": -0.0472997334403652,
+        "owner_fraction": 1.188057468942736,
+        "halide_screen": true,
+        "colour": "#0072B2"
+      },
+      {
+        "index": 11,
+        "screen": "Acylation|1",
+        "owner": "N–H partner",
+        "owner_share": 0.2998313019179326,
+        "partner_share": 0.128283144370384,
+        "owner_fraction": 0.70035315210085,
+        "halide_screen": false,
+        "colour": "#D55E00"
+      },
+      {
+        "index": 12,
+        "screen": "Chan-Lam|1",
+        "owner": "boronic acid",
+        "owner_share": 0.1590390467316881,
+        "partner_share": 0.1306001970918091,
+        "owner_fraction": 0.5490935711343201,
+        "halide_screen": false,
+        "colour": "#4D4D4D"
+      },
+      {
+        "index": 13,
+        "screen": "Esterification|1",
+        "owner": "carboxylic acid",
+        "owner_share": 0.3891622507131059,
+        "partner_share": 0.0011762369533934,
+        "owner_fraction": 0.9969866231730692,
+        "halide_screen": false,
+        "colour": "#4D4D4D"
+      },
+      {
+        "index": 14,
+        "screen": "Grignard|1",
+        "owner": "carbonyl compound",
+        "owner_share": 0.0553833541950736,
+        "partner_share": 0.0134406005668936,
+        "owner_fraction": 0.8047104294808556,
+        "halide_screen": false,
+        "colour": "#4D4D4D"
+      },
+      {
+        "index": 15,
+        "screen": "Reductive-amination|1",
+        "owner": "amine",
+        "owner_share": 0.169485181286621,
+        "partner_share": 0.1266652747712082,
+        "owner_fraction": 0.5722941762194204,
+        "halide_screen": false,
+        "colour": "#D55E00"
+      }
+    ],
+    "owner_block_source": {
+      "file": "05_DATA/Analysis/figure_display/v5_reference_tables/screen_shares.xlsx",
+      "sheet": "Fig3A_arrays",
+      "selection": "all fifteen rows; unchanged Figure2a order"
+    },
+    "median_ownership": {
+      "display": "80%",
+      "value_percent": 80.41471222239403,
+      "denominator": "molecular component",
+      "source": "05_DATA/Analysis/figure_display/v5_reference_tables/screen_shares.xlsx",
+      "source_record": {
+        "panel": "A",
+        "quantity": "median owner fraction",
+        "value": 80.41471222239403,
+        "display": "80%",
+        "source_file": "05_DATA/Results/display_inputs/Anatomy_arrays.csv",
+        "source_field": "owner_fraction",
+        "source_selection": "median across all 15 arrays; nearest percent"
+      }
+    },
+    "transfer": {
+      "cohort": "Set A",
+      "n": 309,
+      "rows": [
+        {
+          "panel": "A",
+          "value": 22.69097944753797,
+          "display": "22.7",
+          "source_file": "05_DATA/Results/reserve_validation/record_transfer_losses.csv",
+          "source_field": "sst;sse_e",
+          "source_selection": "all rows",
+          "aggregation": "100 * (1 - sum(SSE)/sum(SST))",
+          "cohort": "Set A",
+          "side": "owner",
+          "row_type": "pooled",
+          "history_partners": null
+        },
+        {
+          "panel": "A",
+          "value": 7.456501794880932,
+          "display": "7.5",
+          "source_file": "05_DATA/Results/reserve_validation/record_transfer_losses.csv",
+          "source_field": "sst;sse_n",
+          "source_selection": "all rows",
+          "aggregation": "100 * (1 - sum(SSE)/sum(SST))",
+          "cohort": "Set A",
+          "side": "partner",
+          "row_type": "pooled",
+          "history_partners": null
+        }
+      ],
+      "source": "05_DATA/Analysis/figure_display/v5_reference_tables/transfer.xlsx",
+      "summary": "approximately threefold",
+      "quantity": "explained condition preference; response amplitude removed",
+      "interpretation": "prediction, not an increase in reaction yield"
+    },
+    "selection": {
+      "path": "05_DATA/Analysis/figure_display/v7_figure1/selection.json",
+      "sha256": "03aa5c7e889bbe6212a8753037b28648e2cd710da282080f954f38d5d11239cf",
+      "selected_halide": "O=C(c1ccccc1)c1ccccc1Br",
+      "selected_amines": [
+        "COc1ccc(N)cc1",
+        "Cc1ccccc1N",
+        "Cc1cc(C)nc(N)n1"
+      ],
+      "outcome_fields_used": []
+    },
+    "citations": {
+      "cite_ligand_guides": "2",
+      "cite_informer": "3,4",
+      "cite_robustness": "5",
+      "cite_general_conditions": "6–9"
+    },
+    "citation_status": "unified v7 first-appearance mapping; common to Science and Nature Catalysis",
+    "vectors": {
+      "manifest": "02_FIGURES/ChemDraw/v7/f1/manifest.json",
+      "manifest_sha256": "4baeebc384d07bc3a63c8ecfd07c3de2b6c4f62b2dc1b7dbde29cb87c16b74d6",
+      "items": [
+        {
+          "name": "recurring_halide",
+          "smiles": "O=C(c1ccccc1)c1ccccc1Br",
+          "source": "02_FIGURES/ChemDraw/v3/f3/Fig3_A_owner02",
+          "svg_sha256": "95c7dfd7f32e990c7773f623f0280cdefa189c92825e68b834ff8e02ad4ed741",
+          "cdxml_sha256": "b9ba38766811093118778508f8e9313d85ab596eb87114daba37d16cbdf5390f",
+          "native_width_px": 106.0,
+          "native_height_px": 69.0,
+          "atom_label_px": 13.33334
+        },
+        {
+          "name": "recurring_amine1",
+          "smiles": "COc1ccc(N)cc1",
+          "source": "02_FIGURES/ChemDraw/Fig2_b_M4",
+          "svg_sha256": "1afa0f4770515a755cb941509970346d8d7b546da62934f3cc0a07b530dbe56a",
+          "cdxml_sha256": "2ee29e885bffdd9a9d434e59ca644c9a92d45b36a9e021cd05797fd283cbb448",
+          "native_width_px": 43.0,
+          "native_height_px": 99.0,
+          "atom_label_px": 13.33334
+        },
+        {
+          "name": "recurring_amine2",
+          "smiles": "Cc1ccccc1N",
+          "source": "02_FIGURES/ChemDraw/Fig2_b_M3",
+          "svg_sha256": "a6a98ec3fa354060276c98885aa5104783d4b101c8966b4a11a5587b35ccdb2d",
+          "cdxml_sha256": "420296a1f7f1a095e867baafd932aa89dc6236cafd7215cf416e47337ab1ebd9",
+          "native_width_px": 59.0,
+          "native_height_px": 71.0,
+          "atom_label_px": 13.33334
+        },
+        {
+          "name": "recurring_amine3",
+          "smiles": "Cc1cc(C)nc(N)n1",
+          "source": "ChemDraw22.ChemDrawControl22; ACS1996; existing oriented_molblock helper",
+          "svg_sha256": "4a7107f527e549cfe231cf02d74ded626b7d3561479bec910564a8a6688dd737",
+          "cdxml_sha256": "ce7f7b0e6286a91e4253eb9938bc5c8a299b0c3fb5b4056cb2bc6841393979e9",
+          "native_width_px": 74.0,
+          "native_height_px": 71.0,
+          "atom_label_px": 13.33334
+        },
+        {
+          "name": "role_switch",
+          "smiles": "Cc1ccc(N)cc1",
+          "source": "02_FIGURES/ChemDraw/Fig2_b_M1",
+          "svg_sha256": "f9519ec2eb59e8fdd3bc3e11d756fa39ce09fcec4ec487d4c2805ac91a4e3553",
+          "cdxml_sha256": "3447eb31df2adbc7d8e4d1f2d5ca1e64d24e13ae4c92c3efa98309c40d2cbe93",
+          "native_width_px": 43.0,
+          "native_height_px": 89.0,
+          "atom_label_px": 13.33334
+        }
+      ]
+    },
+    "rule": {
+      "path": "05_DATA/Analysis/figure_display/v7_figure1/Figure1_DISPLAY_RULE.md",
+      "sha256": "a80f9af18ddbbcf1a25099592d5530d892e4a3dba3299267922528645f3247cf"
+    },
+    "inputs": [
+      {
+        "path": "05_DATA/Analysis/figure_display/v5_reference_tables/screen_shares.xlsx",
+        "sha256": "845ccfab160c0c68a8089108fc70a2bb817db99edceb9b1fe80f3b611c5e7d3a"
+      },
+      {
+        "path": "05_DATA/Analysis/figure_display/v5_reference_tables/overview.xlsx",
+        "sha256": "fa2e174c8303b7edc57fdcc6be9ff1fd2157a99f49f4409a031b6d838ad71e8d"
+      },
+      {
+        "path": "05_DATA/Analysis/figure_display/v5_reference_tables/transfer.xlsx",
+        "sha256": "088057a1309dac76fc1f4c8ab79b7ba96c83a9617abd748918f771d676485821"
+      }
+    ],
+    "uncertainty": {
+      "external": "both external role-difference intervals include zero; the map reports external-screen design only",
+      "owner": "signed frozen component estimates retained; 80% uses molecular denominator; blocks encode owner identity only",
+      "transfer": "existing pooled point estimates; no new pooling, ratio or yield gain calculated"
+    }
+  },
+  "records_sha256": "43cfa96ac94de09f6f19a196d7b2bf2a8d8edf3744557416bc41dbf5f67201f8",
+  "layout": {
+    "width_mm": 180.0,
+    "height_mm": 130.0,
+    "columns_mm": [
+      [
+        4,
+        50
+      ],
+      [
+        58,
+        114
+      ],
+      [
+        121,
+        176
+      ]
+    ]
+  },
+  "display_amendment": {
+    "schema": "Figure1_v8_display_amendment",
+    "revision": "v8_title_20261028",
+    "source_instruction": "09_SUBMISSION/CODEX_PROMPT_20261028_v8_title_framing.md, section 4",
+    "scope": "Display title, headline wording and vertical reading order only; no scientific values, identity selection, structures or original selection rule changed.",
+    "source_records_sha256": "43cfa96ac94de09f6f19a196d7b2bf2a8d8edf3744557416bc41dbf5f67201f8",
+    "original_rule_sha256": "a80f9af18ddbbcf1a25099592d5530d892e4a3dba3299267922528645f3247cf",
+    "title": "Condition preferences have an owner, set by the reaction",
+    "right_column_headlines": [
+      {
+        "id": "median_ownership",
+        "text": "Median 80% to one molecule"
+      },
+      {
+        "id": "role_switch_title",
+        "text": "Roles switch with reaction"
+      },
+      {
+        "id": "halide_discovery",
+        "text": "10/10 halide screens"
+      },
+      {
+        "id": "prediction_discovery",
+        "text": "≈3× condition-profile prediction"
+      }
+    ],
+    "primary_discovery_numbers": [
+      "80%",
+      "10/10",
+      "≈3×"
+    ],
+    "preserved": [
+      "80% has the molecular component as denominator",
+      "4-methylaniline role-switch structures and native geometry",
+      "All fifteen equal identity blocks in the unchanged Figure 2a order and colours",
+      "One pair of short Set A bars with the unchanged frozen preference-prediction values",
+      "Approximate threefold prediction is not a reaction-yield gain",
+      "All other v7 Figure 1 artwork and scientific bindings"
+    ]
+  },
+  "display_amendment_sha256": "56d0b1817a5dee9dfb87f75573f5e41a9200bcbff5d3a5e4075d9436c2277e2d",
+  "occurrence": {
+    "owner_blocks": [
+      {
+        "svg_id": "owner_role_01",
+        "index": 1,
+        "screen": "Buchwald-Hartwig|1",
+        "owner": "aryl (pseudo)halide",
+        "owner_share": 0.2443729299104108,
+        "partner_share": 0.0821379539967503,
+        "owner_fraction": 0.7484373169621349,
+        "halide_screen": true,
+        "colour": "#0072B2"
+      },
+      {
+        "svg_id": "owner_role_02",
+        "index": 2,
+        "screen": "Buchwald-Hartwig|2",
+        "owner": "aryl halide",
+        "owner_share": 0.3905135787038115,
+        "partner_share": -0.0015394733630266,
+        "owner_fraction": 1.00395777853047,
+        "halide_screen": true,
+        "colour": "#0072B2"
+      },
+      {
+        "svg_id": "owner_role_03",
+        "index": 3,
+        "screen": "C-O competitive reactions|1",
+        "owner": "aryl halide",
+        "owner_share": 0.0993550174029577,
+        "partner_share": -0.0579372138216771,
+        "owner_fraction": 2.398848051128014,
+        "halide_screen": true,
+        "colour": "#0072B2"
+      },
+      {
+        "svg_id": "owner_role_04",
+        "index": 4,
+        "screen": "Heck|1",
+        "owner": "aryl halide",
+        "owner_share": 0.2785014545257872,
+        "partner_share": 0.0676892061261753,
+        "owner_fraction": 0.8044741992788025,
+        "halide_screen": true,
+        "colour": "#0072B2"
+      },
+      {
+        "svg_id": "owner_role_05",
+        "index": 5,
+        "screen": "Hiyama|1",
+        "owner": "aryl halide",
+        "owner_share": 0.2002038970798244,
+        "partner_share": 0.1191292466142459,
+        "owner_fraction": 0.6269436825875646,
+        "halide_screen": true,
+        "colour": "#0072B2"
+      },
+      {
+        "svg_id": "owner_role_06",
+        "index": 6,
+        "screen": "Kumada|1",
+        "owner": "aryl or acyl halide",
+        "owner_share": 0.3388896308990812,
+        "partner_share": 0.0830111155425719,
+        "owner_fraction": 0.8032449189941124,
+        "halide_screen": true,
+        "colour": "#0072B2"
+      },
+      {
+        "svg_id": "owner_role_07",
+        "index": 7,
+        "screen": "SNAr|1",
+        "owner": "aryl halide",
+        "owner_share": 0.4556489916535027,
+        "partner_share": 0.0034367170037956,
+        "owner_fraction": 0.9925139969748848,
+        "halide_screen": true,
+        "colour": "#0072B2"
+      },
+      {
+        "svg_id": "owner_role_08",
+        "index": 8,
+        "screen": "Sonogashira|1",
+        "owner": "aryl halide",
+        "owner_share": 0.2420444863819758,
+        "partner_share": 0.109506395445669,
+        "owner_fraction": 0.6885048477865664,
+        "halide_screen": true,
+        "colour": "#0072B2"
+      },
+      {
+        "svg_id": "owner_role_09",
+        "index": 9,
+        "screen": "Suzuki|1",
+        "owner": "aryl halide",
+        "owner_share": 0.248142172627361,
+        "partner_share": 0.0604359044054856,
+        "owner_fraction": 0.8041471222239404,
+        "halide_screen": true,
+        "colour": "#0072B2"
+      },
+      {
+        "svg_id": "owner_role_10",
+        "index": 10,
+        "screen": "Ullmann|1",
+        "owner": "aryl halide",
+        "owner_share": 0.2988171749240014,
+        "partner_share": -0.0472997334403652,
+        "owner_fraction": 1.188057468942736,
+        "halide_screen": true,
+        "colour": "#0072B2"
+      },
+      {
+        "svg_id": "owner_role_11",
+        "index": 11,
+        "screen": "Acylation|1",
+        "owner": "N–H partner",
+        "owner_share": 0.2998313019179326,
+        "partner_share": 0.128283144370384,
+        "owner_fraction": 0.70035315210085,
+        "halide_screen": false,
+        "colour": "#D55E00"
+      },
+      {
+        "svg_id": "owner_role_12",
+        "index": 12,
+        "screen": "Chan-Lam|1",
+        "owner": "boronic acid",
+        "owner_share": 0.1590390467316881,
+        "partner_share": 0.1306001970918091,
+        "owner_fraction": 0.5490935711343201,
+        "halide_screen": false,
+        "colour": "#4D4D4D"
+      },
+      {
+        "svg_id": "owner_role_13",
+        "index": 13,
+        "screen": "Esterification|1",
+        "owner": "carboxylic acid",
+        "owner_share": 0.3891622507131059,
+        "partner_share": 0.0011762369533934,
+        "owner_fraction": 0.9969866231730692,
+        "halide_screen": false,
+        "colour": "#4D4D4D"
+      },
+      {
+        "svg_id": "owner_role_14",
+        "index": 14,
+        "screen": "Grignard|1",
+        "owner": "carbonyl compound",
+        "owner_share": 0.0553833541950736,
+        "partner_share": 0.0134406005668936,
+        "owner_fraction": 0.8047104294808556,
+        "halide_screen": false,
+        "colour": "#4D4D4D"
+      },
+      {
+        "svg_id": "owner_role_15",
+        "index": 15,
+        "screen": "Reductive-amination|1",
+        "owner": "amine",
+        "owner_share": 0.169485181286621,
+        "partner_share": 0.1266652747712082,
+        "owner_fraction": 0.5722941762194204,
+        "halide_screen": false,
+        "colour": "#D55E00"
+      }
+    ],
+    "Set_A": {
+      "owner_svg_id": "transfer_owner",
+      "partner_svg_id": "transfer_partner",
+      "values_caption_only": true
+    }
+  },
+  "instructions": "Latest explicit formal request for real recurrence structures in panel a overrides older only-concrete-molecule-in-right sentence."
+}

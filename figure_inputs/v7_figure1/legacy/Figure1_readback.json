@@ -1,0 +1,1475 @@
+{
+  "figure": 1,
+  "version": "v6_formal",
+  "dimensions_mm": [
+    180,
+    99
+  ],
+  "width_mm": 180,
+  "height_mm": 99,
+  "panels": [],
+  "panel_titles": {},
+  "journal_invariant": true,
+  "target_pair": "Cc1cc(C)nc(N)c1 >> N#Cc1ccnc(Cl)c1",
+  "reference_pair": "Cc1cc(C)nc(N)c1 >> N#Cc1ccnc(Cl)c1",
+  "source_records_sha256": "1b97e9c409e1f6344dbe2be8c653664542a397b843c4d42bc8c6ee5f3f04eda6",
+  "rule_sha256": "50e5a7d1003d5d795cdf034f244d25a8324230a5ee00d3d6479763fce3c226c9",
+  "scientific_values_recalculated": false,
+  "condition_permutation": [
+    33,
+    15,
+    89,
+    48,
+    31,
+    87,
+    35,
+    94,
+    34,
+    16,
+    19,
+    68,
+    45,
+    44,
+    62,
+    91,
+    88,
+    59,
+    71,
+    60,
+    17,
+    57,
+    7,
+    24,
+    37,
+    12,
+    66,
+    70,
+    78,
+    13,
+    90,
+    27,
+    20,
+    22,
+    11,
+    9,
+    46,
+    49,
+    36,
+    92,
+    26,
+    10,
+    64,
+    50,
+    29,
+    93,
+    73,
+    55,
+    54,
+    47,
+    56,
+    40,
+    86,
+    85,
+    32,
+    80,
+    81,
+    61,
+    51,
+    3,
+    6,
+    2,
+    1,
+    5,
+    41,
+    4,
+    0,
+    52,
+    76,
+    58,
+    8,
+    63,
+    79,
+    14,
+    84,
+    30,
+    42,
+    38,
+    65,
+    74,
+    53,
+    69,
+    43,
+    83,
+    82,
+    67,
+    72,
+    23,
+    75,
+    25,
+    77,
+    21,
+    18,
+    28,
+    39
+  ],
+  "sorted_condition_order": [
+    "C44",
+    "C6",
+    "C34",
+    "C1",
+    "C41",
+    "C33",
+    "C65",
+    "C91",
+    "C17",
+    "C60",
+    "C61",
+    "C26",
+    "C66",
+    "C20",
+    "C49",
+    "C36",
+    "C55",
+    "C21",
+    "C54",
+    "C37",
+    "C7",
+    "C22",
+    "C86",
+    "C51",
+    "C18",
+    "C2",
+    "C68",
+    "C69",
+    "C28",
+    "C4",
+    "C35",
+    "C13",
+    "C62",
+    "C63",
+    "C85",
+    "C40",
+    "C47",
+    "C52",
+    "C45",
+    "C93",
+    "C11",
+    "C3",
+    "C38",
+    "C83",
+    "C39",
+    "C71",
+    "C9",
+    "C94",
+    "C73",
+    "C95",
+    "C48",
+    "C89",
+    "C32",
+    "C30",
+    "C16",
+    "C72",
+    "C29",
+    "C56",
+    "C50",
+    "C15",
+    "C64",
+    "C43",
+    "C74",
+    "C82",
+    "C67",
+    "C42",
+    "C81",
+    "C87",
+    "C90",
+    "C8",
+    "C10",
+    "C24",
+    "C88",
+    "C5",
+    "C92",
+    "C14",
+    "C59",
+    "C19",
+    "C53",
+    "C57",
+    "C23",
+    "C70",
+    "C84",
+    "C31",
+    "C79",
+    "C25",
+    "C77",
+    "C76",
+    "C80",
+    "C58",
+    "C78",
+    "C12",
+    "C75",
+    "C27",
+    "C46"
+  ],
+  "record_summaries": [
+    {
+      "key": "halide_record",
+      "n_pairs": 6,
+      "r": 0.3025779035389302,
+      "n_common": 93
+    },
+    {
+      "key": "amine_record",
+      "n_pairs": 9,
+      "r": -0.10458708553363207,
+      "n_common": 93
+    }
+  ],
+  "step_axis_limit_pp": 13,
+  "colour_range_pp": [
+    -30,
+    30
+  ],
+  "global_atom_pt": 7,
+  "master_bond_pt": 14.4,
+  "texts": [
+    {
+      "id": "reaction",
+      "text": "Ar\u2013X + H\u2013N \u2192 Ar\u2013N",
+      "fontsize": 5,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "scheme",
+      "bbox_mm": [
+        5.0,
+        3.9158406575520837,
+        21.22295464409722,
+        5.5712090386284725
+      ]
+    },
+    {
+      "id": "question",
+      "text": "New pair: which record carries over?",
+      "fontsize": 7,
+      "family": [
+        "Arial"
+      ],
+      "weight": "bold",
+      "color": "#222222",
+      "role": "annotation",
+      "bbox_mm": [
+        68.3157938639323,
+        3.4021769205729173,
+        111.68420613606771,
+        5.719692654079862
+      ]
+    },
+    {
+      "id": "target_halide_atom_0",
+      "text": "N",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "black",
+      "role": "atom",
+      "bbox_mm": [
+        54.66813317218342,
+        16.00875982978146,
+        56.451486850568834,
+        18.326275563288405
+      ]
+    },
+    {
+      "id": "target_halide_atom_1",
+      "text": "N",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "black",
+      "role": "atom",
+      "bbox_mm": [
+        68.40518210990895,
+        12.326116212769938,
+        70.18853578829436,
+        14.643631946276882
+      ]
+    },
+    {
+      "id": "target_halide_atom_2",
+      "text": "Cl",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "black",
+      "role": "atom",
+      "bbox_mm": [
+        69.99941760445786,
+        18.27528271735335,
+        72.33140273900648,
+        20.592798450860293
+      ]
+    },
+    {
+      "id": "plus",
+      "text": "+",
+      "fontsize": 7,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "scheme",
+      "bbox_mm": [
+        90.27894151475695,
+        15.702176920572917,
+        91.72105848524306,
+        18.01969265407986
+      ]
+    },
+    {
+      "id": "target_amine_atom_0",
+      "text": "N",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "black",
+      "role": "atom",
+      "bbox_mm": [
+        114.69717525557904,
+        18.005984789502314,
+        116.48052893396445,
+        20.32350052300926
+      ]
+    },
+    {
+      "id": "target_amine_atom_1",
+      "text": "H",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "black",
+      "role": "atom",
+      "bbox_mm": [
+        106.54977955011023,
+        14.924119663768213,
+        108.33313322849564,
+        17.241635397275157
+      ]
+    },
+    {
+      "id": "target_amine_atom_2",
+      "text": "2",
+      "fontsize": 5.25,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "black",
+      "role": "atom",
+      "bbox_mm": [
+        108.33314229176219,
+        15.916865286980057,
+        109.36318277841583,
+        17.655002087110265
+      ]
+    },
+    {
+      "id": "target_amine_atom_3",
+      "text": "N",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "black",
+      "role": "atom",
+      "bbox_mm": [
+        109.3631779225777,
+        14.924119663768213,
+        111.14653160096312,
+        17.241635397275157
+      ]
+    },
+    {
+      "id": "halide_record_title",
+      "text": "halide's record",
+      "fontsize": 7,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#0072B2",
+      "role": "annotation",
+      "bbox_mm": [
+        55.00867038302951,
+        23.502176920572918,
+        70.99132961697049,
+        25.819692654079862
+      ]
+    },
+    {
+      "id": "halide_record_partners",
+      "text": "6 other amines",
+      "fontsize": 7,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#0072B2",
+      "role": "annotation",
+      "bbox_mm": [
+        54.832626003689235,
+        27.702176920572917,
+        71.16737399631076,
+        30.01969265407986
+      ]
+    },
+    {
+      "id": "amine_record_title",
+      "text": "amine's record",
+      "fontsize": 7,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#D55E00",
+      "role": "annotation",
+      "bbox_mm": [
+        105.94114651150174,
+        23.502176920572918,
+        122.05885348849827,
+        25.819692654079862
+      ]
+    },
+    {
+      "id": "amine_record_partners",
+      "text": "9 other halides",
+      "fontsize": 7,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#D55E00",
+      "role": "annotation",
+      "bbox_mm": [
+        105.90014987521701,
+        27.702176920572917,
+        122.09985012478299,
+        30.01969265407986
+      ]
+    },
+    {
+      "id": "amine_class",
+      "text": "ligand guides: amine class",
+      "fontsize": 7,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "annotation",
+      "bbox_mm": [
+        99.51793823242187,
+        32.002176920572914,
+        128.4820617675781,
+        34.31969265407986
+      ]
+    },
+    {
+      "id": "amine_class_citation",
+      "text": "1",
+      "fontsize": 5,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "citation",
+      "bbox_mm": [
+        128.6020617675781,
+        31.51584065755208,
+        129.58305270724824,
+        33.17120903862847
+      ]
+    },
+    {
+      "id": "retrospective_order",
+      "text": "Ordered by measured preference",
+      "fontsize": 5,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "annotation",
+      "bbox_mm": [
+        34.0,
+        34.01584065755208,
+        60.080234103732636,
+        35.67120903862847
+      ]
+    },
+    {
+      "id": "measured_label",
+      "text": "new pair, measured",
+      "fontsize": 7,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "annotation",
+      "bbox_mm": [
+        3.0,
+        38.80217692057292,
+        24.687220594618054,
+        41.11969265407986
+      ]
+    },
+    {
+      "id": "halide_record_row",
+      "text": "halide",
+      "fontsize": 7,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#0072B2",
+      "role": "annotation",
+      "bbox_mm": [
+        3.0,
+        48.80217692057292,
+        9.590812174479165,
+        51.11969265407986
+      ]
+    },
+    {
+      "id": "halide_record_tick_-13",
+      "text": "\u221213",
+      "fontsize": 5,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "axis",
+      "bbox_mm": [
+        29.5079345703125,
+        69.31584065755207,
+        32.5,
+        70.97120903862847
+      ]
+    },
+    {
+      "id": "halide_record_tick_0",
+      "text": "0",
+      "fontsize": 5,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "axis",
+      "bbox_mm": [
+        31.51900906032986,
+        61.31584065755209,
+        32.5,
+        62.97120903862847
+      ]
+    },
+    {
+      "id": "halide_record_tick_13",
+      "text": "+13",
+      "fontsize": 5,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "axis",
+      "bbox_mm": [
+        29.5079345703125,
+        53.31584065755209,
+        32.5,
+        54.97120903862847
+      ]
+    },
+    {
+      "id": "halide_record_correlation",
+      "text": "r = 0.30",
+      "fontsize": 7,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#0072B2",
+      "role": "annotation",
+      "bbox_mm": [
+        151.0,
+        61.20217692057292,
+        159.4428955078125,
+        63.51969265407986
+      ]
+    },
+    {
+      "id": "amine_record_row",
+      "text": "amine",
+      "fontsize": 7,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#D55E00",
+      "role": "annotation",
+      "bbox_mm": [
+        3.0,
+        74.8021769205729,
+        9.725859917534722,
+        77.11969265407986
+      ]
+    },
+    {
+      "id": "amine_record_tick_-13",
+      "text": "\u221213",
+      "fontsize": 5,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "axis",
+      "bbox_mm": [
+        29.5079345703125,
+        95.31584065755207,
+        32.5,
+        96.97120903862847
+      ]
+    },
+    {
+      "id": "amine_record_tick_0",
+      "text": "0",
+      "fontsize": 5,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "axis",
+      "bbox_mm": [
+        31.51900906032986,
+        87.31584065755207,
+        32.5,
+        88.97120903862847
+      ]
+    },
+    {
+      "id": "amine_record_tick_13",
+      "text": "+13",
+      "fontsize": 5,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "axis",
+      "bbox_mm": [
+        29.5079345703125,
+        79.31584065755207,
+        32.5,
+        80.97120903862847
+      ]
+    },
+    {
+      "id": "amine_record_correlation",
+      "text": "r = \u22120.10",
+      "fontsize": 7,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#D55E00",
+      "role": "annotation",
+      "bbox_mm": [
+        151.0,
+        87.20217692057291,
+        160.88501247829862,
+        89.51969265407986
+      ]
+    },
+    {
+      "id": "color_tick_\u221230",
+      "text": "\u221230",
+      "fontsize": 5,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "axis",
+      "bbox_mm": [
+        150.0,
+        30.015840657552083,
+        152.9920654296875,
+        31.671209038628472
+      ]
+    },
+    {
+      "id": "color_tick_0",
+      "text": "0",
+      "fontsize": 5,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "axis",
+      "bbox_mm": [
+        163.50950453016492,
+        30.015840657552083,
+        164.49049546983505,
+        31.671209038628472
+      ]
+    },
+    {
+      "id": "color_tick_+30",
+      "text": "+30",
+      "fontsize": 5,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "axis",
+      "bbox_mm": [
+        175.0079345703125,
+        30.015840657552083,
+        178.0,
+        31.671209038628472
+      ]
+    },
+    {
+      "id": "preference_scale",
+      "text": "Preference (pp)",
+      "fontsize": 5,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "axis",
+      "bbox_mm": [
+        157.87246704101562,
+        26.215840657552082,
+        170.12753295898438,
+        27.87120903862847
+      ]
+    }
+  ],
+  "text_styles": [
+    {
+      "id": "reaction",
+      "text": "Ar\u2013X + H\u2013N \u2192 Ar\u2013N",
+      "fontsize": 5,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "scheme",
+      "bbox_mm": [
+        5.0,
+        3.9158406575520837,
+        21.22295464409722,
+        5.5712090386284725
+      ]
+    },
+    {
+      "id": "question",
+      "text": "New pair: which record carries over?",
+      "fontsize": 7,
+      "family": [
+        "Arial"
+      ],
+      "weight": "bold",
+      "color": "#222222",
+      "role": "annotation",
+      "bbox_mm": [
+        68.3157938639323,
+        3.4021769205729173,
+        111.68420613606771,
+        5.719692654079862
+      ]
+    },
+    {
+      "id": "target_halide_atom_0",
+      "text": "N",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "black",
+      "role": "atom",
+      "bbox_mm": [
+        54.66813317218342,
+        16.00875982978146,
+        56.451486850568834,
+        18.326275563288405
+      ]
+    },
+    {
+      "id": "target_halide_atom_1",
+      "text": "N",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "black",
+      "role": "atom",
+      "bbox_mm": [
+        68.40518210990895,
+        12.326116212769938,
+        70.18853578829436,
+        14.643631946276882
+      ]
+    },
+    {
+      "id": "target_halide_atom_2",
+      "text": "Cl",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "black",
+      "role": "atom",
+      "bbox_mm": [
+        69.99941760445786,
+        18.27528271735335,
+        72.33140273900648,
+        20.592798450860293
+      ]
+    },
+    {
+      "id": "plus",
+      "text": "+",
+      "fontsize": 7,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "scheme",
+      "bbox_mm": [
+        90.27894151475695,
+        15.702176920572917,
+        91.72105848524306,
+        18.01969265407986
+      ]
+    },
+    {
+      "id": "target_amine_atom_0",
+      "text": "N",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "black",
+      "role": "atom",
+      "bbox_mm": [
+        114.69717525557904,
+        18.005984789502314,
+        116.48052893396445,
+        20.32350052300926
+      ]
+    },
+    {
+      "id": "target_amine_atom_1",
+      "text": "H",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "black",
+      "role": "atom",
+      "bbox_mm": [
+        106.54977955011023,
+        14.924119663768213,
+        108.33313322849564,
+        17.241635397275157
+      ]
+    },
+    {
+      "id": "target_amine_atom_2",
+      "text": "2",
+      "fontsize": 5.25,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "black",
+      "role": "atom",
+      "bbox_mm": [
+        108.33314229176219,
+        15.916865286980057,
+        109.36318277841583,
+        17.655002087110265
+      ]
+    },
+    {
+      "id": "target_amine_atom_3",
+      "text": "N",
+      "fontsize": 7.0,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "black",
+      "role": "atom",
+      "bbox_mm": [
+        109.3631779225777,
+        14.924119663768213,
+        111.14653160096312,
+        17.241635397275157
+      ]
+    },
+    {
+      "id": "halide_record_title",
+      "text": "halide's record",
+      "fontsize": 7,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#0072B2",
+      "role": "annotation",
+      "bbox_mm": [
+        55.00867038302951,
+        23.502176920572918,
+        70.99132961697049,
+        25.819692654079862
+      ]
+    },
+    {
+      "id": "halide_record_partners",
+      "text": "6 other amines",
+      "fontsize": 7,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#0072B2",
+      "role": "annotation",
+      "bbox_mm": [
+        54.832626003689235,
+        27.702176920572917,
+        71.16737399631076,
+        30.01969265407986
+      ]
+    },
+    {
+      "id": "amine_record_title",
+      "text": "amine's record",
+      "fontsize": 7,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#D55E00",
+      "role": "annotation",
+      "bbox_mm": [
+        105.94114651150174,
+        23.502176920572918,
+        122.05885348849827,
+        25.819692654079862
+      ]
+    },
+    {
+      "id": "amine_record_partners",
+      "text": "9 other halides",
+      "fontsize": 7,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#D55E00",
+      "role": "annotation",
+      "bbox_mm": [
+        105.90014987521701,
+        27.702176920572917,
+        122.09985012478299,
+        30.01969265407986
+      ]
+    },
+    {
+      "id": "amine_class",
+      "text": "ligand guides: amine class",
+      "fontsize": 7,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "annotation",
+      "bbox_mm": [
+        99.51793823242187,
+        32.002176920572914,
+        128.4820617675781,
+        34.31969265407986
+      ]
+    },
+    {
+      "id": "amine_class_citation",
+      "text": "1",
+      "fontsize": 5,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "citation",
+      "bbox_mm": [
+        128.6020617675781,
+        31.51584065755208,
+        129.58305270724824,
+        33.17120903862847
+      ]
+    },
+    {
+      "id": "retrospective_order",
+      "text": "Ordered by measured preference",
+      "fontsize": 5,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "annotation",
+      "bbox_mm": [
+        34.0,
+        34.01584065755208,
+        60.080234103732636,
+        35.67120903862847
+      ]
+    },
+    {
+      "id": "measured_label",
+      "text": "new pair, measured",
+      "fontsize": 7,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "annotation",
+      "bbox_mm": [
+        3.0,
+        38.80217692057292,
+        24.687220594618054,
+        41.11969265407986
+      ]
+    },
+    {
+      "id": "halide_record_row",
+      "text": "halide",
+      "fontsize": 7,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#0072B2",
+      "role": "annotation",
+      "bbox_mm": [
+        3.0,
+        48.80217692057292,
+        9.590812174479165,
+        51.11969265407986
+      ]
+    },
+    {
+      "id": "halide_record_tick_-13",
+      "text": "\u221213",
+      "fontsize": 5,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "axis",
+      "bbox_mm": [
+        29.5079345703125,
+        69.31584065755207,
+        32.5,
+        70.97120903862847
+      ]
+    },
+    {
+      "id": "halide_record_tick_0",
+      "text": "0",
+      "fontsize": 5,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "axis",
+      "bbox_mm": [
+        31.51900906032986,
+        61.31584065755209,
+        32.5,
+        62.97120903862847
+      ]
+    },
+    {
+      "id": "halide_record_tick_13",
+      "text": "+13",
+      "fontsize": 5,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "axis",
+      "bbox_mm": [
+        29.5079345703125,
+        53.31584065755209,
+        32.5,
+        54.97120903862847
+      ]
+    },
+    {
+      "id": "halide_record_correlation",
+      "text": "r = 0.30",
+      "fontsize": 7,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#0072B2",
+      "role": "annotation",
+      "bbox_mm": [
+        151.0,
+        61.20217692057292,
+        159.4428955078125,
+        63.51969265407986
+      ]
+    },
+    {
+      "id": "amine_record_row",
+      "text": "amine",
+      "fontsize": 7,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#D55E00",
+      "role": "annotation",
+      "bbox_mm": [
+        3.0,
+        74.8021769205729,
+        9.725859917534722,
+        77.11969265407986
+      ]
+    },
+    {
+      "id": "amine_record_tick_-13",
+      "text": "\u221213",
+      "fontsize": 5,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "axis",
+      "bbox_mm": [
+        29.5079345703125,
+        95.31584065755207,
+        32.5,
+        96.97120903862847
+      ]
+    },
+    {
+      "id": "amine_record_tick_0",
+      "text": "0",
+      "fontsize": 5,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "axis",
+      "bbox_mm": [
+        31.51900906032986,
+        87.31584065755207,
+        32.5,
+        88.97120903862847
+      ]
+    },
+    {
+      "id": "amine_record_tick_13",
+      "text": "+13",
+      "fontsize": 5,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "axis",
+      "bbox_mm": [
+        29.5079345703125,
+        79.31584065755207,
+        32.5,
+        80.97120903862847
+      ]
+    },
+    {
+      "id": "amine_record_correlation",
+      "text": "r = \u22120.10",
+      "fontsize": 7,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#D55E00",
+      "role": "annotation",
+      "bbox_mm": [
+        151.0,
+        87.20217692057291,
+        160.88501247829862,
+        89.51969265407986
+      ]
+    },
+    {
+      "id": "color_tick_\u221230",
+      "text": "\u221230",
+      "fontsize": 5,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "axis",
+      "bbox_mm": [
+        150.0,
+        30.015840657552083,
+        152.9920654296875,
+        31.671209038628472
+      ]
+    },
+    {
+      "id": "color_tick_0",
+      "text": "0",
+      "fontsize": 5,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "axis",
+      "bbox_mm": [
+        163.50950453016492,
+        30.015840657552083,
+        164.49049546983505,
+        31.671209038628472
+      ]
+    },
+    {
+      "id": "color_tick_+30",
+      "text": "+30",
+      "fontsize": 5,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "axis",
+      "bbox_mm": [
+        175.0079345703125,
+        30.015840657552083,
+        178.0,
+        31.671209038628472
+      ]
+    },
+    {
+      "id": "preference_scale",
+      "text": "Preference (pp)",
+      "fontsize": 5,
+      "family": [
+        "Arial"
+      ],
+      "weight": "normal",
+      "color": "#222222",
+      "role": "axis",
+      "bbox_mm": [
+        157.87246704101562,
+        26.215840657552082,
+        170.12753295898438,
+        27.87120903862847
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "id": "target_halide",
+      "master": "02_FIGURES/ChemDraw/v5/f1/h2.svg",
+      "sha256": "7e636ccd91ab662c9ea2a5f422cbd3e3850dd378031c7ea651e686c0e3138a68",
+      "atom_pt": 7,
+      "scale": 0.18520824072921296,
+      "bbox_mm": [
+        54,
+        10,
+        72.89124055437972,
+        20.742077962294353
+      ]
+    },
+    {
+      "id": "target_amine",
+      "master": "02_FIGURES/ChemDraw/v5/f1/a2.svg",
+      "sha256": "13d27b4394ca5dd5acaf6af300b6605cd3273b90b333ae1b74713703d96a13a2",
+      "atom_pt": 7,
+      "scale": 0.18520824072921296,
+      "bbox_mm": [
+        106,
+        9,
+        121.5574922212539,
+        22.520201573232548
+      ]
+    }
+  ],
+  "primitives": [
+    {
+      "id": "halide_route",
+      "role": "route",
+      "points": [
+        [
+          29,
+          44
+        ],
+        [
+          29,
+          49.75
+        ]
+      ],
+      "width_mm": 0.18
+    },
+    {
+      "id": "amine_route",
+      "role": "route",
+      "points": [
+        [
+          148,
+          70
+        ],
+        [
+          148,
+          75.75
+        ]
+      ],
+      "width_mm": 0.18
+    },
+    {
+      "id": "missing_reference_93",
+      "role": "missing",
+      "points": [
+        [
+          143.6421052631579,
+          41.5
+        ],
+        [
+          144.82105263157897,
+          38
+        ]
+      ],
+      "width_mm": 0.1
+    },
+    {
+      "id": "missing_reference_94",
+      "role": "missing",
+      "points": [
+        [
+          144.82105263157894,
+          41.5
+        ],
+        [
+          146.0,
+          38
+        ]
+      ],
+      "width_mm": 0.1
+    },
+    {
+      "id": null,
+      "role": "axis",
+      "points": [
+        [
+          34,
+          54
+        ],
+        [
+          34,
+          70
+        ]
+      ],
+      "width_mm": 0.14
+    },
+    {
+      "id": null,
+      "role": "zero",
+      "points": [
+        [
+          34,
+          62.0
+        ],
+        [
+          146,
+          62.0
+        ]
+      ],
+      "width_mm": 0.1
+    },
+    {
+      "id": null,
+      "role": "axis",
+      "points": [
+        [
+          34,
+          80
+        ],
+        [
+          34,
+          96
+        ]
+      ],
+      "width_mm": 0.14
+    },
+    {
+      "id": null,
+      "role": "zero",
+      "points": [
+        [
+          34,
+          88.0
+        ],
+        [
+          146,
+          88.0
+        ]
+      ],
+      "width_mm": 0.1
+    }
+  ]
+}

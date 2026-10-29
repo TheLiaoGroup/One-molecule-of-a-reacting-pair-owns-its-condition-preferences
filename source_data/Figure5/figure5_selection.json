@@ -2,7 +2,6 @@
   "rule_sha256": "1eef02cbdb55db159135883820e4a83e353e7da0f057a2fd258f96082143c02d",
   "threshold_common_targets": 20,
   "common_targets": 310,
-  "aggregation": "100 * (1 - sum(SSE_k) / sum(SST)); retained errors only; no refitting",
   "array_counts": {
     "Acylation|1": 236,
     "Buchwald-Hartwig|1": 4,
@@ -10,18 +9,6 @@
     "Sonogashira|1": 1,
     "Suzuki|1": 66
   },
-  "selected_arrays": [
-    {
-      "screen": "Acylation|1",
-      "name": "Amide coupling",
-      "targets": 236
-    },
-    {
-      "screen": "Suzuki|1",
-      "name": "Suzuki (Pd)",
-      "targets": 66
-    }
-  ],
   "pooled_arrays": [
     "Acylation|1",
     "Buchwald-Hartwig|1",
@@ -33,5 +20,15 @@
     "Buchwald-Hartwig|1",
     "Kumada|1",
     "Sonogashira|1"
+  ],
+  "selected_arrays": [
+    {
+      "screen": "Acylation|1",
+      "targets": 236
+    },
+    {
+      "screen": "Suzuki|1",
+      "targets": 66
+    }
   ]
 }

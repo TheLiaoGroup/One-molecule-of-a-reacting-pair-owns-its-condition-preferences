@@ -1,0 +1,24 @@
+{
+  "schema": "Figure1_v8_display_amendment",
+  "revision": "v8_title_20261028",
+  "source_instruction": "09_SUBMISSION/CODEX_PROMPT_20261028_v8_title_framing.md, section 4",
+  "scope": "Display title, headline wording and vertical reading order only; no scientific values, identity selection, structures or original selection rule changed.",
+  "source_records_sha256": "43cfa96ac94de09f6f19a196d7b2bf2a8d8edf3744557416bc41dbf5f67201f8",
+  "original_rule_sha256": "a80f9af18ddbbcf1a25099592d5530d892e4a3dba3299267922528645f3247cf",
+  "title": "Condition preferences have an owner, set by the reaction",
+  "right_column_headlines": [
+    {"id": "median_ownership", "text": "Median 80% to one molecule"},
+    {"id": "role_switch_title", "text": "Roles switch with reaction"},
+    {"id": "halide_discovery", "text": "10/10 halide screens"},
+    {"id": "prediction_discovery", "text": "≈3× condition-profile prediction"}
+  ],
+  "primary_discovery_numbers": ["80%", "10/10", "≈3×"],
+  "preserved": [
+    "80% has the molecular component as denominator",
+    "4-methylaniline role-switch structures and native geometry",
+    "All fifteen equal identity blocks in the unchanged Figure 2a order and colours",
+    "One pair of short Set A bars with the unchanged frozen preference-prediction values",
+    "Approximate threefold prediction is not a reaction-yield gain",
+    "All other v7 Figure 1 artwork and scientific bindings"
+  ]
+}

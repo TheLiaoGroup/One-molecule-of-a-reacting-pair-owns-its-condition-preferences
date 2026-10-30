@@ -11,7 +11,7 @@
   ],
   "display_revision": "v8_title_20261028",
   "display_title": "Condition preferences have an owner, set by the reaction",
-  "display_amendment_sha256": "56d0b1817a5dee9dfb87f75573f5e41a9200bcbff5d3a5e4075d9436c2277e2d",
+  "display_amendment_sha256": "cb361f14841d11fc567b439414ba1822da548a40edbfdd48e6cd353427abb382",
   "panel_titles": {
     "panel_a_title": "Whose knowledge transfers?",
     "panel_b_title": "Replace either partner",
@@ -20,8 +20,8 @@
   },
   "scientific_values_recalculated": false,
   "records_input": "05_DATA/Analysis/figure_display/v7_figure1/records.json",
-  "source_records_sha256": "43cfa96ac94de09f6f19a196d7b2bf2a8d8edf3744557416bc41dbf5f67201f8",
-  "rule_sha256": "a80f9af18ddbbcf1a25099592d5530d892e4a3dba3299267922528645f3247cf",
+  "source_records_sha256": "515e2813b4d18c6b93177480f9192cdbeb08c1929ec2bf2f9511433916e9697c",
+  "rule_sha256": "65bbc458b3dac60d20a2687a1630ea12014c026969d88b7f0a552ab9d0ac5759",
   "texts": [
     {
       "id": "panel_a",

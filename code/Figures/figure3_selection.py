@@ -20,7 +20,7 @@ import structure_art as sa
 BASE_ART_LOAD = sa.load
 
 RULE = ROOT / "07_METHODS_AND_PROVENANCE/frozen_analysis_plans/figure_selection_v3/RULE.md"
-RULE_SHA = "1eef02cbdb55db159135883820e4a83e353e7da0f057a2fd258f96082143c02d"
+RULE_SHA = "318b4babc7d8918fcc1705d762861ebc40278111ddd82e093b10b3b32f89a721"
 RAW = "05_DATA/Release/00_RAW_IMMUTABLE/DATASET_analysis.csv.gz"
 RESULT = "05_DATA/Results/display_inputs/Anatomy_arrays.csv"
 ROLES = "05_DATA/Results/primary/history_roles.csv"

@@ -24,7 +24,7 @@ ORDER = ["Buchwald-Hartwig|1", "Buchwald-Hartwig|2", "C-O competitive reactions|
          "Kumada|1", "SNAr|1", "Sonogashira|1", "Suzuki|1", "Ullmann|1", "Acylation|1", "Chan-Lam|1",
          "Esterification|1", "Grignard|1", "Reductive-amination|1"]
 RULE_FILE = "07_METHODS_AND_PROVENANCE/frozen_analysis_plans/figure_selection_v3/RULE.md"
-RULE_SHA = "1eef02cbdb55db159135883820e4a83e353e7da0f057a2fd258f96082143c02d"
+RULE_SHA = "318b4babc7d8918fcc1705d762861ebc40278111ddd82e093b10b3b32f89a721"
 LOSS_FILES = {
     "Set A": "reserve_validation/record_transfer_losses.csv",
     "Set B": "cross_library/target_losses.csv",

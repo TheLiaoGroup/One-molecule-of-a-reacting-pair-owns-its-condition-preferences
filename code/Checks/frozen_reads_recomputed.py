@@ -1,5 +1,4 @@
-"""Values that the figure generators and the SI tables read from analysis outputs, recomputed from the released measurements
-(Bruce, 2026-10-14, in answer to the sixth external review).
+"""Values that the figure generators and the SI tables read from analysis outputs, recomputed from the released measurements.
 
 1 Figure 1: the 95% interval of the median molecular share and the owner named by the likelihood estimator in each array. The
   analysis (anatomy.main) draws the interval from one stream (seed 20261003) after the history-depth records of every array have

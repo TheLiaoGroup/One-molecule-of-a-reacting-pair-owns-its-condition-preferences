@@ -1,5 +1,4 @@
-"""Per-array owner margins, an equal-role null and a class-proxy test, from the released measurements (Bruce, 2026-10-13, in answer
-to the third external review).
+"""Per-array owner margins, an equal-role null and a class-proxy test, from the released measurements.
 
 1 Per-array owner-minus-partner margins (table S1): the molecules of each role are resampled within the array, 2,000
   draws from a stream seeded 20261012 for each array, fitted residuals held fixed; the share of draws on the owner.

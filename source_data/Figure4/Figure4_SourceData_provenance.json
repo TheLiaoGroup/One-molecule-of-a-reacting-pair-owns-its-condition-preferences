@@ -77,7 +77,7 @@
    },
    "05_DATA/Analysis/figure_display/v5_reference_tables/MANIFEST.json": {
     "file": "05_DATA/Analysis/figure_display/v5_reference_tables/MANIFEST.json",
-    "sha256": "e5d3baa73d123bbb89d85b287026ffa9c482f826174ff31bba42ca6780470717"
+    "sha256": "ee58d2c2412c57d51e912df8c919a19826a09f087b09b1fe540a4925ddda7b9c"
    },
    "05_DATA/Analysis/figure_display/v5_reference_tables/molecule_context.xlsx": {
     "file": "05_DATA/Analysis/figure_display/v5_reference_tables/molecule_context.xlsx",
@@ -129,7 +129,7 @@
    },
    "06_CODE/Figures/figure3_selection.py": {
     "file": "06_CODE/Figures/figure3_selection.py",
-    "sha256": "0365f0e02b7ebe25d98cca94f5531a31885c2d69416f047befe6841e8b96a49c"
+    "sha256": "3e1f23cbe10cbcdfaf5af73a9b08194744251b74f0428c002178a49d058fa3bf"
    },
    "06_CODE/Figures/figure4.py": {
     "file": "06_CODE/Figures/figure4.py",

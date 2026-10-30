@@ -1,10 +1,10 @@
 {
   "schema": "Figure1_v8_display_amendment",
   "revision": "v8_title_20261028",
-  "source_instruction": "09_SUBMISSION/CODEX_PROMPT_20261028_v8_title_framing.md, section 4",
+  "source_instruction": "author-approved title and framing brief (2026-10-28), section 4",
   "scope": "Display title, headline wording and vertical reading order only; no scientific values, identity selection, structures or original selection rule changed.",
-  "source_records_sha256": "43cfa96ac94de09f6f19a196d7b2bf2a8d8edf3744557416bc41dbf5f67201f8",
-  "original_rule_sha256": "a80f9af18ddbbcf1a25099592d5530d892e4a3dba3299267922528645f3247cf",
+  "source_records_sha256": "515e2813b4d18c6b93177480f9192cdbeb08c1929ec2bf2f9511433916e9697c",
+  "original_rule_sha256": "65bbc458b3dac60d20a2687a1630ea12014c026969d88b7f0a552ab9d0ac5759",
   "title": "Condition preferences have an owner, set by the reaction",
   "right_column_headlines": [
     {"id": "median_ownership", "text": "Median 80% to one molecule"},

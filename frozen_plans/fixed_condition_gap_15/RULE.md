@@ -1,6 +1,6 @@
 # Fixed-condition gap over the 15 recurring-building-block arrays: frozen rule
 
-Frozen 2026-10-04, before any 15-array value was computed or read. Decided by Bruce as part of the release
+Frozen 2026-10-04, before any 15-array value was computed or read. Decided by the author as part of the release
 minimization: the three process-development C–N arrays should not become public data only to support one
 Introduction number. The rule below is fixed before the single run. Whatever value it gives is reported and
 accepted; no other estimand, array set or summary will be tried. Whether the sentence stays in the Introduction

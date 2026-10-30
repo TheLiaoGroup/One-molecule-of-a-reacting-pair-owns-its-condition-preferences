@@ -13,7 +13,7 @@
   "target_pair": "Cc1cc(C)nc(N)c1 >> N#Cc1ccnc(Cl)c1",
   "reference_pair": "Cc1cc(C)nc(N)c1 >> N#Cc1ccnc(Cl)c1",
   "source_records_sha256": "1b97e9c409e1f6344dbe2be8c653664542a397b843c4d42bc8c6ee5f3f04eda6",
-  "rule_sha256": "50e5a7d1003d5d795cdf034f244d25a8324230a5ee00d3d6479763fce3c226c9",
+  "rule_sha256": "85ca702cc75af29cb5b907a2be10f4545df4c329ae45497058b09b103d8ca5a3",
   "scientific_values_recalculated": false,
   "condition_permutation": [
     33,

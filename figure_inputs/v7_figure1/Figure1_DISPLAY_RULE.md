@@ -4,7 +4,7 @@ Author-approved design: three columns (necessity → reciprocal replacement rout
 
 ## Instruction precedence
 
-The formal work order explicitly requests one real aryl bromide connected to three real amines in panel a, replacing the invented R/zigzag icons. That later, specific instruction overrides the older sentence “the role-switch inset is the only concrete molecule.” Concrete structures therefore appear in the small recurrence illustration and the small role-switch inset. The figure still opens with the field-level need and a generic coupling, and the central route remains the visual centre; it does not open with a particular reaction or promote the recurrence example into evidence.
+The approved figure brief explicitly requests one real aryl bromide connected to three real amines in panel a, replacing the invented R/zigzag icons. That later, specific instruction overrides the older sentence “the role-switch inset is the only concrete molecule.” Concrete structures therefore appear in the small recurrence illustration and the small role-switch inset. The figure still opens with the field-level need and a generic coupling, and the central route remains the visual centre; it does not open with a particular reaction or promote the recurrence example into evidence.
 
 ## Identity-only recurrence selection, prespecified
 

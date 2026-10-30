@@ -31,7 +31,7 @@
   },
   {
     "reference": "05_DATA/Analysis/figure_display/v5_reference_tables/preference_payload.json",
-    "sha256": "cd94d1ef8767212ef86845dd44e2f6aa27bddba155565669fedfe0e5959753ae",
+    "sha256": "8f0ee23dce528f7b40771aedd45717a20f0a3fd2ed355cca79231dd030c37d99",
     "role": "retained comparison payload; Figure1 extracts its plotted values from measurements",
     "archived_original": "99_ARCHIVE/formal_v5_20261022/04_SOURCE_DATA/Figure2/figure2_payload.json"
   }

@@ -16,10 +16,10 @@ from structure_art import load as load_art
 from v6_figure1 import fonts
 
 NS={'s':'http://www.w3.org/2000/svg'};PT=72/25.4
-RECORD_SHA='43cfa96ac94de09f6f19a196d7b2bf2a8d8edf3744557416bc41dbf5f67201f8'
+RECORD_SHA='515e2813b4d18c6b93177480f9192cdbeb08c1929ec2bf2f9511433916e9697c'
 DISPLAY='05_DATA/Analysis/figure_display/v7_figure1'
 AMENDMENT=DISPLAY+'/Figure1_DISPLAY_AMENDMENT_v8.json'
-AMENDMENT_SHA='56d0b1817a5dee9dfb87f75573f5e41a9200bcbff5d3a5e4075d9436c2277e2d'
+AMENDMENT_SHA='cb361f14841d11fc567b439414ba1822da548a40edbfdd48e6cd353427abb382'
 BLUE,ORANGE,DARK='#0072B2','#D55E00','#4D4D4D'
 def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
 def read(p):return json.loads(Path(p).read_text(encoding='utf-8'))

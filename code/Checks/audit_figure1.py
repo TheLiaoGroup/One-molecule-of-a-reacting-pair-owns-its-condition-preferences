@@ -25,10 +25,10 @@ from structure_art import load as load_art
 
 INPUT = ROOT / "05_DATA/Analysis/figure_display/v6_figure1"
 RECORD_SHA = "1b97e9c409e1f6344dbe2be8c653664542a397b843c4d42bc8c6ee5f3f04eda6"
-PORTABLE_RECORD_SHA = "9bf9a633f784eaba08e468b161951476d3152a28235f986b15ad4e8936e0bdfa"
+PORTABLE_RECORD_SHA = "74b2c7c69a926926cacf8d4a911e40b3cf29cf01d3825f8626724456ea71a883"
 INPUTS_SHA = "0838238d88bfd0e792b7fe0a462a35b499179c9cbf4778c399521afcb6848905"
-PORTABLE_INPUTS_SHA = "1aa61e9d05d8b78107f56a03a9c02abb10e38359a7c2ff5f7f66ab1b3a72f0e6"
-RULE_SHA = "50e5a7d1003d5d795cdf034f244d25a8324230a5ee00d3d6479763fce3c226c9"
+PORTABLE_INPUTS_SHA = "0432ebed1b7605910a4c20a3f0c64b45ffb04cf7bd0d377932bb0a6ec9667177"
+RULE_SHA = "85ca702cc75af29cb5b907a2be10f4545df4c329ae45497058b09b103d8ca5a3"
 PAIR = "Cc1cc(C)nc(N)c1 >> N#Cc1ccnc(Cl)c1"
 NS = {"s": "http://www.w3.org/2000/svg"}
 PT = 72 / 25.4
@@ -157,7 +157,7 @@ def annotation_contract(svg):
         assert text not in visible, ("obsolete layout text", text)
     return dict(logical_labels=len(labels), ordinary_maximum_words=5,
                 exact_author_requested_question_words=6,
-                question_exception_authority="09_SUBMISSION/CODEX_PROMPT_20261028_v6_final_touch.md",
+                question_exception_authority="author-approved figure brief (2026-10-28)",
                 retrospective_measured_order_visible=True, visible_internal_pair_identifier_absent=True,
                 removed_findings_chain_absent=True)
 

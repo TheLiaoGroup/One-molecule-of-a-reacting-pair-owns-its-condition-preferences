@@ -11,7 +11,7 @@
   "files": {
    "05_DATA/Analysis/figure_display/v5_reference_tables/MANIFEST.json": {
     "file": "05_DATA/Analysis/figure_display/v5_reference_tables/MANIFEST.json",
-    "sha256": "e5d3baa73d123bbb89d85b287026ffa9c482f826174ff31bba42ca6780470717"
+    "sha256": "ee58d2c2412c57d51e912df8c919a19826a09f087b09b1fe540a4925ddda7b9c"
    },
    "05_DATA/Analysis/figure_display/v5_reference_tables/transfer.xlsx": {
     "file": "05_DATA/Analysis/figure_display/v5_reference_tables/transfer.xlsx",
@@ -75,7 +75,7 @@
    },
    "06_CODE/Figures/figure3_selection.py": {
     "file": "06_CODE/Figures/figure3_selection.py",
-    "sha256": "0365f0e02b7ebe25d98cca94f5531a31885c2d69416f047befe6841e8b96a49c"
+    "sha256": "3e1f23cbe10cbcdfaf5af73a9b08194744251b74f0428c002178a49d058fa3bf"
    },
    "06_CODE/Figures/figure4.py": {
     "file": "06_CODE/Figures/figure4.py",
@@ -119,7 +119,7 @@
    },
    "07_METHODS_AND_PROVENANCE/frozen_analysis_plans/figure_selection_v3/RULE.md": {
     "file": "07_METHODS_AND_PROVENANCE/frozen_analysis_plans/figure_selection_v3/RULE.md",
-    "sha256": "1eef02cbdb55db159135883820e4a83e353e7da0f057a2fd258f96082143c02d"
+    "sha256": "318b4babc7d8918fcc1705d762861ebc40278111ddd82e093b10b3b32f89a721"
    }
   }
  },
@@ -162,7 +162,7 @@
   },
   "figure5_selection.json": {
    "file": "04_SOURCE_DATA/Figure5/figure5_selection.json",
-   "sha256": "367186455c20abfe6e76cac1d185e123d98078fa35b268dc04a8f0439a2eed1c"
+   "sha256": "5d23383b0b9c8601503dfb7622dfba8410227fe062f08bd06d0c62929992f46a"
   }
  },
  "panels": {

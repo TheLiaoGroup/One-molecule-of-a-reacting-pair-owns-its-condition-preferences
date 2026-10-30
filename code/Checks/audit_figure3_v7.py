@@ -14,7 +14,7 @@ import numpy as np
 from matplotlib.colors import LinearSegmentedColormap,to_hex
 import audit_figure_v6_common as base
 
-BINDING_SHA='35d931855eed3646dcb91335c05ebc1edd7ac2f804eaf172be55e309191e2bb0'
+BINDING_SHA='8c45a19589b2338ead55c022b69df3da974ff8039bfcfddf075fc856a35610fe'
 NS={'s':'http://www.w3.org/2000/svg'}
 
 def by_id(scene,id):

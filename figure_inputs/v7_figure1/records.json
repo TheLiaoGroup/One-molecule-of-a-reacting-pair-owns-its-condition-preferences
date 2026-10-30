@@ -16,7 +16,7 @@
     {
       "file": "Figure1_readback.json",
       "path": "05_DATA/Analysis/figure_display/v7_figure1/legacy/Figure1_readback.json",
-      "sha256": "d6212ea5163524e09814d0c26bfda83a50555c521d66a0403f7746de6d80bfc5"
+      "sha256": "d291e0b274f5c88ef345028a3939d1a85ab5a0958118ba090867659bc90fdf05"
     }
   ],
   "recurrence": {
@@ -249,7 +249,7 @@
   },
   "selection": {
     "path": "05_DATA/Analysis/figure_display/v7_figure1/selection.json",
-    "sha256": "03aa5c7e889bbe6212a8753037b28648e2cd710da282080f954f38d5d11239cf",
+    "sha256": "faaf037fb88cc065fa3d1a3935ebcba67527cc2ccdf04243a92facacbee16c40",
     "selected_halide": "O=C(c1ccccc1)c1ccccc1Br",
     "selected_amines": [
       "COc1ccc(N)cc1",
@@ -323,7 +323,7 @@
   },
   "rule": {
     "path": "05_DATA/Analysis/figure_display/v7_figure1/Figure1_DISPLAY_RULE.md",
-    "sha256": "a80f9af18ddbbcf1a25099592d5530d892e4a3dba3299267922528645f3247cf"
+    "sha256": "65bbc458b3dac60d20a2687a1630ea12014c026969d88b7f0a552ab9d0ac5759"
   },
   "inputs": [
     {

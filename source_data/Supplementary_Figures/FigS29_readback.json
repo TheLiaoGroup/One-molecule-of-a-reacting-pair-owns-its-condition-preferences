@@ -19863,13 +19863,13 @@
     "scientific_values_recalculated": false,
     "scope": "Exact authorized v7 layout; approved vector panels and saved scientific arrays only.",
     "scientific_inputs": {
-      "Analysis/figure_display/v6_figure3/aminations_payload.json": "754bcee276a3447bed972e5ec329c54cca15d8417a8109e15533840407c45f85",
+      "Analysis/figure_display/v6_figure3/aminations_payload.json": "4850da43d617e14a6f4b73fa86680b76d7c23d3c9d69ea5986b6251ad5419b10",
       "Analysis/figure_display/v6_figure3/all_molecule_agreement.csv": "246b465a04038ba088304bea6456eb683b663cba9e8744b2a529f5826c70af8c",
       "Analysis/figure_display/v6_figure3/class_null/summary.json": "2d05961f0ef4141df6d9c2d9baff793f43f88ee2b3fba57922ffefd38239c305",
       "Analysis/figure_display/v6_figure3/class_null/cn_draws.csv": "94cfffa8af91c7a65e7604f2af9ca5dc2d8f3996162939c49d92661863c514ab",
       "Analysis/figure_display/v6_figure3/class_null/amide_draws.csv": "bb04e0796d124c257fc81bbb90ed62fde0249372e32ead84c2b44552da13aad4",
       "Analysis/figure_display/v5_reference_tables/preference.xlsx": "b0e602d46001b3a0fc7cff805bb21ae6123ae7e743a49c28d43eda0cb89e8fe0",
-      "Analysis/figure_display/v5_reference_tables/MANIFEST.json": "e5d3baa73d123bbb89d85b287026ffa9c482f826174ff31bba42ca6780470717"
+      "Analysis/figure_display/v5_reference_tables/MANIFEST.json": "ee58d2c2412c57d51e912df8c919a19826a09f087b09b1fe540a4925ddda7b9c"
     }
   },
   "native_group_identity": {

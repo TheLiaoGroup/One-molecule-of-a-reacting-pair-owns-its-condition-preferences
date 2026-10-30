@@ -4,7 +4,7 @@ Frozen 2026-10-04, before any 15-array value of this item was computed or read.
 
 ## Origin
 
-Bruce approved the rule for the four exposure regimes. Its purpose: the Extended Data item and its Discussion
+The author approved the rule for the four exposure regimes. Its purpose: the Extended Data item and its Discussion
 sentence should rest only on the 15 arrays whose data will be released, so that the three process-development
 C–N arrays (13,866 measurements) can stay internal. Section B adds the item's one other number, the
 similarity–pattern association, under the same population restriction. Without it the item would still carry a
@@ -30,7 +30,7 @@ value pooled over arrays that include two process-development arrays.
   A mismatch stops the run.
 - **Single run.** Every value is accepted whatever its direction or size. The 15-array values replace the 18-array values completely; the old values are not kept beside them and are not restored if the new ones are weak.
 
-## A. The four exposure regimes (approved by Bruce)
+## A. The four exposure regimes (approved by the author)
 
 Unchanged:
 

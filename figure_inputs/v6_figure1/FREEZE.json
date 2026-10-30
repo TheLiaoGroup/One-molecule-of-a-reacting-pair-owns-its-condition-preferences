@@ -1,8 +1,8 @@
 {
   "utc": "2026-10-28T02:18:19.6439048Z",
-  "rule_sha256": "50e5a7d1003d5d795cdf034f244d25a8324230a5ee00d3d6479763fce3c226c9",
-  "source_sha256": "754bcee276a3447bed972e5ec329c54cca15d8417a8109e15533840407c45f85",
+  "rule_sha256": "85ca702cc75af29cb5b907a2be10f4545df4c329ae45497058b09b103d8ca5a3",
+  "source_sha256": "4850da43d617e14a6f4b73fa86680b76d7c23d3c9d69ea5986b6251ad5419b10",
   "new_aggregate_calculated_before_freeze": false,
   "prior_access": "Existing residuals, prior analyses and single-pair displays were already viewed. This is a retrospective display revision.",
-  "authority": "CODEX_PROMPT_20261028_fig1_draft3.md"
+  "authority": "author-approved Figure 1 brief (draft 3, 2026-10-28)"
 }

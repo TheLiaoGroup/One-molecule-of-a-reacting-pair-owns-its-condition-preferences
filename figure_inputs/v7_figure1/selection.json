@@ -1,7 +1,7 @@
 {
   "schema": "v7_identity_only_recurrence_selection",
   "rule_path": "05_DATA/Analysis/figure_display/v7_figure1/Figure1_DISPLAY_RULE.md",
-  "rule_sha256": "a80f9af18ddbbcf1a25099592d5530d892e4a3dba3299267922528645f3247cf",
+  "rule_sha256": "65bbc458b3dac60d20a2687a1630ea12014c026969d88b7f0a552ab9d0ac5759",
   "source": "data/measurements_A1_analysis_arrays.csv.gz",
   "source_sha256": "b6d7278fa6346d9c5631ac35421ca4e0c68c9ea7e2f7b3e2898e392885f00a34",
   "read_columns": [

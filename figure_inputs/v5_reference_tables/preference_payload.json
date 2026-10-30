@@ -1,6 +1,6 @@
 {
   "schema": "figure2-v3-shared-focal-v1",
-  "rule_sha256": "1eef02cbdb55db159135883820e4a83e353e7da0f057a2fd258f96082143c02d",
+  "rule_sha256": "318b4babc7d8918fcc1705d762861ebc40278111ddd82e093b10b3b32f89a721",
   "condition_order": [
     "C81",
     "C74",
@@ -7949,7 +7949,7 @@
     "distance_to_0_27": 0.0034778326555989225,
     "positive_conditions": 92,
     "rule": 1,
-    "rule_sha256": "1eef02cbdb55db159135883820e4a83e353e7da0f057a2fd258f96082143c02d"
+    "rule_sha256": "318b4babc7d8918fcc1705d762861ebc40278111ddd82e093b10b3b32f89a721"
   },
   "rule1_candidates": [
     {

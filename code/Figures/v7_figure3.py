@@ -30,7 +30,7 @@ NS = {'s':'http://www.w3.org/2000/svg'}
 MM = 25.4 / 72
 FONT_SHA = {'Arial':'c9b76220a5be42ead4733611e417cd65c5fd8aeaa33eb56576ac378a37d130a1',
             'Arial-Bold':'766f06ac8761f82f25d032a220e89438f6064591af9915061f20b949efdedf69'}
-BINDING_SHA256='35d931855eed3646dcb91335c05ebc1edd7ac2f804eaf172be55e309191e2bb0'
+BINDING_SHA256='8c45a19589b2338ead55c022b69df3da974ff8039bfcfddf075fc856a35610fe'
 
 def sha(path):
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()

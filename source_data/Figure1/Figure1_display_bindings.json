@@ -17,7 +17,7 @@
       {
         "file": "Figure1_readback.json",
         "path": "05_DATA/Analysis/figure_display/v7_figure1/legacy/Figure1_readback.json",
-        "sha256": "d6212ea5163524e09814d0c26bfda83a50555c521d66a0403f7746de6d80bfc5"
+        "sha256": "d291e0b274f5c88ef345028a3939d1a85ab5a0958118ba090867659bc90fdf05"
       }
     ],
     "recurrence": {
@@ -250,7 +250,7 @@
     },
     "selection": {
       "path": "05_DATA/Analysis/figure_display/v7_figure1/selection.json",
-      "sha256": "03aa5c7e889bbe6212a8753037b28648e2cd710da282080f954f38d5d11239cf",
+      "sha256": "faaf037fb88cc065fa3d1a3935ebcba67527cc2ccdf04243a92facacbee16c40",
       "selected_halide": "O=C(c1ccccc1)c1ccccc1Br",
       "selected_amines": [
         "COc1ccc(N)cc1",
@@ -324,7 +324,7 @@
     },
     "rule": {
       "path": "05_DATA/Analysis/figure_display/v7_figure1/Figure1_DISPLAY_RULE.md",
-      "sha256": "a80f9af18ddbbcf1a25099592d5530d892e4a3dba3299267922528645f3247cf"
+      "sha256": "65bbc458b3dac60d20a2687a1630ea12014c026969d88b7f0a552ab9d0ac5759"
     },
     "inputs": [
       {
@@ -346,7 +346,7 @@
       "transfer": "existing pooled point estimates; no new pooling, ratio or yield gain calculated"
     }
   },
-  "records_sha256": "43cfa96ac94de09f6f19a196d7b2bf2a8d8edf3744557416bc41dbf5f67201f8",
+  "records_sha256": "515e2813b4d18c6b93177480f9192cdbeb08c1929ec2bf2f9511433916e9697c",
   "layout": {
     "width_mm": 180.0,
     "height_mm": 130.0,
@@ -368,10 +368,10 @@
   "display_amendment": {
     "schema": "Figure1_v8_display_amendment",
     "revision": "v8_title_20261028",
-    "source_instruction": "09_SUBMISSION/CODEX_PROMPT_20261028_v8_title_framing.md, section 4",
+    "source_instruction": "author-approved title and framing brief (2026-10-28), section 4",
     "scope": "Display title, headline wording and vertical reading order only; no scientific values, identity selection, structures or original selection rule changed.",
-    "source_records_sha256": "43cfa96ac94de09f6f19a196d7b2bf2a8d8edf3744557416bc41dbf5f67201f8",
-    "original_rule_sha256": "a80f9af18ddbbcf1a25099592d5530d892e4a3dba3299267922528645f3247cf",
+    "source_records_sha256": "515e2813b4d18c6b93177480f9192cdbeb08c1929ec2bf2f9511433916e9697c",
+    "original_rule_sha256": "65bbc458b3dac60d20a2687a1630ea12014c026969d88b7f0a552ab9d0ac5759",
     "title": "Condition preferences have an owner, set by the reaction",
     "right_column_headlines": [
       {
@@ -405,7 +405,7 @@
       "All other v7 Figure 1 artwork and scientific bindings"
     ]
   },
-  "display_amendment_sha256": "56d0b1817a5dee9dfb87f75573f5e41a9200bcbff5d3a5e4075d9436c2277e2d",
+  "display_amendment_sha256": "cb361f14841d11fc567b439414ba1822da548a40edbfdd48e6cd353427abb382",
   "occurrence": {
     "owner_blocks": [
       {

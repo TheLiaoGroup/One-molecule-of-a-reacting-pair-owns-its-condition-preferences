@@ -15,7 +15,7 @@ ROOT = HERE.parents[1]
 import preference_data as established
 
 RULE = ROOT / "07_METHODS_AND_PROVENANCE/frozen_analysis_plans/figure_selection_v3/RULE.md"
-RULE_SHA256 = "1eef02cbdb55db159135883820e4a83e353e7da0f057a2fd258f96082143c02d"
+RULE_SHA256 = "318b4babc7d8918fcc1705d762861ebc40278111ddd82e093b10b3b32f89a721"
 SOURCE = ROOT / "04_SOURCE_DATA/Figure2/Figure2_SourceData.xlsx"
 STRUCTURES = ROOT / "02_FIGURES/ChemDraw/v3/f2"
 MEASUREMENT_SOURCE = "05_DATA/Release/00_RAW_IMMUTABLE/DATASET_analysis.csv.gz"

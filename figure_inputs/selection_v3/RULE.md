@@ -1,7 +1,7 @@
 # Figure v3 display selection rules
 
 Written before reading the selection results on 2026-10-21 under
-CODEX_PROMPT_20261021_figures_v3.md. These rules select illustrations only.
+the author-approved figure brief of 2026-10-21. These rules select illustrations only.
 They do not change any analysis cohort, estimator or printed conclusion.
 
 ## Shared definitions

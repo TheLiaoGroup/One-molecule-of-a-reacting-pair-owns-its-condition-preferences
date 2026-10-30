@@ -1,6 +1,6 @@
 # Figure 1 draft 3 display rule
 
-Authority: Bruce's approved CODEX_PROMPT_20261028_fig1_draft3.md.
+Authority: author-approved Figure 1 brief (draft 3, 2026-10-28).
 Scope: Figure 1 wireframe only. Draft 2 is retained in draft2_fig1_archive.
 No manuscript, Figure 2-5, official source, analysis, lock or remote edits.
 
@@ -77,4 +77,4 @@ calculation. Preserve the previous rules/results and any failure evidence.
       values; test inclusion-of-P1 and independent-scaling failures.
 - [ ] Inspect actual PNG at print size/200%, measure critical gaps,
       verify official and other-draft hashes, append report section 10.
-- [ ] Stop for Bruce's review; no formal integration or remote actions.
+- [ ] Stop for author review.

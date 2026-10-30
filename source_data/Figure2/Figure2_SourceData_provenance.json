@@ -129,7 +129,7 @@
    },
    "05_DATA/Analysis/figure_display/v5_reference_tables/MANIFEST.json": {
     "file": "05_DATA/Analysis/figure_display/v5_reference_tables/MANIFEST.json",
-    "sha256": "e5d3baa73d123bbb89d85b287026ffa9c482f826174ff31bba42ca6780470717"
+    "sha256": "ee58d2c2412c57d51e912df8c919a19826a09f087b09b1fe540a4925ddda7b9c"
    },
    "05_DATA/Analysis/figure_display/v5_reference_tables/screen_shares.xlsx": {
     "file": "05_DATA/Analysis/figure_display/v5_reference_tables/screen_shares.xlsx",
@@ -173,7 +173,7 @@
    },
    "06_CODE/Figures/figure3_selection.py": {
     "file": "06_CODE/Figures/figure3_selection.py",
-    "sha256": "0365f0e02b7ebe25d98cca94f5531a31885c2d69416f047befe6841e8b96a49c"
+    "sha256": "3e1f23cbe10cbcdfaf5af73a9b08194744251b74f0428c002178a49d058fa3bf"
    },
    "06_CODE/Figures/figure_common.py": {
     "file": "06_CODE/Figures/figure_common.py",
@@ -197,7 +197,7 @@
    },
    "07_METHODS_AND_PROVENANCE/frozen_analysis_plans/figure_selection_v3/RULE.md": {
     "file": "07_METHODS_AND_PROVENANCE/frozen_analysis_plans/figure_selection_v3/RULE.md",
-    "sha256": "1eef02cbdb55db159135883820e4a83e353e7da0f057a2fd258f96082143c02d"
+    "sha256": "318b4babc7d8918fcc1705d762861ebc40278111ddd82e093b10b3b32f89a721"
    }
   }
  },
@@ -220,7 +220,7 @@
   },
   "readback": {
    "file": "04_SOURCE_DATA/Figure2/Figure2_readback.json",
-   "sha256": "e019d2e00ad81bb2a91fb43962d3055dd9ca586ee5c2d449ed54c8d262812d60"
+   "sha256": "055e72c0750bf24486ed511bbe686d2124678290911c6fea9bcbbb013dc2df25"
   },
   "Figure2_PDF_2x.png": {
    "file": "04_SOURCE_DATA/Figure2/Figure2_PDF_2x.png",
@@ -248,7 +248,7 @@
   },
   "figure2_selection.json": {
    "file": "04_SOURCE_DATA/Figure2/figure2_selection.json",
-   "sha256": "ea422ed1f49d48860377f589b953665058ba6f660c404e964a6d7d0264f68878"
+   "sha256": "550aa2e2ac02f4b0a861dc4bd7a56f543b4853746026bdbbf017cc2d456742b5"
   }
  },
  "panels": {

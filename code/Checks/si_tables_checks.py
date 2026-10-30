@@ -1,6 +1,5 @@
 """The per-array tables and single values of the Supplementary Information that no figure generator prints, recomputed from the
-released measurements and from released result files that the rebuild verifies (Bruce, 2026-10-13: every number of the text is to
-be recomputed by the rebuild).
+released measurements and from released result files that the rebuild verifies.
 
 Inputs and who verifies them in the rebuild: history_arrays.csv and history_cv.csv (Fig. S8's generator recomputes
 them from the measurements), fig3_regime_cases.csv and structure_association.csv (the Fig. S10 re-fit recomputes every
